@@ -16,6 +16,24 @@
     body {
         font: normal 12px arial, tahoma, helvetica, sans-serif;
     }
+    #facsimile {
+      width:280px;
+      position: relative;
+      overflow: hidden;
+      margin:auto;
+    }
+    #facsimile .text {
+      color:red; 
+      font-size:50px;
+      font-weight:bold;
+      transform:rotate(-45deg);
+      -webkit-transform:rotate(-45deg);
+      text-transform: upper;
+      position: absolute;
+      top: 90;
+      left: 10;
+      opacity:0.6;
+    }
     </style>
     <script>
     const queryString = window.location.search;
@@ -29,7 +47,8 @@
 
 
 
-
+<div id="facsimile" align="center">
+  <p class="text">FAKSIMILE</p>
 <div align="center" ><img src='logoasdaa.jpg' style='height: 30%'></div>
 <div align="center">
 <img src='ok_icon.png' height='30%'>
@@ -41,6 +60,6 @@
 <script>
 document.getElementById("name").innerHTML = name.toUpperCase();
 </script>
-
+</div>
   </body>
 </html>

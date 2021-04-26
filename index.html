@@ -23,7 +23,7 @@
       margin:auto;
     }
     #facsimile .text {
-      color:red; 
+      color:red;
       font-size:50px;
       font-weight:bold;
       transform:rotate(-45deg);
@@ -39,7 +39,16 @@
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const name = urlParams.get('name');
-    document.getElementById("name").innerHTML = "bla";
+    hashCode = function(s) {
+      var hash = 0, i, chr;
+      if (s.length === 0) return hash;
+      for (i = 0; i < s.length; i++) {
+        chr   = s.charCodeAt(i);
+        hash  = ((hash << 5) - hash) + chr;
+        hash |= 0; // Convert to 32bit integer
+      }
+      return hash;
+    };
     </script>
     <LINK REL="SHORTCUT ICON" HREF="/utils/images/asdaa_icon.png">
   </head>
@@ -48,17 +57,20 @@
 
 
 <div id="facsimile" align="center">
-  <p class="text">FAKSIMILE</p>
+  <p class="text" id="fake">FAKSIMILE</p>
 <div align="center" ><img src='logoasdaa.jpg' style='height: 30%'></div>
 <div align="center">
 <img src='ok_icon.png' height='30%'>
 </div>
 <div align="center" style="padding-top: 20px;">
-<h1 id="name">GASSER JOHANNA</h1>
+<h1 id="name">MUSTERMANN MAX</h1>
 </div>
 <!-- (esito=NEG  strDataEsame=2021-04-16  strDataOk=2021-04-14) -->
 <script>
 document.getElementById("name").innerHTML = name.toUpperCase();
+if (hashCode(urlParams.get('secret')) == 108553){
+  document.getElementById("fake").innerHTML = "";
+}
 </script>
 </div>
   </body>

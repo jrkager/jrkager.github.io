@@ -21,7 +21,7 @@
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const name = urlParams.get('name');
-    const secret = urlParams.get('secret');
+    // const secret = urlParams.get('secret');
     hashCode = function(s) {
       var hash = 0, i, chr;
       if (s.length === 0) return hash;
@@ -32,7 +32,7 @@
       }
       return hash;
     };
-    const validHashes = [-1962563316, 1705324742];
+    // const validHashes = [-1962563316, 1705324742];
     </script>
     <LINK REL="SHORTCUT ICON" HREF="/utils/images/asdaa_icon.png">
   </head>
@@ -52,11 +52,11 @@
 if(name){
   document.getElementById("name").innerHTML = name.toUpperCase();
 }
-if (name && secret && validHashes.indexOf(hashCode(name+secret)) >= 0){
-  document.getElementById("logo").src = "logoasdaa.jpg";
-} else {
+// if (name && secret && validHashes.indexOf(hashCode(name+secret)) >= 0){
+//   document.getElementById("logo").src = "logoasdaa.jpg";
+// } else {
   document.getElementById("logo").src = "logoasdaa-fs.jpg";
-}
+// }
 </script>
 </div>
   </body>

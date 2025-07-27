@@ -1,24 +1,65 @@
 let orte = [];
 let ziel, ref1, ref2;
 
+let useSeeded = true;
+
+document.getElementById("toggle-mode").addEventListener("click", () => {
+  useSeeded = !useSeeded;
+  document.getElementById("toggle-mode").textContent =
+    useSeeded ? "Modus: Tagesrätsel" : "Modus: Zufallsrätsel";
+  startGame();
+});
+
+function seededRandom(seed) {
+  let x = Math.sin(seed) * 10000;
+  return x - Math.floor(x);
+}
+
+function getSeedFromDate() {
+  const today = new Date();
+  return parseInt(today.toISOString().slice(0, 10).replace(/-/g, ""));
+}
+
+function startGame() {
+  const subheading = document.getElementById("subheading");
+  if (useSeeded) {
+    const today = new Date();
+    const dateStr = today.toLocaleDateString("de-DE");
+    subheading.textContent = `Tagesrätsel vom ${dateStr}`;
+  } else {
+    subheading.textContent = "";
+  }
+  const seed = getSeedFromDate();
+  const rand = (() => {
+    let i = 0;
+    return () => {
+      return useSeeded ? seededRandom(seed + i++) : Math.random();
+    };
+  })();
+
+  const ratbareOrte = orte.filter(o => o.ratbar);
+  ziel = ratbareOrte[Math.floor(rand() * ratbareOrte.length)];
+
+  const ratbareAndere = ratbareOrte.filter(o => o.name !== ziel.name);
+  ref1 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
+  ref2 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
+  while (ref1 === ref2) {
+    ref2 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
+  }
+
+  gerateneOrte = [];
+  spielVorbei = false;
+  document.getElementById("guess").style.display = "inline";
+  document.querySelector("button").style.display = "inline";
+  document.getElementById("feedback").textContent = "";
+  zeichne();
+}
+
 fetch("orte_suedtirol.json")
   .then(res => res.json())
   .then(data => {
     orte = data;
-
-    // Zielort wählen
-    const ratbareOrte = orte.filter(o => o.ratbar);
-    ziel = ratbareOrte[Math.floor(Math.random() * ratbareOrte.length)];
-
-    // Referenzorte (zufällig, aber ≠ ziel)
-    const ratbareAndere = orte.filter(o => o.ratbar && o.name !== ziel.name);
-	ref1 = ratbareAndere[Math.floor(Math.random() * ratbareAndere.length)];
-	ref2 = ratbareAndere[Math.floor(Math.random() * ratbareAndere.length)];
-	while(ref1 === ref2) {
-		ref2 = ratbareAndere[Math.floor(Math.random() * ratbareAndere.length)];
-	}
-
-    zeichne();
+    startGame();
   });
 
 function zeichne() {

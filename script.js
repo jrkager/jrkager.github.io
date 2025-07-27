@@ -55,7 +55,7 @@ function startGame() {
   zeichne();
 }
 
-fetch("orte_suedtirol.json")
+fetch("data/orte_suedtirol.json")
   .then(res => res.json())
   .then(data => {
     orte = data;

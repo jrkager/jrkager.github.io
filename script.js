@@ -17,7 +17,7 @@ function seededRandom(seed) {
 
 function getSeedFromDate() {
   const today = new Date();
-  return parseInt(today.toISOString().slice(0, 10).replace(/-/g, ""));
+  return today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
 }
 
 function startGame() {
@@ -29,7 +29,8 @@ function startGame() {
   } else {
     subheading.textContent = "";
   }
-  const seed = getSeedFromDate();
+  var seed = getSeedFromDate();
+  seed = Math.floor(seededRandom(seed) * 10000);
   const rand = (() => {
     let i = 0;
     return () => {
@@ -106,17 +107,21 @@ function zeichne() {
     ctx.fillStyle = farbe;
     ctx.fill();
 
-    ctx.beginPath();
-    ctx.moveTo(...canvasCenter);
-    ctx.lineTo(x, y);
-    ctx.strokeStyle = farbe;
-    ctx.stroke();
+	if (v.ort.name !== ziel.name) {
+      // Verbindungslinie
+      ctx.beginPath();
+      ctx.moveTo(...canvasCenter);
+      ctx.lineTo(x, y);
+      ctx.strokeStyle = farbe;
+      ctx.stroke();
 
-    const mx = (x + canvasCenter[0]) / 2;
-    const my = (y + canvasCenter[1]) / 2;
-    ctx.fillStyle = "black";
-    ctx.font = "12px sans-serif";
-    ctx.fillText(`${v.dist.toFixed(1)} km`, mx + 5, my - 5);
+  	  // Distanz anzeigen
+      const mx = (x + canvasCenter[0]) / 2;
+      const my = (y + canvasCenter[1]) / 2;
+      ctx.fillStyle = "black";
+      ctx.font = "12px sans-serif";
+      ctx.fillText(`${v.dist.toFixed(1)} km`, mx + 5, my - 5);
+    }
 
     const lines = v.ort.name.split("/");
     lines.forEach((line, idx) => {
@@ -149,12 +154,16 @@ function zeichne() {
 
   // Spielende anzeigen
   if (spielVorbei) {
-    ctx.fillStyle = ziel.name === gerateneOrte[gerateneOrte.length - 1].name ? "green" : "red";
+    const gewonnen = ziel.name === gerateneOrte[gerateneOrte.length - 1].name;
+    ctx.fillStyle = gewonnen ? "green" : "red";
     ctx.font = "bold 24px sans-serif";
-    const text = ziel.name === gerateneOrte[gerateneOrte.length - 1].name
+    const text1 = gewonnen
       ? `🎉 Richtig in ${gerateneOrte.length} Versuchen!`
-      : `☠️ Game Over! Gesucht war: ${ziel.name}`;
-    ctx.fillText(text, 40, 40);
+      : `❌ Game Over! Gesucht war:`;
+    const text2 = gewonnen ? "" : `${ziel.name}`;
+  
+    ctx.fillText(text1, 40, 40);
+    ctx.fillText(text2, 40, 70);
   }
 }
 

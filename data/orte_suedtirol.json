@@ -107,6 +107,7 @@
       "021004",
       "Eppan an der Weinstrasse",
       "Eppan an der Weinstraße",
+      "Eppan",
       "Appiano sulla strada del vino",
       "Comune di Appiano sulla strada del vino"
     ],
@@ -167,11 +168,11 @@
     "ratbar": true
   },
   {
-    "name": "Sarentino/Sarntal",
+    "name": "Sarentino/Sarnthein",
     "alternativen": [
       "Comune di Sarentino",
       "021086",
-      "Sarntal",
+      "Sarntal","Sarnthein",
       "Sarentino"
     ],
     "lat": 46.64352,
@@ -219,17 +220,6 @@
     "ratbar": true
   },
   {
-    "name": "Caldaro sulla Strada del Vino",
-    "alternativen": [
-      "Kaltern",
-      "Kaltern an der Weinstrasse"
-    ],
-    "lat": 46.41326,
-    "lon": 11.24616,
-    "einwohner": 6183,
-    "ratbar": true
-  },
-  {
     "name": "Valle Aurina/Ahrntal",
     "alternativen": [
       "Valle Aurina - Ahrntal",
@@ -258,17 +248,6 @@
     "ratbar": true
   },
   {
-    "name": "San Michele",
-    "alternativen": [
-      "San Michele",
-      "Sankt Michael"
-    ],
-    "lat": 46.51714,
-    "lon": 11.432105,
-    "einwohner": 5967,
-    "ratbar": true
-  },
-  {
     "name": "Naturno/Naturns",
     "alternativen": [
       "021056",
@@ -279,14 +258,6 @@
     "lat": 46.64872,
     "lon": 11.00507,
     "einwohner": 5869,
-    "ratbar": true
-  },
-  {
-    "name": "Valle Aurina - Ahrntal",
-    "alternativen": [],
-    "lat": 46.99623,
-    "lon": 11.97988,
-    "einwohner": 5517,
     "ratbar": true
   },
   {
@@ -436,14 +407,6 @@
     "ratbar": true
   },
   {
-    "name": "Racines - Ratschings",
-    "alternativen": [],
-    "lat": 46.88183,
-    "lon": 11.37827,
-    "einwohner": 4010,
-    "ratbar": true
-  },
-  {
     "name": "Nova Ponente/Deutschnofen",
     "alternativen": [
       "ノーヴァ・ポネンテ",
@@ -562,7 +525,7 @@
       "Fie-allo-Shiliar",
       "Fie alo Shiliar",
       "Fije Alo Shilijar",
-      "Völs am Schlern",
+      "Völs am Schlern","Völs","Fie",
       "Fie alo Siliar",
       "Fie Allo Sciliar",
       "Fiè allo Sciliar",
@@ -577,7 +540,7 @@
   {
     "name": "San Leonardo in Passiria/St. Leonhard in Passeier",
     "alternativen": [
-      "St. Leonhard in Passeier",
+      "St. Leonhard in Passeier","St. Leonhard",
       "San Leonardo in Passiria - St. Leonhard in Passeier",
       "San Leonardo in Passiria",
       "Comune di San Leonardo in Passiria - St. Leonhard in Passeier",
@@ -617,7 +580,7 @@
       "Tramin an der Weinstraße",
       "Termeno sulla strada del vino",
       "Comune di Termeno sulla strada del vino",
-      "Tramin an der Weinstrasse",
+      "Tramin an der Weinstrasse","Tramin","Termeno",
       "021098"
     ],
     "lat": 46.34151,
@@ -722,7 +685,7 @@
   {
     "name": "Naz-Sciaves/Natz-Schabs",
     "alternativen": [
-      "Natz-Schabs",
+      "Natz-Schabs","Schabs","Natz",
       "Naz-Sciaves",
       "Comune di Naz-Sciaves",
       "021057"
@@ -758,14 +721,6 @@
     "lat": 46.79783,
     "lon": 11.668079999999998,
     "einwohner": 3151,
-    "ratbar": true
-  },
-  {
-    "name": "Vandoies - Vintl",
-    "alternativen": [],
-    "lat": 46.81513,
-    "lon": 11.72068,
-    "einwohner": 3108,
     "ratbar": true
   },
   {
@@ -831,17 +786,6 @@
     "lat": 46.53582,
     "lon": 11.32958,
     "einwohner": 3066,
-    "ratbar": true
-  },
-  {
-    "name": "Ultimo - Ulten",
-    "alternativen": [
-      "Ulten",
-      "Ultimo"
-    ],
-    "lat": 46.54832,
-    "lon": 11.00417,
-    "einwohner": 3006,
     "ratbar": true
   },
   {
@@ -938,20 +882,6 @@
     "ratbar": true
   },
   {
-    "name": "Termeno",
-    "alternativen": [
-      "Tarmèno",
-      "Tarmeno",
-      "Tramin",
-      "Tramin an der Weinstrasse",
-      "Tramín"
-    ],
-    "lat": 46.34151,
-    "lon": 11.24228,
-    "einwohner": 2853,
-    "ratbar": true
-  },
-  {
     "name": "Falzes/Pfalzen",
     "alternativen": [
       "Falzes",
@@ -1001,19 +931,6 @@
     "ratbar": true
   },
   {
-    "name": "Salorno",
-    "alternativen": [
-      "Salurn",
-      "Salorno",
-      "サロルノ",
-      "saroruno"
-    ],
-    "lat": 46.24062,
-    "lon": 11.21192,
-    "einwohner": 2783,
-    "ratbar": true
-  },
-  {
     "name": "Laion/Lajen",
     "alternativen": [
       "Comune di Laion - Lajen",
@@ -1027,29 +944,9 @@
     "ratbar": true
   },
   {
-    "name": "Rasun Anterselva - Rasen-Antholz",
+    "name": "Sinigo/Sinich",
     "alternativen": [
-      "Rasun Anterselva",
-      "Antholz",
-      "Rasen-Antholz"
-    ],
-    "lat": 46.77853,
-    "lon": 12.04729,
-    "einwohner": 2700,
-    "ratbar": true
-  },
-  {
-    "name": "Scena - Schenna",
-    "alternativen": [],
-    "lat": 46.69012,
-    "lon": 11.18627,
-    "einwohner": 2677,
-    "ratbar": true
-  },
-  {
-    "name": "Sinigo",
-    "alternativen": [
-      "Sinigo"
+      "Sinigo","Sinich"
     ],
     "lat": 46.63488,
     "lon": 11.17926,
@@ -1067,20 +964,6 @@
     "lat": 46.87463,
     "lon": 11.48667,
     "einwohner": 2656,
-    "ratbar": true
-  },
-  {
-    "name": "Prato Allo Stelvio",
-    "alternativen": [
-      "プラート・アッロ・ステルヴィオ",
-      "Prato allo Stelvio",
-      "Prad am Stilfserjoch",
-      "Prad am Stilfser Joch",
-      "Prato"
-    ],
-    "lat": 46.61901,
-    "lon": 10.59136,
-    "einwohner": 2640,
     "ratbar": true
   },
   {
@@ -1138,20 +1021,6 @@
     "ratbar": true
   },
   {
-    "name": "Naz-Sciaves - Natz-Schabs",
-    "alternativen": [
-      "Natz-Schabs",
-      "natsu=shavuesu",
-      "ナツ＝シャーヴェス",
-      "Naz-Sciaves",
-      "Schabs"
-    ],
-    "lat": 46.76883,
-    "lon": 11.66558,
-    "einwohner": 2430,
-    "ratbar": true
-  },
-  {
     "name": "Curon Venosta/Graun im Vinschgau",
     "alternativen": [
       "Graun im Vinschgau",
@@ -1162,25 +1031,6 @@
     "lat": 46.80832,
     "lon": 10.54265,
     "einwohner": 2389,
-    "ratbar": true
-  },
-  {
-    "name": "Funes - Villnoess",
-    "alternativen": [
-      "Villnoess",
-      "Villnöss"
-    ],
-    "lat": 46.64282,
-    "lon": 11.67828,
-    "einwohner": 2379,
-    "ratbar": true
-  },
-  {
-    "name": "Castelbello-Ciardes - Kastelbell-Tschars",
-    "alternativen": [],
-    "lat": 46.62832,
-    "lon": 10.90666,
-    "einwohner": 2328,
     "ratbar": true
   },
   {
@@ -1230,7 +1080,7 @@
     "alternativen": [
       "Comune di Cortaccia sulla strada del vino",
       "Kurtatsch an der Weinstraße",
-      "Kurtatsch an der Weinstrasse",
+      "Kurtatsch an der Weinstrasse","Kurtatsch","Cortaccia",
       "Cortaccia sulla strada del vino",
       "021024"
     ],
@@ -1253,16 +1103,6 @@
     "ratbar": true
   },
   {
-    "name": "Valle di Casies - Gsies",
-    "alternativen": [
-      "Gsieser Tal"
-    ],
-    "lat": 46.76833,
-    "lon": 12.17939,
-    "einwohner": 2098,
-    "ratbar": true
-  },
-  {
     "name": "Moso in Passiria/Moos in Passeier",
     "alternativen": [
       "Comune di Moso in Passiria",
@@ -1273,14 +1113,6 @@
     "lat": 46.83212,
     "lon": 11.16647,
     "einwohner": 2086,
-    "ratbar": true
-  },
-  {
-    "name": "Brennero - Brenner",
-    "alternativen": [],
-    "lat": 46.93813,
-    "lon": 11.44247,
-    "einwohner": 2066,
     "ratbar": true
   },
   {
@@ -1403,14 +1235,6 @@
     "ratbar": true
   },
   {
-    "name": "Villandro - Villanders",
-    "alternativen": [],
-    "lat": 46.63082,
-    "lon": 11.53708,
-    "einwohner": 1830,
-    "ratbar": true
-  },
-  {
     "name": "San Martino in Badia/St. Martin in Thurn",
     "alternativen": [
       "St. Martin in Thurn",
@@ -1469,9 +1293,9 @@
     "ratbar": true
   },
   {
-    "name": "Collalbo",
+    "name": "Collalbo/Klobenstein",
     "alternativen": [
-      "Klobenstein"
+      "Klobenstein","Collalbo"
     ],
     "lat": 46.53661,
     "lon": 11.46314,
@@ -1522,24 +1346,9 @@
     "ratbar": true
   },
   {
-    "name": "Valdaora di Mezzo",
+    "name": "Pineta/Steinmannwald",
     "alternativen": [
-      "ヴァルダーオラ",
-      "Valdaora",
-      "vuarudaora",
-      "Aulacum",
-      "Olang",
-      "Valdapra"
-    ],
-    "lat": 46.76027,
-    "lon": 12.02951,
-    "einwohner": 1668,
-    "ratbar": true
-  },
-  {
-    "name": "Pineta",
-    "alternativen": [
-      "Pineta"
+      "Pineta","Steinmannwald"
     ],
     "lat": 46.43994,
     "lon": 11.34727,
@@ -1578,10 +1387,10 @@
     "ratbar": true
   },
   {
-    "name": "Siusi",
+    "name": "Siusi/Seis am Schlern",
     "alternativen": [
       "Scis",
-      "Siusi",
+      "Siusi","Seis",
       "Seis am Schlern",
       "Siusi allo Sciliar"
     ],
@@ -1591,29 +1400,13 @@
     "ratbar": true
   },
   {
-    "name": "Riscone",
+    "name": "Riscone/Reischach",
     "alternativen": [
-      "Reischach"
+      "Reischach","Riscone"
     ],
     "lat": 46.77685,
     "lon": 11.95149,
     "einwohner": 1602,
-    "ratbar": true
-  },
-  {
-    "name": "Selva",
-    "alternativen": [
-      "Sëlva",
-      "Wolkenstein in Groeden",
-      "Wolkenstein",
-      "セルヴァ・ディ・ヴァル・ガルデーナ",
-      "Selva di Val Gardena",
-      "Selva",
-      "Wolkenstein in Gröden"
-    ],
-    "lat": 46.55472,
-    "lon": 11.76038,
-    "einwohner": 1601,
     "ratbar": true
   },
   {
@@ -1641,9 +1434,9 @@
     "ratbar": true
   },
   {
-    "name": "Cornaiano",
+    "name": "Cornaiano/Girlan",
     "alternativen": [
-      "Girlan"
+      "Girlan","Cornaiano"
     ],
     "lat": 46.46329,
     "lon": 11.28115,
@@ -1713,15 +1506,7 @@
     "ratbar": true
   },
   {
-    "name": "Barbiano - Barbian",
-    "alternativen": [],
-    "lat": 46.60332,
-    "lon": 11.52138,
-    "einwohner": 1520,
-    "ratbar": true
-  },
-  {
-    "name": "Rablà",
+    "name": "Rablà/Rabland",
     "alternativen": [
       "Rabla",
       "Rabland",
@@ -1733,7 +1518,7 @@
     "ratbar": true
   },
   {
-    "name": "San Paolo",
+    "name": "San Paolo/St. Pauls",
     "alternativen": [
       "St. Pauls",
       "San Paolo"
@@ -1744,37 +1529,7 @@
     "ratbar": true
   },
   {
-    "name": "Luson - Luesen",
-    "alternativen": [
-      "ruzon",
-      "Lüsen",
-      "ルゾーン",
-      "Luson",
-      "Lusen",
-      "Luesen"
-    ],
-    "lat": 46.74623,
-    "lon": 11.76098,
-    "einwohner": 1455,
-    "ratbar": true
-  },
-  {
-    "name": "Monguelfo",
-    "alternativen": [
-      "Monguelfo",
-      "Welsberg-Taisten",
-      "モングエルフォ＝テシド",
-      "monguerufo=teshido",
-      "Monguelfo-Tesido",
-      "Welsberg"
-    ],
-    "lat": 46.75774,
-    "lon": 12.10556,
-    "einwohner": 1450,
-    "ratbar": true
-  },
-  {
-    "name": "San Vigilio",
+    "name": "San Vigilio/St. Vigil in Enneberg",
     "alternativen": [
       "St. Vigil in Enneberg",
       "Sankt Vigil",
@@ -1783,14 +1538,6 @@
     "lat": 46.69884,
     "lon": 11.93104,
     "einwohner": 1446,
-    "ratbar": true
-  },
-  {
-    "name": "Ried",
-    "alternativen": [],
-    "lat": 46.92993,
-    "lon": 11.52414,
-    "einwohner": 1440,
     "ratbar": true
   },
   {
@@ -1868,7 +1615,7 @@
     "ratbar": true
   },
   {
-    "name": "Mühlen in Taufers",
+    "name": "Molini di Tures/Mühlen in Taufers",
     "alternativen": [
       "Mühlen in Taufers",
       "Molini di Tures",
@@ -1890,20 +1637,6 @@
     "lat": 46.70372,
     "lon": 11.18167,
     "einwohner": 1362,
-    "ratbar": true
-  },
-  {
-    "name": "Fiè Allo Sciliar",
-    "alternativen": [
-      "Völs am Schlern",
-      "Fie allo Sciliar",
-      "Voels am Schlern",
-      "Fiè allo Sciliar",
-      "Vols"
-    ],
-    "lat": 46.51672,
-    "lon": 11.50128,
-    "einwohner": 1316,
     "ratbar": true
   },
   {
@@ -1937,22 +1670,6 @@
     "ratbar": true
   },
   {
-    "name": "La Valle - Wengen",
-    "alternativen": [],
-    "lat": 46.65763,
-    "lon": 11.92399,
-    "einwohner": 1232,
-    "ratbar": true
-  },
-  {
-    "name": "Rodengo - Rodeneck",
-    "alternativen": [],
-    "lat": 46.77953,
-    "lon": 11.69048,
-    "einwohner": 1157,
-    "ratbar": true
-  },
-  {
     "name": "Stelvio/Stilfs",
     "alternativen": [
       "Stilfs",
@@ -1966,9 +1683,9 @@
     "ratbar": true
   },
   {
-    "name": "Laghetti",
+    "name": "Laghetti/Laag",
     "alternativen": [
-      "Laghetti",
+      "Laghetti","Laag",
       "I Laghetti"
     ],
     "lat": 46.27473,
@@ -1990,7 +1707,7 @@
     "ratbar": true
   },
   {
-    "name": "Soprabolzano",
+    "name": "Soprabolzano/Oberbozen",
     "alternativen": [
       "Oberbozen",
       "Soprabolzano",
@@ -2000,16 +1717,6 @@
     "lat": 46.52899,
     "lon": 11.40408,
     "einwohner": 1043,
-    "ratbar": true
-  },
-  {
-    "name": "Leone-Santa Elisabetta",
-    "alternativen": [
-      "Leone-Santa Elisabetta"
-    ],
-    "lat": 46.73166,
-    "lon": 11.64944,
-    "einwohner": 1041,
     "ratbar": true
   },
   {
@@ -2058,7 +1765,7 @@
     "ratbar": true
   },
   {
-    "name": "Colle Isarco",
+    "name": "Colle Isarco/Gossensass",
     "alternativen": [
       "Colle Isarco",
       "Gossensuss",
@@ -2066,16 +1773,6 @@
     ],
     "lat": 46.93857,
     "lon": 11.44245,
-    "einwohner": 1026,
-    "ratbar": true
-  },
-  {
-    "name": "Magrè sulla Strada del Vino",
-    "alternativen": [
-      "Margreid an der Weinstrasse"
-    ],
-    "lat": 46.28791,
-    "lon": 11.21068,
     "einwohner": 1026,
     "ratbar": true
   },
@@ -2211,18 +1908,6 @@
     "ratbar": false
   },
   {
-    "name": "Cortaccia sulla Strada del Vino",
-    "alternativen": [
-      "Kurtatsch an der Weinstrasse",
-      "Kurtasch",
-      "Kurtatsch"
-    ],
-    "lat": 46.31401,
-    "lon": 11.22388,
-    "einwohner": 917,
-    "ratbar": false
-  },
-  {
     "name": "Casteldarne",
     "alternativen": [
       "Ehrenburg",
@@ -2287,14 +1972,6 @@
     "lat": 46.67021,
     "lon": 10.55485,
     "einwohner": 900,
-    "ratbar": false
-  },
-  {
-    "name": "Verano - Voeran",
-    "alternativen": [],
-    "lat": 46.60472,
-    "lon": 11.22607,
-    "einwohner": 880,
     "ratbar": false
   },
   {
@@ -2377,7 +2054,7 @@
     "ratbar": false
   },
   {
-    "name": "Vandoies di Sotto",
+    "name": "Vandoies di Sotto/Niedervintl",
     "alternativen": [
       "Niedervintl",
       "Vandoies di Sotto"
@@ -3085,7 +2762,7 @@
     "ratbar": false
   },
   {
-    "name": "San Nicolò d'Ega",
+    "name": "San Nicolò d'Ega/Eggen",
     "alternativen": [
       "San Nicolo d'Ega",
       "San Nicolò d'Ega",
@@ -3097,7 +2774,7 @@
     "ratbar": false
   },
   {
-    "name": "Prissiano",
+    "name": "Prissiano/Prissian",
     "alternativen": [
       "Prissian",
       "Prissiano"
@@ -4446,7 +4123,7 @@
     "ratbar": false
   },
   {
-    "name": "Carezza",
+    "name": "Carezza/Karersee",
     "alternativen": [
       "Carezza",
       "Carezza al Lago",
@@ -9885,19 +9562,6 @@
     "ratbar": false
   },
   {
-    "name": "Magrè all'Adige",
-    "alternativen": [
-      "Magrè all'Adige",
-      "Magrè",
-      "Magre all'Adige",
-      "Magre"
-    ],
-    "lat": 46.28333,
-    "lon": 11.2,
-    "einwohner": 0,
-    "ratbar": false
-  },
-  {
     "name": "Madonna di Petralba",
     "alternativen": [
       "Madonna di Petrelba",
@@ -10290,7 +9954,7 @@
     "ratbar": false
   },
   {
-    "name": "Passo di Costalunga",
+    "name": "Passo di Costalunga/Karerpass",
     "alternativen": [
       "Karerpass",
       "Passo di Costalunga",
@@ -10497,18 +10161,7 @@
     "ratbar": false
   },
   {
-    "name": "Karersee",
-    "alternativen": [
-      "Lago di Carezza",
-      "Karersee"
-    ],
-    "lat": 46.40934,
-    "lon": 11.57515,
-    "einwohner": 0,
-    "ratbar": false
-  },
-  {
-    "name": "Carbonin",
+    "name": "Carbonin/Schluderbach",
     "alternativen": [
       "Schluderbach",
       "Carbonin",
@@ -17812,14 +17465,6 @@
     "ratbar": false
   },
   {
-    "name": "La Pineta",
-    "alternativen": [],
-    "lat": 46.55607,
-    "lon": 11.75128,
-    "einwohner": 0,
-    "ratbar": false
-  },
-  {
     "name": "Lodenwirt Wellness",
     "alternativen": [],
     "lat": 46.80647,
@@ -17992,14 +17637,6 @@
     "alternativen": [],
     "lat": 46.76168,
     "lon": 10.52417,
-    "einwohner": 0,
-    "ratbar": false
-  },
-  {
-    "name": "Eppan",
-    "alternativen": [],
-    "lat": 46.45853,
-    "lon": 11.25695,
     "einwohner": 0,
     "ratbar": false
   },
@@ -19162,14 +18799,6 @@
     "alternativen": [],
     "lat": 46.52499,
     "lon": 11.42788,
-    "einwohner": 0,
-    "ratbar": false
-  },
-  {
-    "name": "Golf Club Eppan",
-    "alternativen": [],
-    "lat": 46.49922,
-    "lon": 11.24987,
     "einwohner": 0,
     "ratbar": false
   },

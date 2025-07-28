@@ -3,10 +3,13 @@ let ziel, ref1, ref2;
 
 let useSeeded = true;
 
-document.getElementById("toggle-mode").addEventListener("click", () => {
-  useSeeded = !useSeeded;
-  document.getElementById("toggle-mode").textContent =
-    useSeeded ? "Modus: Tagesrätsel" : "Modus: Zufallsrätsel";
+document.getElementById("daily-mode").addEventListener("click", () => {
+  useSeeded = true;
+  startGame();
+});
+
+document.getElementById("random-mode").addEventListener("click", () => {
+  useSeeded = false;
   startGame();
 });
 
@@ -62,9 +65,10 @@ function startGame() {
     const dateStr = today.toLocaleDateString("de-DE");
     subheading.textContent = `Tagesrätsel vom ${dateStr}`;
   } else {
-    subheading.textContent = "";
+    subheading.textContent = "Zufallsrätsel";
   }
   var seed = getSeedFromDate();
+  seed=20250729;
   seed = Math.floor(seededRandom(seed) * 10000);
   const rand = (() => {
     let i = 0;
@@ -73,18 +77,18 @@ function startGame() {
     };
   })();
 
-  const ratbareOrte = orte.filter(o => o.ratbar);
-  ziel = ratbareOrte[Math.floor(rand() * ratbareOrte.length)];
+  const waehlbareOrte = orte.filter(o => o.waehlbar);
+  ziel = waehlbareOrte[Math.floor(rand() * waehlbareOrte.length)];
 
-  const ratbareAndere = ratbareOrte.filter(o => o.name !== ziel.name);
-  ref1 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
-  ref2 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
+  const waehlbareAndere = waehlbareOrte.filter(o => o.name !== ziel.name);
+  ref1 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
+  ref2 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
   var retryCounter = 0; // zur sicherheit, falls keine passenden orte zu den bedingungen gefunden
   while (ref1 === ref2 || 
   		 (retryCounter <= 100 && 
   		  (distanzKm(ref1, ziel) <= 10 || distanzKm(ref2, ziel) <= 10 || winkelZwischenDreiPunkten(ref1,ziel,ref2) <= 20))) {
-	  ref1 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
-	  ref2 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
+	  ref1 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
+	  ref2 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
   }
 
   gerateneOrte = [];
@@ -94,13 +98,6 @@ function startGame() {
   document.getElementById("feedback").textContent = "";
   zeichne();
 }
-
-fetch("data/orte_suedtirol.json")
-  .then(res => res.json())
-  .then(data => {
-    orte = data;
-    startGame();
-  });
 
 function zeichne() {
   const canvas = document.getElementById("map");
@@ -195,7 +192,9 @@ function zeichne() {
     
     document.getElementById("guess").style.display = "none";
     document.getElementById("guess-button").style.display = "none";
-    document.getElementById("share-button").style.display = "inline";
+    if (useSeeded) {
+		document.getElementById("share-button").style.display = "inline";
+	}
   }
 }
 
@@ -249,7 +248,11 @@ function raten() {
 }
 
 document.getElementById("guess").addEventListener("keydown", function (e) {
-  if (e.key === "Enter") raten();
+  const autosuggestList = document.getElementById("autosuggest-list");
+  if (e.key === "Enter" && autosuggestList.children.length <= 1) {
+    // Nur raten, wenn keine oder 1 Vorschläge angezeigt werden
+    raten();
+  }
 });
 
 document.getElementById("share-button").addEventListener("click", () => {
@@ -279,3 +282,11 @@ document.getElementById("share-button").addEventListener("click", () => {
     text: text
   });
 });
+
+// Daten lesen und dann Spiel starten
+fetch("data/orte_suedtirol.json")
+  .then(res => res.json())
+  .then(data => {
+    orte = data;
+    startGame();
+  });

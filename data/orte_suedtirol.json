@@ -2318,7 +2318,7 @@
     "ratbar": false
   },
   {
-    "name": "San Valentino alla Muta",
+    "name": "San Valentino alla Muta/Sankt Valentin auf der Haide",
     "alternativen": [
       "Sankt Valentin auf der Haide",
       "San Valentino alla Mutta",
@@ -3806,9 +3806,9 @@
     "ratbar": false
   },
   {
-    "name": "San Valentino in Campo",
+    "name": "San Valentino in Campo/Gummer",
     "alternativen": [
-      "San Valentino in Campo"
+      "San Valentino in Campo","Gummer"
     ],
     "lat": 46.4385,
     "lon": 11.47722,
@@ -3865,9 +3865,9 @@
     "ratbar": false
   },
   {
-    "name": "Albions",
+    "name": "Albions/Albeins",
     "alternativen": [
-      "Albions"
+      "Albions","Albeins"
     ],
     "lat": 46.62343,
     "lon": 11.56061,
@@ -3936,7 +3936,7 @@
     "ratbar": false
   },
   {
-    "name": "Ponte Nova",
+    "name": "Ponte Nova/Birchabruck",
     "alternativen": [
       "Ponte Nova",
       "Birchabruck"

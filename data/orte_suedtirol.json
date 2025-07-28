@@ -410,19 +410,6 @@
     "waehlbar": true
   },
   {
-    "name": "St. Jakob (Villnöß)/San Giacomo (Funes)",
-    "alternativen": [
-      "San Giacomo",
-      "St. Jakob",
-      "San Giacomo (Funes)",
-      "St. Jakob (Villnöß)"
-    ],
-    "lat": 46.6450534,
-    "lon": 11.6652816,
-    "einwohner": 3404,
-    "waehlbar": true
-  },
-  {
     "name": "St. Jakob (Leifers)/San Giacomo (Laives)",
     "alternativen": [
       "San Giacomo",
@@ -674,7 +661,8 @@
       "Salurn an der Weinstraße",
       "Salorno sulla Strada del Vino",
       "Salurn",
-      "Salorno"
+      "Salorno",
+      "Afrika"
     ],
     "lat": 46.2396083,
     "lon": 11.2110749,
@@ -830,8 +818,8 @@
     ],
     "lat": 46.6451,
     "lon": 11.6968408,
-    "einwohner": 2612,
-    "waehlbar": true
+    "einwohner": 0,
+    "waehlbar": false
   },
   {
     "name": "Feldthurns/Velturno",
@@ -2050,29 +2038,18 @@
     "waehlbar": false
   },
   {
-    "name": "St. Peter/San Pietro",
+    "name": "St. Peter (Villnöß)/San Pietro (Funes)",
     "alternativen": [
       "St. Peter",
       "San Pietro"
     ],
     "lat": 46.6428631,
     "lon": 11.6813753,
-    "einwohner": 614,
-    "waehlbar": false
+    "einwohner": 3404,
+    "waehlbar": true
   },
   {
-    "name": "St. Peter/San Pietro",
-    "alternativen": [
-      "St. Peter",
-      "San Pietro"
-    ],
-    "lat": 46.6022916,
-    "lon": 11.6105941,
-    "einwohner": 614,
-    "waehlbar": false
-  },
-  {
-    "name": "St. Peter/San Pietro",
+    "name": "St. Peter (Ahrntal)/San Pietro (Valle Aurina)",
     "alternativen": [
       "St. Peter",
       "San Pietro"
@@ -2083,7 +2060,7 @@
     "waehlbar": false
   },
   {
-    "name": "St. Peter/San Pietro",
+    "name": "St. Peter (Bozen)/San Pietro (Bolzano)",
     "alternativen": [
       "St. Peter",
       "San Pietro",
@@ -2091,17 +2068,6 @@
     ],
     "lat": 46.5120731,
     "lon": 11.3554321,
-    "einwohner": 614,
-    "waehlbar": false
-  },
-  {
-    "name": "St. Petersiedlung/San Pietro",
-    "alternativen": [
-      "San Pietro",
-      "St. Petersiedlung"
-    ],
-    "lat": 46.5317887,
-    "lon": 11.2433521,
     "einwohner": 614,
     "waehlbar": false
   },
@@ -2130,9 +2096,9 @@
     "waehlbar": false
   },
   {
-    "name": "St. Martin/San Martino in Casies",
+    "name": "St. Martin (Gsies)/San Martino (Casies)",
     "alternativen": [
-      "San Martino in Casies",
+      "San Martino",
       "St. Martin"
     ],
     "lat": 46.8120212,
@@ -2341,7 +2307,7 @@
     "waehlbar": false
   },
   {
-    "name": "St. Magdalena/Santa Maddalena",
+    "name": "St. Magdalena (Villnöß)/Santa Maddalena (Funes)",
     "alternativen": [
       "St. Magdalena",
       "Santa Maddalena"
@@ -2349,10 +2315,10 @@
     "lat": 46.6414556,
     "lon": 11.7153339,
     "einwohner": 478,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
-    "name": "St. Magdalena/Santa Maddalena in Casies",
+    "name": "St. Magdalena (Gsies)/Santa Maddalena (Casies)",
     "alternativen": [
       "Santa Maddalena in Casies",
       "St. Magdalena",
@@ -2361,10 +2327,10 @@
     "lat": 46.8346924,
     "lon": 12.2390878,
     "einwohner": 478,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
-    "name": "St. Magdalena/Santa Maddalena",
+    "name": "St. Magdalena (Bozen)/Santa Maddalena (Bolzano)",
     "alternativen": [
       "Placedell",
       "S. Maddalena",
@@ -2453,7 +2419,7 @@
     "lat": 46.6488221,
     "lon": 11.6024079,
     "einwohner": 395,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Altrei/Anterivo",
@@ -2498,7 +2464,7 @@
     "lat": 46.7952778,
     "lon": 11.0895074,
     "einwohner": 362,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Aicha/Aica",
@@ -2565,28 +2531,6 @@
     ],
     "lat": 46.7753098,
     "lon": 12.1801712,
-    "einwohner": 355,
-    "waehlbar": false
-  },
-  {
-    "name": "Pichl/Colle",
-    "alternativen": [
-      "Pichl",
-      "Colle"
-    ],
-    "lat": 46.7780078,
-    "lon": 12.1909,
-    "einwohner": 355,
-    "waehlbar": false
-  },
-  {
-    "name": "Pichl/Colle",
-    "alternativen": [
-      "Pichl",
-      "Colle"
-    ],
-    "lat": 46.2701214,
-    "lon": 11.1915607,
     "einwohner": 355,
     "waehlbar": false
   },
@@ -6325,6 +6269,10 @@
     "name": "Latzfons/Lazfons",
     "alternativen": [
       "Latzfons",
+      "Flotzbis",
+      "Flotzbiss",
+      "Flotzpis",
+      "Flotzpiss",
       "Lazfons"
     ],
     "lat": 46.6691911,

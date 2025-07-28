@@ -129,10 +129,10 @@
     "ratbar": true
   },
   {
-    "name": "Caldaro sulla strada del vino/Kaltern an der Weinstraße",
+    "name": "Caldaro/Kaltern",
     "alternativen": [
       "Kaltern an der Weinstraße",
-      "Kaltern",
+      "Kaltern","Caldaro",
       "Kaltern an der Weinstrasse",
       "Caldaro sulla strada del vino",
       "Comune di Caldaro sulla strada del vino",
@@ -444,7 +444,7 @@
     "ratbar": true
   },
   {
-    "name": "Salorno sulla strada del vino/Salurn an der Weinstraße",
+    "name": "Salorno/Salurn",
     "alternativen": [
       "Салорно",
       "Comune di Salorno",
@@ -542,7 +542,7 @@
     "alternativen": [
       "St. Leonhard in Passeier","St. Leonhard",
       "San Leonardo in Passiria - St. Leonhard in Passeier",
-      "San Leonardo in Passiria",
+      "San Leonardo in Passiria","St. Leonhard","San Leonardo",
       "Comune di San Leonardo in Passiria - St. Leonhard in Passeier",
       "021080"
     ],
@@ -575,7 +575,7 @@
     "ratbar": true
   },
   {
-    "name": "Termeno sulla strada del vino/Tramin an der Weinstraße",
+    "name": "Termeno/Tramin",
     "alternativen": [
       "Tramin an der Weinstraße",
       "Termeno sulla strada del vino",
@@ -671,7 +671,6 @@
   {
     "name": "San Martino in Passiria/St. Martin in Passeier",
     "alternativen": [
-      "St. Martin",
       "St. Martin in Passeier",
       "Comune di San Martino in Passiria",
       "021083",
@@ -776,9 +775,9 @@
     "ratbar": true
   },
   {
-    "name": "San Genesio Atesino/Jenesien",
+    "name": "San Genesio/Jenesien",
     "alternativen": [
-      "San Genesio Atesino",
+      "San Genesio Atesino","San Genesio",
       "021079",
       "Comune di San Genesio Atesino",
       "Jenesien"
@@ -967,9 +966,9 @@
     "ratbar": true
   },
   {
-    "name": "Selva di Val Gardena/Wolkenstein in Gröden",
+    "name": "Selva di Val Gardena/Wolkenstein",
     "alternativen": [
-      "Comune di Selva di Val Gardena",
+      "Comune di Selva di Val Gardena","Selva","Wolkenstein",
       "Wolkenstein in Groeden",
       "021089",
       "Selva di Val Gardena",
@@ -1076,7 +1075,7 @@
     "ratbar": true
   },
   {
-    "name": "Cortaccia sulla strada del vino/Kurtatsch an der Weinstraße",
+    "name": "Cortaccia/Kurtatsch",
     "alternativen": [
       "Comune di Cortaccia sulla strada del vino",
       "Kurtatsch an der Weinstraße",
@@ -1107,7 +1106,7 @@
     "alternativen": [
       "Comune di Moso in Passiria",
       "Moso in Passiria",
-      "Moos in Passeier",
+      "Moos in Passeier","Moos",
       "021054"
     ],
     "lat": 46.83212,
@@ -1129,11 +1128,11 @@
     "ratbar": true
   },
   {
-    "name": "Santa Cristina Valgardena/St. Christina in Gröden",
+    "name": "Santa Cristina/St. Christina",
     "alternativen": [
       "St. Christina in Groeden",
       "Comune di Santa Cristina Valgardena",
-      "021085",
+      "021085","St. Christina","Sankt Christina",
       "St. Christina in Gröden",
       "Santa Cristina Valgardena"
     ],
@@ -1316,7 +1315,7 @@
     "ratbar": true
   },
   {
-    "name": "Montagna sulla Strada del Vino/Montan an der Weinstraße",
+    "name": "Montagna/Montan",
     "alternativen": [
       "021053",
       "Montan an der Weinstrasse",
@@ -1640,9 +1639,9 @@
     "ratbar": true
   },
   {
-    "name": "Magrè sulla strada del vino/Margreid an der Weinstraße",
+    "name": "Magrè/Margreid",
     "alternativen": [
-      "Margreid an der Weinstraße",
+      "Margreid an der Weinstraße","Margreid","Magre","Magrè",
       "Magrè sulla strada del vino",
       "Magre sulla strada del vino",
       "Comune di Magre sulla strada del vino - Margreid an der Weinstrasse",
@@ -1720,9 +1719,9 @@
     "ratbar": true
   },
   {
-    "name": "Trodena nel parco naturale/Truden im Naturpark",
+    "name": "Trodena/Truden",
     "alternativen": [
-      "Trodena",
+      "Trodena","Truden",
       "021102",
       "Trodena nel parco naturale",
       "Comune di Trodena",
@@ -1862,28 +1861,6 @@
     "lat": 46.60472,
     "lon": 11.22607,
     "einwohner": 959,
-    "ratbar": false
-  },
-  {
-    "name": "Montagna",
-    "alternativen": [
-      "モンターニャ",
-      "Montanja",
-      "Мантаня",
-      "Монтаня",
-      "Մոնտանյա",
-      "Montan",
-      "Montagna",
-      "montanya",
-      "Montana",
-      "Montanya",
-      "Монтанья",
-      "Montan'ja",
-      "Mantanja"
-    ],
-    "lat": 46.33033,
-    "lon": 11.30027,
-    "einwohner": 947,
     "ratbar": false
   },
   {
@@ -2199,10 +2176,10 @@
     "ratbar": false
   },
   {
-    "name": "Cortina sulla strada del vino/Kurtinig an der Weinstraße",
+    "name": "Cortina/Kurtinig",
     "alternativen": [
       "021025",
-      "Comune di Cortina sulla strada del vino",
+      "Comune di Cortina sulla strada del vino","Kurtinig","Cortina",
       "Kurtinig an der Weinstraße",
       "Cortina sulla strada del vino",
       "Kurtinig an der Weinstrasse"
@@ -2239,21 +2216,6 @@
     "ratbar": false
   },
   {
-    "name": "Trodena",
-    "alternativen": [
-      "Truden",
-      "Trodena",
-      "トローデナ",
-      "Trodena nel parco naturale",
-      "torodena",
-      "Truden im Naturpark"
-    ],
-    "lat": 46.32181,
-    "lon": 11.34982,
-    "einwohner": 658,
-    "ratbar": false
-  },
-  {
     "name": "Braies/Prags",
     "alternativen": [
       "Comune di Braies",
@@ -2277,31 +2239,10 @@
     "ratbar": false
   },
   {
-    "name": "Stazione",
-    "alternativen": [
-      "Stazione"
-    ],
-    "lat": 46.48688666666667,
-    "lon": 11.301726666666667,
-    "einwohner": 642,
-    "ratbar": false
-  },
-  {
-    "name": "Settequerce",
-    "alternativen": [],
+    "name": "Settequerce/Siebeneich",
+    "alternativen": ["Settequerce","Siebeneich"],
     "lat": 46.51111,
     "lon": 11.26482,
-    "einwohner": 640,
-    "ratbar": false
-  },
-  {
-    "name": "Cortina sulla Strada del Vino",
-    "alternativen": [
-      "Cortina sulla Strada del Vino",
-      "Kurtinig an der Weinstrasse"
-    ],
-    "lat": 46.26941,
-    "lon": 11.22188,
     "einwohner": 640,
     "ratbar": false
   },
@@ -2363,19 +2304,10 @@
     "ratbar": false
   },
   {
-    "name": "Moso",
+    "name": "San Martino/Sankt Martin",
     "alternativen": [
-      "Moos"
-    ],
-    "lat": 46.68985,
-    "lon": 12.36655,
-    "einwohner": 583,
-    "ratbar": false
-  },
-  {
-    "name": "San Martino",
-    "alternativen": [
-      "San Martino",
+      "San Martino","St. Martin","Sankt Martin",
+      "St. Martin in Gsies","Sankt Martin in Gsies",
       "San Martino in Casies",
       "San Martino in Casies Valbassa"
     ],
@@ -2749,16 +2681,6 @@
     "lat": 46.74598,
     "lon": 12.2337,
     "einwohner": 376,
-    "ratbar": false
-  },
-  {
-    "name": "San Genesio",
-    "alternativen": [
-      "San Genesio"
-    ],
-    "lat": 46.658,
-    "lon": 11.92456,
-    "einwohner": 375,
     "ratbar": false
   },
   {
@@ -3154,9 +3076,9 @@
     "ratbar": false
   },
   {
-    "name": "San Nicolò",
+    "name": "San Nicolò/Sankt Nikolaus",
     "alternativen": [
-      "San Nicolo",
+      "San Nicolo","Sankt Nikolaus",
       "San Nicolò"
     ],
     "lat": 46.51056,
@@ -3727,9 +3649,9 @@
     "ratbar": false
   },
   {
-    "name": "Longomoso",
+    "name": "Longomoso/Lengmoos",
     "alternativen": [
-      "Longomoso"
+      "Longomoso","Lengmoos"
     ],
     "lat": 46.54365,
     "lon": 11.4678,
@@ -4386,16 +4308,6 @@
     ],
     "lat": 46.55617,
     "lon": 11.5541,
-    "einwohner": 87,
-    "ratbar": false
-  },
-  {
-    "name": "Sella",
-    "alternativen": [
-      "Sella"
-    ],
-    "lat": 46.446645000000004,
-    "lon": 11.506445,
     "einwohner": 87,
     "ratbar": false
   },
@@ -5442,16 +5354,6 @@
     "ratbar": false
   },
   {
-    "name": "Segheria",
-    "alternativen": [
-      "Segheria"
-    ],
-    "lat": 46.7204,
-    "lon": 12.13865,
-    "einwohner": 46,
-    "ratbar": false
-  },
-  {
     "name": "Am Griesbach",
     "alternativen": [
       "Am Griesbach"
@@ -5559,14 +5461,6 @@
     "lat": 46.9162,
     "lon": 11.4271,
     "einwohner": 45,
-    "ratbar": false
-  },
-  {
-    "name": "San Leonardo",
-    "alternativen": [],
-    "lat": 46.664705,
-    "lon": 11.79591,
-    "einwohner": 44,
     "ratbar": false
   },
   {
@@ -6090,16 +5984,6 @@
     ],
     "lat": 46.52513,
     "lon": 11.42553,
-    "einwohner": 36,
-    "ratbar": false
-  },
-  {
-    "name": "Molini",
-    "alternativen": [
-      "Molini"
-    ],
-    "lat": 46.56451,
-    "lon": 11.587225,
     "einwohner": 36,
     "ratbar": false
   },
@@ -8847,13 +8731,13 @@
     "ratbar": false
   },
   {
-    "name": "Passo di Sella",
+    "name": "Passo di Sella/Sellajoch",
     "alternativen": [
       "Passo di Sella",
       "Sella Pass",
       "Selva Di Val Gardena",
       "Passo Sella",
-      "Sellajoch",
+      "Sellajoch","Sellapass",
       "Col Sella"
     ],
     "lat": 46.50894,
@@ -10443,14 +10327,6 @@
     ],
     "lat": 46.87278,
     "lon": 12.06639,
-    "einwohner": 0,
-    "ratbar": false
-  },
-  {
-    "name": "Passo della Sella",
-    "alternativen": [],
-    "lat": 46.86889,
-    "lon": 12.06306,
     "einwohner": 0,
     "ratbar": false
   },
@@ -17373,14 +17249,6 @@
     "alternativen": [],
     "lat": 46.76032,
     "lon": 12.03252,
-    "einwohner": 0,
-    "ratbar": false
-  },
-  {
-    "name": "Wolkenstein",
-    "alternativen": [],
-    "lat": 46.55929,
-    "lon": 11.72935,
     "einwohner": 0,
     "ratbar": false
   },

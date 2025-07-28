@@ -10,6 +10,40 @@ document.getElementById("toggle-mode").addEventListener("click", () => {
   startGame();
 });
 
+const distanzKm = (a, b) => {
+	if (a === b) return 0;
+    const toRad = deg => deg * Math.PI / 180;
+    const R = 6371;
+    const dLat = toRad(b.lat - a.lat);
+    const dLon = toRad(b.lon - a.lon);
+    const lat1 = toRad(a.lat);
+    const lat2 = toRad(b.lat);
+    const aVal = Math.sin(dLat/2)**2 + Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLon/2)**2;
+    return 2 * R * Math.asin(Math.sqrt(aVal));
+  };
+  
+function winkelZwischenDreiPunkten(a, x, b) {
+  function toRad(deg) {
+    return deg * Math.PI / 180;
+  }
+
+  // Umrechnung in kartesische Koordinaten (angenähert)
+  const ax = [a.lon - x.lon, a.lat - x.lat];
+  const bx = [b.lon - x.lon, b.lat - x.lat];
+
+  // Skalarprodukt und Längen
+  const dot = ax[0] * bx[0] + ax[1] * bx[1];
+  const magA = Math.hypot(ax[0], ax[1]);
+  const magB = Math.hypot(bx[0], bx[1]);
+
+  if (magA === 0 || magB === 0) return 0; // kein definierter Winkel
+
+  const cosAngle = dot / (magA * magB);
+  let angle = Math.acos(Math.max(-1, Math.min(1, cosAngle))); // in Bogenmaß
+
+  return angle * 180 / Math.PI; // in Grad
+}
+
 function seededRandom(seed) {
   let x = Math.sin(seed) * 10000;
   return x - Math.floor(x);
@@ -21,6 +55,7 @@ function getSeedFromDate() {
 }
 
 function startGame() {
+  document.getElementById("share-button").style.display = "none";
   const subheading = document.getElementById("subheading");
   if (useSeeded) {
     const today = new Date();
@@ -44,8 +79,12 @@ function startGame() {
   const ratbareAndere = ratbareOrte.filter(o => o.name !== ziel.name);
   ref1 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
   ref2 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
-  while (ref1 === ref2) {
-    ref2 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
+  var retryCounter = 0; // zur sicherheit, falls keine passenden orte zu den bedingungen gefunden
+  while (ref1 === ref2 || 
+  		 (retryCounter <= 100 && 
+  		  (distanzKm(ref1, ziel) <= 10 || distanzKm(ref2, ziel) <= 10 || winkelZwischenDreiPunkten(ref1,ziel,ref2) <= 20))) {
+	  ref1 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
+	  ref2 = ratbareAndere[Math.floor(rand() * ratbareAndere.length)];
   }
 
   gerateneOrte = [];
@@ -68,17 +107,6 @@ function zeichne() {
   const ctx = canvas.getContext("2d");
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   const canvasCenter = [250, 250];
-
-  const distanzKm = (a, b) => {
-    const toRad = deg => deg * Math.PI / 180;
-    const R = 6371;
-    const dLat = toRad(b.lat - a.lat);
-    const dLon = toRad(b.lon - a.lon);
-    const lat1 = toRad(a.lat);
-    const lat2 = toRad(b.lat);
-    const aVal = Math.sin(dLat/2)**2 + Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLon/2)**2;
-    return 2 * R * Math.asin(Math.sqrt(aVal));
-  };
 
   const alleOrte = [ref1, ref2, ...gerateneOrte];
   if (spielVorbei) alleOrte.push(ziel); // Zielort zeigen, wenn vorbei
@@ -158,7 +186,7 @@ function zeichne() {
     ctx.fillStyle = gewonnen ? "green" : "red";
     ctx.font = "bold 24px sans-serif";
     const text1 = gewonnen
-      ? `🎉 Richtig in ${gerateneOrte.length} Versuchen!`
+      ? `🎉 Richtig in ${gerateneOrte.length} Versuch${gerateneOrte.length === 1 ? '' : 'en'}!`
       : `❌ Game Over! Gesucht war:`;
     const text2 = gewonnen ? "" : `${ziel.name}`;
   
@@ -167,6 +195,7 @@ function zeichne() {
     
     document.getElementById("guess").style.display = "none";
     document.getElementById("guess-button").style.display = "none";
+    document.getElementById("share-button").style.display = "inline";
   }
 }
 
@@ -221,4 +250,32 @@ function raten() {
 
 document.getElementById("guess").addEventListener("keydown", function (e) {
   if (e.key === "Enter") raten();
+});
+
+document.getElementById("share-button").addEventListener("click", () => {
+  if (!navigator.share) {
+    alert("Teilen wird auf diesem Gerät nicht unterstützt.");
+    return;
+  }
+
+  const versuche = gerateneOrte.length;
+  const zeilen = gerateneOrte.map((ort, i) => {
+    const d = distanzKm(ziel, ort);
+    let dist;
+    if (d==0) {
+      dist = "📍";
+    } else if (d < 1) {
+      dist = `${Math.round(d * 1000)} m`;
+    } else {
+      dist = `${Math.round(d)} km`;
+    }
+    return `Versuch ${i + 1}: ${dist}`;
+  });
+
+  const today = new Date();
+  const dateStr = today.toLocaleDateString("de-DE");
+  const text = `🌍 Südtirol-Raten vom ${dateStr}\n` + zeilen.join("\n") + "\n-\njrkager.github.io";
+  navigator.share({
+    text: text
+  });
 });

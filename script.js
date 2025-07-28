@@ -51,7 +51,7 @@ function startGame() {
   gerateneOrte = [];
   spielVorbei = false;
   document.getElementById("guess").style.display = "inline";
-  document.querySelector("button").style.display = "inline";
+  document.getElementById("guess-button").style.display = "inline";
   document.getElementById("feedback").textContent = "";
   zeichne();
 }
@@ -164,6 +164,9 @@ function zeichne() {
   
     ctx.fillText(text1, 40, 40);
     ctx.fillText(text2, 40, 70);
+    
+    document.getElementById("guess").style.display = "none";
+    document.getElementById("guess-button").style.display = "none";
   }
 }
 
@@ -204,8 +207,6 @@ function raten() {
   if (ort.name === ziel.name) {
     document.getElementById("feedback").textContent = `🎉 Richtig! Der Ort war ${ziel.name}.`;
     spielVorbei = true;
-    document.getElementById("guess").style.display = "none";
-    document.querySelector("button").style.display = "none";
     zeichne();
     return;
   }
@@ -213,8 +214,6 @@ function raten() {
   document.getElementById("feedback").textContent = `${ort.name} ist falsch.`;
   if (gerateneOrte.length >= 6) {
     spielVorbei = true;
-    document.getElementById("guess").style.display = "none";
-    document.querySelector("button").style.display = "none";
   }
   
   zeichne();

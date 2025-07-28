@@ -37,19 +37,11 @@
     container.style.left = `${rect.left + window.scrollX}px`;
     container.style.top = `${rect.bottom + window.scrollY}px`;
     container.style.width = `${rect.width}px`;
-
-    // Filter über alternativen[]
-   //  const passendeOrte = orte.filter(o =>
-//       (o.alternativen || []).some(a =>
-//         a.toLowerCase().includes(val)
-//       )
-//     );
     
     const passendeOrte = orte
       .map(o => {
         const words = o.name.toLowerCase().split(/[/]+/)
         const startsWithMatch = words.some(word => word.startsWith(val));
-//         const startsWithMatch = (o.alternativen || []).some(a => a.toLowerCase().startsWith(val));
         const includesMatch = (o.alternativen || []).some(a => a.toLowerCase().includes(val));
         return { ort: o, startsWith: startsWithMatch, includes: includesMatch };
       })
@@ -57,7 +49,6 @@
       .sort((a, b) => {
         if (a.startsWith && !b.startsWith) return -1;
         if (!a.startsWith && b.startsWith) return 1;
-//         if (a.ort.einwohner !== b.ort.einwohner) return b.ort.einwohner - a.ort.einwohner;
         return (b.ort.einwohner - a.ort.einwohner) || a.ort.name.localeCompare(b.ort.name);
       })
       .map(o => o.ort);

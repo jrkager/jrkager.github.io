@@ -52,7 +52,7 @@ function startGame() {
   gerateneOrte = [];
   spielVorbei = false;
   document.getElementById("guess").style.display = "inline";
-  document.querySelector("button").style.display = "inline";
+  document.getElementById("guess-button").style.display = "inline";
   document.getElementById("feedback").textContent = "";
   zeichne();
 }
@@ -166,6 +166,8 @@ function zeichne() {
     ctx.fillText(text1, 40, 40);
     ctx.fillText(text2, 40, 70);
     
+    document.getElementById("guess").style.display = "none";
+    document.getElementById("guess-button").style.display = "none";
     document.getElementById("share-button").style.display = "inline";
   }
 }
@@ -207,8 +209,6 @@ function raten() {
   if (ort.name === ziel.name) {
     document.getElementById("feedback").textContent = `🎉 Richtig! Der Ort war ${ziel.name}.`;
     spielVorbei = true;
-    document.getElementById("guess").style.display = "none";
-    document.querySelector("button").style.display = "none";
     zeichne();
     return;
   }
@@ -216,8 +216,6 @@ function raten() {
   document.getElementById("feedback").textContent = `${ort.name} ist falsch.`;
   if (gerateneOrte.length >= 6) {
     spielVorbei = true;
-    document.getElementById("guess").style.display = "none";
-    document.querySelector("button").style.display = "none";
   }
   
   zeichne();
@@ -236,13 +234,13 @@ document.getElementById("share-button").addEventListener("click", () => {
   const versuche = gerateneOrte.length;
   const zeilen = gerateneOrte.map((ort, i) => {
     const dist = Math.round(distanzKm(ziel, ort));
-    return `Guess ${i + 1}: ${dist} km entfernt`;
+    return `Guess ${i + 1}: ${dist} km`;
   });
 
-  const text = `🌍 Südtirol-Raten\nVersuche: ${versuche}\n` + zeilen.join("\n");
+  const today = new Date();
+  const dateStr = today.toLocaleDateString("de-DE");
+  const text = `🌍 Südtirol-Raten vom ${dateStr}\n` + zeilen.join("\n") + "\n-\njrkager.github.io";
   navigator.share({
-    title: "Südtirol-Raten",
-    text: text,
-    url: location.href
+    text: text
   });
 });

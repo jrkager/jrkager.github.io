@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Südtirol-Raten</title>
+  <script defer src="script.js"></script>
+  <script defer src="autosuggest.js"></script>
+  <style>
+    canvas { border: 1px solid #ccc; margin-top: 1em; }
+    body { font-family: sans-serif; padding: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Rate den Ort in Südtirol! (Beta-Vorschau)</h1>
+  <p id="subheading"></p>
+  <button id="toggle-mode">Modus: Tagesrätsel</button><br/>
+  <canvas id="map" width="500" height="500"></canvas>
+  <div>
+    <input type="text" id="guess" placeholder="Ort raten..." />
+    <button onclick="raten()">Raten</button>
+  </div>
+  <p id="feedback"></p>
+  <button id="share-button" style="display:none;">Teilen</button>
+</body>
+</html>

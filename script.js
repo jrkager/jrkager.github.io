@@ -48,22 +48,32 @@ function getSeedFromDate() {
   return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
 }
 
+function getSeedFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const seedParam = params.get("game");
+  return seedParam ? parseInt(seedParam, 10) : null;
+}
+
 function startGame() {
   document.getElementById("share-button").style.display = "none";
   const subheading = document.getElementById("subheading");
-  if (useSeeded) {
+  let seedFromURL = getSeedFromURL();
+  let seed = 0;
+  if (seedFromURL !== null && !isNaN(seedFromURL)) {
+    seed = seedFromURL;
+    subheading.textContent = `Zufallsrätsel (Nr: ${seed})`;
+  } else {
     const d = archiveDate ? new Date(archiveDate) : new Date();
     const dateStr = d.toLocaleDateString("de-DE");
+    seed = getSeedFromDate();
+    seed = Math.floor(seededRandom(seed) * 10000);    
     subheading.textContent = `Tagesrätsel vom ${dateStr}`;
-  } else {
-    subheading.textContent = "Zufallsrätsel";
-  }
-  var seed = getSeedFromDate();
-  seed = Math.floor(seededRandom(seed) * 10000);
+ }
+
   const rand = (() => {
     let i = 0;
     return () => {
-      return useSeeded ? seededRandom(seed + i++) : Math.random();
+      return seededRandom(seed + i++)
     };
   })();
 
@@ -244,19 +254,12 @@ document.getElementById("guess").addEventListener("keydown", function (e) {
 });
 
 document.getElementById("daily-mode").addEventListener("click", () => {
-  useSeeded = true;
-  archiveDate = null;
-  document.getElementById("archive-date").value = "";
-//   document.getElementById("archive-date").style.display = "none";
-  startGame();
+  window.location.href = `${window.location.pathname}`;
 });
 
 document.getElementById("random-mode").addEventListener("click", () => {
-  useSeeded = false;
-  archiveDate = null;
-  document.getElementById("archive-date").value = "";
-//   document.getElementById("archive-date").style.display = "none";
-  startGame();
+  let gameId = Math.floor(Math.random() * 1000000);
+  window.location.href = `${window.location.pathname}?game=${gameId}`;
 });
 
 // document.getElementById("archive-mode").addEventListener("click", () => {

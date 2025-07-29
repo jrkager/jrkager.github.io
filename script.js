@@ -1,3 +1,4 @@
+let orteAlle = [];
 let orte = [];
 let ziel, ref1, ref2;
 
@@ -48,6 +49,12 @@ function getSeedFromDate() {
   return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
 }
 
+function nextRandWaehlbar(rand) {
+	var ret = orteAlle[Math.floor(rand() * orteAlle.length)];
+	while (ret.waehlbar == false) ret = orteAlle[Math.floor(rand() * orteAlle.length)];
+	return ret;
+}
+
 function startGame() {
   document.getElementById("share-button").style.display = "none";
   const subheading = document.getElementById("subheading");
@@ -67,18 +74,21 @@ function startGame() {
     };
   })();
 
-  const waehlbareOrte = orte.filter(o => o.waehlbar);
-  ziel = waehlbareOrte[Math.floor(rand() * waehlbareOrte.length)];
-
-  const waehlbareAndere = waehlbareOrte.filter(o => o.name !== ziel.name);
-  ref1 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
-  ref2 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
+  ziel = nextRandWaehlbar(rand);
+  ref1 = nextRandWaehlbar(rand);
+  ref2 = nextRandWaehlbar(rand);
+  if (seed == Math.floor(seededRandom(20250729) * 10000)) {
+  	ziel = orte.filter(o=>o.name=="Welsberg-Taisten/Monguelfo-Tesido")[0];
+  	ref1 = orte.filter(o=>o.name=="Sterzing/Vipiteno")[0];
+  	ref2 = orte.filter(o=>o.name=="St. Vigil in Enneberg/San Vigilio di Marebbe")[0];
+  }
   var retryCounter = 0; // zur sicherheit, falls keine passenden orte zu den bedingungen gefunden
-  while (ref1 === ref2 || 
-  		 (retryCounter <= 100 && 
+  while (ref1 === ziel || ref2 === ziel || ref1 === ref2 || 
+  		 (retryCounter <= 300 && 
   		  (distanzKm(ref1, ziel) <= 10 || distanzKm(ref2, ziel) <= 10 || winkelZwischenDreiPunkten(ref1,ziel,ref2) <= 20))) {
-	  ref1 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
-	  ref2 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
+	  ref1 = nextRandWaehlbar(rand);
+	  ref2 = nextRandWaehlbar(rand);
+	  retryCounter++;
   }
 
   gerateneOrte = [];
@@ -95,10 +105,10 @@ function zeichne() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   const canvasCenter = [250, 250];
 
-  const alleOrte = [ref1, ref2, ...gerateneOrte];
-  if (spielVorbei) alleOrte.push(ziel); // Zielort zeigen, wenn vorbei
+  const alleOrteZeichnen = [ref1, ref2, ...gerateneOrte];
+  if (spielVorbei) alleOrteZeichnen.push(ziel); // Zielort zeigen, wenn vorbei
 
-  const verschiebungen = alleOrte.map(o => ({
+  const verschiebungen = alleOrteZeichnen.map(o => ({
     ort: o,
     dx: (o.lon - ziel.lon) * 85,
     dy: (o.lat - ziel.lat) * 111,
@@ -304,7 +314,8 @@ document.getElementById("share-button").addEventListener("click", () => {
 fetch(window.DATA_FILE)
   .then(res => res.json())
   .then(data => {
-    orte = data;
+    orteAlle = data;
+    orte = orteAlle.filter(o => !('versteckt' in o) || o.versteckt === false);
     const select = document.getElementById("archive-date");
     var startDate = new Date();
     startDate.setDate(startDate.getDate() - 7);

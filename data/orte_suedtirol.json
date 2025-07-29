@@ -233,8 +233,8 @@
     ],
     "lat": 46.5202694,
     "lon": 11.259301,
-    "einwohner": 5215,
-    "waehlbar": true
+    "einwohner": 0,
+    "waehlbar": false
   },
   {
     "name": "Naturns/Naturno",
@@ -495,26 +495,15 @@
     "waehlbar": true
   },
   {
-    "name": "Mühlbach/Rio Molino",
-    "alternativen": [
-      "Mühlbach",
-      "Rio Molino"
-    ],
-    "lat": 46.758081,
-    "lon": 12.0200157,
-    "einwohner": 3151,
-    "waehlbar": true
-  },
-  {
-    "name": "Mühlbach/Rio Molino",
+    "name": "Mühlbach (Ahrtnal)/Rio Molino",
     "alternativen": [
       "Mühlbach",
       "Rio Molino"
     ],
     "lat": 46.8477986,
     "lon": 11.9815204,
-    "einwohner": 3151,
-    "waehlbar": true
+    "einwohner": 0,
+    "waehlbar": false
   },
   {
     "name": "Prad am Stilfser Joch/Prato allo Stelvio",
@@ -859,8 +848,8 @@
     ],
     "lat": 46.6744939,
     "lon": 11.1704782,
-    "einwohner": 2450,
-    "waehlbar": true
+    "einwohner": 0,
+    "waehlbar": false
   },
   {
     "name": "Graun im Vinschgau/Curon Venosta",
@@ -1057,15 +1046,15 @@
     "waehlbar": true
   },
   {
-    "name": "Tisens/Tisana",
+    "name": "Tisens (Kastelruth)/Tisana",
     "alternativen": [
       "Tisana",
       "Tisens"
     ],
     "lat": 46.5726126,
     "lon": 11.5482608,
-    "einwohner": 1965,
-    "waehlbar": true
+    "einwohner": 0,
+    "waehlbar": false
   },
   {
     "name": "Sexten/Sesto",
@@ -1292,17 +1281,6 @@
     ],
     "lat": 46.4722228,
     "lon": 11.2614614,
-    "einwohner": 1472,
-    "waehlbar": true
-  },
-  {
-    "name": "St. Pauls/San Paolo",
-    "alternativen": [
-      "St. Pauls",
-      "San Paolo"
-    ],
-    "lat": 46.7858762,
-    "lon": 11.6782096,
     "einwohner": 1472,
     "waehlbar": true
   },
@@ -1612,7 +1590,7 @@
     ],
     "lat": 46.8999667,
     "lon": 11.4595998,
-    "einwohner": 965,
+    "einwohner": 0,
     "waehlbar": false
   },
   {
@@ -1623,18 +1601,7 @@
     ],
     "lat": 46.9121257,
     "lon": 11.3131733,
-    "einwohner": 965,
-    "waehlbar": false
-  },
-  {
-    "name": "Auen/Prati",
-    "alternativen": [
-      "Prati",
-      "Auen"
-    ],
-    "lat": 46.6490256,
-    "lon": 11.3362003,
-    "einwohner": 965,
+    "einwohner": 0,
     "waehlbar": false
   },
   {
@@ -2056,7 +2023,7 @@
     ],
     "lat": 47.0235884,
     "lon": 12.0585918,
-    "einwohner": 614,
+    "einwohner": 1000,
     "waehlbar": false
   },
   {
@@ -2068,7 +2035,7 @@
     ],
     "lat": 46.5120731,
     "lon": 11.3554321,
-    "einwohner": 614,
+    "einwohner": 100,
     "waehlbar": false
   },
   {
@@ -2085,17 +2052,6 @@
     "waehlbar": false
   },
   {
-    "name": "St. Martin/San Martino",
-    "alternativen": [
-      "St. Martin",
-      "San Martino"
-    ],
-    "lat": 46.7761582,
-    "lon": 11.8961247,
-    "einwohner": 577,
-    "waehlbar": false
-  },
-  {
     "name": "St. Martin (Gsies)/San Martino (Casies)",
     "alternativen": [
       "San Martino",
@@ -2103,18 +2059,7 @@
     ],
     "lat": 46.8120212,
     "lon": 12.2286504,
-    "einwohner": 577,
-    "waehlbar": false
-  },
-  {
-    "name": "St. Martin/San Martino",
-    "alternativen": [
-      "St. Martin",
-      "San Martino"
-    ],
-    "lat": 46.9754753,
-    "lon": 11.9323831,
-    "einwohner": 577,
+    "einwohner": 900,
     "waehlbar": false
   },
   {
@@ -2184,20 +2129,6 @@
     "waehlbar": false
   },
   {
-    "name": "Europa-Neustift/Europa-Novacella",
-    "alternativen": [
-      "Europa-Neustift",
-      "Novacella",
-      "Neustift",
-      "Europa-Novacella",
-      "Europa"
-    ],
-    "lat": 46.4917727,
-    "lon": 11.336485,
-    "einwohner": 548,
-    "waehlbar": false
-  },
-  {
     "name": "Plaus/Plaus",
     "alternativen": [
       "Plaus"
@@ -2215,18 +2146,7 @@
     ],
     "lat": 46.6578821,
     "lon": 11.3603089,
-    "einwohner": 542,
-    "waehlbar": false
-  },
-  {
-    "name": "Vill/Villa",
-    "alternativen": [
-      "Villa",
-      "Vill"
-    ],
-    "lat": 46.3233894,
-    "lon": 11.2771464,
-    "einwohner": 542,
+    "einwohner": 0,
     "waehlbar": false
   },
   {
@@ -2237,7 +2157,7 @@
     ],
     "lat": 46.7045974,
     "lon": 11.6773023,
-    "einwohner": 542,
+    "einwohner": 0,
     "waehlbar": false
   },
   {
@@ -2248,28 +2168,6 @@
     ],
     "lat": 46.8117156,
     "lon": 11.7651975,
-    "einwohner": 542,
-    "waehlbar": false
-  },
-  {
-    "name": "Vill/Villa",
-    "alternativen": [
-      "Villa",
-      "Vill"
-    ],
-    "lat": 46.7774258,
-    "lon": 11.6905966,
-    "einwohner": 542,
-    "waehlbar": false
-  },
-  {
-    "name": "Vil/Villa",
-    "alternativen": [
-      "Villa",
-      "Vil"
-    ],
-    "lat": 46.8890414,
-    "lon": 11.4229194,
     "einwohner": 542,
     "waehlbar": false
   },
@@ -2314,7 +2212,7 @@
     ],
     "lat": 46.6414556,
     "lon": 11.7153339,
-    "einwohner": 478,
+    "einwohner": 400,
     "waehlbar": true
   },
   {
@@ -2326,8 +2224,8 @@
     ],
     "lat": 46.8346924,
     "lon": 12.2390878,
-    "einwohner": 478,
-    "waehlbar": true
+    "einwohner": 680,
+    "waehlbar": false
   },
   {
     "name": "St. Magdalena (Bozen)/Santa Maddalena (Bolzano)",
@@ -2340,7 +2238,7 @@
     ],
     "lat": 46.5026578,
     "lon": 11.3722245,
-    "einwohner": 478,
+    "einwohner": 0,
     "waehlbar": false
   },
   {
@@ -2485,7 +2383,7 @@
     ],
     "lat": 46.5454995,
     "lon": 11.7702043,
-    "einwohner": 362,
+    "einwohner": 0,
     "waehlbar": false
   },
   {
@@ -2496,7 +2394,7 @@
     ],
     "lat": 46.7567056,
     "lon": 11.7210789,
-    "einwohner": 362,
+    "einwohner": 0,
     "waehlbar": false
   },
   {
@@ -8111,17 +8009,6 @@
     "waehlbar": false
   },
   {
-    "name": "Wiesen/Prati di Tesido",
-    "alternativen": [
-      "Wiesen",
-      "Prati di Tesido"
-    ],
-    "lat": 46.7688189,
-    "lon": 12.1356834,
-    "einwohner": 0,
-    "waehlbar": false
-  },
-  {
     "name": "Kalditsch/Doladizza",
     "alternativen": [
       "Kalditsch",
@@ -9041,7 +8928,7 @@
     ],
     "lat": 46.6382106,
     "lon": 10.8546758,
-    "einwohner": 0,
+    "einwohner": 110,
     "waehlbar": false
   },
   {
@@ -9897,5 +9784,203 @@
     "lon": 11.62162,
     "einwohner": 0,
     "waehlbar": false
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
+  },
+  {
+    "name": "",
+    "alternativen": [
+      ""
+    ],
+    "lat": 0,
+    "lon": 0,
+    "einwohner": 0,
+    "waehlbar": false,
+    "versteckt": true
   }
 ]

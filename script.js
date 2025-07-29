@@ -322,7 +322,7 @@ fetch(window.DATA_FILE)
     var yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
     for (let d = new Date(startDate); d <= yesterday; d.setDate(d.getDate() + 1)) {
-      const iso = d.toISOString().split("T")[0];
+      const iso = d.toLocaleDateString("sv-SE").split("T")[0];
       const option = document.createElement("option");
       option.value = iso;
       option.textContent = iso.split("-").reverse().join(".");

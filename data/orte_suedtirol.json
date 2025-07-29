@@ -178,7 +178,8 @@
     "lat": 46.99623,
     "lon": 11.97988,
     "einwohner": 6022,
-    "waehlbar": true
+    "waehlbar": false,
+    "versteckt": true
   },
   {
     "name": "Kastelruth/Castelrotto",
@@ -495,7 +496,7 @@
     "waehlbar": true
   },
   {
-    "name": "Mühlbach (Ahrtnal)/Rio Molino",
+    "name": "Mühlbach (Tauferer Tal)/Rio Molino (Val di Tures)",
     "alternativen": [
       "Mühlbach",
       "Rio Molino"

@@ -77,7 +77,7 @@ function startGame() {
   ziel = nextRandWaehlbar(rand);
   ref1 = nextRandWaehlbar(rand);
   ref2 = nextRandWaehlbar(rand);
-  if (seed == Math.floor(seededRandom(20250729) * 10000)) {
+  if (useSeeded && seed == Math.floor(seededRandom(20250729) * 10000)) {
   	ziel = orte.filter(o=>o.name=="Welsberg-Taisten/Monguelfo-Tesido")[0];
   	ref1 = orte.filter(o=>o.name=="Sterzing/Vipiteno")[0];
   	ref2 = orte.filter(o=>o.name=="St. Vigil in Enneberg/San Vigilio di Marebbe")[0];

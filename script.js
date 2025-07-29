@@ -159,22 +159,22 @@ function zeichne() {
     ctx.font = "14px sans-serif";
     ctx.fillText(`💡 Der Ort hat ca. ${ziel.einwohner.toLocaleString()} Einwohner.`, 10, 20);
   }
-  if (gerateneOrte.length >= 4 && !spielVorbei) {
-	  let hint = "";
-	if (ziel.name.includes("/")) {
-	  const teil = ziel.name.split("/")[1].trim();
-	  if (teil.length >= 2) {
-		hint = teil[0] + "_".repeat(teil.length - 2) + teil[teil.length - 1];
-	  } else {
-		hint = teil;
-	  }
-	} else {
-	  hint = ziel.name[0] + "_".repeat(ziel.name.length - 2) + ziel.name[ziel.name.length - 1];
-	}
-    ctx.fillStyle = "black";
-    ctx.font = "14px sans-serif";
-    ctx.fillText(`💡 ${hint}`, 10, 40);
-  }
+  // if (gerateneOrte.length >= 4 && !spielVorbei) {
+// 	  let hint = "";
+// 	if (ziel.name.includes("/")) {
+// 	  const teil = ziel.name.split("/")[1].trim();
+// 	  if (teil.length >= 2) {
+// 		hint = teil[0] + "_".repeat(teil.length - 2) + teil[teil.length - 1];
+// 	  } else {
+// 		hint = teil;
+// 	  }
+// 	} else {
+// 	  hint = ziel.name[0] + "_".repeat(ziel.name.length - 2) + ziel.name[ziel.name.length - 1];
+// 	}
+//     ctx.fillStyle = "black";
+//     ctx.font = "14px sans-serif";
+//     ctx.fillText(`💡 ${hint}`, 10, 40);
+//   }
 
   // Spielende anzeigen
   if (spielVorbei) {

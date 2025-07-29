@@ -2,16 +2,7 @@ let orte = [];
 let ziel, ref1, ref2;
 
 let useSeeded = true;
-
-document.getElementById("daily-mode").addEventListener("click", () => {
-  useSeeded = true;
-  startGame();
-});
-
-document.getElementById("random-mode").addEventListener("click", () => {
-  useSeeded = false;
-  startGame();
-});
+let archiveDate = null;
 
 const distanzKm = (a, b) => {
 	if (a === b) return 0;
@@ -53,16 +44,16 @@ function seededRandom(seed) {
 }
 
 function getSeedFromDate() {
-  const today = new Date();
-  return today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+  const d = archiveDate ? new Date(archiveDate) : new Date();
+  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
 }
 
 function startGame() {
   document.getElementById("share-button").style.display = "none";
   const subheading = document.getElementById("subheading");
   if (useSeeded) {
-    const today = new Date();
-    const dateStr = today.toLocaleDateString("de-DE");
+    const d = archiveDate ? new Date(archiveDate) : new Date();
+    const dateStr = d.toLocaleDateString("de-DE");
     subheading.textContent = `Tagesrätsel vom ${dateStr}`;
   } else {
     subheading.textContent = "Zufallsrätsel";
@@ -199,7 +190,6 @@ function zeichne() {
 
 
 let gerateneOrte = [];
-let guessCount = 0;
 let spielVorbei = false;
 
 function raten() {
@@ -209,7 +199,6 @@ function raten() {
   document.getElementById("guess").value = "";
 
   if (!eingabe) return;
-
 
   // Ort suchen
   const ort = orte.find(o =>
@@ -254,6 +243,36 @@ document.getElementById("guess").addEventListener("keydown", function (e) {
   }
 });
 
+document.getElementById("daily-mode").addEventListener("click", () => {
+  useSeeded = true;
+  archiveDate = null;
+  document.getElementById("archive-date").value = "";
+//   document.getElementById("archive-date").style.display = "none";
+  startGame();
+});
+
+document.getElementById("random-mode").addEventListener("click", () => {
+  useSeeded = false;
+  archiveDate = null;
+  document.getElementById("archive-date").value = "";
+//   document.getElementById("archive-date").style.display = "none";
+  startGame();
+});
+
+// document.getElementById("archive-mode").addEventListener("click", () => {
+//   useSeeded = true;
+//   document.getElementById("archive-date").style.display = "inline";
+// });
+
+document.getElementById("archive-date").addEventListener("change", (e) => {
+  const val = e.target.value;
+  if (val) {
+    archiveDate = val;
+    useSeeded = true;
+    startGame();
+  }
+});
+
 document.getElementById("share-button").addEventListener("click", () => {
   if (!navigator.share) {
     alert("Teilen wird auf diesem Gerät nicht unterstützt.");
@@ -274,18 +293,29 @@ document.getElementById("share-button").addEventListener("click", () => {
     return `Versuch ${i + 1}: ${dist}`;
   });
 
-  const today = new Date();
-  const dateStr = today.toLocaleDateString("de-DE");
+  const d = archiveDate ? new Date(archiveDate) : new Date();
+  const dateStr = d.toLocaleDateString("de-DE");
   const text = `🌍 Südtirol-Raten vom ${dateStr}\n` + zeilen.join("\n") + "\n-\njrkager.github.io";
   navigator.share({
     text: text
   });
 });
 
-// Daten lesen und dann Spiel starten
 fetch("data/orte_suedtirol.json")
   .then(res => res.json())
   .then(data => {
     orte = data;
+    const select = document.getElementById("archive-date");
+    var startDate = new Date();
+    startDate.setDate(startDate.getDate() - 7);
+    var yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    for (let d = new Date(startDate); d <= yesterday; d.setDate(d.getDate() + 1)) {
+      const iso = d.toISOString().split("T")[0];
+      const option = document.createElement("option");
+      option.value = iso;
+      option.textContent = iso.split("-").reverse().join(".");
+      select.appendChild(option);
+    }
     startGame();
   });

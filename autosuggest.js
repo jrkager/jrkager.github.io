@@ -19,7 +19,7 @@
     selectedIndex = -1;
 
     if (!orte) {
-      fetch("data/orte_suedtirol.json")
+      fetch(window.DATA_FILE)
         .then(res => res.json())
         .then(data => {
           orte = data;

@@ -148,7 +148,7 @@ function zeichne() {
   if (gerateneOrte.length >= 2 && !spielVorbei) {
     ctx.fillStyle = "black";
     ctx.font = "14px sans-serif";
-    ctx.fillText(`💡 Der Ort hat ca. ${ziel.einwohner.toLocaleString()} Einwohner.`, 10, 20);
+    ctx.fillText(window.SUGG2_STR.replace("{}",ziel.einwohner.toLocaleString()), 10, 20);
   }
   // if (gerateneOrte.length >= 4 && !spielVorbei) {
 // 	  let hint = "";
@@ -301,7 +301,7 @@ document.getElementById("share-button").addEventListener("click", () => {
   });
 });
 
-fetch("data/orte_suedtirol.json")
+fetch(window.DATA_FILE)
   .then(res => res.json())
   .then(data => {
     orte = data;

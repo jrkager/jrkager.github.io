@@ -68,7 +68,6 @@ function startGame() {
     subheading.textContent = "Zufallsrätsel";
   }
   var seed = getSeedFromDate();
-  seed=20250729;
   seed = Math.floor(seededRandom(seed) * 10000);
   const rand = (() => {
     let i = 0;

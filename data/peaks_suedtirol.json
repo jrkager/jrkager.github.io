@@ -44,7 +44,7 @@
     "lat": 46.4481306,
     "lon": 10.6223034,
     "einwohner": 3757,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weißkugel/Palla Bianca",
@@ -67,7 +67,7 @@
     "lat": 46.4923011,
     "lon": 10.5501831,
     "einwohner": 3735,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Monte Zebrù - Südostgipfel/Monte Zebrù - Cima di Sud Est",
@@ -104,7 +104,7 @@
     "lat": 46.4953917,
     "lon": 10.5250761,
     "einwohner": 3658,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hintere Schwärze/Cima Nera",
@@ -115,7 +115,7 @@
     "lat": 46.7734046,
     "lon": 10.9146852,
     "einwohner": 3624,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Similaun",
@@ -136,7 +136,7 @@
     "lat": 46.7998489,
     "lon": 10.7198864,
     "einwohner": 3557,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großeiskogel",
@@ -157,7 +157,7 @@
     "lat": 46.537427,
     "lon": 10.6359581,
     "einwohner": 3545,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittlere Marzellspitze/Marzell di mezzo",
@@ -169,7 +169,7 @@
     "lat": 46.7679641,
     "lon": 10.9048401,
     "einwohner": 3529,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Westliche Marzellspitze/Punta di Marzèl Ovest",
@@ -180,7 +180,7 @@
     "lat": 46.7699606,
     "lon": 10.8962035,
     "einwohner": 3527,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohe Angelusspitze/L'Angelo Grande",
@@ -191,7 +191,7 @@
     "lat": 46.5449175,
     "lon": 10.6483827,
     "einwohner": 3521,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Innere Quellspitze/Cima della Sorgente di Dentro",
@@ -202,7 +202,7 @@
     "lat": 46.7882404,
     "lon": 10.7307191,
     "einwohner": 3514,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochfeiler/Gran Pilastro",
@@ -236,7 +236,7 @@
     "lat": 46.8462323,
     "lon": 10.7168691,
     "einwohner": 3498,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rötspitz/Pizzo Rosso",
@@ -248,7 +248,7 @@
     "lat": 47.0269795,
     "lon": 12.2048765,
     "einwohner": 3495,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hintere Hintereisspitze",
@@ -258,7 +258,7 @@
     "lat": 46.822634,
     "lon": 10.7638613,
     "einwohner": 3486,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochwilde/Cima Altissima",
@@ -281,7 +281,7 @@
     "lat": 46.7965822,
     "lon": 10.6996478,
     "einwohner": 3473,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochferner/Gran Vedretta",
@@ -293,7 +293,7 @@
     "lat": 46.9779753,
     "lon": 11.7179995,
     "einwohner": 3470,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Geisterspitze/Punta degli Spiriti",
@@ -304,7 +304,7 @@
     "lat": 46.4991955,
     "lon": 10.4748936,
     "einwohner": 3467,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Karlesspitze/Cima di Quaira",
@@ -316,7 +316,7 @@
     "lat": 46.7721198,
     "lon": 10.9749815,
     "einwohner": 3463,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tuckettspitze/Cima Tuckett",
@@ -327,7 +327,7 @@
     "lat": 46.4977443,
     "lon": 10.4894268,
     "einwohner": 3462,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schildspitze/Punta dello Scudo",
@@ -339,7 +339,7 @@
     "lat": 46.5274901,
     "lon": 10.6491766,
     "einwohner": 3461,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochwilde (Nordgipfel)",
@@ -362,7 +362,7 @@
     "lat": 46.7743033,
     "lon": 10.7332001,
     "einwohner": 3456,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hinterer Eggenspitz/Cima Sternai",
@@ -373,7 +373,7 @@
     "lat": 46.4777039,
     "lon": 10.7706092,
     "einwohner": 3443,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lagaunspitze/Punta di Lagaun",
@@ -384,7 +384,7 @@
     "lat": 46.7391537,
     "lon": 10.7393738,
     "einwohner": 3440,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zufrittspitze/Gioveretto",
@@ -395,7 +395,7 @@
     "lat": 46.5018817,
     "lon": 10.7822601,
     "einwohner": 3439,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochgall/Monte Collalto",
@@ -428,7 +428,7 @@
     "lat": 46.8177559,
     "lon": 10.7587925,
     "einwohner": 3433,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochofenwand/Croda del Forno",
@@ -439,7 +439,7 @@
     "lat": 46.5530747,
     "lon": 10.6504364,
     "einwohner": 3431,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hintere Madatschspitze/Madaccio Di dentro",
@@ -450,7 +450,7 @@
     "lat": 46.4996597,
     "lon": 10.4942093,
     "einwohner": 3428,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohe Wart/Guardia Alta",
@@ -473,7 +473,7 @@
     "lat": 46.5214043,
     "lon": 10.6411545,
     "einwohner": 3422,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wilder Freiger/Cima Libera",
@@ -484,7 +484,7 @@
     "lat": 46.9705175,
     "lon": 11.1899934,
     "einwohner": 3418,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Westlicher Fineilkopf/Punta dei Corvi occidentale",
@@ -506,7 +506,7 @@
     "lat": 46.757194,
     "lon": 10.8957825,
     "einwohner": 3416,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Turnerkamp/Cima di Campo",
@@ -517,7 +517,7 @@
     "lat": 46.9901893,
     "lon": 11.80975,
     "einwohner": 3416,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Große Schneeglocke/Cima Campana Grande",
@@ -528,7 +528,7 @@
     "lat": 46.4965894,
     "lon": 10.5090384,
     "einwohner": 3410,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Äußere Pederspitze/Punta Peder di Fuori",
@@ -539,7 +539,7 @@
     "lat": 46.5292547,
     "lon": 10.6708682,
     "einwohner": 3406,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleiner Möseler/Piccolo Mèsule",
@@ -550,7 +550,7 @@
     "lat": 46.9914829,
     "lon": 11.7866666,
     "einwohner": 3405,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleine Schneeglocke/Cima Campana Piccola",
@@ -561,7 +561,7 @@
     "lat": 46.4963805,
     "lon": 10.5042295,
     "einwohner": 3404,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Liebener Spitze/Cima della Chiesa",
@@ -572,7 +572,7 @@
     "lat": 46.8203848,
     "lon": 11.0757044,
     "einwohner": 3400,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Griesferner",
@@ -604,7 +604,7 @@
     "lat": 46.7835159,
     "lon": 10.6728103,
     "einwohner": 3394,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rötenspitze",
@@ -635,7 +635,7 @@
     "lat": 46.4725405,
     "lon": 10.5804178,
     "einwohner": 3391,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Möselekopf",
@@ -645,7 +645,7 @@
     "lat": 46.9887407,
     "lon": 11.7805315,
     "einwohner": 3389,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schrötterhorn/Corno di Solda",
@@ -667,7 +667,7 @@
     "lat": 46.4537855,
     "lon": 10.6893659,
     "einwohner": 3386,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Äußere Quellspitze/Cima della Sorgente di Fuori",
@@ -721,7 +721,7 @@
     "lat": 46.5642975,
     "lon": 10.629135,
     "einwohner": 3375,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zweite Veneziaspitze/Cima Venezia II",
@@ -743,7 +743,7 @@
     "lat": 46.9675988,
     "lon": 11.7473841,
     "einwohner": 3371,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lyfihorn/Corno Livi",
@@ -754,7 +754,7 @@
     "lat": 46.5321518,
     "lon": 10.6730473,
     "einwohner": 3370,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarzenstein/Sasso Nero",
@@ -765,7 +765,7 @@
     "lat": 47.0100814,
     "lon": 11.8740569,
     "einwohner": 3369,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Freibrunner Spitze/Cima Fontana",
@@ -776,7 +776,7 @@
     "lat": 46.7925504,
     "lon": 10.6894849,
     "einwohner": 3366,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ramudlaspitz/Punta Silandro",
@@ -798,7 +798,7 @@
     "lat": 46.7658053,
     "lon": 10.8684277,
     "einwohner": 3363,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Falschungsspitze",
@@ -809,7 +809,7 @@
     "lat": 46.7679963,
     "lon": 10.9879698,
     "einwohner": 3363,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Fanatspitze",
@@ -819,7 +819,7 @@
     "lat": 46.7714868,
     "lon": 10.9629606,
     "einwohner": 3361,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Südliche Valvelspitze",
@@ -830,7 +830,7 @@
     "lat": 46.7687255,
     "lon": 10.6706547,
     "einwohner": 3360,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schneebiger Nock/Monte Nevoso",
@@ -841,7 +841,7 @@
     "lat": 46.9055216,
     "lon": 12.084082,
     "einwohner": 3358,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hinterer Schranspitz/Punta Martello",
@@ -862,7 +862,7 @@
     "lat": 46.815015,
     "lon": 10.751025,
     "einwohner": 3352,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lyfispitze/Punta Livi",
@@ -874,7 +874,7 @@
     "lat": 46.5341461,
     "lon": 10.6875919,
     "einwohner": 3352,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lorchenspitz/Cima Lorchen",
@@ -885,7 +885,7 @@
     "lat": 46.485984,
     "lon": 10.7650556,
     "einwohner": 3347,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hintere Rotspitze/Cima Rossa di Saent",
@@ -896,7 +896,7 @@
     "lat": 46.4612136,
     "lon": 10.7165925,
     "einwohner": 3347,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Köllkuppe/Cima Marmotta",
@@ -907,7 +907,7 @@
     "lat": 46.4497562,
     "lon": 10.6828809,
     "einwohner": 3346,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rotegg",
@@ -918,7 +918,7 @@
     "lat": 46.7941681,
     "lon": 11.0374767,
     "einwohner": 3341,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Roteck/Monte Rosso",
@@ -932,7 +932,7 @@
     "lat": 46.7235816,
     "lon": 10.9842619,
     "einwohner": 3337,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ramudlakopf/Cima Ramudla",
@@ -943,7 +943,7 @@
     "lat": 46.7241109,
     "lon": 10.7236093,
     "einwohner": 3336,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Nördliche Valvelspitze",
@@ -953,7 +953,7 @@
     "lat": 46.775027,
     "lon": 10.6707667,
     "einwohner": 3329,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hintere Schöntaufspitze/Punta Beltovo di Dentro",
@@ -964,7 +964,7 @@
     "lat": 46.5028467,
     "lon": 10.6285696,
     "einwohner": 3325,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gamsspitz/Cima dei Camosci",
@@ -986,7 +986,7 @@
     "lat": 46.5580278,
     "lon": 10.6482874,
     "einwohner": 3318,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Texelspitze/Cima Tessa",
@@ -1042,7 +1042,7 @@
     "lat": 46.5634775,
     "lon": 10.6469718,
     "einwohner": 3306,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Laaser Spitze/Punta di Lasa",
@@ -1064,7 +1064,7 @@
     "lat": 46.4858142,
     "lon": 10.6220593,
     "einwohner": 3300,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Möselernock",
@@ -1074,7 +1074,7 @@
     "lat": 46.9909324,
     "lon": 11.794748,
     "einwohner": 3297,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Oberettesspitz/Punta d'Oberettes sud",
@@ -1096,7 +1096,7 @@
     "lat": 47.0328489,
     "lon": 12.2095291,
     "einwohner": 3290,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohe Wand/Croda Alta",
@@ -1107,7 +1107,7 @@
     "lat": 47.0132989,
     "lon": 11.6272107,
     "einwohner": 3289,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kasererwartl",
@@ -1129,7 +1129,7 @@
     "lat": 46.8225182,
     "lon": 11.0834481,
     "einwohner": 3282,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohe Weiße/Cima Bianca Grande",
@@ -1172,7 +1172,7 @@
     "lat": 46.8979448,
     "lon": 12.0964727,
     "einwohner": 3273,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Im Hinteren Eis/Punta della Vedretta",
@@ -1183,7 +1183,7 @@
     "lat": 46.7934778,
     "lon": 10.7822244,
     "einwohner": 3269,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Vorderer Weißspitz/Cima di Sopramonte",
@@ -1194,7 +1194,7 @@
     "lat": 46.9728392,
     "lon": 11.6997684,
     "einwohner": 3269,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Madritschspitze/Cima Madriccio",
@@ -1205,7 +1205,7 @@
     "lat": 46.4915969,
     "lon": 10.6292183,
     "einwohner": 3265,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großer Raffein-Rabenspitz",
@@ -1230,7 +1230,7 @@
     "lat": 46.9575211,
     "lon": 11.7360119,
     "einwohner": 3263,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochalt/Monte Alto",
@@ -1241,7 +1241,7 @@
     "lat": 46.6989639,
     "lon": 10.7259198,
     "einwohner": 3263,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Trübwand",
@@ -1251,7 +1251,7 @@
     "lat": 46.7333821,
     "lon": 10.9944167,
     "einwohner": 3260,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schluderzahn/Dente di Sluder",
@@ -1273,7 +1273,7 @@
     "lat": 46.5440663,
     "lon": 10.8588813,
     "einwohner": 3257,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weißbrunnspitze/Cima Fontana Bianca",
@@ -1284,7 +1284,7 @@
     "lat": 46.4939772,
     "lon": 10.7740206,
     "einwohner": 3253,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hinterer Nonnenspitz/Cima di Rabbi",
@@ -1295,7 +1295,7 @@
     "lat": 46.4858633,
     "lon": 10.7519739,
     "einwohner": 3252,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Naglerspitz/Naglerspitz",
@@ -1315,7 +1315,7 @@
     "lat": 46.7280211,
     "lon": 10.984986,
     "einwohner": 3252,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Botzer/Il Capro",
@@ -1326,7 +1326,7 @@
     "lat": 46.9311224,
     "lon": 11.198011,
     "einwohner": 3251,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grawand/Croda delle Cornacchie",
@@ -1337,7 +1337,7 @@
     "lat": 46.7690657,
     "lon": 10.7996383,
     "einwohner": 3251,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Frauenköpfl",
@@ -1347,7 +1347,7 @@
     "lat": 46.8997735,
     "lon": 12.0927455,
     "einwohner": 3251,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Fernerköpfl",
@@ -1357,7 +1357,7 @@
     "lat": 46.9006062,
     "lon": 12.0889535,
     "einwohner": 3249,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Roter Kopf/Cima Rossa",
@@ -1368,7 +1368,7 @@
     "lat": 46.7976702,
     "lon": 10.6778772,
     "einwohner": 3246,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarzenbachspitz/Monte Rio Nero",
@@ -1379,7 +1379,7 @@
     "lat": 47.0056066,
     "lon": 11.8761566,
     "einwohner": 3246,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Heuflerkogel/Monte del Cumulo",
@@ -1390,7 +1390,7 @@
     "lat": 46.8149794,
     "lon": 11.0649098,
     "einwohner": 3238,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lenkstein",
@@ -1400,7 +1400,7 @@
     "lat": 46.939512,
     "lon": 12.1666389,
     "einwohner": 3236,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Vordere Karlesspitze/Cima di Càrles Meridionale",
@@ -1411,7 +1411,7 @@
     "lat": 46.8527691,
     "lon": 10.6932512,
     "einwohner": 3233,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schluderspitze/Punta di Slúder",
@@ -1422,7 +1422,7 @@
     "lat": 46.5478383,
     "lon": 10.6997123,
     "einwohner": 3230,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Eisseespitze/Punta del Lago Gelato",
@@ -1433,7 +1433,7 @@
     "lat": 46.4800848,
     "lon": 10.60904,
     "einwohner": 3230,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lodner/Cima Fiammante",
@@ -1476,7 +1476,7 @@
     "lat": 46.7905689,
     "lon": 10.7760614,
     "einwohner": 3219,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Salentspitz/Cima di Saent",
@@ -1487,7 +1487,7 @@
     "lat": 46.4815695,
     "lon": 10.7383729,
     "einwohner": 3215,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Vordere Schöntaufspitze",
@@ -1497,7 +1497,7 @@
     "lat": 46.5046966,
     "lon": 10.6194011,
     "einwohner": 3214,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Remsspitze",
@@ -1507,7 +1507,7 @@
     "lat": 46.6941966,
     "lon": 10.6771774,
     "einwohner": 3212,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wollbachspitz/Punta di Valle",
@@ -1518,7 +1518,7 @@
     "lat": 47.0500485,
     "lon": 11.9795303,
     "einwohner": 3210,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kreuzspitz",
@@ -1540,7 +1540,7 @@
     "lat": 46.6875303,
     "lon": 10.6869115,
     "einwohner": 3206,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piz Sesvenna",
@@ -1561,7 +1561,7 @@
     "lat": 46.6931319,
     "lon": 10.80201,
     "einwohner": 3203,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Graue Wand/Croda Grigia",
@@ -1572,7 +1572,7 @@
     "lat": 46.7729322,
     "lon": 10.7951456,
     "einwohner": 3202,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Nock",
@@ -1593,7 +1593,7 @@
     "lat": 46.8045368,
     "lon": 10.6613128,
     "einwohner": 3199,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hoher Rosshuf/Pie di Cavallo",
@@ -1604,7 +1604,7 @@
     "lat": 47.0586841,
     "lon": 12.2165593,
     "einwohner": 3199,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "II. Hornspitze/Corno di Ghega",
@@ -1615,7 +1615,7 @@
     "lat": 47.0016924,
     "lon": 11.8450917,
     "einwohner": 3199,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Becher/Bicchiere",
@@ -1637,7 +1637,7 @@
     "lat": 46.9655114,
     "lon": 11.2438947,
     "einwohner": 3194,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hollenzkopf",
@@ -1647,7 +1647,7 @@
     "lat": 47.0470749,
     "lon": 11.9856381,
     "einwohner": 3194,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Vordere Madatschspitze/Madaccio di fuori",
@@ -1669,7 +1669,7 @@
     "lat": 46.9336236,
     "lon": 11.2072798,
     "einwohner": 3189,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Innerer Saldurspitz/Punta Saldura di Dentro",
@@ -1680,7 +1680,7 @@
     "lat": 46.7278009,
     "lon": 10.740981,
     "einwohner": 3188,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pleresspitze/Cima di Pleres",
@@ -1691,7 +1691,7 @@
     "lat": 46.7600078,
     "lon": 10.6752531,
     "einwohner": 3188,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pederknott",
@@ -1714,7 +1714,7 @@
     "lat": 46.7137889,
     "lon": 10.7183013,
     "einwohner": 3182,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Langkofel/Sassolungo",
@@ -1749,7 +1749,7 @@
     "lat": 46.7995216,
     "lon": 10.6527936,
     "einwohner": 3176,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Malanderspitz/Malandro",
@@ -1761,7 +1761,7 @@
     "lat": 46.6851435,
     "lon": 10.8078875,
     "einwohner": 3176,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Upikopf/Monte Upi",
@@ -1772,7 +1772,7 @@
     "lat": 46.7089815,
     "lon": 10.7162634,
     "einwohner": 3175,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gfallwand/Croda del Tovale",
@@ -1806,7 +1806,7 @@
     "lat": 46.710953,
     "lon": 10.9775977,
     "einwohner": 3173,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittlerer Rosshuf",
@@ -1827,7 +1827,7 @@
     "lat": 46.893373,
     "lon": 12.0471451,
     "einwohner": 3171,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Östlicher Rosshuf",
@@ -1838,7 +1838,7 @@
     "lat": 47.0603247,
     "lon": 12.2223826,
     "einwohner": 3165,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarzwand/Croda Nera",
@@ -1883,7 +1883,7 @@
     "lat": 46.7089985,
     "lon": 10.416068,
     "einwohner": 3161,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hintere Karlesspitze",
@@ -1893,7 +1893,7 @@
     "lat": 46.857925,
     "lon": 10.693242,
     "einwohner": 3160,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Trinkerkogel",
@@ -1905,7 +1905,7 @@
     "lat": 46.812784,
     "lon": 11.0606306,
     "einwohner": 3160,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pleisshorn/Corno di Plaies",
@@ -1936,7 +1936,7 @@
     "lat": 46.9510191,
     "lon": 12.1541576,
     "einwohner": 3158,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rotebenkogel/Cima del Piano Rosso",
@@ -1947,7 +1947,7 @@
     "lat": 46.8021187,
     "lon": 10.6701582,
     "einwohner": 3157,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hinterer Gramsenspitz/Cima di Grames di Dentro",
@@ -1968,7 +1968,7 @@
     "lat": 46.9441268,
     "lon": 12.1625793,
     "einwohner": 3156,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Östliche Floitenspitze/Cima di Floite Est",
@@ -1979,7 +1979,7 @@
     "lat": 47.0230684,
     "lon": 11.9011099,
     "einwohner": 3154,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Innerer Portlesspitz",
@@ -1999,7 +1999,7 @@
     "lat": 46.5089363,
     "lon": 11.8283485,
     "einwohner": 3152,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dreischusterspitze/Punta dei Tre Scarperi",
@@ -2011,7 +2011,7 @@
     "lat": 46.6679716,
     "lon": 12.3176,
     "einwohner": 3152,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grafspitz/Cima della Grava",
@@ -2033,7 +2033,7 @@
     "lat": 46.9930062,
     "lon": 11.8361981,
     "einwohner": 3148,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großer Rotstein",
@@ -2043,7 +2043,7 @@
     "lat": 46.9531753,
     "lon": 12.1477712,
     "einwohner": 3147,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schönblickkopf",
@@ -2076,7 +2076,7 @@
     "lat": 46.875489,
     "lon": 10.6673729,
     "einwohner": 3144,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hennesiglspitz/Punta della Gallina",
@@ -2087,7 +2087,7 @@
     "lat": 46.8754934,
     "lon": 10.6673837,
     "einwohner": 3144,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großer Rauchkofel",
@@ -2097,7 +2097,7 @@
     "lat": 46.8925886,
     "lon": 12.0424542,
     "einwohner": 3143,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Westlicher Rosshuf",
@@ -2120,7 +2120,7 @@
     "lat": 46.6340637,
     "lon": 12.1446665,
     "einwohner": 3140,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Taitschroi/Cima Tedesca",
@@ -2131,7 +2131,7 @@
     "lat": 46.5725187,
     "lon": 10.6545797,
     "einwohner": 3138,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleines Hasenohr",
@@ -2152,7 +2152,7 @@
     "lat": 46.7044504,
     "lon": 10.8055092,
     "einwohner": 3136,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Scheiberkogel/Cima Rocciosa",
@@ -2163,7 +2163,7 @@
     "lat": 46.8081017,
     "lon": 11.0569733,
     "einwohner": 3135,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Durreck/Cima Dura",
@@ -2174,7 +2174,7 @@
     "lat": 46.9611127,
     "lon": 12.0290289,
     "einwohner": 3135,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wasserkopf/Cima dell'Acqua",
@@ -2185,7 +2185,7 @@
     "lat": 46.8932496,
     "lon": 12.0541951,
     "einwohner": 3135,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wilde Kreuzspitze/Picco della Croce",
@@ -2206,7 +2206,7 @@
     "lat": 46.7051442,
     "lon": 10.4088982,
     "einwohner": 3134,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Litznerkopf",
@@ -2227,7 +2227,7 @@
     "lat": 46.93685,
     "lon": 11.1865606,
     "einwohner": 3133,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hoher Wiegenspitz/Cima Culla",
@@ -2250,7 +2250,7 @@
     "lat": 46.5504076,
     "lon": 10.6048,
     "einwohner": 3128,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tabarettaspitze/Punta Tabaretta",
@@ -2261,7 +2261,7 @@
     "lat": 46.5252842,
     "lon": 10.5423681,
     "einwohner": 3128,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gamstod (Hohe Warte)",
@@ -2275,7 +2275,7 @@
     "lat": 47.0589149,
     "lon": 12.2076803,
     "einwohner": 3127,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gelttalspitze/Cima Valfredda",
@@ -2286,7 +2286,7 @@
     "lat": 46.8966304,
     "lon": 12.0830935,
     "einwohner": 3126,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wilde Kreuzspitze Südgipfel/Picco della Croce Cima Sud",
@@ -2330,7 +2330,7 @@
     "lat": 46.9332535,
     "lon": 12.1678279,
     "einwohner": 3123,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Östlicher Hennesiglkopf/Croda Est della Gallina",
@@ -2341,7 +2341,7 @@
     "lat": 46.8721186,
     "lon": 10.6603251,
     "einwohner": 3116,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grohmannspitze/Punta Grohmann",
@@ -2354,7 +2354,7 @@
     "lat": 46.5106,
     "lon": 11.732966,
     "einwohner": 3114,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pederfick/Pietrafitta",
@@ -2365,7 +2365,7 @@
     "lat": 46.5672842,
     "lon": 10.6037168,
     "einwohner": 3114,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hofmannspitze/Cima Piccola",
@@ -2376,7 +2376,7 @@
     "lat": 46.9427241,
     "lon": 11.1746937,
     "einwohner": 3113,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Flimkanzel/Pulpito di Flim",
@@ -2408,7 +2408,7 @@
     "lat": 46.779997,
     "lon": 10.6344177,
     "einwohner": 3110,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zerminiger/Cima Cermigna",
@@ -2419,7 +2419,7 @@
     "lat": 46.6700622,
     "lon": 10.8179158,
     "einwohner": 3110,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarze Wand/Croda Nera",
@@ -2430,7 +2430,7 @@
     "lat": 46.8856444,
     "lon": 12.0658531,
     "einwohner": 3105,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleineiskogel/Cima della Vedretta Piccola",
@@ -2463,7 +2463,7 @@
     "lat": 46.531501,
     "lon": 10.8285663,
     "einwohner": 3097,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Valtlswarter",
@@ -2495,7 +2495,7 @@
     "lat": 47.0334303,
     "lon": 11.9469105,
     "einwohner": 3093,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wesselyturm/Il Gran Campanile",
@@ -2519,7 +2519,7 @@
     "lat": 46.868265,
     "lon": 10.682063,
     "einwohner": 3092,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lengspitz/Pizzo Lungo",
@@ -2530,7 +2530,7 @@
     "lat": 47.0157137,
     "lon": 12.1310303,
     "einwohner": 3090,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Merbspitz/Punta Merbe",
@@ -2541,7 +2541,7 @@
     "lat": 47.0249,
     "lon": 12.1474117,
     "einwohner": 3090,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Elferkofel/Cima Undici",
@@ -2552,7 +2552,7 @@
     "lat": 46.6360396,
     "lon": 12.3787741,
     "einwohner": 3090,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sattelnock/Cima di Sella",
@@ -2574,7 +2574,7 @@
     "lat": 46.9144263,
     "lon": 12.1325056,
     "einwohner": 3084,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Alprechtspitz/Punta di Alpre",
@@ -2586,7 +2586,7 @@
     "lat": 47.008434,
     "lon": 12.12316,
     "einwohner": 3083,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Patscher Schneid",
@@ -2596,7 +2596,7 @@
     "lat": 46.9239667,
     "lon": 12.1576841,
     "einwohner": 3082,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Madatschknott/Montaccio",
@@ -2662,7 +2662,7 @@
     "lat": 47.0057364,
     "lon": 12.1212338,
     "einwohner": 3076,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rocholspitz",
@@ -2683,7 +2683,7 @@
     "lat": 46.9727486,
     "lon": 11.7643402,
     "einwohner": 3076,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleiner Schuster/Punta Piccola degli Scarperi",
@@ -2706,7 +2706,7 @@
     "lat": 46.7444225,
     "lon": 10.647688,
     "einwohner": 3074,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Morgenkofel/Cima Mattina",
@@ -2717,7 +2717,7 @@
     "lat": 46.8878592,
     "lon": 12.0576126,
     "einwohner": 3073,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tre Cannoni",
@@ -2738,7 +2738,7 @@
     "lat": 46.9508333,
     "lon": 11.7197676,
     "einwohner": 3068,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tiergartenspitze/Monte del Parco",
@@ -2749,7 +2749,7 @@
     "lat": 46.8107022,
     "lon": 10.6402594,
     "einwohner": 3068,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Naßwandegg",
@@ -2769,7 +2769,7 @@
     "lat": 46.9807124,
     "lon": 11.7842563,
     "einwohner": 3066,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gamsspitze/Punta dei Camosci",
@@ -2780,7 +2780,7 @@
     "lat": 46.8021893,
     "lon": 10.6479245,
     "einwohner": 3066,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Cunturines-Spitze/Piz dles Cunturines",
@@ -2793,7 +2793,7 @@
     "lat": 46.575705,
     "lon": 11.9777711,
     "einwohner": 3064,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Penaudspitz",
@@ -2835,7 +2835,7 @@
     "lat": 46.6605191,
     "lon": 10.39256,
     "einwohner": 3062,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kalfanwand/Croda della Calva",
@@ -2857,7 +2857,7 @@
     "lat": 46.9508105,
     "lon": 12.0225521,
     "einwohner": 3059,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grabspitz/Cima Grava",
@@ -2868,7 +2868,7 @@
     "lat": 46.9389756,
     "lon": 11.6145219,
     "einwohner": 3059,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hinterer Kitzkogel",
@@ -2920,7 +2920,7 @@
     "lat": 46.5851256,
     "lon": 11.9711128,
     "einwohner": 3055,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kirchbachspitze/Croda del Clivio",
@@ -2933,7 +2933,7 @@
     "lat": 46.6889613,
     "lon": 10.9944706,
     "einwohner": 3053,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kreuzspitz",
@@ -2957,7 +2957,7 @@
     "lat": 47.0478535,
     "lon": 12.2169702,
     "einwohner": 3051,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Königskogel/Monte Re",
@@ -2969,7 +2969,7 @@
     "lat": 46.8580817,
     "lon": 11.0730491,
     "einwohner": 3050,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleiner Löffler/Punta Cucchiaio Piccolo",
@@ -2981,7 +2981,7 @@
     "lat": 47.0236792,
     "lon": 12.1736012,
     "einwohner": 3050,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Edelrautenkopf",
@@ -3011,7 +3011,7 @@
     "lat": 46.9564822,
     "lon": 12.1381436,
     "einwohner": 3048,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weißseekopf",
@@ -3032,7 +3032,7 @@
     "lat": 46.6273415,
     "lon": 12.3897446,
     "einwohner": 3046,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Adlerkopf",
@@ -3053,7 +3053,7 @@
     "lat": 46.9503378,
     "lon": 11.7139692,
     "einwohner": 3045,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rotspitz/Croda Rossa",
@@ -3075,7 +3075,7 @@
     "lat": 46.8897503,
     "lon": 12.0169574,
     "einwohner": 3041,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Haupenhöhe",
@@ -3085,7 +3085,7 @@
     "lat": 46.9932502,
     "lon": 11.7113913,
     "einwohner": 3041,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schlanderser Schafkopf/Monte delle Pecore",
@@ -3108,7 +3108,7 @@
     "lat": 46.7233875,
     "lon": 11.0490698,
     "einwohner": 3038,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Spitzat",
@@ -3162,7 +3162,7 @@
     "lat": 47.0416172,
     "lon": 12.2124302,
     "einwohner": 3035,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ebener First",
@@ -3204,7 +3204,7 @@
     "lat": 46.9640751,
     "lon": 12.1310686,
     "einwohner": 3031,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Soyspitz/Cima di Soi",
@@ -3226,7 +3226,7 @@
     "lat": 46.6993951,
     "lon": 10.4134507,
     "einwohner": 3027,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zehner Spitze/Cima Dieci",
@@ -3238,7 +3238,7 @@
     "lat": 46.6223325,
     "lon": 11.9608891,
     "einwohner": 3026,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Blaue Schneid/Cresta Azzurra",
@@ -3249,7 +3249,7 @@
     "lat": 46.5514832,
     "lon": 10.8620832,
     "einwohner": 3026,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sass Rigais/Sass Rigais",
@@ -3260,7 +3260,7 @@
     "lat": 46.6092876,
     "lon": 11.7668196,
     "einwohner": 3025,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Furchetta/Furchetta",
@@ -3271,7 +3271,7 @@
     "lat": 46.6121209,
     "lon": 11.7736385,
     "einwohner": 3025,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Filtuidenkopf",
@@ -3303,7 +3303,7 @@
     "lat": 46.913973,
     "lon": 11.6377879,
     "einwohner": 3022,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großschrottner",
@@ -3323,7 +3323,7 @@
     "lat": 46.8661462,
     "lon": 10.6504159,
     "einwohner": 3021,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pockshorn",
@@ -3333,7 +3333,7 @@
     "lat": 46.9534527,
     "lon": 11.723994,
     "einwohner": 3021,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Berglspitz/Punta del Monte",
@@ -3345,7 +3345,7 @@
     "lat": 46.7113891,
     "lon": 10.7851214,
     "einwohner": 3019,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weißwandspitze/Parete Bianca",
@@ -3356,7 +3356,7 @@
     "lat": 46.9835433,
     "lon": 11.3003047,
     "einwohner": 3016,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarze Wand/Croda Nera",
@@ -3378,7 +3378,7 @@
     "lat": 46.6441871,
     "lon": 12.1340905,
     "einwohner": 3015,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleiner Gamstod",
@@ -3412,7 +3412,7 @@
     "lat": 46.972495,
     "lon": 12.0470063,
     "einwohner": 3010,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Nockspitz/Cima del Dosso",
@@ -3423,7 +3423,7 @@
     "lat": 46.8432485,
     "lon": 10.684324,
     "einwohner": 3009,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Eisseespitze/Piz Lago Gelato",
@@ -3435,7 +3435,7 @@
     "lat": 46.5142596,
     "lon": 11.8327407,
     "einwohner": 3009,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zielspitze/Cima di Tel",
@@ -3446,7 +3446,7 @@
     "lat": 46.69272,
     "lon": 11.0131649,
     "einwohner": 3008,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittlere Ohrenspitze",
@@ -3456,7 +3456,7 @@
     "lat": 46.910136,
     "lon": 12.1697309,
     "einwohner": 3005,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kemater Spitz/Punta Caminata",
@@ -3467,7 +3467,7 @@
     "lat": 47.0254659,
     "lon": 12.1800895,
     "einwohner": 3005,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kesselkogel/Catinaccio d'Antermoia",
@@ -3489,7 +3489,7 @@
     "lat": 46.5622664,
     "lon": 10.4749463,
     "einwohner": 3004,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schnalsberg",
@@ -3510,7 +3510,7 @@
     "lat": 46.568244,
     "lon": 10.5985153,
     "einwohner": 3003,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarzkopf/Cima Nera",
@@ -3521,7 +3521,7 @@
     "lat": 46.8129803,
     "lon": 10.6359477,
     "einwohner": 3002,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zahnkofel/Dente",
@@ -3534,7 +3534,7 @@
     "lat": 46.5102337,
     "lon": 11.7258972,
     "einwohner": 3000,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tschigat/Gigot",
@@ -3558,7 +3558,7 @@
     "lat": 47.0053983,
     "lon": 11.5899138,
     "einwohner": 2999,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleinschotterer",
@@ -3613,7 +3613,7 @@
     "lat": 46.906951,
     "lon": 11.5835828,
     "einwohner": 2989,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarzseespitze/Cima del Lago Nero",
@@ -3624,7 +3624,7 @@
     "lat": 46.9142024,
     "lon": 11.2005919,
     "einwohner": 2988,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Blickenspitz/Cima Vista",
@@ -3635,7 +3635,7 @@
     "lat": 46.9077781,
     "lon": 11.6029062,
     "einwohner": 2988,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grawand",
@@ -3660,7 +3660,7 @@
     "lat": 46.5314922,
     "lon": 11.8248248,
     "einwohner": 2985,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarze Wand/Croda Nera",
@@ -3671,7 +3671,7 @@
     "lat": 46.6858935,
     "lon": 10.845049,
     "einwohner": 2984,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleine Windschar/Piccola Cima del Vento",
@@ -3682,7 +3682,7 @@
     "lat": 46.8905983,
     "lon": 12.0097872,
     "einwohner": 2981,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rosengartenspitze/Cima Catinaccio",
@@ -3704,7 +3704,7 @@
     "lat": 47.0036379,
     "lon": 12.1206329,
     "einwohner": 2980,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Oberer Wiegenspitz/Cima Culla Alta",
@@ -3781,7 +3781,7 @@
     "lat": 46.971135,
     "lon": 11.8143763,
     "einwohner": 2973,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Westliche Zinne/Cima Ovest",
@@ -3793,7 +3793,7 @@
     "lat": 46.6187691,
     "lon": 12.2972332,
     "einwohner": 2973,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittagskofel/Cima di Mezzodi",
@@ -3829,7 +3829,7 @@
     "lat": 46.9159381,
     "lon": 11.109158,
     "einwohner": 2969,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Neuner (Spitze)/Cima Nove (Sasso delle Nove)",
@@ -3842,7 +3842,7 @@
     "lat": 46.6303454,
     "lon": 11.9810725,
     "einwohner": 2968,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohe Wand",
@@ -3875,7 +3875,7 @@
     "lat": 46.6086034,
     "lon": 11.7764016,
     "einwohner": 2967,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Haunold/Rocca dei Baranci",
@@ -3888,7 +3888,7 @@
     "lat": 46.6887473,
     "lon": 12.2778058,
     "einwohner": 2966,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Östlicher Gerstgraserspitz/Punta di Cortiserrade Est",
@@ -3899,7 +3899,7 @@
     "lat": 46.7081365,
     "lon": 10.8111601,
     "einwohner": 2966,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schneeberger Weißen/Rocce Bianche di Montenevoso",
@@ -3910,7 +3910,7 @@
     "lat": 46.9089789,
     "lon": 11.1808515,
     "einwohner": 2965,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sextener Rotwand/Croda Rossa di Sesto",
@@ -3923,7 +3923,7 @@
     "lat": 46.6438343,
     "lon": 12.3816873,
     "einwohner": 2965,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gfallenspitz/Punta del Cavallo",
@@ -3944,7 +3944,7 @@
     "lat": 46.5236057,
     "lon": 11.7954081,
     "einwohner": 2964,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Jennwand/Croda Jenne",
@@ -3955,7 +3955,7 @@
     "lat": 46.5747589,
     "lon": 10.7193737,
     "einwohner": 2962,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Bech de Mesdi",
@@ -3975,7 +3975,7 @@
     "lat": 46.9709887,
     "lon": 12.1360034,
     "einwohner": 2961,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großer Tartscher Kopf/Monte di Tarres",
@@ -3997,7 +3997,7 @@
     "lat": 46.9606249,
     "lon": 12.125228,
     "einwohner": 2960,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Getristeter Stein/Monte Rotto",
@@ -4052,7 +4052,7 @@
     "lat": 46.6571141,
     "lon": 12.3165155,
     "einwohner": 2956,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohlkogel",
@@ -4073,7 +4073,7 @@
     "lat": 46.6776361,
     "lon": 10.7240607,
     "einwohner": 2955,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zerzer Köpfl/Cima di Zerzer",
@@ -4095,7 +4095,7 @@
     "lat": 47.0801627,
     "lon": 12.2279368,
     "einwohner": 2954,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Fernerspitz/Punta della Vederetta",
@@ -4107,7 +4107,7 @@
     "lat": 46.7191543,
     "lon": 10.4188124,
     "einwohner": 2954,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piz Parom",
@@ -4128,7 +4128,7 @@
     "lat": 46.6776687,
     "lon": 10.6599769,
     "einwohner": 2950,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Saßenegg",
@@ -4138,7 +4138,7 @@
     "lat": 46.9645118,
     "lon": 12.1205056,
     "einwohner": 2950,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rotes Beil/Punta Rossa",
@@ -4149,7 +4149,7 @@
     "lat": 46.9527868,
     "lon": 11.6607253,
     "einwohner": 2949,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schadler",
@@ -4159,7 +4159,7 @@
     "lat": 46.7273565,
     "lon": 10.4095073,
     "einwohner": 2948,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Valdaschlikopf/Costeras",
@@ -4181,7 +4181,7 @@
     "lat": 46.9074703,
     "lon": 11.5716661,
     "einwohner": 2943,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mutspitze/Monte Muta",
@@ -4192,7 +4192,7 @@
     "lat": 46.4793569,
     "lon": 10.6534666,
     "einwohner": 2943,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Odla de Valdusa",
@@ -4213,7 +4213,7 @@
     "lat": 46.7478162,
     "lon": 10.4474659,
     "einwohner": 2941,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piz Sëlva",
@@ -4254,7 +4254,7 @@
     "lat": 46.9069037,
     "lon": 12.1624897,
     "einwohner": 2938,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Riesernock",
@@ -4264,7 +4264,7 @@
     "lat": 46.9297221,
     "lon": 12.1317679,
     "einwohner": 2937,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sextener Rotwand Gipfelkreuz",
@@ -4287,7 +4287,7 @@
     "lat": 46.9758082,
     "lon": 11.813884,
     "einwohner": 2936,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sas da Lech",
@@ -4297,7 +4297,7 @@
     "lat": 46.5341442,
     "lon": 11.8165115,
     "einwohner": 2936,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Salzkopfl",
@@ -4307,7 +4307,7 @@
     "lat": 46.9607655,
     "lon": 11.7494535,
     "einwohner": 2935,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Karspitz/Punta Quaira",
@@ -4329,7 +4329,7 @@
     "lat": 46.949872,
     "lon": 11.6882213,
     "einwohner": 2930,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gruberspitze",
@@ -4360,7 +4360,7 @@
     "lat": 46.6592446,
     "lon": 10.8697752,
     "einwohner": 2929,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piz dles Döes Forceles",
@@ -4435,7 +4435,7 @@
     "lat": 46.9030568,
     "lon": 11.6420426,
     "einwohner": 2926,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lorenzenspitz/Punta San Lorenzo",
@@ -4457,7 +4457,7 @@
     "lat": 47.0044951,
     "lon": 12.1063657,
     "einwohner": 2925,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wasserkofel/Furchetta Grande",
@@ -4480,7 +4480,7 @@
     "lat": 46.9840855,
     "lon": 11.3079076,
     "einwohner": 2924,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gamsturm/Torre del Camosci",
@@ -4502,7 +4502,7 @@
     "lat": 46.8372666,
     "lon": 10.5461739,
     "einwohner": 2922,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Birkenkofel/Croda dei Baranci",
@@ -4513,7 +4513,7 @@
     "lat": 46.6819312,
     "lon": 12.2560112,
     "einwohner": 2922,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Nashornspitze/Corno del naso",
@@ -4592,7 +4592,7 @@
     "lat": 46.5274762,
     "lon": 11.8410926,
     "einwohner": 2913,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Östliche Puezspitze/Piz de Puez",
@@ -4604,7 +4604,7 @@
     "lat": 46.5979627,
     "lon": 11.8138121,
     "einwohner": 2913,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Klockerkarkopf/Vetta d'Italia",
@@ -4619,7 +4619,7 @@
     "lat": 47.0911694,
     "lon": 12.1805738,
     "einwohner": 2912,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Katzenkofel/Cima del Gatto",
@@ -4630,7 +4630,7 @@
     "lat": 46.9796619,
     "lon": 12.0594958,
     "einwohner": 2912,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wilder Hut/Monte Capello",
@@ -4652,7 +4652,7 @@
     "lat": 46.5624862,
     "lon": 12.0250756,
     "einwohner": 2911,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Innerer Speikkofel",
@@ -4662,7 +4662,7 @@
     "lat": 47.0210841,
     "lon": 11.9200054,
     "einwohner": 2910,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Obwasserer",
@@ -4672,7 +4672,7 @@
     "lat": 47.0271493,
     "lon": 11.9497333,
     "einwohner": 2910,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piza de Campestrin Sud/Cima Campestrin Sud",
@@ -4694,7 +4694,7 @@
     "lat": 46.7618951,
     "lon": 10.6023765,
     "einwohner": 2909,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piz Urtiola",
@@ -4705,7 +4705,7 @@
     "lat": 46.6384687,
     "lon": 10.3999803,
     "einwohner": 2909,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piz Duleda",
@@ -4716,7 +4716,7 @@
     "lat": 46.6004309,
     "lon": 11.7965723,
     "einwohner": 2909,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Vorderes Schöneck/Dossobello di Fuori",
@@ -4740,7 +4740,7 @@
     "lat": 46.6144819,
     "lon": 11.951485,
     "einwohner": 2907,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Haunold Ostgipfel/Rocca dei Baranci Cima Est",
@@ -4752,7 +4752,7 @@
     "lat": 46.6897924,
     "lon": 12.2815974,
     "einwohner": 2907,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Altensteinspitzen/Punte Sassovecchio",
@@ -4788,7 +4788,7 @@
     "lat": 46.5225247,
     "lon": 11.8360844,
     "einwohner": 2904,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wölfeleskopf/Cima del Lupo",
@@ -4810,7 +4810,7 @@
     "lat": 46.7741829,
     "lon": 10.5876517,
     "einwohner": 2903,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Fallaschkopf/Cima di Vallazza",
@@ -4843,7 +4843,7 @@
     "lat": 46.6665677,
     "lon": 10.8874738,
     "einwohner": 2899,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Haunold Westgipfel/Rocca dei Baranci Cima Ovest",
@@ -4855,7 +4855,7 @@
     "lat": 46.6889789,
     "lon": 12.274752,
     "einwohner": 2897,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grionkopf/Cima di Grion",
@@ -4867,7 +4867,7 @@
     "lat": 46.7671306,
     "lon": 10.4417634,
     "einwohner": 2896,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mont Ciase/Monte Casale",
@@ -4878,7 +4878,7 @@
     "lat": 46.5637266,
     "lon": 12.0276972,
     "einwohner": 2894,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rosskopf/Monte Cavallo",
@@ -4889,7 +4889,7 @@
     "lat": 46.6655263,
     "lon": 10.8241556,
     "einwohner": 2894,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wagnerschneid Spitz/Cima Triangolo",
@@ -4900,7 +4900,7 @@
     "lat": 47.0585216,
     "lon": 12.0595056,
     "einwohner": 2893,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mataunkopf/Cima Mataun",
@@ -4911,7 +4911,7 @@
     "lat": 46.8478404,
     "lon": 10.5810567,
     "einwohner": 2892,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dreiecker/Cima di Campo",
@@ -4925,7 +4925,7 @@
     "lat": 47.0806698,
     "lon": 12.1360244,
     "einwohner": 2892,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rainhart Spitz/Monte Riva di Predoi",
@@ -4989,7 +4989,7 @@
     "lat": 46.7359414,
     "lon": 10.886201,
     "einwohner": 2889,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleine Sass Rigais/Piccola Sass Rigais",
@@ -5011,7 +5011,7 @@
     "lat": 46.9210334,
     "lon": 12.059081,
     "einwohner": 2888,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Napfspitz/Cima Cadini",
@@ -5023,7 +5023,7 @@
     "lat": 46.9401672,
     "lon": 11.739947,
     "einwohner": 2888,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schranspitze/Cima Serana",
@@ -5055,7 +5055,7 @@
     "lat": 47.0560579,
     "lon": 12.2051948,
     "einwohner": 2883,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gelenknock",
@@ -5065,7 +5065,7 @@
     "lat": 46.9800736,
     "lon": 11.840777,
     "einwohner": 2882,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Torre Pisciadù",
@@ -5086,7 +5086,7 @@
     "lat": 46.5288719,
     "lon": 11.8297753,
     "einwohner": 2881,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Breiter Kopf",
@@ -5096,7 +5096,7 @@
     "lat": 46.9963091,
     "lon": 11.8504163,
     "einwohner": 2880,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wiener Turm/Torre dei Viennesi",
@@ -5118,7 +5118,7 @@
     "lat": 46.685346,
     "lon": 10.4291483,
     "einwohner": 2879,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rötenspitz/Punta Rossa",
@@ -5131,7 +5131,7 @@
     "lat": 46.7522336,
     "lon": 11.1039315,
     "einwohner": 2878,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Föllakopf/Cima Fölla",
@@ -5189,7 +5189,7 @@
     "lat": 46.5528771,
     "lon": 12.0100098,
     "einwohner": 2874,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rote Riffl/Scoglio Rosso",
@@ -5200,7 +5200,7 @@
     "lat": 46.9240266,
     "lon": 11.740445,
     "einwohner": 2874,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Große Fermeda/Grande Fermeda",
@@ -5212,7 +5212,7 @@
     "lat": 46.602606,
     "lon": 11.7514828,
     "einwohner": 2873,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Torre Guerra",
@@ -5233,7 +5233,7 @@
     "lat": 46.8863011,
     "lon": 11.7889081,
     "einwohner": 2872,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Vermungkopf",
@@ -5264,7 +5264,7 @@
     "lat": 46.966357,
     "lon": 11.8075268,
     "einwohner": 2869,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwalbenkofel/Croda dei Rondoi",
@@ -5277,7 +5277,7 @@
     "lat": 46.6511534,
     "lon": 12.271013,
     "einwohner": 2869,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kolbenspitze/La Clava",
@@ -5290,7 +5290,7 @@
     "lat": 46.772587,
     "lon": 11.1474116,
     "einwohner": 2868,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Aussere Hocheck/Monte Alto",
@@ -5389,7 +5389,7 @@
     "lat": 46.9420473,
     "lon": 11.7429882,
     "einwohner": 2862,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Steinschlagspitze/Punta delle Frane",
@@ -5400,7 +5400,7 @@
     "lat": 46.7728234,
     "lon": 10.7700677,
     "einwohner": 2861,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Seebodenspitz/Cima Pian del Lago",
@@ -5423,7 +5423,7 @@
     "lat": 46.6847052,
     "lon": 12.2738581,
     "einwohner": 2860,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Bärenköpf/Monte dell'Orso",
@@ -5435,7 +5435,7 @@
     "lat": 46.5402707,
     "lon": 10.5416316,
     "einwohner": 2859,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mitterebenkofel/Cima Piatta di Mezzo",
@@ -5469,7 +5469,7 @@
     "lat": 47.0732269,
     "lon": 12.1189224,
     "einwohner": 2857,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleine Zinne/Cima Piccola",
@@ -5481,7 +5481,7 @@
     "lat": 46.619391,
     "lon": 12.3061256,
     "einwohner": 2857,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sattel/Monte dell'Argento",
@@ -5524,7 +5524,7 @@
     "lat": 46.7868853,
     "lon": 10.4234639,
     "einwohner": 2853,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sefiarspitz/Monte Tavolino",
@@ -5576,7 +5576,7 @@
     "lat": 46.946029,
     "lon": 11.6300002,
     "einwohner": 2849,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schartbichl",
@@ -5617,7 +5617,7 @@
     "lat": 46.5894966,
     "lon": 10.4879947,
     "einwohner": 2848,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zwilcher",
@@ -5627,7 +5627,7 @@
     "lat": 46.9981627,
     "lon": 11.880748,
     "einwohner": 2846,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schafschneide",
@@ -5649,7 +5649,7 @@
     "lat": 47.0910574,
     "lon": 12.1899537,
     "einwohner": 2843,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Innere Hohe Warte (Sauspitze)",
@@ -5675,7 +5675,7 @@
     "lat": 46.5308517,
     "lon": 10.4530555,
     "einwohner": 2843,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dürrenstein/Picco di Vallandro",
@@ -5686,7 +5686,7 @@
     "lat": 46.6725105,
     "lon": 12.1855479,
     "einwohner": 2839,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rosskopf",
@@ -5739,7 +5739,7 @@
     "lat": 47.0921479,
     "lon": 12.1859692,
     "einwohner": 2837,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Salamiturm/Il Salame",
@@ -5842,7 +5842,7 @@
     "lat": 46.6037551,
     "lon": 11.7557292,
     "einwohner": 2832,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Nördliche Seeböbenspitze/Cima Pian del Lago Nord",
@@ -5893,7 +5893,7 @@
     "lat": 46.5115936,
     "lon": 11.7849039,
     "einwohner": 2828,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohentrog",
@@ -5956,7 +5956,7 @@
     "lat": 46.4779649,
     "lon": 11.6351878,
     "einwohner": 2822,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ratschinger Weißen/La Bianca",
@@ -6011,7 +6011,7 @@
     "lat": 46.9591349,
     "lon": 12.0093638,
     "einwohner": 2819,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rote Wand/Croda Rossa",
@@ -6022,7 +6022,7 @@
     "lat": 46.8646289,
     "lon": 12.1795325,
     "einwohner": 2818,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleine Kolbenspitze/La Piccola Clava",
@@ -6033,7 +6033,7 @@
     "lat": 46.7762257,
     "lon": 11.1535085,
     "einwohner": 2818,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großer Rautkofel/Monte Rudo Grande",
@@ -6044,7 +6044,7 @@
     "lat": 46.6477078,
     "lon": 12.2688534,
     "einwohner": 2818,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großes Mandl",
@@ -6054,7 +6054,7 @@
     "lat": 46.9027745,
     "lon": 12.1911039,
     "einwohner": 2818,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gamper Schartl",
@@ -6107,7 +6107,7 @@
     "lat": 46.7843439,
     "lon": 10.5896596,
     "einwohner": 2817,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Engberg/Monte Stretto",
@@ -6161,7 +6161,7 @@
     "lat": 46.6024431,
     "lon": 11.7500043,
     "einwohner": 2814,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Seeberkopf",
@@ -6204,7 +6204,7 @@
     "lat": 46.4586897,
     "lon": 11.6182735,
     "einwohner": 2813,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Seekogel/Cima del Lago",
@@ -6239,7 +6239,7 @@
     "lat": 46.4323856,
     "lon": 11.6173091,
     "einwohner": 2810,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Nordturm/Torre Nord",
@@ -6261,7 +6261,7 @@
     "lat": 46.8825081,
     "lon": 11.7697254,
     "einwohner": 2809,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Moarerspitz/Punta del Massaro",
@@ -6326,7 +6326,7 @@
     "lat": 46.5359906,
     "lon": 10.7189504,
     "einwohner": 2803,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sechste Kohlalpenspitze/Sesta Cima Pra Brusa",
@@ -6349,7 +6349,7 @@
     "lat": 46.83028,
     "lon": 10.45719,
     "einwohner": 2802,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Brunnaleitnspitz",
@@ -6359,7 +6359,7 @@
     "lat": 46.9557687,
     "lon": 12.1164394,
     "einwohner": 2802,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleiner Valbonkogel/Cima Piccola di Valbona",
@@ -6381,7 +6381,7 @@
     "lat": 46.3825989,
     "lon": 11.5839568,
     "einwohner": 2801,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rollspitze/Cima Rolle",
@@ -6405,7 +6405,7 @@
     "lat": 46.9847608,
     "lon": 11.8397111,
     "einwohner": 2800,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Villnößer Geisel/Odla di Funes",
@@ -6471,7 +6471,7 @@
     "lat": 46.3719114,
     "lon": 11.5567916,
     "einwohner": 2799,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochleitner/Punta Alta",
@@ -6483,7 +6483,7 @@
     "lat": 46.5463191,
     "lon": 10.5394156,
     "einwohner": 2798,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Winkeljochspitz",
@@ -6546,7 +6546,7 @@
     "lat": 46.9884466,
     "lon": 11.330428,
     "einwohner": 2795,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dürrenstein Nordostgipfel/Picco di Vallandro Cima Nord-Est",
@@ -6633,7 +6633,7 @@
     "lat": 46.9978806,
     "lon": 12.1263582,
     "einwohner": 2790,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Delagoturm/Torre Delag",
@@ -6687,7 +6687,7 @@
     "lat": 46.9260047,
     "lon": 11.6230038,
     "einwohner": 2787,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Eisbruggspitz/Cima Ponte di Ghiaccio",
@@ -6709,7 +6709,7 @@
     "lat": 46.6719744,
     "lon": 12.0185456,
     "einwohner": 2787,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Vierte Kohlalpenspitze/Quarta Cima Pra Brusa",
@@ -6786,7 +6786,7 @@
     "lat": 46.7799108,
     "lon": 10.481654,
     "einwohner": 2783,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Graue Wand/Croda Grigia",
@@ -6861,7 +6861,7 @@
     "lat": 46.5742321,
     "lon": 10.7462015,
     "einwohner": 2778,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochsäge",
@@ -6915,7 +6915,7 @@
     "lat": 46.5464577,
     "lon": 10.7271386,
     "einwohner": 2777,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hoacher Facknzond",
@@ -6947,7 +6947,7 @@
     "lat": 46.6683168,
     "lon": 10.8648794,
     "einwohner": 2775,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittlerer Rautkofel/Monte Rudo di Mezzo",
@@ -6979,7 +6979,7 @@
     "lat": 46.9841927,
     "lon": 11.5377973,
     "einwohner": 2774,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Riepenspitze",
@@ -6989,7 +6989,7 @@
     "lat": 46.8477231,
     "lon": 12.2967059,
     "einwohner": 2774,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schüttalkopf/Punta Val di Frane",
@@ -7001,7 +7001,7 @@
     "lat": 47.0792788,
     "lon": 12.1515446,
     "einwohner": 2773,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Langlahnspitze/Punta Lavina Lunga",
@@ -7024,7 +7024,7 @@
     "lat": 46.8245386,
     "lon": 10.4604122,
     "einwohner": 2772,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schöntaufwand/Croda del Beltovo",
@@ -7046,7 +7046,7 @@
     "lat": 46.6549144,
     "lon": 12.2686197,
     "einwohner": 2769,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pletzenspitz",
@@ -7077,7 +7077,7 @@
     "lat": 46.7958151,
     "lon": 10.4407494,
     "einwohner": 2768,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rübespitz/Cima Riva",
@@ -7088,7 +7088,7 @@
     "lat": 46.9376826,
     "lon": 11.5992917,
     "einwohner": 2766,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Langjochspitz",
@@ -7109,7 +7109,7 @@
     "lat": 46.9937624,
     "lon": 11.8818811,
     "einwohner": 2764,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Höllsteinspitz/Pietraforata",
@@ -7131,7 +7131,7 @@
     "lat": 46.6151164,
     "lon": 10.4922941,
     "einwohner": 2763,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grinolspitze/La Testa del Lago",
@@ -7187,7 +7187,7 @@
     "lat": 46.9417773,
     "lon": 11.7096218,
     "einwohner": 2761,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dritte Kohlalpenspitze/Terza Cima Pra Brusa",
@@ -7250,7 +7250,7 @@
     "lat": 46.3835955,
     "lon": 11.5885432,
     "einwohner": 2757,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleiner Grubbachspitz/Rocca dei Camosci",
@@ -7261,7 +7261,7 @@
     "lat": 46.8802132,
     "lon": 11.7699427,
     "einwohner": 2756,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sandturm/Cima della Rena",
@@ -7305,7 +7305,7 @@
     "lat": 46.4392927,
     "lon": 10.8520996,
     "einwohner": 2752,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Cima di Valsorda",
@@ -7369,7 +7369,7 @@
     "lat": 46.3787665,
     "lon": 11.5622885,
     "einwohner": 2749,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Altensteinplatte/Lastron di Sassovecchio",
@@ -7426,7 +7426,7 @@
     "lat": 46.5843985,
     "lon": 11.7828613,
     "einwohner": 2747,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Regelspitze/Monte Regola",
@@ -7437,7 +7437,7 @@
     "lat": 46.856158,
     "lon": 12.200418,
     "einwohner": 2747,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Unterer Wiegenspitz/Cima Culla Piccola",
@@ -7472,7 +7472,7 @@
     "lat": 46.6304112,
     "lon": 12.3151777,
     "einwohner": 2744,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarze Riffl/Scoglio Nero",
@@ -7483,7 +7483,7 @@
     "lat": 46.9181104,
     "lon": 11.7383904,
     "einwohner": 2744,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittlerer Innerfeldturm/Torri Campo di Dentro Cima di Mezzo",
@@ -7505,7 +7505,7 @@
     "lat": 46.8549197,
     "lon": 11.2144185,
     "einwohner": 2743,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rotlahner/Grogo del Bosco",
@@ -7516,7 +7516,7 @@
     "lat": 46.8404652,
     "lon": 12.3064393,
     "einwohner": 2743,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Westlicher Innerfeldtürme/Torri Campo di Dentro Cima Ovest",
@@ -7538,7 +7538,7 @@
     "lat": 46.8883632,
     "lon": 11.7908774,
     "einwohner": 2742,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wasserfallspitze/Punta della Cascata",
@@ -7549,7 +7549,7 @@
     "lat": 46.574915,
     "lon": 10.6045592,
     "einwohner": 2742,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zigerpallen",
@@ -7591,7 +7591,7 @@
     "lat": 46.8737858,
     "lon": 12.2754002,
     "einwohner": 2739,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Eidechsspitze/Cima di Terento",
@@ -7603,7 +7603,7 @@
     "lat": 46.8702925,
     "lon": 11.7556078,
     "einwohner": 2738,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kalkgrubenspitz",
@@ -7644,7 +7644,7 @@
     "lat": 46.9613413,
     "lon": 12.1004963,
     "einwohner": 2738,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Muttegrub",
@@ -7676,7 +7676,7 @@
     "lat": 46.7632144,
     "lon": 11.492002,
     "einwohner": 2737,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Glanvellturm/Torre Glanvell",
@@ -7699,7 +7699,7 @@
     "lat": 46.7081915,
     "lon": 10.4352529,
     "einwohner": 2736,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Bei der Stange",
@@ -7729,7 +7729,7 @@
     "lat": 46.9731367,
     "lon": 12.106129,
     "einwohner": 2734,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kahlgeifel/Punta Nuda",
@@ -7740,7 +7740,7 @@
     "lat": 46.8830716,
     "lon": 12.0022346,
     "einwohner": 2734,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Drei Warter/Le Tre Guardie",
@@ -7764,7 +7764,7 @@
     "lat": 46.605308,
     "lon": 11.8179035,
     "einwohner": 2732,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zinnenkopf/Sasso di Landro",
@@ -7798,7 +7798,7 @@
     "lat": 46.8798787,
     "lon": 12.222293,
     "einwohner": 2729,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schaftspitze/Monte delle Pecore",
@@ -7809,7 +7809,7 @@
     "lat": 46.5802064,
     "lon": 10.6540719,
     "einwohner": 2729,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hinterbergkofel/Monte di Dentro",
@@ -7820,7 +7820,7 @@
     "lat": 46.8737526,
     "lon": 12.2181411,
     "einwohner": 2727,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Saurüssel/Grugno di Porco",
@@ -7831,7 +7831,7 @@
     "lat": 46.5793154,
     "lon": 10.6671497,
     "einwohner": 2727,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Punta Kafman",
@@ -7851,7 +7851,7 @@
     "lat": 47.0142457,
     "lon": 11.9238575,
     "einwohner": 2725,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pitla Piza de Puez",
@@ -7861,7 +7861,7 @@
     "lat": 46.5931817,
     "lon": 11.8246246,
     "einwohner": 2725,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Egetspitz",
@@ -7915,7 +7915,7 @@
     "lat": 46.7530956,
     "lon": 10.4623976,
     "einwohner": 2722,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Guardaskopf",
@@ -7925,7 +7925,7 @@
     "lat": 46.6710155,
     "lon": 10.4363092,
     "einwohner": 2720,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sandspitz",
@@ -7946,7 +7946,7 @@
     "lat": 46.8887591,
     "lon": 11.6499411,
     "einwohner": 2719,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Nornspitz/Monte Domenar",
@@ -8032,7 +8032,7 @@
     "lat": 46.9442493,
     "lon": 11.8191533,
     "einwohner": 2716,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Nock/Cima del Dosso",
@@ -8067,7 +8067,7 @@
     "lat": 46.9384831,
     "lon": 11.5023745,
     "einwohner": 2714,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grant Ciampanil de Murfreit",
@@ -8099,7 +8099,7 @@
     "lat": 46.7856266,
     "lon": 11.3167213,
     "einwohner": 2712,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Möselnock",
@@ -8208,7 +8208,7 @@
     "lat": 46.9211767,
     "lon": 11.6266666,
     "einwohner": 2709,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittagkopf",
@@ -8260,7 +8260,7 @@
     "lat": 46.7806788,
     "lon": 11.4967367,
     "einwohner": 2706,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochhorn/Corno Alto",
@@ -8292,7 +8292,7 @@
     "lat": 46.932698,
     "lon": 11.7630283,
     "einwohner": 2705,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sarner Weißhorn/Corno Bianco",
@@ -8303,7 +8303,7 @@
     "lat": 46.8023807,
     "lon": 11.3961961,
     "einwohner": 2705,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Östl. Valbonspitze/Cima Orientale di Valbona",
@@ -8325,7 +8325,7 @@
     "lat": 46.87838,
     "lon": 11.7927436,
     "einwohner": 2704,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wagner",
@@ -8335,7 +8335,7 @@
     "lat": 47.0497718,
     "lon": 12.0605145,
     "einwohner": 2704,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schaflahnernock/Cima delle Pecore",
@@ -8346,7 +8346,7 @@
     "lat": 46.9523665,
     "lon": 11.8132157,
     "einwohner": 2703,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piz Forcia Rossa II",
@@ -8380,7 +8380,7 @@
     "lat": 46.4361776,
     "lon": 10.8613391,
     "einwohner": 2701,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großbergspitz/Monte Grande",
@@ -8435,7 +8435,7 @@
     "lat": 46.6393134,
     "lon": 12.3480137,
     "einwohner": 2698,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hönigspitz/Punta del Re",
@@ -8459,7 +8459,7 @@
     "lat": 46.9111547,
     "lon": 11.7376155,
     "einwohner": 2698,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tschiffernaun/Monte Cavernone",
@@ -8508,7 +8508,7 @@
     "lat": 46.6243265,
     "lon": 12.3164912,
     "einwohner": 2697,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarzenstoan",
@@ -8541,7 +8541,7 @@
     "lat": 46.8973729,
     "lon": 11.7663706,
     "einwohner": 2696,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Bretterspitz/Cima di San Paolo",
@@ -8572,7 +8572,7 @@
     "lat": 46.8773123,
     "lon": 11.7728823,
     "einwohner": 2694,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ochsenberg/Monte dei Buoi",
@@ -8583,7 +8583,7 @@
     "lat": 46.7914463,
     "lon": 10.5923052,
     "einwohner": 2694,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittlerer Gantkofel/Cima Ganda di Mezzo",
@@ -8625,7 +8625,7 @@
     "lat": 47.0510257,
     "lon": 12.0426593,
     "einwohner": 2689,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Plattkofeltürme/Torri del Sassopiatto",
@@ -8648,7 +8648,7 @@
     "lat": 46.8306665,
     "lon": 12.1370925,
     "einwohner": 2688,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Setznagel/Il Chiodo",
@@ -8713,7 +8713,7 @@
     "lat": 46.5272855,
     "lon": 10.7784054,
     "einwohner": 2683,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Seespitzen",
@@ -8733,7 +8733,7 @@
     "lat": 47.0687398,
     "lon": 12.0993557,
     "einwohner": 2682,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Punta del Pin",
@@ -8864,7 +8864,7 @@
     "lat": 46.8947505,
     "lon": 11.7899602,
     "einwohner": 2671,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piazturm/Torre Piaz",
@@ -8886,7 +8886,7 @@
     "lat": 46.7089969,
     "lon": 11.2788513,
     "einwohner": 2670,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Plattspitz/Cima Piatta",
@@ -8897,7 +8897,7 @@
     "lat": 46.8675746,
     "lon": 11.5917592,
     "einwohner": 2669,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohe Ferse/Monte Tallone Grande",
@@ -8908,7 +8908,7 @@
     "lat": 46.883026,
     "lon": 11.2597629,
     "einwohner": 2669,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Ciampani",
@@ -8953,7 +8953,7 @@
     "lat": 46.5631204,
     "lon": 11.8352476,
     "einwohner": 2667,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Achternock",
@@ -8963,7 +8963,7 @@
     "lat": 46.9095471,
     "lon": 12.0310504,
     "einwohner": 2667,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wilderer",
@@ -8984,7 +8984,7 @@
     "lat": 46.9471101,
     "lon": 11.8115749,
     "einwohner": 2666,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dreiländerspitz",
@@ -9035,7 +9035,7 @@
     "lat": 46.5679412,
     "lon": 11.8642984,
     "einwohner": 2665,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Eisenreich/Montagna del Ferro",
@@ -9046,7 +9046,7 @@
     "lat": 46.6873014,
     "lon": 12.4689554,
     "einwohner": 2665,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zehnerkopf/Cima Dieci",
@@ -9057,7 +9057,7 @@
     "lat": 46.7899126,
     "lon": 10.4917592,
     "einwohner": 2664,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Toblacher Pfannhorn/Corno di Fana",
@@ -9079,7 +9079,7 @@
     "lat": 46.8786208,
     "lon": 11.8089911,
     "einwohner": 2663,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Torre dell'Independenza",
@@ -9100,7 +9100,7 @@
     "lat": 46.6640393,
     "lon": 10.7503897,
     "einwohner": 2662,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Plankfeldspitz",
@@ -9179,7 +9179,7 @@
     "lat": 46.5414196,
     "lon": 10.9032003,
     "einwohner": 2658,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Kachelstube",
@@ -9199,7 +9199,7 @@
     "lat": 46.3610568,
     "lon": 11.5586057,
     "einwohner": 2658,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schenner Köfel",
@@ -9229,7 +9229,7 @@
     "lat": 46.6208538,
     "lon": 11.9738062,
     "einwohner": 2657,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "St. Johann-Spitz/Punta San Giovanni",
@@ -9253,7 +9253,7 @@
     "lat": 46.498051,
     "lon": 11.6189899,
     "einwohner": 2655,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tullen/Monte Tullen",
@@ -9264,7 +9264,7 @@
     "lat": 46.6535323,
     "lon": 11.7751165,
     "einwohner": 2655,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sechsspitzler",
@@ -9286,7 +9286,7 @@
     "lat": 46.6304898,
     "lon": 12.0041917,
     "einwohner": 2655,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Col Toronn",
@@ -9317,7 +9317,7 @@
     "lat": 46.7793245,
     "lon": 11.4764592,
     "einwohner": 2654,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grantspitz",
@@ -9338,7 +9338,7 @@
     "lat": 46.4990034,
     "lon": 11.6317353,
     "einwohner": 2653,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hörtlahnerspitz/Punta Lavine",
@@ -9360,7 +9360,7 @@
     "lat": 46.9587019,
     "lon": 11.9974863,
     "einwohner": 2653,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Neuejagdkarturm/Torre della Caccia",
@@ -9383,7 +9383,7 @@
     "lat": 46.4821202,
     "lon": 10.9638959,
     "einwohner": 2652,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Maratsch/Monte Maraccia",
@@ -9437,7 +9437,7 @@
     "lat": 46.9865797,
     "lon": 11.8618674,
     "einwohner": 2649,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Cima de Riciogogn",
@@ -9523,7 +9523,7 @@
     "lat": 46.9541811,
     "lon": 11.5017951,
     "einwohner": 2645,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Paulspitz/Paulspitz",
@@ -9584,7 +9584,7 @@
     "lat": 47.0656221,
     "lon": 12.0916476,
     "einwohner": 2643,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Vallungspitz",
@@ -9607,7 +9607,7 @@
     "lat": 46.8635145,
     "lon": 11.6445132,
     "einwohner": 2641,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Birkenschartlturm/Prima Torre dei Baranci",
@@ -9659,7 +9659,7 @@
     "lat": 46.9438833,
     "lon": 11.577339,
     "einwohner": 2639,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weißkopf/Punta Valcenai",
@@ -9746,7 +9746,7 @@
     "lat": 47.0223209,
     "lon": 11.951342,
     "einwohner": 2632,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Welscher Berg/Cima Trenta",
@@ -9768,7 +9768,7 @@
     "lat": 46.9958682,
     "lon": 12.1184276,
     "einwohner": 2631,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Unterhochkreuz",
@@ -9810,7 +9810,7 @@
     "lat": 46.7643991,
     "lon": 10.5765011,
     "einwohner": 2630,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Maurerspitze/Monte Muro",
@@ -9833,7 +9833,7 @@
     "lat": 46.7921388,
     "lon": 10.5654422,
     "einwohner": 2627,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Murmentenplais (Köpfl)/Monte Murmenta",
@@ -9887,7 +9887,7 @@
     "lat": 46.6482018,
     "lon": 11.7942813,
     "einwohner": 2625,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rote Nase/Naso Rosso",
@@ -9898,7 +9898,7 @@
     "lat": 46.8690479,
     "lon": 12.0439374,
     "einwohner": 2624,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Monte Cavallo",
@@ -9919,7 +9919,7 @@
     "lat": 46.7455456,
     "lon": 10.5922632,
     "einwohner": 2622,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gran Pala di Valchiara",
@@ -9949,7 +9949,7 @@
     "lat": 46.922192,
     "lon": 11.7256615,
     "einwohner": 2621,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mulsspitz",
@@ -9981,7 +9981,7 @@
     "lat": 46.898344,
     "lon": 11.7484844,
     "einwohner": 2620,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lorenzenspitz/Cima S. Lorenzo",
@@ -10043,7 +10043,7 @@
     "lat": 46.8807989,
     "lon": 11.9951935,
     "einwohner": 2619,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwabenalpenkopf Westsporn/Torre dei Scarperi Sperone Ovest",
@@ -10109,7 +10109,7 @@
     "lat": 46.791449,
     "lon": 12.2807583,
     "einwohner": 2615,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Neblnock/Dosso Malo",
@@ -10120,7 +10120,7 @@
     "lat": 46.8953286,
     "lon": 11.7532147,
     "einwohner": 2615,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Cima del Lago",
@@ -10141,7 +10141,7 @@
     "lat": 46.6984952,
     "lon": 11.2783058,
     "einwohner": 2615,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rodelheilspitze/Col de Masores",
@@ -10187,7 +10187,7 @@
     "lat": 46.8149383,
     "lon": 12.2829267,
     "einwohner": 2612,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Videgger Plattenspitz",
@@ -10209,7 +10209,7 @@
     "lat": 46.8439832,
     "lon": 12.1388351,
     "einwohner": 2612,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "4. Sellaturm/IV° Torre del Sella",
@@ -10253,7 +10253,7 @@
     "lat": 46.6186813,
     "lon": 12.0526861,
     "einwohner": 2610,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochwart/Guardia Alta",
@@ -10264,7 +10264,7 @@
     "lat": 46.8519462,
     "lon": 11.1961343,
     "einwohner": 2608,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Naturnser Hochwart/Guardia Alta di Naturno",
@@ -10275,7 +10275,7 @@
     "lat": 46.6004396,
     "lon": 11.0204576,
     "einwohner": 2608,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sandbühel/Collerena",
@@ -10342,7 +10342,7 @@
     "lat": 46.9762996,
     "lon": 11.3653495,
     "einwohner": 2605,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Grubenkopf/Monte delle Fosse",
@@ -10353,7 +10353,7 @@
     "lat": 46.752537,
     "lon": 11.3162708,
     "einwohner": 2604,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hörndle/Cima Gelata",
@@ -10364,7 +10364,7 @@
     "lat": 46.9047933,
     "lon": 11.7420176,
     "einwohner": 2603,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pitl Sass dla Luesa",
@@ -10385,7 +10385,7 @@
     "lat": 46.989975,
     "lon": 11.8857074,
     "einwohner": 2602,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Peilstein",
@@ -10470,7 +10470,7 @@
     "lat": 46.5830528,
     "lon": 10.6546513,
     "einwohner": 2599,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Stege Ötschen",
@@ -10492,7 +10492,7 @@
     "lat": 46.678696,
     "lon": 10.9025027,
     "einwohner": 2598,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Westl. Sattelspitze/Cima Occidentale delle Punte a Sella",
@@ -10526,7 +10526,7 @@
     "lat": 46.8768891,
     "lon": 11.807008,
     "einwohner": 2596,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mutaspitz",
@@ -10557,7 +10557,7 @@
     "lat": 46.5313656,
     "lon": 10.5267102,
     "einwohner": 2594,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gametzalpenkopf Südgipfel/Monte Alpe del Camoscio Cima Sud",
@@ -10580,7 +10580,7 @@
     "lat": 46.8460071,
     "lon": 12.1989503,
     "einwohner": 2593,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sextner Turm/Torre di Sesto",
@@ -10625,7 +10625,7 @@
     "lat": 46.6924949,
     "lon": 10.6506255,
     "einwohner": 2592,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ötsch/Cima d'Accia",
@@ -10636,7 +10636,7 @@
     "lat": 46.8036567,
     "lon": 11.3714675,
     "einwohner": 2592,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kurzkofel",
@@ -10656,7 +10656,7 @@
     "lat": 46.8997452,
     "lon": 12.1955641,
     "einwohner": 2591,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Liffelspitz/Monte Livolo",
@@ -10693,7 +10693,7 @@
     "lat": 46.7328849,
     "lon": 11.5120074,
     "einwohner": 2590,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Untere Fermeda/Ferméda di Sotto",
@@ -10715,7 +10715,7 @@
     "lat": 46.7098247,
     "lon": 11.4732635,
     "einwohner": 2589,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Innere Grüne Platte/Monte Corno di dentro",
@@ -10747,7 +10747,7 @@
     "lat": 46.9218058,
     "lon": 11.3517894,
     "einwohner": 2588,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleine Rotbachlspitze",
@@ -10810,7 +10810,7 @@
     "lat": 46.9083197,
     "lon": 11.7387718,
     "einwohner": 2584,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Viedspitz",
@@ -10841,7 +10841,7 @@
     "lat": 46.7942922,
     "lon": 11.3934037,
     "einwohner": 2582,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dürrensteinturm/Torre Vallandro",
@@ -10875,7 +10875,7 @@
     "lat": 46.7086294,
     "lon": 11.4966426,
     "einwohner": 2581,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Unterebenkofel/Cima Piatta Bassa",
@@ -10922,7 +10922,7 @@
     "lat": 46.6998038,
     "lon": 12.2557271,
     "einwohner": 2581,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hollbrucker Spitze/Cima di Pontegrotta",
@@ -10933,7 +10933,7 @@
     "lat": 46.6990907,
     "lon": 12.4270422,
     "einwohner": 2580,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tradakopf",
@@ -10954,7 +10954,7 @@
     "lat": 46.6426163,
     "lon": 12.3987475,
     "einwohner": 2579,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kaserbacher Hörndle",
@@ -11039,7 +11039,7 @@
     "lat": 46.6902465,
     "lon": 11.7629974,
     "einwohner": 2574,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hantigenklammspitz",
@@ -11049,7 +11049,7 @@
     "lat": 46.9765391,
     "lon": 11.87121,
     "einwohner": 2574,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Obere Lenk",
@@ -11070,7 +11070,7 @@
     "lat": 46.7686763,
     "lon": 10.7703914,
     "einwohner": 2572,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Bischofer",
@@ -11090,7 +11090,7 @@
     "lat": 47.0081298,
     "lon": 11.9291859,
     "einwohner": 2571,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochjoch/Giogo Alto",
@@ -11101,7 +11101,7 @@
     "lat": 46.7107972,
     "lon": 10.6018287,
     "einwohner": 2570,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Getrumjoch/Cima Ghetrun",
@@ -11144,7 +11144,7 @@
     "lat": 46.5118256,
     "lon": 11.5748922,
     "einwohner": 2568,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Samerberg/Monte Alto",
@@ -11156,7 +11156,7 @@
     "lat": 46.503045,
     "lon": 10.986682,
     "einwohner": 2568,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Grasleitenturm/Torre del Principe",
@@ -11178,7 +11178,7 @@
     "lat": 46.7131815,
     "lon": 12.0342338,
     "einwohner": 2567,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zinnen",
@@ -11199,7 +11199,7 @@
     "lat": 46.9725337,
     "lon": 11.5243122,
     "einwohner": 2566,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Telfer Weißen - Ostgipfel/Cime Bianche di Telves - cima invernale",
@@ -11237,7 +11237,7 @@
     "lat": 46.5062489,
     "lon": 10.9946555,
     "einwohner": 2564,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Toblinger Knoten/Torre di Toblin",
@@ -11251,7 +11251,7 @@
     "lat": 46.641719,
     "lon": 12.308055,
     "einwohner": 2564,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Samspitze",
@@ -11367,7 +11367,7 @@
     "lat": 46.8738295,
     "lon": 12.0188786,
     "einwohner": 2559,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Blauspitz/Cima Pila",
@@ -11495,7 +11495,7 @@
     "lat": 46.5634939,
     "lon": 10.8899836,
     "einwohner": 2552,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ringelstein/Sasso Tondo",
@@ -11506,7 +11506,7 @@
     "lat": 46.9318298,
     "lon": 11.8262411,
     "einwohner": 2551,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hornischegg/Monte Arnese",
@@ -11517,7 +11517,7 @@
     "lat": 46.7008257,
     "lon": 12.4138337,
     "einwohner": 2550,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Paterspitz",
@@ -11569,7 +11569,7 @@
     "lat": 46.7183264,
     "lon": 11.511112,
     "einwohner": 2547,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dreihirtenspitz",
@@ -11601,7 +11601,7 @@
     "lat": 46.7807374,
     "lon": 12.3277174,
     "einwohner": 2545,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochplattspitz/Lasta Alta",
@@ -11666,7 +11666,7 @@
     "lat": 47.0441333,
     "lon": 11.9944977,
     "einwohner": 2543,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kohlalplkofel/Monte Pra Brusà",
@@ -11710,7 +11710,7 @@
     "lat": 46.642288,
     "lon": 12.3071337,
     "einwohner": 2541,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Däuml",
@@ -11741,7 +11741,7 @@
     "lat": 46.6390842,
     "lon": 12.3081933,
     "einwohner": 2539,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pfandlspitz/Cima  di  Pegno",
@@ -11752,7 +11752,7 @@
     "lat": 46.7517782,
     "lon": 11.28732,
     "einwohner": 2539,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochalpenkopf/Col Alt",
@@ -11806,7 +11806,7 @@
     "lat": 46.8644407,
     "lon": 12.05939,
     "einwohner": 2538,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Galtberg",
@@ -11838,7 +11838,7 @@
     "lat": 46.7061675,
     "lon": 12.4100412,
     "einwohner": 2537,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Roter Kofel/Sasso Rosso",
@@ -11956,7 +11956,7 @@
     "lat": 46.4702333,
     "lon": 10.9548194,
     "einwohner": 2530,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ritzlar",
@@ -11977,7 +11977,7 @@
     "lat": 46.8601355,
     "lon": 12.038236,
     "einwohner": 2528,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Spitzhorn",
@@ -12008,7 +12008,7 @@
     "lat": 46.6751121,
     "lon": 10.4607277,
     "einwohner": 2527,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tatschspitze/Montaccio di Pennes",
@@ -12049,7 +12049,7 @@
     "lat": 46.9355957,
     "lon": 11.7158529,
     "einwohner": 2522,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Torre Bulla",
@@ -12081,7 +12081,7 @@
     "lat": 46.9727782,
     "lon": 11.8743439,
     "einwohner": 2520,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Geißhorn/Cima di Capra",
@@ -12104,7 +12104,7 @@
     "lat": 46.6005922,
     "lon": 11.7257836,
     "einwohner": 2519,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tschoren",
@@ -12125,7 +12125,7 @@
     "lat": 46.6947852,
     "lon": 11.2551601,
     "einwohner": 2519,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Speikboden/Monte Spico",
@@ -12136,7 +12136,7 @@
     "lat": 46.9181799,
     "lon": 11.8902641,
     "einwohner": 2518,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Fellhorn/Monte Quaina",
@@ -12169,7 +12169,7 @@
     "lat": 46.98785,
     "lon": 12.0872609,
     "einwohner": 2517,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Plattnerspitz/Punta delle Laste",
@@ -12213,7 +12213,7 @@
     "lat": 46.5195386,
     "lon": 11.5743866,
     "einwohner": 2516,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ochsenbichl/Col dei Bovi",
@@ -12235,7 +12235,7 @@
     "lat": 46.5873348,
     "lon": 10.6281155,
     "einwohner": 2516,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Panadakopf/Punta della Forcola",
@@ -12257,7 +12257,7 @@
     "lat": 46.7612052,
     "lon": 11.5634285,
     "einwohner": 2514,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleine Kreuzspitze/Piccola Punta di Montecroce",
@@ -12268,7 +12268,7 @@
     "lat": 46.8501649,
     "lon": 11.2308362,
     "einwohner": 2513,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schafkamm/Punta della Lasta",
@@ -12300,7 +12300,7 @@
     "lat": 46.8595389,
     "lon": 11.686882,
     "einwohner": 2510,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Golaitkopf",
@@ -12321,7 +12321,7 @@
     "lat": 46.6585779,
     "lon": 11.4190015,
     "einwohner": 2509,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Steinspitz/Punta del Sasso",
@@ -12332,7 +12332,7 @@
     "lat": 46.8657543,
     "lon": 11.7787156,
     "einwohner": 2509,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Dritter Steinalpenturm/Terzo Campanile dei Sassi",
@@ -12353,7 +12353,7 @@
     "lat": 46.7118045,
     "lon": 11.980017,
     "einwohner": 2507,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Spitzkinkele",
@@ -12383,7 +12383,7 @@
     "lat": 46.9434696,
     "lon": 11.7979224,
     "einwohner": 2505,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gamskofel/Cima dei Camosci",
@@ -12486,7 +12486,7 @@
     "lat": 47.0392413,
     "lon": 11.9942813,
     "einwohner": 2496,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Exnerturm/Torre Exner",
@@ -12510,7 +12510,7 @@
     "lat": 46.5423898,
     "lon": 11.8247144,
     "einwohner": 2495,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weißlahnspitz/Cima Lavina Bianca",
@@ -12599,7 +12599,7 @@
     "lat": 46.7012759,
     "lon": 11.7330698,
     "einwohner": 2491,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Bildhornspitze",
@@ -12641,7 +12641,7 @@
     "lat": 46.8036815,
     "lon": 11.3084557,
     "einwohner": 2490,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Kleine Ferse/Monte Tallone Piccolo",
@@ -12683,7 +12683,7 @@
     "lat": 46.7123042,
     "lon": 11.5188306,
     "einwohner": 2484,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mutenock/Monte Mutta",
@@ -12694,7 +12694,7 @@
     "lat": 46.8677211,
     "lon": 11.8233167,
     "einwohner": 2484,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Knebelstein/Monte Sbarra",
@@ -12705,7 +12705,7 @@
     "lat": 46.8478981,
     "lon": 12.1320491,
     "einwohner": 2484,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Blankenstein/Sasso Planca",
@@ -12741,7 +12741,7 @@
     "lat": 46.8342731,
     "lon": 11.3344087,
     "einwohner": 2481,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwalbenkofel/Monte delle Rondini",
@@ -12753,7 +12753,7 @@
     "lat": 46.6842404,
     "lon": 12.130111,
     "einwohner": 2481,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Monte Brez",
@@ -12795,7 +12795,7 @@
     "lat": 46.7092844,
     "lon": 11.9921019,
     "einwohner": 2479,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Alpenspitz/Cima dell'Alpe",
@@ -12873,7 +12873,7 @@
     "lat": 46.9162118,
     "lon": 11.8527847,
     "einwohner": 2475,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großer Jaufen/Giavo Grande",
@@ -12904,7 +12904,7 @@
     "lat": 46.8599894,
     "lon": 11.5833773,
     "einwohner": 2473,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schönbergspitz/Belmonte",
@@ -12989,7 +12989,7 @@
     "lat": 46.4755051,
     "lon": 10.85288,
     "einwohner": 2469,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Elslerturm",
@@ -13071,7 +13071,7 @@
     "lat": 46.9797131,
     "lon": 12.1376021,
     "einwohner": 2462,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Stoanmandl/Ometto",
@@ -13082,7 +13082,7 @@
     "lat": 46.7395241,
     "lon": 10.5817448,
     "einwohner": 2461,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sattele",
@@ -13158,7 +13158,7 @@
     "lat": 46.6500515,
     "lon": 11.4084211,
     "einwohner": 2458,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kratzbergspitz/Monte San Pancrazio",
@@ -13180,7 +13180,7 @@
     "lat": 46.9186385,
     "lon": 11.8555226,
     "einwohner": 2457,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Unterer Mahderkopf",
@@ -13200,7 +13200,7 @@
     "lat": 46.8828493,
     "lon": 11.7595406,
     "einwohner": 2456,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Tristennöckl",
@@ -13210,7 +13210,7 @@
     "lat": 46.9256045,
     "lon": 12.1030291,
     "einwohner": 2455,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Col de Bocia",
@@ -13231,7 +13231,7 @@
     "lat": 46.8585261,
     "lon": 11.5853195,
     "einwohner": 2454,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Medalges",
@@ -13251,7 +13251,7 @@
     "lat": 46.7322972,
     "lon": 11.1418951,
     "einwohner": 2454,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Pojerspitz/Cresta di Poia",
@@ -13275,7 +13275,7 @@
     "lat": 46.5134606,
     "lon": 11.0199691,
     "einwohner": 2451,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weißer Knott/Rocca Bianca",
@@ -13310,7 +13310,7 @@
     "lat": 46.8655654,
     "lon": 11.8829753,
     "einwohner": 2450,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Piz Ina",
@@ -13373,7 +13373,7 @@
     "lat": 46.7974088,
     "lon": 12.1418567,
     "einwohner": 2448,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hühnerspitz/Cima Gallina",
@@ -13479,7 +13479,7 @@
     "lat": 46.6071612,
     "lon": 11.0383964,
     "einwohner": 2444,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochgschier/Monte Casura",
@@ -13574,7 +13574,7 @@
     "lat": 46.8644979,
     "lon": 11.8634288,
     "einwohner": 2438,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Million/Col Million",
@@ -13662,7 +13662,7 @@
     "lat": 46.5345684,
     "lon": 11.0858434,
     "einwohner": 2434,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zwölfernock",
@@ -13694,7 +13694,7 @@
     "lat": 46.7149644,
     "lon": 12.3870551,
     "einwohner": 2433,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochrast/Pausa Alta",
@@ -13716,7 +13716,7 @@
     "lat": 46.9218104,
     "lon": 11.885212,
     "einwohner": 2433,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zinsnock/Cima di Vila",
@@ -13727,7 +13727,7 @@
     "lat": 46.9199526,
     "lon": 11.830711,
     "einwohner": 2430,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Seespitz/Cima del Lago",
@@ -13866,7 +13866,7 @@
     "lat": 46.6394148,
     "lon": 11.8014727,
     "einwohner": 2422,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großer Mittager/Monte Catino",
@@ -13877,7 +13877,7 @@
     "lat": 46.6842329,
     "lon": 11.3101952,
     "einwohner": 2422,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zinseler/Cima di Stilves",
@@ -13888,7 +13888,7 @@
     "lat": 46.8410154,
     "lon": 11.44272,
     "einwohner": 2422,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ternegg",
@@ -13952,7 +13952,7 @@
     "lat": 46.9986727,
     "lon": 11.9037559,
     "einwohner": 2420,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Beim Mannl",
@@ -13962,7 +13962,7 @@
     "lat": 47.0322947,
     "lon": 11.9913832,
     "einwohner": 2420,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ochsenbühel/Colle del Bove",
@@ -13994,7 +13994,7 @@
     "lat": 46.5177422,
     "lon": 11.0267396,
     "einwohner": 2419,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Col Turond",
@@ -14015,7 +14015,7 @@
     "lat": 46.8633504,
     "lon": 11.9025753,
     "einwohner": 2418,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zirbner",
@@ -14025,7 +14025,7 @@
     "lat": 47.0426777,
     "lon": 12.0622285,
     "einwohner": 2418,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rotes Mandl/Ometto Rosso",
@@ -14057,7 +14057,7 @@
     "lat": 46.4840773,
     "lon": 10.9790323,
     "einwohner": 2417,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Karkopf",
@@ -14090,7 +14090,7 @@
     "lat": 46.9272463,
     "lon": 12.0521287,
     "einwohner": 2415,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gamselspitz",
@@ -14112,7 +14112,7 @@
     "lat": 46.5253779,
     "lon": 11.5703614,
     "einwohner": 2414,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Archbichl",
@@ -14145,7 +14145,7 @@
     "lat": 46.7791155,
     "lon": 10.5616976,
     "einwohner": 2412,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Scheibenspitz/Cima del Bersaglio",
@@ -14167,7 +14167,7 @@
     "lat": 46.752508,
     "lon": 11.4193638,
     "einwohner": 2412,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gentersbergspitze/Monte Ganda",
@@ -14200,7 +14200,7 @@
     "lat": 46.6598893,
     "lon": 10.6359495,
     "einwohner": 2410,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Speikkofel",
@@ -14308,7 +14308,7 @@
     "lat": 46.9269655,
     "lon": 11.888482,
     "einwohner": 2400,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pitla Cansla",
@@ -14371,7 +14371,7 @@
     "lat": 46.8547575,
     "lon": 11.8959924,
     "einwohner": 2396,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mandelspitz/Monte Ometto",
@@ -14382,7 +14382,7 @@
     "lat": 46.4965355,
     "lon": 11.0075916,
     "einwohner": 2396,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Obersteiner Holm/Cima di Sassalto",
@@ -14393,7 +14393,7 @@
     "lat": 46.9507306,
     "lon": 11.9659206,
     "einwohner": 2395,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Torre Colfosco",
@@ -14438,7 +14438,7 @@
     "lat": 46.6602134,
     "lon": 11.9702885,
     "einwohner": 2394,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Euringer/Punta Euringer",
@@ -14449,7 +14449,7 @@
     "lat": 46.523895,
     "lon": 11.5726022,
     "einwohner": 2394,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schottenberg/Monte Valbona",
@@ -14460,7 +14460,7 @@
     "lat": 47.0046848,
     "lon": 12.0671827,
     "einwohner": 2394,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weißspitz/Cima Bianca",
@@ -14523,7 +14523,7 @@
     "lat": 47.0406824,
     "lon": 12.0127839,
     "einwohner": 2392,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Radlseenock/Punta del Lago Rodella",
@@ -14564,7 +14564,7 @@
     "lat": 46.9152307,
     "lon": 11.90787,
     "einwohner": 2390,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Goldlahn",
@@ -14618,7 +14618,7 @@
     "lat": 46.8415851,
     "lon": 11.2466324,
     "einwohner": 2389,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gabels Mull",
@@ -14639,7 +14639,7 @@
     "lat": 46.9586317,
     "lon": 11.5109568,
     "einwohner": 2388,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Höllenkragen/Giogo di Trens",
@@ -14671,7 +14671,7 @@
     "lat": 46.8603128,
     "lon": 11.7631166,
     "einwohner": 2385,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zwischenkofel/Punta delle Dodici",
@@ -14792,7 +14792,7 @@
     "lat": 46.7030134,
     "lon": 12.1929332,
     "einwohner": 2378,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Südlicher-Rosslauf",
@@ -14825,7 +14825,7 @@
     "lat": 47.0178912,
     "lon": 11.9508818,
     "einwohner": 2376,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hohe Wand",
@@ -14866,7 +14866,7 @@
     "lat": 46.6456728,
     "lon": 10.5180569,
     "einwohner": 2373,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Trennspitz",
@@ -15026,7 +15026,7 @@
     "lat": 46.5730683,
     "lon": 10.9974588,
     "einwohner": 2365,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Hohe Ferschl/Monte Versilio",
@@ -15050,7 +15050,7 @@
     "lat": 46.5802396,
     "lon": 11.7246575,
     "einwohner": 2363,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Putzen/Cima Pozza",
@@ -15082,7 +15082,7 @@
     "lat": 46.690272,
     "lon": 10.4687486,
     "einwohner": 2361,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Leitnerwand/Croda delle Coste",
@@ -15114,7 +15114,7 @@
     "lat": 46.8422847,
     "lon": 11.2660249,
     "einwohner": 2358,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sattel/La Sella",
@@ -15167,7 +15167,7 @@
     "lat": 46.8543832,
     "lon": 11.5895385,
     "einwohner": 2355,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kandlkopf",
@@ -15199,7 +15199,7 @@
     "lat": 46.9708082,
     "lon": 12.0006153,
     "einwohner": 2352,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zwölferspitz/Cima Dodici",
@@ -15210,7 +15210,7 @@
     "lat": 46.870631,
     "lon": 11.8445255,
     "einwohner": 2351,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hochplatzen",
@@ -15252,7 +15252,7 @@
     "lat": 46.8721922,
     "lon": 11.8028676,
     "einwohner": 2350,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Juacturm",
@@ -15357,7 +15357,7 @@
     "lat": 46.8211031,
     "lon": 12.0464463,
     "einwohner": 2337,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Gander Berg/Monte Ganda",
@@ -15379,7 +15379,7 @@
     "lat": 46.9264183,
     "lon": 11.7115487,
     "einwohner": 2335,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Steinwand",
@@ -15412,7 +15412,7 @@
     "lat": 47.0601003,
     "lon": 12.1733519,
     "einwohner": 2334,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kasamutz/Monte Casamuzza",
@@ -15456,7 +15456,7 @@
     "lat": 46.8410444,
     "lon": 11.2699615,
     "einwohner": 2331,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Speikspitze/Monte Spico",
@@ -15509,7 +15509,7 @@
     "lat": 46.7062352,
     "lon": 10.5773605,
     "einwohner": 2324,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Stoamandl",
@@ -15553,7 +15553,7 @@
     "lat": 46.6141068,
     "lon": 11.6953065,
     "einwohner": 2317,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weisshorn/Corno Bianco",
@@ -15566,7 +15566,7 @@
     "lat": 46.354387,
     "lon": 11.4437455,
     "einwohner": 2316,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Essenbergspitz/Monte Essa",
@@ -15631,7 +15631,7 @@
     "lat": 46.9726981,
     "lon": 11.432411,
     "einwohner": 2313,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kleiner Kornigl/Cornicoletto",
@@ -15642,7 +15642,7 @@
     "lat": 46.5139409,
     "lon": 11.0342773,
     "einwohner": 2312,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Col de Lasta Gran/Colle di Lasta Grande",
@@ -15686,7 +15686,7 @@
     "lat": 46.6444985,
     "lon": 12.2126758,
     "einwohner": 2307,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schroppa",
@@ -15727,7 +15727,7 @@
     "lat": 46.8865697,
     "lon": 11.2888429,
     "einwohner": 2304,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Innerbrunner",
@@ -15769,7 +15769,7 @@
     "lat": 46.9828134,
     "lon": 11.8950838,
     "einwohner": 2302,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schönboden/Giogo Bello",
@@ -15801,7 +15801,7 @@
     "lat": 46.8718007,
     "lon": 11.8953631,
     "einwohner": 2299,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Domenarspitz",
@@ -15822,7 +15822,7 @@
     "lat": 46.537652,
     "lon": 11.096023,
     "einwohner": 2297,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Col de Lasta Picio/Colle di Lasta Piccolo",
@@ -15865,7 +15865,7 @@
     "lat": 47.0041869,
     "lon": 12.0474493,
     "einwohner": 2295,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Marchegg",
@@ -15920,7 +15920,7 @@
     "lat": 47.0382059,
     "lon": 12.0657801,
     "einwohner": 2288,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Breitbühel/Colle Largo",
@@ -15952,7 +15952,7 @@
     "lat": 46.5320534,
     "lon": 11.7504578,
     "einwohner": 2284,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Cé de Salares",
@@ -15974,7 +15974,7 @@
     "lat": 46.6036704,
     "lon": 11.6562969,
     "einwohner": 2283,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Lungkofel/Monte Lungo",
@@ -16071,7 +16071,7 @@
     "lat": 46.8694855,
     "lon": 11.8691362,
     "einwohner": 2277,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Beispitz",
@@ -16132,7 +16132,7 @@
     "lat": 47.0291479,
     "lon": 11.9939281,
     "einwohner": 2275,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Plosebühel/Col della Plose",
@@ -16175,7 +16175,7 @@
     "lat": 46.9424467,
     "lon": 11.9788469,
     "einwohner": 2272,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Spielbühel/Monte Piano",
@@ -16227,7 +16227,7 @@
     "lat": 47.002479,
     "lon": 11.9289407,
     "einwohner": 2265,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Am Archl/Monte Arca",
@@ -16292,7 +16292,7 @@
     "lat": 46.6150404,
     "lon": 11.4613455,
     "einwohner": 2260,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Daumkofel/Monte Daumo",
@@ -16435,7 +16435,7 @@
     "lat": 46.9925189,
     "lon": 11.4535026,
     "einwohner": 2247,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Morgenkopfturm/Torre di Monte Mattina",
@@ -16460,7 +16460,7 @@
     "lat": 46.4944023,
     "lon": 11.5747482,
     "einwohner": 2245,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Stierberg/Monte Toro",
@@ -16482,7 +16482,7 @@
     "lat": 46.9914267,
     "lon": 11.4604613,
     "einwohner": 2242,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "II Piza Cuecena",
@@ -16628,7 +16628,7 @@
     "lat": 46.9314039,
     "lon": 11.8999747,
     "einwohner": 2227,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Flodigespitz/Punta di Vallettina",
@@ -16670,7 +16670,7 @@
     "lat": 46.9159121,
     "lon": 11.713972,
     "einwohner": 2221,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Totenrücken",
@@ -16732,7 +16732,7 @@
     "lat": 47.0254708,
     "lon": 11.9966753,
     "einwohner": 2214,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zetticher",
@@ -16774,7 +16774,7 @@
     "lat": 47.0366067,
     "lon": 12.0289372,
     "einwohner": 2209,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mutakopf/Dosso Muta",
@@ -16795,7 +16795,7 @@
     "lat": 46.8764326,
     "lon": 11.9136694,
     "einwohner": 2205,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Weiße Wand/Croda Bianca",
@@ -16848,7 +16848,7 @@
     "lat": 47.033162,
     "lon": 12.0178035,
     "einwohner": 2197,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Astjoch/Cima Lasta",
@@ -16860,7 +16860,7 @@
     "lat": 46.7628564,
     "lon": 11.808769,
     "einwohner": 2194,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittagskofel/Cima di Mezzodì",
@@ -16871,7 +16871,7 @@
     "lat": 46.4914257,
     "lon": 11.5602627,
     "einwohner": 2192,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mareiter Stein/Sasso di Mareta",
@@ -16893,7 +16893,7 @@
     "lat": 46.725335,
     "lon": 11.8299839,
     "einwohner": 2191,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Fischbühel",
@@ -16924,7 +16924,7 @@
     "lat": 46.752977,
     "lon": 11.8252006,
     "einwohner": 2190,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Alpknott",
@@ -16945,7 +16945,7 @@
     "lat": 46.9144518,
     "lon": 11.3840673,
     "einwohner": 2189,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Fuchskopf",
@@ -16978,7 +16978,7 @@
     "lat": 46.9951708,
     "lon": 11.4699681,
     "einwohner": 2187,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Eggespitz",
@@ -17010,7 +17010,7 @@
     "lat": 46.4779645,
     "lon": 11.5974023,
     "einwohner": 2186,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Störes",
@@ -17179,7 +17179,7 @@
     "lat": 46.8427023,
     "lon": 11.8937417,
     "einwohner": 2175,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Spitzhorn",
@@ -17189,7 +17189,7 @@
     "lat": 46.7439048,
     "lon": 11.9667598,
     "einwohner": 2173,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Sunnenbichl",
@@ -17231,7 +17231,7 @@
     "lat": 46.8494925,
     "lon": 11.9134338,
     "einwohner": 2170,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Burgstall/Monte Castelliere",
@@ -17283,7 +17283,7 @@
     "lat": 46.489778,
     "lon": 11.5483102,
     "einwohner": 2164,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Speikegg",
@@ -17327,7 +17327,7 @@
     "lat": 46.701495,
     "lon": 12.2913074,
     "einwohner": 2158,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Ёur de Bredles",
@@ -17348,7 +17348,7 @@
     "lat": 46.7023649,
     "lon": 12.2887733,
     "einwohner": 2158,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wurmkopf",
@@ -17423,7 +17423,7 @@
     "lat": 46.7936281,
     "lon": 12.0983146,
     "einwohner": 2145,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Kreuzkofel",
@@ -17434,7 +17434,7 @@
     "lat": 47.010701,
     "lon": 11.9559367,
     "einwohner": 2143,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Schwarzberg/Monte Nero di Braies",
@@ -17456,7 +17456,7 @@
     "lat": 46.716222,
     "lon": 12.066858,
     "einwohner": 2140,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Mittlere Mute",
@@ -17509,7 +17509,7 @@
     "lat": 46.96193,
     "lon": 11.9654498,
     "einwohner": 2136,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Hühnerspiel/Cima Specola",
@@ -17541,7 +17541,7 @@
     "lat": 46.8760722,
     "lon": 11.8666536,
     "einwohner": 2132,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Salzla/Monte di Tesido",
@@ -17595,7 +17595,7 @@
     "lat": 46.9495016,
     "lon": 11.9502061,
     "einwohner": 2123,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Brentariegel/Regola di Brenta",
@@ -17617,7 +17617,7 @@
     "lat": 46.727395,
     "lon": 11.1547168,
     "einwohner": 2120,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Costaces",
@@ -17640,7 +17640,7 @@
     "lat": 46.8332202,
     "lon": 11.599938,
     "einwohner": 2118,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Roen/Monte Roen",
@@ -17652,7 +17652,7 @@
     "lat": 46.3604269,
     "lon": 11.192267,
     "einwohner": 2116,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Karkofel/Monte delle Vacche",
@@ -17705,7 +17705,7 @@
     "lat": 46.9243046,
     "lon": 11.9122457,
     "einwohner": 2110,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Pralongiá",
@@ -17758,7 +17758,7 @@
     "lat": 46.5581918,
     "lon": 11.6539529,
     "einwohner": 2108,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Salesates/Salisatis",
@@ -17855,7 +17855,7 @@
     "lat": 46.7120416,
     "lon": 11.8463908,
     "einwohner": 2100,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Jochplatte",
@@ -17950,7 +17950,7 @@
     "lat": 46.841547,
     "lon": 10.5252831,
     "einwohner": 2083,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Spieler/Grava",
@@ -17992,7 +17992,7 @@
     "lat": 46.5642358,
     "lon": 11.9051941,
     "einwohner": 2078,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rauchegg",
@@ -18064,7 +18064,7 @@
     "lat": 46.8817057,
     "lon": 11.9250168,
     "einwohner": 2066,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Innergsell/Monte Casella di Dentro",
@@ -18187,7 +18187,7 @@
     "lat": 46.843008,
     "lon": 11.9142724,
     "einwohner": 2050,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Wolfeskofel/Monte Lupo",
@@ -18198,7 +18198,7 @@
     "lat": 46.973953,
     "lon": 11.9019818,
     "einwohner": 2050,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Zwölfernöckl/Cima delle Dodici",
@@ -18359,7 +18359,7 @@
     "lat": 46.3254853,
     "lon": 11.4194827,
     "einwohner": 2027,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Crusc da Rit",
@@ -18370,7 +18370,7 @@
     "lat": 46.665118,
     "lon": 11.945269,
     "einwohner": 2021,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Großer Nock/Dosso",
@@ -18502,7 +18502,7 @@
     "lat": 46.9874595,
     "lon": 11.9129204,
     "einwohner": 2003,
-    "waehlbar": true
+    "waehlbar": false
   },
   {
     "name": "Rossruggen",
@@ -18909,7 +18909,7 @@
     "lat": 46.7722171,
     "lon": 11.5999025,
     "einwohner": 1913,
-    "waehlbar": false
+    "waehlbar": true
   },
   {
     "name": "Seikofel/Monte Covolo",

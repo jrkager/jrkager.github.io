@@ -11,32 +11,22 @@
   </script>
   <script defer src="script.js"></script>
   <script defer src="autosuggest.js"></script>
-  <style>
-    canvas {
-	  border: 1px solid #ccc;
-	  margin-top: 1em;
-	  max-width: 100%;
-	  height: auto;
-	  display: block;
-	}
-    body { font-family: sans-serif; padding: 1em; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 style="margin-bottom: 0.2em;">Rate den Ort in Südtirol!</h1>
-  <h5 style="margin-top: 0.2em;">(Oder <a href="https://jrkager.github.io/gemeinden.html">Rate die Gemeinde in Südtirol</a>)</h5>
+  <h1>Rate den Ort in Südtirol!</h1>
+  <h5>(Oder <a href="https://jrkager.github.io/gemeinden.html">Rate die Gemeinde in Südtirol</a>)</h5>
   <button id="daily-mode">Tagesrätsel</button>
   <button id="random-mode">Zufallsrätsel</button>
 <!--   <button id="archive-mode">Archivspiel</button> -->
   <select id="archive-date"><option value="">Archivspiel</option></select>
-  <p id="subheading" style="margin-bottom: -10px;"></p>
+  <p id="subheading"></p>
   <canvas id="map" width="500" height="500"></canvas>
   <div>
-    <input type="text" id="guess" placeholder="Ort raten..." style="width: 180px;"/>
+    <input type="text" id="guess" placeholder="Ort raten..." />
     <button id="guess-button" onclick="raten()">Raten</button>
   </div>
   <p id="feedback"></p>
-  <button id="share-button" style="display:none;">Teilen</button>
-  <div style="height: 200px;"></div>
+  <button id="share-button">Teilen</button>
 </body>
 </html>

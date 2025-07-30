@@ -165,6 +165,7 @@ function zeichne() {
 
   const maxDist = Math.max(...verschiebungen.map(v => Math.hypot(v.dx, v.dy)));
   const scale = 200 / (maxDist || 1);
+  const labelBoxes = [];
 
   verschiebungen.forEach((v, i) => {
     const x = canvasCenter[0] + v.dx * scale;
@@ -198,11 +199,19 @@ function zeichne() {
 
     const lines = v.ort.name.split("/");
     const maxl = Math.max(...lines.map(s => s.length));
-    const xtext = x + 7*maxl>=canvas.width ? canvas.width - 6 * maxl : x - 8;
-    const ytext = v.dy >= 0 ? y - 23 : y + 19;
+    let xtext = x + 7*maxl>=canvas.width ? canvas.width - 6 * maxl : x - 8;
+    let ytext = v.dy >= 0 ? y - 23 : y + 19;
+    const boxWidth = 7 * maxl;
+    const boxHeight = lines.length * 14;
+    let adjusted = 0;
+    while (labelBoxes.some(b => !(xtext + boxWidth < b.x || b.x + b.width < xtext || ytext + boxHeight < b.y || b.y + b.height < ytext)) && adjusted < 5) {
+      ytext += 14;
+      adjusted++;
+    }
     lines.forEach((line, idx) => {
       ctx.fillText(line.trim(), xtext, ytext + idx * 14);
     });
+    labelBoxes.push({x: xtext, y: ytext - 12, width: boxWidth, height: boxHeight});
   });
 
   // Hinweis nach 2 Versuchen

@@ -1,0 +1,1306 @@
+[
+  {
+    "name": "Salorno sulla Strada del Vino/Salurn an der Weinstraße",
+    "alternativen": [
+      "Salurn an der Weinstraße",
+      "Salorno sulla Strada del Vino"
+    ],
+    "lat": 46.25081712228052,
+    "lon": 11.241668194578551,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Margreid an der Weinstraße/Magrè sulla Strada del Vino",
+    "alternativen": [
+      "Margreid an der Weinstraße",
+      "Magrè sulla Strada del Vino"
+    ],
+    "lat": 46.27378032603237,
+    "lon": 11.199899253872006,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Kurtinig an der Weinstraße/Cortina sulla Strada del Vino",
+    "alternativen": [
+      "Kurtinig an der Weinstraße",
+      "Cortina sulla Strada del Vino"
+    ],
+    "lat": 46.26647118378259,
+    "lon": 11.222959331450257,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Anterivo/Altrei",
+    "alternativen": [
+      "Altrei",
+      "Anterivo"
+    ],
+    "lat": 46.279556411929676,
+    "lon": 11.36796651717233,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Neumarkt/Egna",
+    "alternativen": [
+      "Neumarkt",
+      "Egna"
+    ],
+    "lat": 46.29550422633867,
+    "lon": 11.26872142386776,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Montan an der Weinstraße/Montagna sulla Strada del Vino",
+    "alternativen": [
+      "Montan an der Weinstraße",
+      "Montagna sulla Strada del Vino"
+    ],
+    "lat": 46.322083608102766,
+    "lon": 11.31634017170896,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Kurtatsch an der Weinstraße/Cortaccia sulla Strada del Vino",
+    "alternativen": [
+      "Kurtatsch an der Weinstraße",
+      "Cortaccia sulla Strada del Vino"
+    ],
+    "lat": 46.305952052817055,
+    "lon": 11.20137747023234,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Truden im Naturpark/Trodena nel Parco Naturale",
+    "alternativen": [
+      "Truden im Naturpark",
+      "Trodena nel Parco Naturale"
+    ],
+    "lat": 46.31504074599484,
+    "lon": 11.356602512239457,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Tramin an der Weinstraße/Termeno sulla Strada del Vino",
+    "alternativen": [
+      "Tramin an der Weinstraße",
+      "Termeno sulla Strada del Vino"
+    ],
+    "lat": 46.34340780426588,
+    "lon": 11.235753588207062,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Kaltern an der Weinstraße/Caldaro sulla Strada del Vino",
+    "alternativen": [
+      "Kaltern an der Weinstraße",
+      "Caldaro sulla Strada del Vino",
+      "Kaltern - Caldaro",
+      "Kaltern",
+      "Caldaro"
+    ],
+    "lat": 46.39337401645094,
+    "lon": 11.245453739166418,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Aldein/Aldino",
+    "alternativen": [
+      "Aldein",
+      "Aldino"
+    ],
+    "lat": 46.35952671964171,
+    "lon": 11.392232960601207,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Auer/Ora",
+    "alternativen": [
+      "Auer",
+      "Ora"
+    ],
+    "lat": 46.363107612268706,
+    "lon": 11.304740416439625,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Vadena/Pfatten",
+    "alternativen": [
+      "Pfatten",
+      "Vadena"
+    ],
+    "lat": 46.393714627732315,
+    "lon": 11.294110149086977,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Deutschnofen/Nova Ponente",
+    "alternativen": [
+      "Deutschnofen",
+      "Nova Ponente"
+    ],
+    "lat": 46.403668625588146,
+    "lon": 11.456984495108964,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Welschnofen/Nova Levante",
+    "alternativen": [
+      "Welschnofen",
+      "Nova Levante"
+    ],
+    "lat": 46.42422761399276,
+    "lon": 11.563808804840459,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Bronzolo/Branzoll",
+    "alternativen": [
+      "Branzoll",
+      "Bronzolo"
+    ],
+    "lat": 46.39832911986659,
+    "lon": 11.319262682914063,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Laives/Leifers",
+    "alternativen": [
+      "Leifers",
+      "Laives"
+    ],
+    "lat": 46.438459317776726,
+    "lon": 11.345114128817753,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Eppan an der Weinstraße/Appiano sulla Strada del Vino",
+    "alternativen": [
+      "Eppan - Appiano",
+      "Eppan",
+      "Appiano",
+      "Eppan an der Weinstraße",
+      "Appiano sulla Strada del Vino",
+      "Eppan - Appiano",
+      "Eppan",
+      "Appiano"
+    ],
+    "lat": 46.46737409727871,
+    "lon": 11.25600502090669,
+    "einwohner": 14932,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Laurein/Lauregno",
+    "alternativen": [
+      "Laurein",
+      "Lauregno"
+    ],
+    "lat": 46.47477365321478,
+    "lon": 11.051392045929866,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Bolzano/Bozen",
+    "alternativen": [
+      "Bozen",
+      "Bolzano"
+    ],
+    "lat": 46.48575975770878,
+    "lon": 11.348652114650358,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Proveis/Proves",
+    "alternativen": [
+      "Proveis",
+      "Proves"
+    ],
+    "lat": 46.48829336357291,
+    "lon": 11.016534592003836,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Karneid/Cornedo all'Isarco",
+    "alternativen": [
+      "Karneid",
+      "Cornedo all'Isarco"
+    ],
+    "lat": 46.46627325161626,
+    "lon": 11.462168509164519,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Ulten/Ultimo",
+    "alternativen": [
+      "Ulten",
+      "Ultimo"
+    ],
+    "lat": 46.510558300693305,
+    "lon": 10.906258415228763,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Martell/Martello",
+    "alternativen": [
+      "Martell",
+      "Martello"
+    ],
+    "lat": 46.51425066817366,
+    "lon": 10.72071076240322,
+    "einwohner": 884,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Tiers/Tires",
+    "alternativen": [
+      "Tiers",
+      "Tires"
+    ],
+    "lat": 46.47471862893224,
+    "lon": 11.581294513666894,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Stilfs/Stelvio",
+    "alternativen": [
+      "Stilfs",
+      "Stelvio",
+      "Stielva"
+    ],
+    "lat": 46.538331952700055,
+    "lon": 10.546785554691732,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Völs am Schlern/Fiè allo Sciliar",
+    "alternativen": [
+      "Völs am Schlern",
+      "Fiè allo Sciliar"
+    ],
+    "lat": 46.50801390848407,
+    "lon": 11.520216984922783,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Ritten/Renon",
+    "alternativen": [
+      "Ritten",
+      "Renon"
+    ],
+    "lat": 46.553874678462904,
+    "lon": 11.436146033087411,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Kastelruth/Castelrotto",
+    "alternativen": [
+      "Kastelruth",
+      "Castelrotto",
+      "Ciastel"
+    ],
+    "lat": 46.54645920602415,
+    "lon": 11.613013997284831,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Terlan/Terlano",
+    "alternativen": [
+      "Terlan",
+      "Terlano"
+    ],
+    "lat": 46.53279542023222,
+    "lon": 11.250224557009467,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Unsere Liebe Frau im Walde-St. Felix/Senale-San Felice",
+    "alternativen": [
+      "Unsere Liebe Frau im Walde-St. Felix",
+      "Senale-San Felice"
+    ],
+    "lat": 46.50945601400456,
+    "lon": 11.130988882244129,
+    "einwohner": 787,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Sëlva/Wolkenstein/Selva di Val Gardena",
+    "alternativen": [
+      "Sëlva",
+      "Wolkenstein",
+      "Selva di Val Gardena"
+    ],
+    "lat": 46.55322288304121,
+    "lon": 11.777977191960876,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Santa Cristina Gherdëina/St. Christina in Gröden/Santa Cristina Valgardena",
+    "alternativen": [
+      "Santa Cristina Val Gardena",
+      "Santa Cristina Gherdëina",
+      "St. Christina in Gröden",
+      "Santa Cristina Valgardena"
+    ],
+    "lat": 46.566497302157586,
+    "lon": 11.735409973770789,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Nals/Nalles",
+    "alternativen": [
+      "Nals",
+      "Nalles"
+    ],
+    "lat": 46.533802534575074,
+    "lon": 11.20216605032448,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Sankt Pankraz/San Pancrazio",
+    "alternativen": [
+      "Sankt Pankraz",
+      "San Pancrazio"
+    ],
+    "lat": 46.57388277110579,
+    "lon": 11.06664315387952,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Andrian/Andriano",
+    "alternativen": [
+      "Andrian",
+      "Andriano"
+    ],
+    "lat": 46.518321663493516,
+    "lon": 11.231217031717206,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Jenesien/San Genesio Atesino",
+    "alternativen": [
+      "Jenesien",
+      "San Genesio Atesino"
+    ],
+    "lat": 46.56174662818211,
+    "lon": 11.32177075166261,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Corvara in Badia/Corvara",
+    "alternativen": [
+      "Corvara",
+      "Corvara",
+      "Corvara in Badia"
+    ],
+    "lat": 46.54760856942326,
+    "lon": 11.854969024571334,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Tisens/Tesimo",
+    "alternativen": [
+      "Tisens",
+      "Tesimo"
+    ],
+    "lat": 46.55101037550583,
+    "lon": 11.149956504650364,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Badia/Abtei",
+    "alternativen": [
+      "Abtei",
+      "Badia",
+      "Badia"
+    ],
+    "lat": 46.58245377412843,
+    "lon": 11.920295170203795,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Laas/Lasa",
+    "alternativen": [
+      "Laas",
+      "Lasa"
+    ],
+    "lat": 46.60612530444658,
+    "lon": 10.669110730226404,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Gargazon/Gargazzone",
+    "alternativen": [
+      "Gargazon",
+      "Gargazzone"
+    ],
+    "lat": 46.57737683782431,
+    "lon": 11.202819318386467,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Latsch/Laces",
+    "alternativen": [
+      "Latsch",
+      "Laces"
+    ],
+    "lat": 46.60120430930075,
+    "lon": 10.85739541178873,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Mölten/Meltina",
+    "alternativen": [
+      "Mölten",
+      "Meltina"
+    ],
+    "lat": 46.586431473135974,
+    "lon": 11.263132666960782,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Urtijëi/St. Ulrich in Gröden/Ortisei",
+    "alternativen": [
+      "Urtijëi",
+      "St. Ulrich in Gröden",
+      "Ortisei"
+    ],
+    "lat": 46.59072901260263,
+    "lon": 11.688098615205954,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Barbian/Barbiano",
+    "alternativen": [
+      "Barbian",
+      "Barbiano"
+    ],
+    "lat": 46.60665647148099,
+    "lon": 11.492362602809628,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Lana",
+    "alternativen": [
+      "Lana",
+      "Lana"
+    ],
+    "lat": 46.603466747759484,
+    "lon": 11.144030927705755,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Kastelbell-Tschars/Castelbello-Ciardes",
+    "alternativen": [
+      "Kastelbell-Tschars",
+      "Castelbello-Ciardes"
+    ],
+    "lat": 46.625677619531,
+    "lon": 10.92941003479555,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Schlanders/Silandro",
+    "alternativen": [
+      "Schlanders",
+      "Silandro"
+    ],
+    "lat": 46.649310401872455,
+    "lon": 10.763266740440661,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Naturns/Naturno",
+    "alternativen": [
+      "Naturns",
+      "Naturno"
+    ],
+    "lat": 46.641477452879535,
+    "lon": 11.002088356476248,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Burgstall/Postal",
+    "alternativen": [
+      "Burgstall",
+      "Postal"
+    ],
+    "lat": 46.60488650990948,
+    "lon": 11.196547008901236,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Waidbruck/Ponte Gardena",
+    "alternativen": [
+      "Waidbruck",
+      "Ponte Gardena",
+      "Pruca"
+    ],
+    "lat": 46.592161710788254,
+    "lon": 11.537990650368465,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Lajen/Laion",
+    "alternativen": [
+      "Lajen",
+      "Laion"
+    ],
+    "lat": 46.612065492040436,
+    "lon": 11.597064712901775,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "San Martin de Tor/San Martino in Badia/St. Martin in Thurn",
+    "alternativen": [
+      "St. Martin in Thurn",
+      "San Martino in Badia",
+      "San Martin de Tor"
+    ],
+    "lat": 46.654720977636764,
+    "lon": 11.844425930094483,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Villnöß/Funes",
+    "alternativen": [
+      "Villnöß",
+      "Funes"
+    ],
+    "lat": 46.639515696803606,
+    "lon": 11.713110392459544,
+    "einwohner": 2612,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Marèo/Enneberg/Marebbe",
+    "alternativen": [
+      "Enneberg",
+      "Marebbe",
+      "Marèo"
+    ],
+    "lat": 46.66516340153583,
+    "lon": 11.97424380371789,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Taufers im Münstertal/Tubre",
+    "alternativen": [
+      "Taufers",
+      "Tuer",
+      "Taufers im Münstertal",
+      "Tubre",
+      "Tuor te Val Müstair",
+      "Tuor"
+    ],
+    "lat": 46.65808955823349,
+    "lon": 10.443928926224327,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Prad am Stilfserjoch/Prato allo Stelvio",
+    "alternativen": [
+      "Prad am Stilfserjoch",
+      "Prato allo Stelvio"
+    ],
+    "lat": 46.60598006329965,
+    "lon": 10.57333330537367,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Vöran/Verano",
+    "alternativen": [
+      "Vöran",
+      "Verano"
+    ],
+    "lat": 46.62114586530825,
+    "lon": 11.24661559862418,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Sarntal/Sarentino",
+    "alternativen": [
+      "Sarntal",
+      "Sarentino"
+    ],
+    "lat": 46.711872748779385,
+    "lon": 11.386637044436355,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Meran/Merano",
+    "alternativen": [
+      "Meran",
+      "Merano"
+    ],
+    "lat": 46.656212349712135,
+    "lon": 11.182814143722007,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Algund/Lagundo",
+    "alternativen": [
+      "Algund",
+      "Lagundo"
+    ],
+    "lat": 46.67770344474837,
+    "lon": 11.09902630638063,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Toblach/Dobbiaco",
+    "alternativen": [
+      "Toblach",
+      "Dobbiaco"
+    ],
+    "lat": 46.6974065469738,
+    "lon": 12.237183243777103,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Sexten/Sesto",
+    "alternativen": [
+      "Sexten",
+      "Sesto"
+    ],
+    "lat": 46.673097855672125,
+    "lon": 12.374127438444685,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Villanders/Villandro",
+    "alternativen": [
+      "Villanders",
+      "Villandro"
+    ],
+    "lat": 46.64477706006417,
+    "lon": 11.484926270236516,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Tscherms/Cermes",
+    "alternativen": [
+      "Tscherms",
+      "Cermes"
+    ],
+    "lat": 46.63392605689686,
+    "lon": 11.13525321649818,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "La Val/Wengen/La Valle",
+    "alternativen": [
+      "Wengen",
+      "La Valle",
+      "La Val"
+    ],
+    "lat": 46.649152745843836,
+    "lon": 11.939028929103396,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Glurns/Glorenza",
+    "alternativen": [
+      "Glurns",
+      "Glorenza"
+    ],
+    "lat": 46.656150581338544,
+    "lon": 10.545720242345666,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Marling/Marlengo",
+    "alternativen": [
+      "Marling",
+      "Marlengo"
+    ],
+    "lat": 46.652836359594694,
+    "lon": 11.129387428559815,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Klausen/Chiusa",
+    "alternativen": [
+      "Klausen",
+      "Chiusa"
+    ],
+    "lat": 46.671174820705836,
+    "lon": 11.539951820166722,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Schluderns/Sluderno",
+    "alternativen": [
+      "Schluderns",
+      "Sluderno"
+    ],
+    "lat": 46.65799128036746,
+    "lon": 10.605350846428156,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Hafling/Avelengo",
+    "alternativen": [
+      "Hafling",
+      "Avelengo"
+    ],
+    "lat": 46.658546433220266,
+    "lon": 11.249861080813023,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Plaus",
+    "alternativen": [
+      "Plaus",
+      "Plaus"
+    ],
+    "lat": 46.643684319499066,
+    "lon": 11.051789926051296,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Partschins/Parcines",
+    "alternativen": [
+      "Partschins",
+      "Parcines"
+    ],
+    "lat": 46.698138733161215,
+    "lon": 11.044892967953844,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Feldthurns/Velturno",
+    "alternativen": [
+      "Feldthurns",
+      "Velturno"
+    ],
+    "lat": 46.68506040161226,
+    "lon": 11.585276785383085,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Schnals/Senales",
+    "alternativen": [
+      "Schnals",
+      "Senales"
+    ],
+    "lat": 46.72989299318765,
+    "lon": 10.872719988567203,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Brixen/Bressanone",
+    "alternativen": [
+      "Brixen",
+      "Bressanone",
+      "Brixen"
+    ],
+    "lat": 46.69960481051252,
+    "lon": 11.684353957137514,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Prags/Braies",
+    "alternativen": [
+      "Prags",
+      "Braies"
+    ],
+    "lat": 46.687588811491935,
+    "lon": 12.122098635060217,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Mals/Malles Venosta",
+    "alternativen": [
+      "Mals",
+      "Malles Venosta"
+    ],
+    "lat": 46.72293787309468,
+    "lon": 10.585545274041245,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Schenna/Scena",
+    "alternativen": [
+      "Schenna",
+      "Scena"
+    ],
+    "lat": 46.70978487407689,
+    "lon": 11.234089293368497,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Tirol/Tirolo",
+    "alternativen": [
+      "Dorf Tirol",
+      "Tirol",
+      "Tirolo"
+    ],
+    "lat": 46.7137985201665,
+    "lon": 11.128955454323094,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Kuens/Caines",
+    "alternativen": [
+      "Kuens",
+      "Caines"
+    ],
+    "lat": 46.70158714784289,
+    "lon": 11.169234584490408,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Lüsen/Luson",
+    "alternativen": [
+      "Lüsen",
+      "Luson"
+    ],
+    "lat": 46.733235551621775,
+    "lon": 11.771078610904423,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Vahrn/Varna",
+    "alternativen": [
+      "Vahrn",
+      "Varna"
+    ],
+    "lat": 46.74583758172972,
+    "lon": 11.57056197272816,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Riffian/Rifiano",
+    "alternativen": [
+      "Riffian",
+      "Rifiano"
+    ],
+    "lat": 46.747173639773884,
+    "lon": 11.1485615211782,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Innichen/San Candido",
+    "alternativen": [
+      "Innichen",
+      "San Candido"
+    ],
+    "lat": 46.713881675225686,
+    "lon": 12.307326838618401,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "St. Leonhard in Passeier/San Leonardo in Passiria",
+    "alternativen": [
+      "St. Leonhard in Passeier",
+      "San Leonardo in Passiria"
+    ],
+    "lat": 46.79782818805691,
+    "lon": 11.275118409283145,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Olang/Valdaora",
+    "alternativen": [
+      "Olang",
+      "Valdaora"
+    ],
+    "lat": 46.74052658625684,
+    "lon": 12.023475908280528,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Welsberg-Taisten/Monguelfo-Tesido",
+    "alternativen": [
+      "Welsberg-Taisten",
+      "Monguelfo-Tesido"
+    ],
+    "lat": 46.77658624547813,
+    "lon": 12.11767756679496,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Niederdorf/Villabassa",
+    "alternativen": [
+      "Niederdorf",
+      "Villabassa"
+    ],
+    "lat": 46.735695315137384,
+    "lon": 12.165754316051864,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Natz-Schabs/Naz-Sciaves",
+    "alternativen": [
+      "Natz - Schabs",
+      "Naz - Sciaves"
+    ],
+    "lat": 46.76476206735999,
+    "lon": 11.666570756071106,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Moos in Passeier/Moso in Passiria",
+    "alternativen": [
+      "Moos in Passeier",
+      "Moso in Passiria"
+    ],
+    "lat": 46.83561079911424,
+    "lon": 11.128189379553197,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "St. Lorenzen/San Lorenzo di Sebato",
+    "alternativen": [
+      "St. Lorenzen",
+      "San Lorenzo di Sebato"
+    ],
+    "lat": 46.765610468600734,
+    "lon": 11.871800836126289,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Bruneck/Brunico",
+    "alternativen": [
+      "Bruneck",
+      "Brunico",
+      "Burnech-Bornech"
+    ],
+    "lat": 46.790710458643126,
+    "lon": 11.949038720176269,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Gsies/Valle di Casies",
+    "alternativen": [
+      "Gsies",
+      "Valle di Casies"
+    ],
+    "lat": 46.82132314793065,
+    "lon": 12.225249464617141,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "St. Martin in Passeier/San Martino in Passiria",
+    "alternativen": [
+      "St. Martin in Passeier",
+      "San Martino in Passiria"
+    ],
+    "lat": 46.77831943611814,
+    "lon": 11.200558895560816,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Rasen-Antholz/Rasun-Anterselva",
+    "alternativen": [
+      "Rasen-Antholz",
+      "Rasun-Anterselva"
+    ],
+    "lat": 46.845109865113706,
+    "lon": 12.110274033965407,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Rodeneck/Rodengo",
+    "alternativen": [
+      "Rodeneck",
+      "Rodengo"
+    ],
+    "lat": 46.78720944342213,
+    "lon": 11.724378741750783,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Franzensfeste/Fortezza",
+    "alternativen": [
+      "Franzensfeste",
+      "Fortezza"
+    ],
+    "lat": 46.79877671536354,
+    "lon": 11.558490092903526,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Mühlbach/Rio di Pusteria",
+    "alternativen": [
+      "Mühlbach",
+      "Rio di Pusteria"
+    ],
+    "lat": 46.852769142811916,
+    "lon": 11.634302902469237,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Kiens/Chienes",
+    "alternativen": [
+      "Kiens",
+      "Chienes"
+    ],
+    "lat": 46.81444391999393,
+    "lon": 11.823359151078492,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Graun/Curon Venosta",
+    "alternativen": [
+      "Graun",
+      "Curon Venosta"
+    ],
+    "lat": 46.80881718373665,
+    "lon": 10.579520161427006,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Pfalzen/Falzes",
+    "alternativen": [
+      "Pfalzen",
+      "Falzes"
+    ],
+    "lat": 46.830586551722085,
+    "lon": 11.879385060731256,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Vintl/Vandoies",
+    "alternativen": [
+      "Vintl",
+      "Vandoies"
+    ],
+    "lat": 46.88659678536731,
+    "lon": 11.70253092559839,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Percha/Perca",
+    "alternativen": [
+      "Percha",
+      "Perca"
+    ],
+    "lat": 46.82473939208299,
+    "lon": 12.024299219407908,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Ratschings/Racines",
+    "alternativen": [
+      "Ratschings",
+      "Racines"
+    ],
+    "lat": 46.887068835125994,
+    "lon": 11.303916813166378,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Freienfeld/Campo di Trens",
+    "alternativen": [
+      "Freienfeld",
+      "Campo di Trens"
+    ],
+    "lat": 46.858601660915326,
+    "lon": 11.510246907583731,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Gais",
+    "alternativen": [
+      "Gais",
+      "Gais"
+    ],
+    "lat": 46.85697362330446,
+    "lon": 11.978861490629583,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Mühlwald/Selva dei Molini",
+    "alternativen": [
+      "Mühlwald",
+      "Selva dei Molini"
+    ],
+    "lat": 46.91691567549542,
+    "lon": 11.815463106478555,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Terenten/Terento",
+    "alternativen": [
+      "Terenten",
+      "Terento"
+    ],
+    "lat": 46.84720630265192,
+    "lon": 11.782436416160518,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Sterzing/Vipiteno",
+    "alternativen": [
+      "Sterzing",
+      "Vipiteno"
+    ],
+    "lat": 46.91423145609369,
+    "lon": 11.423201337472504,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Sand in Taufers/Campo Tures",
+    "alternativen": [
+      "Sand in Taufers",
+      "Campo Tures"
+    ],
+    "lat": 46.93060289558728,
+    "lon": 12.037579239566165,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Pfitsch/Val di Vizze",
+    "alternativen": [
+      "Pfitsch",
+      "Val di Vizze"
+    ],
+    "lat": 46.9508059732185,
+    "lon": 11.58547044880275,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Brenner/Brennero",
+    "alternativen": [
+      "Brenner",
+      "Brennero"
+    ],
+    "lat": 46.962688616036495,
+    "lon": 11.398571008588286,
+    "einwohner": 0,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Ahrntal/Valle Aurina",
+    "alternativen": [
+      "Ahrntal",
+      "Valle Aurina"
+    ],
+    "lat": 46.988090087174946,
+    "lon": 11.943151064173447,
+    "einwohner": 5517,
+    "waehlbar": "true"
+  },
+  {
+    "name": "Prettau/Predoi",
+    "alternativen": [
+      "Prettau",
+      "Predoi"
+    ],
+    "lat": 47.046782461558195,
+    "lon": 12.14033782347669,
+    "einwohner": 0,
+    "waehlbar": "true"
+  }
+]

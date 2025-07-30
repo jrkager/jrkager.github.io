@@ -6,6 +6,9 @@ let seedFromURL;
 let dayFromURL;
 let today;
 
+let gerateneOrte = [];
+let spielVorbei = false;
+
 const distanzKm = (a, b) => {
 	if (a === b) return 0;
     const toRad = deg => deg * Math.PI / 180;
@@ -211,24 +214,9 @@ function zeichne() {
   if (gerateneOrte.length >= 2 && !spielVorbei) {
     ctx.fillStyle = "black";
     ctx.font = "14px sans-serif";
-    ctx.fillText(window.SUGG2_STR.replace("{}",ziel.einwohner.toLocaleString()), 10, 20);
+    if ('SUGG2_STR' in window && window.SUGG2_STR !== null)
+    	ctx.fillText(window.SUGG2_STR.replace("{}",ziel.einwohner.toLocaleString()), 10, 20);
   }
-  // if (gerateneOrte.length >= 4 && !spielVorbei) {
-// 	  let hint = "";
-// 	if (ziel.name.includes("/")) {
-// 	  const teil = ziel.name.split("/")[1].trim();
-// 	  if (teil.length >= 2) {
-// 		hint = teil[0] + "_".repeat(teil.length - 2) + teil[teil.length - 1];
-// 	  } else {
-// 		hint = teil;
-// 	  }
-// 	} else {
-// 	  hint = ziel.name[0] + "_".repeat(ziel.name.length - 2) + ziel.name[ziel.name.length - 1];
-// 	}
-//     ctx.fillStyle = "black";
-//     ctx.font = "14px sans-serif";
-//     ctx.fillText(`💡 ${hint}`, 10, 40);
-//   }
 
   // Spielende anzeigen
   if (spielVorbei) {
@@ -249,10 +237,6 @@ function zeichne() {
   }
 }
 
-
-let gerateneOrte = [];
-let spielVorbei = false;
-
 function raten() {
   if (spielVorbei) return;
 
@@ -268,13 +252,19 @@ function raten() {
   );
 
   if (!ort) {
-    document.getElementById("feedback").textContent = "Ort nicht gefunden.";
+  	if ('NOTFOUND_STR' in window && window.NOTFOUND_STR !== null) 
+  		document.getElementById("feedback").textContent = window.NOTFOUND_STR;
+  	else
+		document.getElementById("feedback").textContent = "Ort nicht gefunden.";
     return;
   }
 
   // Schon geraten?
   if (gerateneOrte.some(o => o.name === ort.name)) {
-    document.getElementById("feedback").textContent = "Diesen Ort hast du schon geraten.";
+  	if ('ALREADYGUESSED_STR' in window && window.ALREADYGUESSED_STR !== null) 
+  		document.getElementById("feedback").textContent = window.ALREADYGUESSED_STR;
+  	else
+    	document.getElementById("feedback").textContent = "Diesen Ort hast du schon geraten.";
     return;
   }
 

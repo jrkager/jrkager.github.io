@@ -1,7 +1,8 @@
+let orteAlle = [];
 let orte = [];
 let ziel, ref1, ref2;
 
-let useSeeded = true;
+let useSeeded = true; // on reload, start with daily puzzle
 let archiveDate = null;
 
 const distanzKm = (a, b) => {
@@ -15,6 +16,12 @@ const distanzKm = (a, b) => {
     const aVal = Math.sin(dLat/2)**2 + Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLon/2)**2;
     return 2 * R * Math.asin(Math.sqrt(aVal));
   };
+  
+const distString = (dist, nachkomma) => {
+	if (dist < 1) return `${Math.round(dist * 1000)} m`;
+    faktor = Math.pow(10,nachkomma)
+    return `${Math.round((dist + Number.EPSILON) * faktor) / faktor} km`;
+};
   
 function winkelZwischenDreiPunkten(a, x, b) {
   function toRad(deg) {
@@ -54,6 +61,12 @@ function getSeedFromURL() {
   return seedParam ? parseInt(seedParam, 10) : null;
 }
 
+function nextRandWaehlbar(rand) {
+	var ret = orteAlle[Math.floor(rand() * orteAlle.length)];
+	while (ret.waehlbar == false) ret = orteAlle[Math.floor(rand() * orteAlle.length)];
+	return ret;
+}
+
 function startGame() {
   document.getElementById("share-button").style.display = "none";
   const subheading = document.getElementById("subheading");
@@ -77,18 +90,22 @@ function startGame() {
     };
   })();
 
-  const waehlbareOrte = orte.filter(o => o.waehlbar);
-  ziel = waehlbareOrte[Math.floor(rand() * waehlbareOrte.length)];
-
-  const waehlbareAndere = waehlbareOrte.filter(o => o.name !== ziel.name);
-  ref1 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
-  ref2 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
+  ziel = nextRandWaehlbar(rand);
+  ref1 = nextRandWaehlbar(rand);
+  ref2 = nextRandWaehlbar(rand);
+  // manually fix this archive entry (database and, thus, choice based on date changed since then)
+  if (useSeeded && seed == Math.floor(seededRandom(20250729) * 10000)) {
+  	ziel = orte.filter(o=>o.name=="Welsberg-Taisten/Monguelfo-Tesido")[0];
+  	ref1 = orte.filter(o=>o.name=="Sterzing/Vipiteno")[0];
+  	ref2 = orte.filter(o=>o.name=="St. Vigil in Enneberg/San Vigilio di Marebbe")[0];
+  }
   var retryCounter = 0; // zur sicherheit, falls keine passenden orte zu den bedingungen gefunden
-  while (ref1 === ref2 || 
-  		 (retryCounter <= 100 && 
+  while (ref1 === ziel || ref2 === ziel || ref1 === ref2 || 
+  		 (retryCounter <= 300 && 
   		  (distanzKm(ref1, ziel) <= 10 || distanzKm(ref2, ziel) <= 10 || winkelZwischenDreiPunkten(ref1,ziel,ref2) <= 20))) {
-	  ref1 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
-	  ref2 = waehlbareAndere[Math.floor(rand() * waehlbareAndere.length)];
+	  ref1 = nextRandWaehlbar(rand);
+	  ref2 = nextRandWaehlbar(rand);
+	  retryCounter++;
   }
 
   gerateneOrte = [];
@@ -105,10 +122,10 @@ function zeichne() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   const canvasCenter = [250, 250];
 
-  const alleOrte = [ref1, ref2, ...gerateneOrte];
-  if (spielVorbei) alleOrte.push(ziel); // Zielort zeigen, wenn vorbei
+  const alleOrteZeichnen = [ref1, ref2, ...gerateneOrte];
+  if (spielVorbei) alleOrteZeichnen.push(ziel); // Zielort zeigen, wenn vorbei
 
-  const verschiebungen = alleOrte.map(o => ({
+  const verschiebungen = alleOrteZeichnen.map(o => ({
     ort: o,
     dx: (o.lon - ziel.lon) * 85,
     dy: (o.lat - ziel.lat) * 111,
@@ -121,6 +138,7 @@ function zeichne() {
   verschiebungen.forEach((v, i) => {
     const x = canvasCenter[0] + v.dx * scale;
     const y = canvasCenter[1] - v.dy * scale;
+    console.log(v.ort.name, x);
 
     let farbe = "orange";
     if (v.ort.name === ref1.name) farbe = "blue";
@@ -145,12 +163,15 @@ function zeichne() {
       const my = (y + canvasCenter[1]) / 2;
       ctx.fillStyle = "black";
       ctx.font = "12px sans-serif";
-      ctx.fillText(`${v.dist.toFixed(1)} km`, mx + 5, my - 5);
+      ctx.fillText(`${distString(v.dist,1)}`, mx + 5, my - 5);
     }
 
     const lines = v.ort.name.split("/");
+    const maxl = Math.max(...lines.map(s => s.length));
+    const xtext = x + 7*maxl>=canvas.width ? canvas.width - 6 * maxl : x - 8;
+    const ytext = v.dy >= 0 ? y - 23 : y + 19;
     lines.forEach((line, idx) => {
-      ctx.fillText(line.trim(), x + 8, y + idx * 14);
+      ctx.fillText(line.trim(), xtext, ytext + idx * 14);
     });
   });
 
@@ -237,7 +258,7 @@ function raten() {
     return;
   }
   
-  document.getElementById("feedback").textContent = `${ort.name} ist falsch.`;
+  document.getElementById("feedback").textContent = `${ort.name} ist falsch (${distString(distanzKm(ort,ziel),1)}).`;
   if (gerateneOrte.length >= 6) {
     spielVorbei = true;
   }
@@ -262,11 +283,6 @@ document.getElementById("random-mode").addEventListener("click", () => {
   window.location.href = `${window.location.pathname}?game=${gameId}`;
 });
 
-// document.getElementById("archive-mode").addEventListener("click", () => {
-//   useSeeded = true;
-//   document.getElementById("archive-date").style.display = "inline";
-// });
-
 document.getElementById("archive-date").addEventListener("change", (e) => {
   const val = e.target.value;
   if (val) {
@@ -288,10 +304,8 @@ document.getElementById("share-button").addEventListener("click", () => {
     let dist;
     if (d==0) {
       dist = "📍";
-    } else if (d < 1) {
-      dist = `${Math.round(d * 1000)} m`;
     } else {
-      dist = `${Math.round(d)} km`;
+      dist = distString(d,0);
     }
     return `Versuch ${i + 1}: ${dist}`;
   });
@@ -307,14 +321,15 @@ document.getElementById("share-button").addEventListener("click", () => {
 fetch(window.DATA_FILE)
   .then(res => res.json())
   .then(data => {
-    orte = data;
+    orteAlle = data;
+    orte = orteAlle.filter(o => !('versteckt' in o) || o.versteckt === false);
     const select = document.getElementById("archive-date");
     var startDate = new Date();
     startDate.setDate(startDate.getDate() - 7);
     var yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
     for (let d = new Date(startDate); d <= yesterday; d.setDate(d.getDate() + 1)) {
-      const iso = d.toISOString().split("T")[0];
+      const iso = d.toLocaleDateString("sv-SE").split("T")[0];
       const option = document.createElement("option");
       option.value = iso;
       option.textContent = iso.split("-").reverse().join(".");

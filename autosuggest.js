@@ -22,7 +22,7 @@
       fetch(window.DATA_FILE)
         .then(res => res.json())
         .then(data => {
-          orte = data;
+          orte = data.filter(o => !('versteckt' in o) || o.versteckt === false);
         });
     }
 

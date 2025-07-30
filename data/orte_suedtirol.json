@@ -83,14 +83,15 @@
     "alternativen": [
       "Sankt Michael",
       "San Michele",
-      "San Michiel",
-      "San Michele di Castelrotto",
+      "St. Michael",
+      "S. Michele",
       "Eppan",
+      "Eppan an der Weinstraße",
       "Appiano"
     ],
-    "lat": 46.5784061,
-    "lon": 11.6019927,
-    "einwohner": 14934,
+    "lat": 46.4553406,
+    "lon": 11.25878071,
+    "einwohner": 9000,
     "waehlbar": true
   },
   {
@@ -101,7 +102,7 @@
     ],
     "lat": 46.7963194,
     "lon": 11.9355121,
-    "einwohner": 13618,
+    "einwohner": 16618,
     "waehlbar": true
   },
   {
@@ -1224,7 +1225,7 @@
     ],
     "lat": 46.4633443,
     "lon": 11.2807634,
-    "einwohner": 1576,
+    "einwohner": 2800,
     "waehlbar": true
   },
   {

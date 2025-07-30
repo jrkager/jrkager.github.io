@@ -137,7 +137,8 @@
     "lat": 46.54152,
     "lon": 11.45728,
     "einwohner": 7955,
-    "waehlbar": true
+    "waehlbar": false,
+    "versteckt": true
   },
   {
     "name": "Kaltern/Caldaro",

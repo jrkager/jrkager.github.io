@@ -2,7 +2,7 @@ let orteAlle = [];
 let orte = [];
 let ziel, ref1, ref2;
 
-let useSeeded = true;
+let useSeeded = true; // on reload, start with daily puzzle
 let archiveDate = null;
 
 const distanzKm = (a, b) => {
@@ -16,6 +16,12 @@ const distanzKm = (a, b) => {
     const aVal = Math.sin(dLat/2)**2 + Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLon/2)**2;
     return 2 * R * Math.asin(Math.sqrt(aVal));
   };
+  
+const distString = (dist, nachkomma) => {
+	if (dist < 1) return `${Math.round(dist * 1000)} m`;
+    faktor = Math.pow(10,nachkomma)
+    return `${Math.round((dist + Number.EPSILON) * faktor) / faktor} km`;
+};
   
 function winkelZwischenDreiPunkten(a, x, b) {
   function toRad(deg) {
@@ -77,6 +83,7 @@ function startGame() {
   ziel = nextRandWaehlbar(rand);
   ref1 = nextRandWaehlbar(rand);
   ref2 = nextRandWaehlbar(rand);
+  // manually fix this archive entry (database and, thus, choice based on date changed since then)
   if (useSeeded && seed == Math.floor(seededRandom(20250729) * 10000)) {
   	ziel = orte.filter(o=>o.name=="Welsberg-Taisten/Monguelfo-Tesido")[0];
   	ref1 = orte.filter(o=>o.name=="Sterzing/Vipiteno")[0];
@@ -121,6 +128,7 @@ function zeichne() {
   verschiebungen.forEach((v, i) => {
     const x = canvasCenter[0] + v.dx * scale;
     const y = canvasCenter[1] - v.dy * scale;
+    console.log(v.ort.name, x);
 
     let farbe = "orange";
     if (v.ort.name === ref1.name) farbe = "blue";
@@ -145,12 +153,15 @@ function zeichne() {
       const my = (y + canvasCenter[1]) / 2;
       ctx.fillStyle = "black";
       ctx.font = "12px sans-serif";
-      ctx.fillText(`${v.dist.toFixed(1)} km`, mx + 5, my - 5);
+      ctx.fillText(`${distString(v.dist,1)}`, mx + 5, my - 5);
     }
 
     const lines = v.ort.name.split("/");
+    const maxl = Math.max(...lines.map(s => s.length));
+    const xtext = x + 7*maxl>=canvas.width ? canvas.width - 6 * maxl : x - 8;
+    const ytext = v.dy >= 0 ? y - 23 : y + 19;
     lines.forEach((line, idx) => {
-      ctx.fillText(line.trim(), x + 8, y + idx * 14);
+      ctx.fillText(line.trim(), xtext, ytext + idx * 14);
     });
   });
 
@@ -237,7 +248,7 @@ function raten() {
     return;
   }
   
-  document.getElementById("feedback").textContent = `${ort.name} ist falsch.`;
+  document.getElementById("feedback").textContent = `${ort.name} ist falsch (${distString(distanzKm(ort,ziel),1)}).`;
   if (gerateneOrte.length >= 6) {
     spielVorbei = true;
   }
@@ -254,25 +265,19 @@ document.getElementById("guess").addEventListener("keydown", function (e) {
 });
 
 document.getElementById("daily-mode").addEventListener("click", () => {
-  useSeeded = true;
-  archiveDate = null;
-  document.getElementById("archive-date").value = "";
-//   document.getElementById("archive-date").style.display = "none";
-  startGame();
+//   useSeeded = true;
+//   archiveDate = null;
+//   document.getElementById("archive-date").value = "";
+//   startGame();
+  location.reload();
 });
 
 document.getElementById("random-mode").addEventListener("click", () => {
   useSeeded = false;
   archiveDate = null;
   document.getElementById("archive-date").value = "";
-//   document.getElementById("archive-date").style.display = "none";
   startGame();
 });
-
-// document.getElementById("archive-mode").addEventListener("click", () => {
-//   useSeeded = true;
-//   document.getElementById("archive-date").style.display = "inline";
-// });
 
 document.getElementById("archive-date").addEventListener("change", (e) => {
   const val = e.target.value;
@@ -295,10 +300,8 @@ document.getElementById("share-button").addEventListener("click", () => {
     let dist;
     if (d==0) {
       dist = "📍";
-    } else if (d < 1) {
-      dist = `${Math.round(d * 1000)} m`;
     } else {
-      dist = `${Math.round(d)} km`;
+      dist = distString(d,0);
     }
     return `Versuch ${i + 1}: ${dist}`;
   });

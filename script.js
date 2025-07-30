@@ -129,12 +129,7 @@ function startGame() {
   ziel = nextRandWaehlbar(rand);
   ref1 = nextRandWaehlbar(rand);
   ref2 = nextRandWaehlbar(rand);
-  // manually fix this archive entry (database and, thus, choice based on date changed since then)
-  if (seed == Math.floor(seededRandom(20250729) * 10000)) {
-  	ziel = orte.filter(o=>o.name=="Welsberg-Taisten/Monguelfo-Tesido")[0];
-  	ref1 = orte.filter(o=>o.name=="Sterzing/Vipiteno")[0];
-  	ref2 = orte.filter(o=>o.name=="St. Vigil in Enneberg/San Vigilio di Marebbe")[0];
-  }
+  
   var retryCounter = 0; // zur sicherheit, falls keine passenden orte zu den bedingungen gefunden
   while (ref1 === ziel || ref2 === ziel || ref1 === ref2 || 
   		 (retryCounter <= 300 && 

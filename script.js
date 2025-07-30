@@ -2,8 +2,9 @@ let orteAlle = [];
 let orte = [];
 let ziel, ref1, ref2;
 
-let useSeeded = true; // on reload, start with daily puzzle
-let archiveDate = null;
+let seedFromURL;
+let dayFromURL;
+let today;
 
 const distanzKm = (a, b) => {
 	if (a === b) return 0;
@@ -51,8 +52,22 @@ function seededRandom(seed) {
 }
 
 function getSeedFromDate() {
-  const d = archiveDate ? new Date(archiveDate) : new Date();
+  const d = dayFromURL ? new Date(dayFromURL) : new Date();
   return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+}
+
+function getSeedFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const seedParam = params.get("game");
+  const ret = parseInt(seedParam, 10);
+  return isNaN(ret) ? null : ret;
+}
+
+function getDayFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const day = params.get("day");
+  const date = new Date(day);
+  return (day && !isNaN(date)) ? day : null;
 }
 
 function nextRandWaehlbar(rand) {
@@ -64,19 +79,47 @@ function nextRandWaehlbar(rand) {
 function startGame() {
   document.getElementById("share-button").style.display = "none";
   const subheading = document.getElementById("subheading");
-  if (useSeeded) {
-    const d = archiveDate ? new Date(archiveDate) : new Date();
-    const dateStr = d.toLocaleDateString("de-DE");
-    subheading.textContent = `Tagesrätsel vom ${dateStr}`;
-  } else {
-    subheading.textContent = "Zufallsrätsel";
+
+  seedFromURL = getSeedFromURL();
+  dayFromURL = getDayFromURL();
+  today = new Date().toLocaleDateString("sv-SE").split("T")[0];
+  
+  // if params are invalid use Tagesrätsel as fallback and remove URL params
+  if (dayFromURL == null && seedFromURL == null && window.location.search.length > 0)
+  	window.location.href = window.location.pathname
+  
+  if (dayFromURL !== null && dayFromURL >= today) {
+    dayFromURL = null;
   }
-  var seed = getSeedFromDate();
-  seed = Math.floor(seededRandom(seed) * 10000);
+
+  let seed;
+  
+  // Zufallsrätsel
+  if (seedFromURL !== null) {
+    seed = seedFromURL;
+    subheading.textContent = `Zufallsrätsel (Nr: ${seed})`;
+  
+  // Tag-basiertes Rätsel
+  } else {
+    const d = dayFromURL ? new Date(dayFromURL) : new Date();
+    const dateStr = d.toLocaleDateString("de-DE");
+    seed = getSeedFromDate();
+    seed = Math.floor(seededRandom(seed) * 10000);    
+    subheading.textContent = `Tagesrätsel vom ${dateStr}`;
+  }
+
+  // Archivdatum ins Dropdown setzen falls vorhanden
+  const archiveDropdown = document.getElementById("archive-date");
+  if (dayFromURL && [...archiveDropdown.options].some(opt => opt.value === dayFromURL)) {
+    archiveDropdown.value = dayFromURL;
+  } else {
+    archiveDropdown.selectedIndex = 0;
+  }
+
   const rand = (() => {
     let i = 0;
     return () => {
-      return useSeeded ? seededRandom(seed + i++) : Math.random();
+      return seededRandom(seed + i++)
     };
   })();
 
@@ -84,7 +127,7 @@ function startGame() {
   ref1 = nextRandWaehlbar(rand);
   ref2 = nextRandWaehlbar(rand);
   // manually fix this archive entry (database and, thus, choice based on date changed since then)
-  if (useSeeded && seed == Math.floor(seededRandom(20250729) * 10000)) {
+  if (seed == Math.floor(seededRandom(20250729) * 10000)) {
   	ziel = orte.filter(o=>o.name=="Welsberg-Taisten/Monguelfo-Tesido")[0];
   	ref1 = orte.filter(o=>o.name=="Sterzing/Vipiteno")[0];
   	ref2 = orte.filter(o=>o.name=="St. Vigil in Enneberg/San Vigilio di Marebbe")[0];
@@ -128,7 +171,6 @@ function zeichne() {
   verschiebungen.forEach((v, i) => {
     const x = canvasCenter[0] + v.dx * scale;
     const y = canvasCenter[1] - v.dy * scale;
-    console.log(v.ort.name, x);
 
     let farbe = "orange";
     if (v.ort.name === ref1.name) farbe = "blue";
@@ -203,9 +245,7 @@ function zeichne() {
     
     document.getElementById("guess").style.display = "none";
     document.getElementById("guess-button").style.display = "none";
-    if (useSeeded) {
-		document.getElementById("share-button").style.display = "inline";
-	}
+    document.getElementById("share-button").style.display = "inline";
   }
 }
 
@@ -265,26 +305,31 @@ document.getElementById("guess").addEventListener("keydown", function (e) {
 });
 
 document.getElementById("daily-mode").addEventListener("click", () => {
-//   useSeeded = true;
-//   archiveDate = null;
-//   document.getElementById("archive-date").value = "";
-//   startGame();
-  location.reload();
+  // here we make the site refresh, to make sure everyone has the latest database version
+  window.location.href = `${window.location.pathname}`;
 });
 
 document.getElementById("random-mode").addEventListener("click", () => {
-  useSeeded = false;
-  archiveDate = null;
-  document.getElementById("archive-date").value = "";
-  startGame();
+  let gameId = Math.floor(Math.random() * 1000000);
+  if (history.pushState) {
+    var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + `?game=${gameId}`;
+    window.history.pushState({path:newurl},'',newurl);
+    startGame();
+  } else {
+    window.location.href = `${window.location.pathname}?game=${gameId}`;
+  }
 });
 
 document.getElementById("archive-date").addEventListener("change", (e) => {
   const val = e.target.value;
   if (val) {
-    archiveDate = val;
-    useSeeded = true;
-    startGame();
+	  if (history.pushState) {
+		var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + `?day=${val}`;
+		window.history.pushState({path:newurl},'',newurl);
+		startGame();
+	  } else {
+		window.location.href = `${window.location.pathname}?day=${val}`;
+	  }
   }
 });
 
@@ -306,9 +351,11 @@ document.getElementById("share-button").addEventListener("click", () => {
     return `Versuch ${i + 1}: ${dist}`;
   });
 
-  const d = archiveDate ? new Date(archiveDate) : new Date();
+  const d = dayFromURL ? new Date(dayFromURL) : new Date();
   const dateStr = d.toLocaleDateString("de-DE");
-  const text = `🌍 Südtirol-Raten vom ${dateStr}\n` + zeilen.join("\n") + "\n-\njrkager.github.io";
+  const identifier = seedFromURL !== null ? `Nr. ${seedFromURL}` : `vom ${dateStr}`;
+  const url = window.location.href;
+  const text = `🌍 Südtirol-Raten ${identifier}\n` + zeilen.join("\n") + `\n-\n${url}`;
   navigator.share({
     text: text
   });
@@ -320,7 +367,7 @@ fetch(window.DATA_FILE)
     orteAlle = data;
     orte = orteAlle.filter(o => !('versteckt' in o) || o.versteckt === false);
     const select = document.getElementById("archive-date");
-    var startDate = new Date();
+	var startDate = new Date();
     startDate.setDate(startDate.getDate() - 7);
     var yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);

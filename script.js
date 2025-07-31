@@ -338,10 +338,10 @@ document.getElementById("share-button").addEventListener("click", () => {
 
   const d = dayFromURL ? new Date(dayFromURL) : new Date();
   const dateStr = d.toLocaleDateString("de-DE");
-  const addition = 'SHARE_ADD_STR' in window && window.SHARE_ADD_STR !== null ? `-${window.SHARE_ADD_STR}` : "";
+  const game_name = 'SHARE_NAME_STR' in window && window.SHARE_NAME_STR !== null ? `${window.SHARE_NAME_STR}-` : "";
   const identifier = seedFromURL !== null ? `Nr. ${seedFromURL}` : `vom ${dateStr}`;
   const url = window.location.href;
-  const text = `🌍 Südtirol${addition}-Raten ${identifier}\n` + zeilen.join("\n") + `\n-\n${url}`;
+  const text = `🌍 ${game_name}Raten ${identifier}\n` + zeilen.join("\n") + `\n-\n${url}`;
   navigator.share({
     text: text
   });

@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Südtirol-Raten</title>
   <script>
-    window.DATA_FILE = "data/peaks_suedtirol.json";
-    window.SUGG2_STR = "💡 Der Gipfel ist {}m hoch.";
-    window.NOTFOUND_STR = "Gipfel nicht gefunden.";
-    window.ALREADYGUESSED_STR = "Diesen Gipfel hast du schon geraten.";
-    window.SHARE_NAME_STR = "Südtirol-Gipfel";
+    window.DATA_FILE = "data/province.json";
+    window.SUGG2_STR = null;
+    window.NOTFOUND_STR = "Stadt nicht gefunden.";
+    window.ALREADYGUESSED_STR = "Diese Stadt hast du schon geraten.";
+    window.SHARE_NAME_STR = "Provinzen";
   </script>
   <script defer src="script.js"></script>
   <script defer src="autosuggest.js"></script>
@@ -25,7 +25,8 @@
   </style>
 </head>
 <body>
-  <h1>Rate den Gipfel in Südtirol!</h1>
+  <h1 style="margin-bottom: 0.2em;">Rate die Provinzhauptstadt in Italien!</h1>
+  <h5 style="margin-top: 0.2em;">(Oder <a href="https://jrkager.github.io/gemeinden.html">Rate die Gemeinde in Südtirol</a>)</h5>
   <button id="daily-mode">Tagesrätsel</button>
   <button id="random-mode">Zufallsrätsel</button>
 <!--   <button id="archive-mode">Archivspiel</button> -->
@@ -33,7 +34,7 @@
   <p id="subheading" style="margin-bottom: -10px;"></p>
   <canvas id="map" width="500" height="500"></canvas>
   <div>
-    <input type="text" id="guess" placeholder="Ort raten..." style="width: 180px;"/>
+    <input type="text" id="guess" placeholder="Stadt raten..." style="width: 180px;"/>
     <button id="guess-button" onclick="raten()">Raten</button>
   </div>
   <p id="feedback"></p>

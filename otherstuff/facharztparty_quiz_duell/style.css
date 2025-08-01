@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to bottom right, #fef6e4, #e0f7fa);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#start-screen, #quiz-box {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 5vh;
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+#question {
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #222;
+  text-align: center;
+  margin: 1.5em 0;
+}
+button {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #056ed7;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: ##058ad7;
+}
+.task {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #d32f2f;
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Was ist der typische Erreger der Epiglottitis bei Kindern?",
+    "answers": [
+      "Streptococcus pyogenes",
+      "Haemophilus influenzae Typ B",
+      "Rhinovirus",
+      "Pneumokokken"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Welcher Reflex ist bei Neugeborenen physiologisch vorhanden?",
+    "answers": [
+      "Babinski",
+      "Hoffmann-Zeichen",
+      "Moro-Reflex",
+      "Patellarsehnenreflex"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Was ist die empfohlene Therapie bei Pseudokrupp?",
+    "answers": [
+      "Ibuprofen",
+      "Paracetamol",
+      "Antibiotika",
+      "Adrenalin-Inhalation und Kortikosteroide"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Welche Untersuchung ist bei Verdacht auf eine hypertrophe Pylorusstenose Mittel der Wahl?",
+    "answers": [
+      "Sonografie",
+      "MRT",
+      "CT",
+      "Röntgen Abdomen"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Was ist die häufigste Ursache für einen Harnwegsinfekt bei Kindern?",
+    "answers": [
+      "Escherichia coli",
+      "Streptococcus agalactiae",
+      "Klebsiella pneumoniae",
+      "Proteus mirabilis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welcher Herzfehler verursacht typischerweise eine Zyanose beim Neugeborenen?",
+    "answers": [
+      "Transposition der großen Arterien",
+      "Ventrikelseptumdefekt",
+      "Offener Ductus arteriosus",
+      "Vorhofseptumdefekt"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Was ist ein typisches Zeichen des nephrotischen Syndroms?",
+    "answers": [
+      "Leukozytose",
+      "Hypernatriämie",
+      "Hyperglykämie",
+      "Proteinurie"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Welche Impfung wird in Österreich NICHT routinemäßig im Säuglingsalter empfohlen?",
+    "answers": [
+      "Hepatitis B",
+      "Gelbfieber",
+      "Pneumokokken",
+      "Diphtherie"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Was ist die Therapie der Wahl bei akuter Otitis media?",
+    "answers": [
+      "Analgesie, ggf. Antibiotika",
+      "Kortisoninhalation",
+      "Nasenspülung",
+      "Intravenöse Antibiotika"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welche Erkrankung führt typischerweise zu 'Kopf-nach-vorne-beugen-Schmerzen' bei Kindern?",
+    "answers": [
+      "Meningitis",
+      "Pneumonie",
+      "Harnwegsinfekt",
+      "Appendizitis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Was ist das klassische Symptom einer Laryngomalazie?",
+    "answers": [
+      "Exspiratorisches Giemen",
+      "Husten",
+      "Tachykardie",
+      "Inspiratorischer Stridor"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Was ist die häufigste Ursache für eine Anämie im Kindesalter weltweit?",
+    "answers": [
+      "Thalassämie",
+      "Infektion",
+      "Blutverlust",
+      "Eisenmangel"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Was ist ein typisches Zeichen der Perthes-Krankheit?",
+    "answers": [
+      "Fieber",
+      "Schwellung der Lymphknoten",
+      "Schmerz im Hüftgelenk und Hinken",
+      "Rückensteifigkeit"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Welche Erkrankung wird NICHT durch das Masernvirus verursacht?",
+    "answers": [
+      "Subakute sklerosierende Panenzephalitis",
+      "Röteln",
+      "Masern",
+      "Fieberhafte Exantheme"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Wie wird eine Lungenreifeinduktion bei drohender Frühgeburt durchgeführt?",
+    "answers": [
+      "Progesteron",
+      "Dexamethason oder Betamethason",
+      "Magnesiumsulfat",
+      "Tocolyse mit Fenoterol"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Was ist eine typische Komplikation der Mukoviszidose?",
+    "answers": [
+      "Zystische Leberfibrose",
+      "Diabetes Typ 1",
+      "Hyperthyreose",
+      "Pankreasinsuffizienz"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Was gehört NICHT zu den klassischen Zeichen der akuten Appendizitis?",
+    "answers": [
+      "Kolikartige Oberbauchschmerzen",
+      "Loslassschmerz",
+      "Abwehrspannung",
+      "McBurney-Punkt Druckschmerz"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welcher Vitaminmangel kann Krampfanfälle beim Neugeborenen verursachen?",
+    "answers": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin B6",
+      "Vitamin K"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Was ist ein typisches Merkmal des Kawasaki-Syndroms?",
+    "answers": [
+      "Petechien",
+      "Hypertonie",
+      "Anurie",
+      "Fieber > 5 Tage"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Wie lautet die Therapie der Wahl bei einer akuten Epiglottitis?",
+    "answers": [
+      "Ambulante Beobachtung",
+      "Intubation und Antibiotika",
+      "Ibuprofen und viel trinken",
+      "Kortison-Inhalation"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Was ist der typische Erreger der Epiglottitis bei Kindern?",
+    "answers": [
+      "Rhinovirus",
+      "Haemophilus influenzae Typ B",
+      "Streptococcus pyogenes",
+      "Pneumokokken"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Welches Symptom ist charakteristisch für eine Kawasaki-Krankheit?",
+    "answers": [
+      "Hautausschlag am Rücken",
+      "Husten",
+      "Konjunktivitis",
+      "Bauchschmerzen"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Welches Medikament wird primär zur Behandlung von Asthma bei Kindern eingesetzt?",
+    "answers": [
+      "Antihistaminika",
+      "Inhalative Kortikosteroide",
+      "Paracetamol",
+      "Antibiotika"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Wie viele Planeten hat unser Sonnensystem (ohne Zwergplaneten)?",
+    "answers": [
+      "Acht",
+      "Neun",
+      "Sieben",
+      "Zehn"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welches Vitaminmangel kann bei Kindern zu Rachitis führen?",
+    "answers": [
+      "Vitamin D",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin A"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welches Tier ist das größte lebende Säugetier der Erde?",
+    "answers": [
+      "Weißer Hai",
+      "Afrikanischer Elefant",
+      "Blauwal",
+      "Giraffe"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Was ist die empfohlene Erstimpfung gegen Masern in Österreich?",
+    "answers": [
+      "MMR-Impfung mit 11–14 Monaten",
+      "MMR-Impfung mit 5 Jahren",
+      "MMR-Impfung mit 2 Jahren",
+      "MMR-Impfung mit 6 Monaten"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welches Land hat die meisten Pyramiden der Welt?",
+    "answers": [
+      "Mexiko",
+      "Sudan",
+      "Ägypten",
+      "China"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Welches Anzeichen deutet auf eine Dehydratation bei Säuglingen hin?",
+    "answers": [
+      "Blähungen",
+      "Husten",
+      "Eingefallene Fontanelle",
+      "Erhöhte Temperatur"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Welche Farbe hat die Smaragdschlange, die in Südamerika heimisch ist?",
+    "answers": [
+      "Gelb",
+      "Grün",
+      "Blau",
+      "Rot"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Welches Antibiotikum wird häufig bei einer bakteriellen Sinusitis bei Kindern eingesetzt?",
+    "answers": [
+      "Metronidazol",
+      "Ciprofloxacin",
+      "Amoxicillin",
+      "Azithromycin"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Wie heißt die Hauptstadt von Australien?",
+    "answers": [
+      "Perth",
+      "Sydney",
+      "Melbourne",
+      "Canberra"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Welches ist ein typisches Symptom der Hand-Fuß-Mund-Krankheit?",
+    "answers": [
+      "Bläschen an Händen und Füßen",
+      "Kopfschmerzen",
+      "Trockener Husten",
+      "Gelbsucht"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welches chemische Element hat das Symbol 'Au'?",
+    "answers": [
+      "Gold",
+      "Silber",
+      "Eisen",
+      "Aluminium"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welche Erkrankung ist durch das Parvovirus B19 bekannt?",
+    "answers": [
+      "Windpocken",
+      "Ringelröteln",
+      "Masern",
+      "Mumps"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In welchem Jahr wurde das erste iPhone von Apple vorgestellt?",
+    "answers": [
+      "2010",
+      "2003",
+      "2007",
+      "2005"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Welches diagnostische Verfahren wird bei Verdacht auf Appendizitis bei Kindern bevorzugt eingesetzt?",
+    "answers": [
+      "CT",
+      "MRT",
+      "Ultraschall",
+      "Röntgen"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Welches Instrument wird traditionell in der schottischen Musik verwendet und ist für seinen Sack bekannt?",
+    "answers": [
+      "Harfe",
+      "Dudelsack",
+      "Trommel",
+      "Fiedel"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Welches Hormon fehlt bei Kindern mit kongenitaler Hypothyreose?",
+    "answers": [
+      "Insulin",
+      "Adrenalin",
+      "Thyroxin",
+      "Cortisol"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Welcher berühmte Physiker entwickelte die Relativitätstheorie?",
+    "answers": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Niels Bohr",
+      "Stephen Hawking"
+    ],
+    "correct": 1
+  }
+]

@@ -212,7 +212,8 @@
     "lat": 44.0771026,
     "lon": 10.096726,
     "einwohner": 63133,
-    "waehlbar": "true"
+    "waehlbar": "false",
+    "versteckt": "true"
   },
   {
     "name": "Milano",
@@ -1945,18 +1946,15 @@
     "waehlbar": "true"
   },
   {
-    "name": "Andria",
+    "name": "Sanluri-Villacidro",
     "alternativen": [
-      "أندريا",
-      "Άντρια",
-      "ആൻഡ്രിയ",
-      "Андрия",
-      "Андрія",
-      "安德里亞"
+        "Sanluri",
+        "Villacidro",
+        "Medio Campidano"
     ],
-    "lat": 41.2275731,
-    "lon": 16.2954806,
-    "einwohner": 100440,
+    "lat": 39.6173,
+    "lon": 8.6833,
+    "einwohner": 90440,
     "waehlbar": "true"
   },
   {
@@ -1974,7 +1972,8 @@
     "lat": 41.275088,
     "lon": 16.4162585,
     "einwohner": 56217,
-    "waehlbar": "true"
+    "waehlbar": "false",
+    "versteckt":"true"
   },
   {
     "name": "Avellino",
@@ -2055,11 +2054,10 @@
     "waehlbar": "true"
   },
   {
-    "name": "Forlì",
+    "name": "Forlì-Cesena",
     "alternativen": [
-      "Φορλί",
+        "Cesena",
       "Forlì",
-      "ഫോർലി",
       "Furlè",
       "Форли",
       "Форлі",
@@ -2068,7 +2066,7 @@
     ],
     "lat": 44.2227278,
     "lon": 12.041273,
-    "einwohner": 117913,
+    "einwohner": 214671,
     "waehlbar": "true"
   },
   {
@@ -2210,7 +2208,8 @@
     "lat": 44.136352,
     "lon": 12.2422442,
     "einwohner": 96758,
-    "waehlbar": "true"
+    "waehlbar": "false",
+    "versteckt": "true"
   },
   {
     "name": "Ancona",
@@ -2284,7 +2283,8 @@
     "lat": 43.7262608,
     "lon": 12.6363135,
     "einwohner": 15019,
-    "waehlbar": "true"
+    "waehlbar": "false",
+    "versteckt": "true"
   },
   {
     "name": "Fermo",
@@ -2634,7 +2634,7 @@
     "waehlbar": "true"
   },
   {
-    "name": "Casteddu/Cagliari",
+    "name": "Cagliari",
     "alternativen": [
       "Casteddu",
       "كالياري",
@@ -2662,7 +2662,7 @@
     "waehlbar": "true"
   },
   {
-    "name": "Nùgoro/Nuoro",
+    "name": "Nuoro",
     "alternativen": [
       "Νουγόρο",
       "نوورو",
@@ -2678,38 +2678,37 @@
     ],
     "lat": 40.3210601,
     "lon": 9.3297339,
-    "einwohner": 36678,
+    "einwohner": 200678,
     "waehlbar": "true"
   },
   {
-    "name": "Carbonia",
+    "name": "Carbonia-Iglesias",
     "alternativen": [
       "Carbònia",
-      "Καρμπόνια",
+      "Iglesias",
       "Carbonia",
       "Carbonia",
-      "Карбония",
+      "Sulcis Iglesiente",
       "Carbònia",
-      "卡尔博尼亚"
     ],
     "lat": 39.165332,
     "lon": 8.527834,
-    "einwohner": 30447,
+    "einwohner": 130447,
     "waehlbar": "true"
   },
   {
-    "name": "Tèmpiu/Tempio Pausania",
+    "name": "Olbia-Tempio Pausania/Gallura Nord-Est Sardegna",
     "alternativen": [
+        "Olbia","Gallura","Nord-Est Sardegna"
       "Tempio Pausania",
       "Tèmpiu",
       "Tempio Pausania",
       "Темпио Паусания",
       "Tèmpiu",
-      "坦皮奧袍沙尼亞"
     ],
-    "lat": 40.8973821,
-    "lon": 9.1035159,
-    "einwohner": 13992,
+    "lat": 40.897,
+    "lon": 9.278,
+    "einwohner": 80992,
     "waehlbar": "true"
   },
   {
@@ -2735,20 +2734,19 @@
     "waehlbar": "true"
   },
   {
-    "name": "Pesaro",
+    "name": "Pesaro-Urbino",
     "alternativen": [
+        "Urbino",
       "Πέζαρο",
       "Pesaro",
       "Pès're",
       "Пезаро",
       "Пезаро",
-      "佩萨罗",
-      "佩薩羅",
       "Pisaurum"
     ],
     "lat": 43.9098114,
     "lon": 12.9131228,
-    "einwohner": 96609,
+    "einwohner": 111604,
     "waehlbar": "true"
   },
   {
@@ -2921,16 +2919,9 @@
     "waehlbar": "true"
   },
   {
-    "name": "Barletta",
-    "alternativen": [
-      "بارليتا",
-      "Μπαρλέττα",
-      "ബാർലെറ്റ",
-      "Barleta",
-      "Барлетта",
-      "Барлетта",
-      "巴列塔"
-    ],
+    "name": "Barletta-Andria-Trani",
+    "alternativen": ["Barletta","Andria","Trani",
+      "Barleta"],
     "lat": 41.3214976,
     "lon": 16.2868696,
     "einwohner": 94814,
@@ -3195,24 +3186,17 @@
     "waehlbar": "true"
   },
   {
-    "name": "Terranoa/Olbia",
+    "name": "Lanusei-Tortolì",
     "alternativen": [
-      "Tarranoa",
-      "Olbia",
-      "Ольбия",
-      "Terranoa",
-      "Tarranoa",
-      "Ольбія",
-      "奧爾比亞",
-      "Terranova Pausania"
+      "Lanusei","Ogliastra","Tortoli"
     ],
-    "lat": 40.9232659,
-    "lon": 9.5027442,
+    "lat": 39.90934,
+    "lon": 9.60419387,
     "einwohner": 56512,
     "waehlbar": "true"
   },
   {
-    "name": "Aristanis/Oristano",
+    "name": "Oristano",
     "alternativen": [
       "Oristany",
       "Οριστάνο",
@@ -3230,7 +3214,7 @@
     "waehlbar": "true"
   },
   {
-    "name": "Tàttari/Sassari",
+    "name": "Sassari",
     "alternativen": [
       "Tàttari",
       "ساساري",

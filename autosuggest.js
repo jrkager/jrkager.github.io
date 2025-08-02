@@ -18,11 +18,11 @@
   function updateSuggestions() {
     selectedIndex = -1;
 
-    if (!orte) {
+    if (!places) {
       fetch(window.DATA_FILE)
         .then(res => res.json())
         .then(data => {
-          orte = data.filter(o => !('versteckt' in o) || o.versteckt === false);
+          places = data.filter(p => !('hidden' in p) || p.hidden === false);
         });
     }
 
@@ -37,24 +37,24 @@
     container.style.left = `${rect.left + window.scrollX}px`;
     container.style.top = `${rect.bottom + window.scrollY}px`;
     container.style.width = `${rect.width}px`;
-    
-    const passendeOrte = orte
+
+    const matchingPlaces = places
       .map(o => {
         const words = o.name.toLowerCase().split(/[/]+/)
         const startsWithMatch = words.some(word => word.startsWith(val));
-        const includesMatch = (o.alternativen || []).some(a => a.toLowerCase().includes(val));
+        const includesMatch = (o.alternatives || []).some(a => a.toLowerCase().includes(val));
         return { ort: o, startsWith: startsWithMatch, includes: includesMatch };
       })
       .filter(o => o.startsWith || o.includes)
       .sort((a, b) => {
         if (a.startsWith && !b.startsWith) return -1;
         if (!a.startsWith && b.startsWith) return 1;
-        return (b.ort.einwohner - a.ort.einwohner) || a.ort.name.localeCompare(b.ort.name);
+        return (b.ort.population - a.ort.population) || a.ort.name.localeCompare(b.ort.name);
       })
       .map(o => o.ort);
 
-    // Zeige die name-Felder dieser passenden Orte
-    passendeOrte.slice(0, 5).forEach(o => {
+    // Show the name fields of the top 5 matching places
+    matchingPlaces.slice(0, 5).forEach(o => {
       const item = document.createElement("div");
       item.textContent = o.name;
       item.style.padding = "4px";

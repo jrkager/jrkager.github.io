@@ -28,10 +28,6 @@ const distString = (dist, nachkomma) => {
 };
   
 function winkelZwischenDreiPunkten(a, x, b) {
-  function toRad(deg) {
-    return deg * Math.PI / 180;
-  }
-
   // Umrechnung in kartesische Koordinaten (angenähert)
   const ax = [a.lon - x.lon, a.lat - x.lat];
   const bx = [b.lon - x.lon, b.lat - x.lat];

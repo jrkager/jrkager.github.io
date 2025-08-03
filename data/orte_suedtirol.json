@@ -578,18 +578,18 @@
     "selectable": true
   },
   {
-    "name": "Enneberg Pfarre/Pieve di Marebbe",
-    "alternatives": [
-      "Pieve di Marebbe",
-      "La Plì de Mareo",
-      "Enneberg",
-      "La Pli de Mareo",
-      "Enneberg Pfarre"
-    ],
-    "latitude": 46.718844,
-    "longitude": 11.919484,
-    "population": 3081,
-    "selectable": true
+      "name": "Enneberg Pfarre/Pieve di Marebbe",
+      "alternatives": [
+          "Pieve di Marebbe",
+          "La Plì de Mareo",
+          "Enneberg",
+          "La Pli de Mareo",
+          "Enneberg Pfarre"
+      ],
+      "latitude": 46.718844,
+      "longitude": 11.919484,
+      "population": 700,
+      "selectable": false
   },
   {
     "name": "Völs am Schlern/Fiè allo Sciliar",
@@ -1317,8 +1317,9 @@
     ],
     "latitude": 46.5417498,
     "longitude": 11.541481,
-    "population": 1446,
-    "selectable": true
+    "population": 0,
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Burgstall/Postal",
@@ -2705,15 +2706,15 @@
     "selectable": false
   },
   {
-    "name": "St. Veit/San Vito",
+    "name": "St. Veit (Prags)/San Vito di Braies",
     "alternatives": [
-      "S. Vito",
+      "S. Vito","Prags","Braies",
       "San Vito",
       "St. Veit"
     ],
     "latitude": 46.4837748,
     "longitude": 11.4053818,
-    "population": 270,
+    "population": 70,
     "selectable": false
   },
   {

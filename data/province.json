@@ -1,7 +1,7 @@
 [
   {
     "name": "Annecy",
-    "alternativen": [
+    "alternatives": [
       "Anci'",
       "آنسي",
       "Ανεσύ",
@@ -14,14 +14,14 @@
       "阿訥西",
       "Anneci"
     ],
-    "lat": 45.8992348,
-    "lon": 6.1288847,
-    "einwohner": 131715,
-    "waehlbar": "true"
+    "latitude": 45.8992348,
+    "longitude": 6.1288847,
+    "population": 131715,
+    "selectable": "true"
   },
   {
     "name": "Firenze",
-    "alternativen": [
+    "alternatives": [
       "Florenza",
       "Firenze",
       "فلورنسا",
@@ -64,14 +64,14 @@
       "佛罗伦萨",
       "Florentia"
     ],
-    "lat": 43.7697955,
-    "lon": 11.2556404,
-    "einwohner": 382808,
-    "waehlbar": "true"
+    "latitude": 43.7697955,
+    "longitude": 11.2556404,
+    "population": 382808,
+    "selectable": "true"
   },
   {
     "name": "Arezzo",
-    "alternativen": [
+    "alternatives": [
       "Арэцца",
       "Αρέτσο",
       "Arezzo",
@@ -80,14 +80,14 @@
       "Ареццо",
       "阿雷佐"
     ],
-    "lat": 43.4628957,
-    "lon": 11.8781675,
-    "einwohner": 99543,
-    "waehlbar": "true"
+    "latitude": 43.4628957,
+    "longitude": 11.8781675,
+    "population": 99543,
+    "selectable": "true"
   },
   {
     "name": "Grosseto",
-    "alternativen": [
+    "alternatives": [
       "Γκροσέτο",
       "Grosseto",
       "Groseto",
@@ -96,14 +96,14 @@
       "Ґроссето",
       "格罗塞托"
     ],
-    "lat": 42.7597261,
-    "lon": 11.1137389,
-    "einwohner": 82087,
-    "waehlbar": "true"
+    "latitude": 42.7597261,
+    "longitude": 11.1137389,
+    "population": 82087,
+    "selectable": "true"
   },
   {
     "name": "Massa",
-    "alternativen": [
+    "alternatives": [
       "Masa",
       "Μάσσα",
       "Massa",
@@ -112,14 +112,14 @@
       "Масса",
       "马萨"
     ],
-    "lat": 44.0359323,
-    "lon": 10.1395519,
-    "einwohner": 65801,
-    "waehlbar": "true"
+    "latitude": 44.0359323,
+    "longitude": 10.1395519,
+    "population": 65801,
+    "selectable": "true"
   },
   {
     "name": "Pistoia",
-    "alternativen": [
+    "alternatives": [
       "Πιστόια",
       "Pistoia",
       "പിസ്റ്റോയ",
@@ -128,14 +128,14 @@
       "Пістоя",
       "皮斯托亞"
     ],
-    "lat": 43.9336213,
-    "lon": 10.9174238,
-    "einwohner": 90315,
-    "waehlbar": "true"
+    "latitude": 43.9336213,
+    "longitude": 10.9174238,
+    "population": 90315,
+    "selectable": "true"
   },
   {
     "name": "Prato",
-    "alternativen": [
+    "alternatives": [
       "Πράτο",
       "Prato",
       "Prato",
@@ -144,14 +144,14 @@
       "Прато",
       "普拉托"
     ],
-    "lat": 43.880598,
-    "lon": 11.0969262,
-    "einwohner": 191150,
-    "waehlbar": "true"
+    "latitude": 43.880598,
+    "longitude": 11.0969262,
+    "population": 191150,
+    "selectable": "true"
   },
   {
     "name": "Siena",
-    "alternativen": [
+    "alternatives": [
       "Siena",
       "سيينا",
       "Сіена",
@@ -193,14 +193,14 @@
       "Сієна",
       "锡耶纳"
     ],
-    "lat": 43.3185536,
-    "lon": 11.3316533,
-    "einwohner": 53903,
-    "waehlbar": "true"
+    "latitude": 43.3185536,
+    "longitude": 11.3316533,
+    "population": 53903,
+    "selectable": "true"
   },
   {
     "name": "Carrara",
-    "alternativen": [
+    "alternatives": [
       "Carara",
       "Carrara",
       "Carrare",
@@ -209,15 +209,15 @@
       "Каррара",
       "卡拉拉"
     ],
-    "lat": 44.0771026,
-    "lon": 10.096726,
-    "einwohner": 63133,
-    "waehlbar": "false",
-    "versteckt": "true"
+    "latitude": 44.0771026,
+    "longitude": 10.096726,
+    "population": 63133,
+    "selectable": "false",
+    "hidden": "true"
   },
   {
     "name": "Milano",
-    "alternativen": [
+    "alternatives": [
       "Milano",
       "Milan",
       "Milaan",
@@ -321,14 +321,14 @@
       "米蘭",
       "Lo Congrès"
     ],
-    "lat": 45.4641943,
-    "lon": 9.1896346,
-    "einwohner": 1350000,
-    "waehlbar": "true"
+    "latitude": 45.4641943,
+    "longitude": 9.1896346,
+    "population": 1350000,
+    "selectable": "true"
   },
   {
     "name": "Brescia",
-    "alternativen": [
+    "alternatives": [
       "Μπρέσια",
       "Brescia",
       "Brescia",
@@ -341,14 +341,14 @@
       "布雷西亞",
       "Welsch-Brixen"
     ],
-    "lat": 45.5398022,
-    "lon": 10.2200214,
-    "einwohner": 187567,
-    "waehlbar": "true"
+    "latitude": 45.5398022,
+    "longitude": 10.2200214,
+    "population": 187567,
+    "selectable": "true"
   },
   {
     "name": "Cremona",
-    "alternativen": [
+    "alternatives": [
       "Cremùna",
       "Κρεμόνα",
       "Cremona",
@@ -361,14 +361,14 @@
       "Кремона",
       "克雷莫納"
     ],
-    "lat": 45.1334796,
-    "lon": 10.0248716,
-    "einwohner": 59561,
-    "waehlbar": "true"
+    "latitude": 45.1334796,
+    "longitude": 10.0248716,
+    "population": 59561,
+    "selectable": "true"
   },
   {
     "name": "Lecco",
-    "alternativen": [
+    "alternatives": [
       "لکو",
       "Lecco",
       "Λέκκο",
@@ -383,14 +383,14 @@
       "萊科",
       "Leck"
     ],
-    "lat": 45.8553764,
-    "lon": 9.389605,
-    "einwohner": 45501,
-    "waehlbar": "true"
+    "latitude": 45.8553764,
+    "longitude": 9.389605,
+    "population": 45501,
+    "selectable": "true"
   },
   {
     "name": "Lodi",
-    "alternativen": [
+    "alternatives": [
       "Λόντι",
       "Lodi",
       "Lodi",
@@ -398,14 +398,14 @@
       "Лоди",
       "洛迪"
     ],
-    "lat": 45.3138959,
-    "lon": 9.503263,
-    "einwohner": 40805,
-    "waehlbar": "true"
+    "latitude": 45.3138959,
+    "longitude": 9.503263,
+    "population": 40805,
+    "selectable": "true"
   },
   {
     "name": "Mantova",
-    "alternativen": [
+    "alternatives": [
       "مانتوفا",
       "Màntua",
       "Mantua",
@@ -428,14 +428,14 @@
       "曼圖亞",
       "Mantua"
     ],
-    "lat": 45.1566683,
-    "lon": 10.7917191,
-    "einwohner": 47790,
-    "waehlbar": "true"
+    "latitude": 45.1566683,
+    "longitude": 10.7917191,
+    "population": 47790,
+    "selectable": "true"
   },
   {
     "name": "Pavia",
-    "alternativen": [
+    "alternatives": [
       "Pavía",
       "Pavia",
       "Παβία",
@@ -452,14 +452,14 @@
       "帕維亞",
       "Ticinum"
     ],
-    "lat": 45.1860043,
-    "lon": 9.1546375,
-    "einwohner": 71214,
-    "waehlbar": "true"
+    "latitude": 45.1860043,
+    "longitude": 9.1546375,
+    "population": 71214,
+    "selectable": "true"
   },
   {
     "name": "Sondrio",
-    "alternativen": [
+    "alternatives": [
       "Sonders",
       "Sunder",
       "Sundri",
@@ -473,14 +473,14 @@
       "Сондрио",
       "桑治奧"
     ],
-    "lat": 46.1713553,
-    "lon": 9.8734274,
-    "einwohner": 19208,
-    "waehlbar": "true"
+    "latitude": 46.1713553,
+    "longitude": 9.8734274,
+    "population": 19208,
+    "selectable": "true"
   },
   {
     "name": "Varese",
-    "alternativen": [
+    "alternatives": [
       "Väris",
       "Βαρέζε",
       "Varese",
@@ -494,14 +494,14 @@
       "瓦雷澤",
       "瓦雷泽"
     ],
-    "lat": 45.817549,
-    "lon": 8.8263532,
-    "einwohner": 80629,
-    "waehlbar": "true"
+    "latitude": 45.817549,
+    "longitude": 8.8263532,
+    "population": 80629,
+    "selectable": "true"
   },
   {
     "name": "Monza",
-    "alternativen": [
+    "alternatives": [
       "Монца",
       "Monza",
       "Μόντσα",
@@ -514,14 +514,14 @@
       "Монца",
       "蒙扎"
     ],
-    "lat": 45.5834418,
-    "lon": 9.2735257,
-    "einwohner": 120204,
-    "waehlbar": "true"
+    "latitude": 45.5834418,
+    "longitude": 9.2735257,
+    "population": 120204,
+    "selectable": "true"
   },
   {
     "name": "Torino",
-    "alternativen": [
+    "alternatives": [
       "ടൊറിനോ",
       "Turyn",
       "ቶሪኖ",
@@ -611,14 +611,14 @@
       "杜林",
       "Lo Congrès"
     ],
-    "lat": 45.0677551,
-    "lon": 7.6824892,
-    "einwohner": 856745,
-    "waehlbar": "true"
+    "latitude": 45.0677551,
+    "longitude": 7.6824892,
+    "population": 856745,
+    "selectable": "true"
   },
   {
     "name": "Alessandria",
-    "alternativen": [
+    "alternatives": [
       "Alexandria",
       "ألساندريا",
       "Alessandriya",
@@ -656,14 +656,14 @@
       "الساندریا",
       "亚历山德里亚"
     ],
-    "lat": 44.9130438,
-    "lon": 8.6154872,
-    "einwohner": 90987,
-    "waehlbar": "true"
+    "latitude": 44.9130438,
+    "longitude": 8.6154872,
+    "population": 90987,
+    "selectable": "true"
   },
   {
     "name": "Asti",
-    "alternativen": [
+    "alternatives": [
       "أستي",
       "Άστι",
       "آسته",
@@ -677,14 +677,14 @@
       "Асті",
       "阿斯蒂"
     ],
-    "lat": 44.900542,
-    "lon": 8.2068876,
-    "einwohner": 71276,
-    "waehlbar": "true"
+    "latitude": 44.900542,
+    "longitude": 8.2068876,
+    "population": 71276,
+    "selectable": "true"
   },
   {
     "name": "Biella",
-    "alternativen": [
+    "alternatives": [
       "Μπιέλλα",
       "Biella",
       "Bielle",
@@ -695,14 +695,14 @@
       "Б'єлла",
       "比耶拉"
     ],
-    "lat": 45.5664109,
-    "lon": 8.0542758,
-    "einwohner": 45740,
-    "waehlbar": "true"
+    "latitude": 45.5664109,
+    "longitude": 8.0542758,
+    "population": 45740,
+    "selectable": "true"
   },
   {
     "name": "Cuneo",
-    "alternativen": [
+    "alternatives": [
       "كونيو",
       "کونیو",
       "Κούνεο",
@@ -720,14 +720,14 @@
       "库内奥",
       "ieo-bdtopoc"
     ],
-    "lat": 44.389633,
-    "lon": 7.5479007,
-    "einwohner": 55939,
-    "waehlbar": "true"
+    "latitude": 44.389633,
+    "longitude": 7.5479007,
+    "population": 55939,
+    "selectable": "true"
   },
   {
     "name": "Novara",
-    "alternativen": [
+    "alternatives": [
       "Навара",
       "Νοβάρα",
       "Novara",
@@ -740,14 +740,14 @@
       "諾瓦拉",
       "诺瓦拉"
     ],
-    "lat": 45.4464036,
-    "lon": 8.619655,
-    "einwohner": 100910,
-    "waehlbar": "true"
+    "latitude": 45.4464036,
+    "longitude": 8.619655,
+    "population": 100910,
+    "selectable": "true"
   },
   {
     "name": "Vercelli",
-    "alternativen": [
+    "alternatives": [
       "Βερτσέλλι",
       "Vercelli",
       "Verĉelo",
@@ -759,14 +759,14 @@
       "Верчеллі",
       "韦尔切利"
     ],
-    "lat": 45.3251557,
-    "lon": 8.4227666,
-    "einwohner": 45132,
-    "waehlbar": "true"
+    "latitude": 45.3251557,
+    "longitude": 8.4227666,
+    "population": 45132,
+    "selectable": "true"
   },
   {
     "name": "Trento",
-    "alternativen": [
+    "alternatives": [
       "Trènt",
       "Trento",
       "Tria",
@@ -789,14 +789,14 @@
       "Тренто",
       "特伦托"
     ],
-    "lat": 46.0664228,
-    "lon": 11.1257601,
-    "einwohner": 117317,
-    "waehlbar": "true"
+    "latitude": 46.0664228,
+    "longitude": 11.1257601,
+    "population": 117317,
+    "selectable": "true"
   },
   {
     "name": "Bolzano/Bozen",
-    "alternativen": [
+    "alternatives": [
       "Boceno",
       "Bocen",
       "Balsan",
@@ -835,14 +835,14 @@
       "Bolxan",
       "博尔扎诺"
     ],
-    "lat": 46.4984781,
-    "lon": 11.3547399,
-    "einwohner": 105713,
-    "waehlbar": "true"
+    "latitude": 46.4984781,
+    "longitude": 11.3547399,
+    "population": 105713,
+    "selectable": "true"
   },
   {
     "name": "Venezia",
-    "alternativen": [
+    "alternatives": [
       "വെനെറ്റ്സിയ",
       "Уанаҿа",
       "Venesië",
@@ -956,14 +956,14 @@
       "威尼斯",
       "Mleci"
     ],
-    "lat": 45.4371908,
-    "lon": 12.3345898,
-    "einwohner": 43879,
-    "waehlbar": "true"
+    "latitude": 45.4371908,
+    "longitude": 12.3345898,
+    "population": 43879,
+    "selectable": "true"
   },
   {
     "name": "Belluno",
-    "alternativen": [
+    "alternatives": [
       "Belluno",
       "Bellunum",
       "Беллуно",
@@ -972,14 +972,14 @@
       "Beilun",
       "http://it.wikipedia.org/wiki/Esonimi_tedeschi_di_località_italiane"
     ],
-    "lat": 46.1375185,
-    "lon": 12.2181711,
-    "einwohner": 35870,
-    "waehlbar": "true"
+    "latitude": 46.1375185,
+    "longitude": 12.2181711,
+    "population": 35870,
+    "selectable": "true"
   },
   {
     "name": "Rovigo",
-    "alternativen": [
+    "alternatives": [
       "Ruig",
       "Ροβίγκο",
       "Rovigo",
@@ -990,14 +990,14 @@
       "Ровіґо",
       "罗维戈"
     ],
-    "lat": 45.0698166,
-    "lon": 11.78882,
-    "einwohner": 51867,
-    "waehlbar": "true"
+    "latitude": 45.0698166,
+    "longitude": 11.78882,
+    "population": 51867,
+    "selectable": "true"
   },
   {
     "name": "Treviso",
-    "alternativen": [
+    "alternatives": [
       "Treviso",
       "Τρεβίζο",
       "Treviso",
@@ -1014,14 +1014,14 @@
       "Trevixo",
       "特雷維索"
     ],
-    "lat": 45.6658505,
-    "lon": 12.2455414,
-    "einwohner": 83731,
-    "waehlbar": "true"
+    "latitude": 45.6658505,
+    "longitude": 12.2455414,
+    "population": 83731,
+    "selectable": "true"
   },
   {
     "name": "Verona",
-    "alternativen": [
+    "alternatives": [
       "Dietrichsbern",
       "ቬሮና",
       "فيرونا",
@@ -1069,14 +1069,14 @@
       "维罗纳",
       "Welsch-Bern"
     ],
-    "lat": 45.4384958,
-    "lon": 10.9924122,
-    "einwohner": 259966,
-    "waehlbar": "true"
+    "latitude": 45.4384958,
+    "longitude": 10.9924122,
+    "population": 259966,
+    "selectable": "true"
   },
   {
     "name": "Vicenza",
-    "alternativen": [
+    "alternatives": [
       "Βιτσέντσα",
       "Vicenza",
       "Vicence",
@@ -1091,14 +1091,14 @@
       "Vicensa",
       "维琴察"
     ],
-    "lat": 45.5488306,
-    "lon": 11.5478825,
-    "einwohner": 112953,
-    "waehlbar": "true"
+    "latitude": 45.5488306,
+    "longitude": 11.5478825,
+    "population": 112953,
+    "selectable": "true"
   },
   {
     "name": "Trieste",
-    "alternativen": [
+    "alternatives": [
       "Trieste / Trst",
       "Triëst",
       "ترييستي",
@@ -1155,14 +1155,14 @@
       "的里雅斯特",
       "Tergeste"
     ],
-    "lat": 45.6496485,
-    "lon": 13.7772781,
-    "einwohner": 184033,
-    "waehlbar": "true"
+    "latitude": 45.6496485,
+    "longitude": 13.7772781,
+    "population": 184033,
+    "selectable": "true"
   },
   {
     "name": "Gorizia",
-    "alternativen": [
+    "alternatives": [
       "Guriza",
       "Görz",
       "Gurize",
@@ -1175,14 +1175,14 @@
       "Горіція",
       "戈里齐亚"
     ],
-    "lat": 45.9441278,
-    "lon": 13.6252288,
-    "einwohner": 34844,
-    "waehlbar": "true"
+    "latitude": 45.9441278,
+    "longitude": 13.6252288,
+    "population": 34844,
+    "selectable": "true"
   },
   {
     "name": "Pordenone / Pordenon",
-    "alternativen": [
+    "alternatives": [
       "Portenau",
       "Πορντενόνε",
       "Pordenon",
@@ -1195,14 +1195,14 @@
       "Pordenon",
       "波代諾內"
     ],
-    "lat": 45.9562503,
-    "lon": 12.6597197,
-    "einwohner": 51229,
-    "waehlbar": "true"
+    "latitude": 45.9562503,
+    "longitude": 12.6597197,
+    "population": 51229,
+    "selectable": "true"
   },
   {
     "name": "Udine / Udin",
-    "alternativen": [
+    "alternatives": [
       "أوديني",
       "اودینه",
       "Удзінэ",
@@ -1246,14 +1246,14 @@
       "烏迪內",
       "Weiden"
     ],
-    "lat": 46.0634632,
-    "lon": 13.2358377,
-    "einwohner": 99169,
-    "waehlbar": "true"
+    "latitude": 46.0634632,
+    "longitude": 13.2358377,
+    "population": 99169,
+    "selectable": "true"
   },
   {
     "name": "Genova",
-    "alternativen": [
+    "alternatives": [
       "Zena",
       "Đenova",
       "Genua",
@@ -1339,14 +1339,14 @@
       "热那亚",
       "ofis publik ar brezhoneg"
     ],
-    "lat": 44.40726,
-    "lon": 8.9338624,
-    "einwohner": 586655,
-    "waehlbar": "true"
+    "latitude": 44.40726,
+    "longitude": 8.9338624,
+    "population": 586655,
+    "selectable": "true"
   },
   {
     "name": "Imperia",
-    "alternativen": [
+    "alternatives": [
       "Ιμπέρια",
       "Imperia",
       "Империја",
@@ -1355,14 +1355,14 @@
       "因佩里亞",
       "ieo-bdtopoc"
     ],
-    "lat": 43.8862958,
-    "lon": 8.0267106,
-    "einwohner": 42369,
-    "waehlbar": "true"
+    "latitude": 43.8862958,
+    "longitude": 8.0267106,
+    "population": 42369,
+    "selectable": "true"
   },
   {
     "name": "La Spezia",
-    "alternativen": [
+    "alternatives": [
       "Λα Σπέτσια",
       "La Spezia",
       "La Spezia",
@@ -1373,14 +1373,14 @@
       "拉斯佩齐亚",
       "拉斯佩齊亞"
     ],
-    "lat": 44.1033871,
-    "lon": 9.8217022,
-    "einwohner": 92711,
-    "waehlbar": "true"
+    "latitude": 44.1033871,
+    "longitude": 9.8217022,
+    "population": 92711,
+    "selectable": "true"
   },
   {
     "name": "Savona",
-    "alternativen": [
+    "alternatives": [
       "Σαβόνα",
       "Savona",
       "Savono",
@@ -1393,14 +1393,14 @@
       "萨沃纳",
       "ieo-bdtopoc"
     ],
-    "lat": 44.3080251,
-    "lon": 8.4810315,
-    "einwohner": 61345,
-    "waehlbar": "true"
+    "latitude": 44.3080251,
+    "longitude": 8.4810315,
+    "population": 61345,
+    "selectable": "true"
   },
   {
     "name": "Palermo",
-    "alternativen": [
+    "alternatives": [
       "بلرمة;باليرمو",
       "ፓሌርሞ",
       "بلرم",
@@ -1461,14 +1461,14 @@
       "巴勒莫",
       "Πάνορμος"
     ],
-    "lat": 38.1112268,
-    "lon": 13.3524434,
-    "einwohner": 628165,
-    "waehlbar": "true"
+    "latitude": 38.1112268,
+    "longitude": 13.3524434,
+    "population": 628165,
+    "selectable": "true"
   },
   {
     "name": "Agrigento",
-    "alternativen": [
+    "alternatives": [
       "كركنت;أغريجنتو",
       "Ακράγας",
       "جرجنت",
@@ -1490,14 +1490,14 @@
       "阿格里真托",
       "Ἀκράγας"
     ],
-    "lat": 37.3122991,
-    "lon": 13.57465,
-    "einwohner": 55286,
-    "waehlbar": "true"
+    "latitude": 37.3122991,
+    "longitude": 13.57465,
+    "population": 55286,
+    "selectable": "true"
   },
   {
     "name": "Caltanissetta",
-    "alternativen": [
+    "alternatives": [
       "كالتانيسيتا",
       "Cartanisetta",
       "قلعة النساء",
@@ -1510,14 +1510,14 @@
       "卡爾塔尼塞塔",
       "卡尔塔尼塞塔"
     ],
-    "lat": 37.4902628,
-    "lon": 14.063284,
-    "einwohner": 58283,
-    "waehlbar": "true"
+    "latitude": 37.4902628,
+    "longitude": 14.063284,
+    "population": 58283,
+    "selectable": "true"
   },
   {
     "name": "Catania",
-    "alternativen": [
+    "alternatives": [
       "Κατάνη",
       "كاتانيا",
       "Катанія",
@@ -1540,14 +1540,14 @@
       "卡塔尼亞",
       "卡塔纳"
     ],
-    "lat": 37.5023612,
-    "lon": 15.0873718,
-    "einwohner": 298037,
-    "waehlbar": "true"
+    "latitude": 37.5023612,
+    "longitude": 15.0873718,
+    "population": 298037,
+    "selectable": "true"
   },
   {
     "name": "Messina",
-    "alternativen": [
+    "alternatives": [
       "Mecina",
       "مسينة",
       "Месіна",
@@ -1573,14 +1573,14 @@
       "墨西拿",
       "Ζάγκλη"
     ],
-    "lat": 38.1937571,
-    "lon": 15.5542082,
-    "einwohner": 216918,
-    "waehlbar": "true"
+    "latitude": 38.1937571,
+    "longitude": 15.5542082,
+    "population": 216918,
+    "selectable": "true"
   },
   {
     "name": "Ragusa",
-    "alternativen": [
+    "alternatives": [
       "رغوص;راغوزا;راجوسا",
       "رغوس",
       "Ραγκούζα",
@@ -1596,14 +1596,14 @@
       "拉古萨",
       "拉古薩"
     ],
-    "lat": 36.9256833,
-    "lon": 14.7307456,
-    "einwohner": 73735,
-    "waehlbar": "true"
+    "latitude": 36.9256833,
+    "longitude": 14.7307456,
+    "population": 73735,
+    "selectable": "true"
   },
   {
     "name": "Trapani",
-    "alternativen": [
+    "alternatives": [
       "Tràpani",
       "تراباني",
       "Трапани",
@@ -1626,14 +1626,14 @@
       "Трапані",
       "特拉帕尼"
     ],
-    "lat": 38.0173961,
-    "lon": 12.5160225,
-    "einwohner": 55219,
-    "waehlbar": "true"
+    "latitude": 38.0173961,
+    "longitude": 12.5160225,
+    "population": 55219,
+    "selectable": "true"
   },
   {
     "name": "Reggio Calabria",
-    "alternativen": [
+    "alternatives": [
       "Reggio di Calabria",
       "ريدجو كالابريا",
       "Reggio de Calàbria",
@@ -1653,14 +1653,14 @@
       "Riggiu Calabbria",
       "Реджо-Калабрія"
     ],
-    "lat": 38.1035389,
-    "lon": 15.6397556,
-    "einwohner": 183035,
-    "waehlbar": "true"
+    "latitude": 38.1035389,
+    "longitude": 15.6397556,
+    "population": 183035,
+    "selectable": "true"
   },
   {
     "name": "Catanzaro",
-    "alternativen": [
+    "alternatives": [
       "كتنزارو;كاتانزارو",
       "قطنصار",
       "Καταντζάρο",
@@ -1676,14 +1676,14 @@
       "Provincia di Catanzaro",
       "مقاطعة قطنصار"
     ],
-    "lat": 38.9076353,
-    "lon": 16.5960465,
-    "einwohner": 90610,
-    "waehlbar": "true"
+    "latitude": 38.9076353,
+    "longitude": 16.5960465,
+    "population": 90610,
+    "selectable": "true"
   },
   {
     "name": "Cosenza",
-    "alternativen": [
+    "alternatives": [
       "كوزنسا;كوسنزا",
       "كشنتة",
       "Κοζέντσα",
@@ -1696,14 +1696,14 @@
       "کوزینتسا",
       "科森扎"
     ],
-    "lat": 39.3099931,
-    "lon": 16.2501929,
-    "einwohner": 63693,
-    "waehlbar": "true"
+    "latitude": 39.3099931,
+    "longitude": 16.2501929,
+    "population": 63693,
+    "selectable": "true"
   },
   {
     "name": "Crotone",
-    "alternativen": [
+    "alternatives": [
       "Krotone",
       "كروتوني",
       "كروتونه",
@@ -1720,14 +1720,14 @@
       "克罗托内",
       "Cotrone"
     ],
-    "lat": 39.0806223,
-    "lon": 17.127196,
-    "einwohner": 62178,
-    "waehlbar": "true"
+    "latitude": 39.0806223,
+    "longitude": 17.127196,
+    "population": 62178,
+    "selectable": "true"
   },
   {
     "name": "Potenza",
-    "alternativen": [
+    "alternatives": [
       "بوتنسا",
       "Ποτέντσα",
       "پوتنزا",
@@ -1736,14 +1736,14 @@
       "Потенца",
       "波坦察"
     ],
-    "lat": 40.6384046,
-    "lon": 15.8022077,
-    "einwohner": 67122,
-    "waehlbar": "true"
+    "latitude": 40.6384046,
+    "longitude": 15.8022077,
+    "population": 67122,
+    "selectable": "true"
   },
   {
     "name": "Campobasso",
-    "alternativen": [
+    "alternatives": [
       "كامبوباسو",
       "Καμπομπάσο",
       "Campobasso",
@@ -1755,14 +1755,14 @@
       "Кампобассо",
       "坎波巴索"
     ],
-    "lat": 41.5597935,
-    "lon": 14.6602725,
-    "einwohner": 49431,
-    "waehlbar": "true"
+    "latitude": 41.5597935,
+    "longitude": 14.6602725,
+    "population": 49431,
+    "selectable": "true"
   },
   {
     "name": "Isernia",
-    "alternativen": [
+    "alternatives": [
       "Sèrnia",
       "Isernia",
       "Isernia",
@@ -1770,14 +1770,14 @@
       "Изерния",
       "伊塞尔尼亚"
     ],
-    "lat": 41.600175,
-    "lon": 14.2383017,
-    "einwohner": 20000,
-    "waehlbar": "true"
+    "latitude": 41.600175,
+    "longitude": 14.2383017,
+    "population": 20000,
+    "selectable": "true"
   },
   {
     "name": "Perugia",
-    "alternativen": [
+    "alternatives": [
       "بيروجيا",
       "Пяруджа",
       "Perusa",
@@ -1796,28 +1796,28 @@
       "Перуджа",
       "翁布里亚"
     ],
-    "lat": 43.1119613,
-    "lon": 12.3890104,
-    "einwohner": 68946,
-    "waehlbar": "true"
+    "latitude": 43.1119613,
+    "longitude": 12.3890104,
+    "population": 68946,
+    "selectable": "true"
   },
   {
     "name": "Terni",
-    "alternativen": [
+    "alternatives": [
       "Τέρνι",
       "ടെർണി",
       "Терни",
       "Терні",
       "特爾尼"
     ],
-    "lat": 42.5641417,
-    "lon": 12.6405466,
-    "einwohner": 95640,
-    "waehlbar": "true"
+    "latitude": 42.5641417,
+    "longitude": 12.6405466,
+    "population": 95640,
+    "selectable": "true"
   },
   {
     "name": "Bari",
-    "alternativen": [
+    "alternatives": [
       "ባሪ፣ ጣልያን",
       "باري",
       "Бары",
@@ -1863,14 +1863,14 @@
       "巴里",
       "巴里"
     ],
-    "lat": 41.1257843,
-    "lon": 16.8620293,
-    "einwohner": 326344,
-    "waehlbar": "true"
+    "latitude": 41.1257843,
+    "longitude": 16.8620293,
+    "population": 326344,
+    "selectable": "true"
   },
   {
     "name": "Brindisi",
-    "alternativen": [
+    "alternatives": [
       "أبرندس;برينديزي",
       "أبرنطس",
       "بریندیزی",
@@ -1887,14 +1887,14 @@
       "بریندیزی",
       "布林迪西"
     ],
-    "lat": 40.6375408,
-    "lon": 17.9454957,
-    "einwohner": 88302,
-    "waehlbar": "true"
+    "latitude": 40.6375408,
+    "longitude": 17.9454957,
+    "population": 88302,
+    "selectable": "true"
   },
   {
     "name": "Lecce",
-    "alternativen": [
+    "alternatives": [
       "ليتشي",
       "لتشه",
       "Λέτσε",
@@ -1907,14 +1907,14 @@
       "لیچہ",
       "萊切"
     ],
-    "lat": 40.3570373,
-    "lon": 18.1718482,
-    "einwohner": 94773,
-    "waehlbar": "true"
+    "latitude": 40.3570373,
+    "longitude": 18.1718482,
+    "population": 94773,
+    "selectable": "true"
   },
   {
     "name": "Taranto",
-    "alternativen": [
+    "alternatives": [
       "تارانتو",
       "Tarento",
       "Таранта",
@@ -1940,26 +1940,26 @@
       "تارانتو",
       "塔兰托"
     ],
-    "lat": 40.4712427,
-    "lon": 17.2432278,
-    "einwohner": 201100,
-    "waehlbar": "true"
+    "latitude": 40.4712427,
+    "longitude": 17.2432278,
+    "population": 201100,
+    "selectable": "true"
   },
   {
     "name": "Sanluri-Villacidro",
-    "alternativen": [
+    "alternatives": [
         "Sanluri",
         "Villacidro",
         "Medio Campidano"
     ],
-    "lat": 39.6173,
-    "lon": 8.6833,
-    "einwohner": 90440,
-    "waehlbar": "true"
+    "latitude": 39.6173,
+    "longitude": 8.6833,
+    "population": 90440,
+    "selectable": "true"
   },
   {
     "name": "Trani",
-    "alternativen": [
+    "alternatives": [
       "تراني",
       "Τράνι",
       "ترانی",
@@ -1969,29 +1969,29 @@
       "特拉尼",
       "特拉尼"
     ],
-    "lat": 41.275088,
-    "lon": 16.4162585,
-    "einwohner": 56217,
-    "waehlbar": "false",
-    "versteckt":"true"
+    "latitude": 41.275088,
+    "longitude": 16.4162585,
+    "population": 56217,
+    "selectable": "false",
+    "hidden":"true"
   },
   {
     "name": "Avellino",
-    "alternativen": [
+    "alternatives": [
       "Αβελλίνο",
       "അവെല്ലീനോ",
       "Авеллино",
       "Авелліно",
       "阿韋利諾"
     ],
-    "lat": 40.9141958,
-    "lon": 14.7888764,
-    "einwohner": 54847,
-    "waehlbar": "true"
+    "latitude": 40.9141958,
+    "longitude": 14.7888764,
+    "population": 54847,
+    "selectable": "true"
   },
   {
     "name": "Benevento",
-    "alternativen": [
+    "alternatives": [
       "Benevent",
       "Benevent",
       "Μπενεβέντο",
@@ -2007,14 +2007,14 @@
       "貝內文托",
       "贝内文托"
     ],
-    "lat": 41.1295587,
-    "lon": 14.7824639,
-    "einwohner": 60091,
-    "waehlbar": "true"
+    "latitude": 41.1295587,
+    "longitude": 14.7824639,
+    "population": 60091,
+    "selectable": "true"
   },
   {
     "name": "Caserta",
-    "alternativen": [
+    "alternatives": [
       "Caserta",
       "Καζέρτα",
       "Caserta",
@@ -2026,14 +2026,14 @@
       "Казерта",
       "卡塞塔"
     ],
-    "lat": 41.0820827,
-    "lon": 14.334708,
-    "einwohner": 76330,
-    "waehlbar": "true"
+    "latitude": 41.0820827,
+    "longitude": 14.334708,
+    "population": 76330,
+    "selectable": "true"
   },
   {
     "name": "Salerno",
-    "alternativen": [
+    "alternatives": [
       "Salern",
       "Σαλέρνο",
       "Salerne",
@@ -2048,14 +2048,14 @@
       "萨莱诺",
       "薩萊諾"
     ],
-    "lat": 40.6803601,
-    "lon": 14.7594542,
-    "einwohner": 150188,
-    "waehlbar": "true"
+    "latitude": 40.6803601,
+    "longitude": 14.7594542,
+    "population": 150188,
+    "selectable": "true"
   },
   {
     "name": "Forlì-Cesena",
-    "alternativen": [
+    "alternatives": [
         "Cesena",
       "Forlì",
       "Furlè",
@@ -2064,14 +2064,14 @@
       "福尔尔伊德尔桑尼奥",
       "Forum Livii"
     ],
-    "lat": 44.2227278,
-    "lon": 12.041273,
-    "einwohner": 214671,
-    "waehlbar": "true"
+    "latitude": 44.2227278,
+    "longitude": 12.041273,
+    "population": 214671,
+    "selectable": "true"
   },
   {
     "name": "Modena",
-    "alternativen": [
+    "alternatives": [
       "Мадэна",
       "Mòdena",
       "Mòdna",
@@ -2089,14 +2089,14 @@
       "Mutna",
       "Mutina"
     ],
-    "lat": 44.6458885,
-    "lon": 10.9255707,
-    "einwohner": 184973,
-    "waehlbar": "true"
+    "latitude": 44.6458885,
+    "longitude": 10.9255707,
+    "population": 184973,
+    "selectable": "true"
   },
   {
     "name": "Parma",
-    "alternativen": [
+    "alternatives": [
       "পারমা",
       "Pärma",
       "Πάρμα",
@@ -2114,14 +2114,14 @@
       "帕尔马",
       "Parma"
     ],
-    "lat": 44.80153,
-    "lon": 10.3279843,
-    "einwohner": 202111,
-    "waehlbar": "true"
+    "latitude": 44.80153,
+    "longitude": 10.3279843,
+    "population": 202111,
+    "selectable": "true"
   },
   {
     "name": "Ravenna",
-    "alternativen": [
+    "alternatives": [
       "Равена",
       "Ραβέννα",
       "Ravenna",
@@ -2139,14 +2139,14 @@
       "Raben",
       "Ravenna"
     ],
-    "lat": 44.4161414,
-    "lon": 12.2017617,
-    "einwohner": 159116,
-    "waehlbar": "true"
+    "latitude": 44.4161414,
+    "longitude": 12.2017617,
+    "population": 159116,
+    "selectable": "true"
   },
   {
     "name": "Reggio Emilia",
-    "alternativen": [
+    "alternatives": [
       "Reggio nell'Emilia",
       "Reggio de l'Emília",
       "Reggio Emilia",
@@ -2162,14 +2162,14 @@
       "Reggio nell'Emilia",
       "Reggio"
     ],
-    "lat": 44.6978389,
-    "lon": 10.6304971,
-    "einwohner": 133296,
-    "waehlbar": "true"
+    "latitude": 44.6978389,
+    "longitude": 10.6304971,
+    "population": 133296,
+    "selectable": "true"
   },
   {
     "name": "Rimini",
-    "alternativen": [
+    "alternatives": [
       "ريميني",
       "ریمینی",
       "Рыміні",
@@ -2191,29 +2191,29 @@
       "里米尼",
       "里米尼"
     ],
-    "lat": 44.0593886,
-    "lon": 12.5684371,
-    "einwohner": 147750,
-    "waehlbar": "true"
+    "latitude": 44.0593886,
+    "longitude": 12.5684371,
+    "population": 147750,
+    "selectable": "true"
   },
   {
     "name": "Cesena",
-    "alternativen": [
+    "alternatives": [
       "Cisêna",
       "Чезена",
       "Чезена",
       "切塞纳",
       "Caesena"
     ],
-    "lat": 44.136352,
-    "lon": 12.2422442,
-    "einwohner": 96758,
-    "waehlbar": "false",
-    "versteckt": "true"
+    "latitude": 44.136352,
+    "longitude": 12.2422442,
+    "population": 96758,
+    "selectable": "false",
+    "hidden": "true"
   },
   {
     "name": "Ancona",
-    "alternativen": [
+    "alternatives": [
       "أنكونا",
       "Ankona",
       "Ancona",
@@ -2240,66 +2240,66 @@
       "Jakin",
       "Jakin"
     ],
-    "lat": 43.6170137,
-    "lon": 13.5170982,
-    "einwohner": 99469,
-    "waehlbar": "true"
+    "latitude": 43.6170137,
+    "longitude": 13.5170982,
+    "population": 99469,
+    "selectable": "true"
   },
   {
     "name": "Ascoli Piceno",
-    "alternativen": [
+    "alternatives": [
       "Ascoli Piceno",
       "അസ്കോളി പിച്ചെനോ",
       "Асколи-Пичено",
       "Асколі-Пічено",
       "阿斯科利皮切諾"
     ],
-    "lat": 42.8546185,
-    "lon": 13.5755038,
-    "einwohner": 45457,
-    "waehlbar": "true"
+    "latitude": 42.8546185,
+    "longitude": 13.5755038,
+    "population": 45457,
+    "selectable": "true"
   },
   {
     "name": "Macerata",
-    "alternativen": [
+    "alternatives": [
       "Macerata",
       "Мачерата",
       "马切拉塔"
     ],
-    "lat": 43.3007275,
-    "lon": 13.4535897,
-    "einwohner": 42473,
-    "waehlbar": "true"
+    "latitude": 43.3007275,
+    "longitude": 13.4535897,
+    "population": 42473,
+    "selectable": "true"
   },
   {
     "name": "Urbino",
-    "alternativen": [
+    "alternatives": [
       "Urbìn",
       "Урбино",
       "Урбіно",
       "乌尔比诺",
       "Urvinum Mataurense"
     ],
-    "lat": 43.7262608,
-    "lon": 12.6363135,
-    "einwohner": 15019,
-    "waehlbar": "false",
-    "versteckt": "true"
+    "latitude": 43.7262608,
+    "longitude": 12.6363135,
+    "population": 15019,
+    "selectable": "false",
+    "hidden": "true"
   },
   {
     "name": "Fermo",
-    "alternativen": [
+    "alternatives": [
       "Fermo",
       "費爾莫"
     ],
-    "lat": 43.1604184,
-    "lon": 13.7161408,
-    "einwohner": 37655,
-    "waehlbar": "true"
+    "latitude": 43.1604184,
+    "longitude": 13.7161408,
+    "population": 37655,
+    "selectable": "true"
   },
   {
     "name": "L'Aquila",
-    "alternativen": [
+    "alternatives": [
       "لاكويلا",
       "Λ' Άκουιλα",
       "L'Aquila",
@@ -2311,28 +2311,28 @@
       "拉奎拉",
       "Aquila degli Abruzzi"
     ],
-    "lat": 42.3489203,
-    "lon": 13.3979672,
-    "einwohner": 69753,
-    "waehlbar": "true"
+    "latitude": 42.3489203,
+    "longitude": 13.3979672,
+    "population": 69753,
+    "selectable": "true"
   },
   {
     "name": "Chieti",
-    "alternativen": [
+    "alternatives": [
       "Κιέτι",
       "Chieti",
       "Кьети",
       "К'єті",
       "基耶蒂"
     ],
-    "lat": 42.3446529,
-    "lon": 14.1659738,
-    "einwohner": 51815,
-    "waehlbar": "true"
+    "latitude": 42.3446529,
+    "longitude": 14.1659738,
+    "population": 51815,
+    "selectable": "true"
   },
   {
     "name": "Teramo",
-    "alternativen": [
+    "alternatives": [
       "Τέραμο",
       "Teramo",
       "ടെറാമോ",
@@ -2340,14 +2340,14 @@
       "Терамо",
       "泰拉莫"
     ],
-    "lat": 42.6612893,
-    "lon": 13.6983524,
-    "einwohner": 54892,
-    "waehlbar": "true"
+    "latitude": 42.6612893,
+    "longitude": 13.6983524,
+    "population": 54892,
+    "selectable": "true"
   },
   {
     "name": "Roma",
-    "alternativen": [
+    "alternatives": [
       "La Mã",
       "Рим",
       "Roma",
@@ -2565,53 +2565,53 @@
       "羅馬",
       "Luómǎ"
     ],
-    "lat": 41.8933203,
-    "lon": 12.4829321,
-    "einwohner": 2864731,
-    "waehlbar": "true"
+    "latitude": 41.8933203,
+    "longitude": 12.4829321,
+    "population": 2864731,
+    "selectable": "true"
   },
   {
     "name": "Frosinone",
-    "alternativen": [
+    "alternatives": [
       "Фрозиноне",
       "弗罗西诺内"
     ],
-    "lat": 41.6419807,
-    "lon": 13.3469287,
-    "einwohner": 46323,
-    "waehlbar": "true"
+    "latitude": 41.6419807,
+    "longitude": 13.3469287,
+    "population": 46323,
+    "selectable": "true"
   },
   {
-    "name": "Latina",
-    "alternativen": [
+    "name": "latitudeina",
+    "alternatives": [
       "লাটিনা",
       "Λατίνα",
-      "Latina",
+      "latitudeina",
       "ലാറ്റിന",
       "Латина",
       "Латина",
       "拉蒂纳"
     ],
-    "lat": 41.467299,
-    "lon": 12.9037518,
-    "einwohner": 127395,
-    "waehlbar": "true"
+    "latitude": 41.467299,
+    "longitude": 12.9037518,
+    "population": 127395,
+    "selectable": "true"
   },
   {
     "name": "Rieti",
-    "alternativen": [
+    "alternatives": [
       "Ριέτι",
       "Риети",
       "列蒂"
     ],
-    "lat": 42.4026569,
-    "lon": 12.860813,
-    "einwohner": 47751,
-    "waehlbar": "true"
+    "latitude": 42.4026569,
+    "longitude": 12.860813,
+    "population": 47751,
+    "selectable": "true"
   },
   {
     "name": "Viterbo",
-    "alternativen": [
+    "alternatives": [
       "ویتربو",
       "Вітэрба",
       "Viterbo",
@@ -2628,14 +2628,14 @@
       "維泰博",
       "维泰博"
     ],
-    "lat": 42.4168441,
-    "lon": 12.1051148,
-    "einwohner": 67173,
-    "waehlbar": "true"
+    "latitude": 42.4168441,
+    "longitude": 12.1051148,
+    "population": 67173,
+    "selectable": "true"
   },
   {
     "name": "Cagliari",
-    "alternativen": [
+    "alternatives": [
       "Casteddu",
       "كالياري",
       "Кальяры",
@@ -2656,14 +2656,14 @@
       "Кальярі",
       "卡利亚里"
     ],
-    "lat": 39.2171994,
-    "lon": 9.113311,
-    "einwohner": 154478,
-    "waehlbar": "true"
+    "latitude": 39.2171994,
+    "longitude": 9.113311,
+    "population": 154478,
+    "selectable": "true"
   },
   {
     "name": "Nuoro",
-    "alternativen": [
+    "alternatives": [
       "Νουγόρο",
       "نوورو",
       "Nuoro",
@@ -2676,14 +2676,14 @@
       "Nùgoro",
       "努奥罗"
     ],
-    "lat": 40.3210601,
-    "lon": 9.3297339,
-    "einwohner": 200678,
-    "waehlbar": "true"
+    "latitude": 40.3210601,
+    "longitude": 9.3297339,
+    "population": 200678,
+    "selectable": "true"
   },
   {
     "name": "Carbonia-Iglesias",
-    "alternativen": [
+    "alternatives": [
       "Carbònia",
       "Iglesias",
       "Carbonia",
@@ -2691,14 +2691,14 @@
       "Sulcis Iglesiente",
       "Carbònia"
     ],
-    "lat": 39.165332,
-    "lon": 8.527834,
-    "einwohner": 130447,
-    "waehlbar": "true"
+    "latitude": 39.165332,
+    "longitude": 8.527834,
+    "population": 130447,
+    "selectable": "true"
   },
   {
     "name": "Olbia-Tempio Pausania/Gallura Nord-Est Sardegna",
-    "alternativen": [
+    "alternatives": [
         "Olbia","Gallura","Nord-Est Sardegna",
       "Tempio Pausania",
       "Tèmpiu",
@@ -2706,14 +2706,14 @@
       "Темпио Паусания",
       "Tèmpiu"
     ],
-    "lat": 40.897,
-    "lon": 9.278,
-    "einwohner": 80992,
-    "waehlbar": "true"
+    "latitude": 40.897,
+    "longitude": 9.278,
+    "population": 80992,
+    "selectable": "true"
   },
   {
     "name": "Ferrara",
-    "alternativen": [
+    "alternatives": [
       "Fràra",
       "Φερράρα",
       "Ferrara",
@@ -2728,14 +2728,14 @@
       "Ferara",
       "费拉拉"
     ],
-    "lat": 44.8372737,
-    "lon": 11.6186451,
-    "einwohner": 133155,
-    "waehlbar": "true"
+    "latitude": 44.8372737,
+    "longitude": 11.6186451,
+    "population": 133155,
+    "selectable": "true"
   },
   {
     "name": "Pesaro-Urbino",
-    "alternativen": [
+    "alternatives": [
         "Urbino",
       "Πέζαρο",
       "Pesaro",
@@ -2744,14 +2744,14 @@
       "Пезаро",
       "Pisaurum"
     ],
-    "lat": 43.9098114,
-    "lon": 12.9131228,
-    "einwohner": 111604,
-    "waehlbar": "true"
+    "latitude": 43.9098114,
+    "longitude": 12.9131228,
+    "population": 111604,
+    "selectable": "true"
   },
   {
     "name": "Padova",
-    "alternativen": [
+    "alternatives": [
       "Padua",
       "Padua",
       "بادوفا",
@@ -2814,14 +2814,14 @@
       "帕多瓦",
       "Esten"
     ],
-    "lat": 45.4077172,
-    "lon": 11.8734455,
-    "einwohner": 210401,
-    "waehlbar": "true"
+    "latitude": 45.4077172,
+    "longitude": 11.8734455,
+    "population": 210401,
+    "selectable": "true"
   },
   {
     "name": "Napoli",
-    "alternativen": [
+    "alternatives": [
       "Napels",
       "ናፖሊ",
       "Nápols",
@@ -2910,66 +2910,66 @@
       "那不勒斯",
       "那不勒斯",
       "拿坡里",
-      "proper translation",
+      "proper translatitudeion",
       "Lo Congrès"
     ],
-    "lat": 40.8358846,
-    "lon": 14.2487679,
-    "einwohner": 972212,
-    "waehlbar": "true"
+    "latitude": 40.8358846,
+    "longitude": 14.2487679,
+    "population": 972212,
+    "selectable": "true"
   },
   {
     "name": "Barletta-Andria-Trani",
-    "alternativen": ["Barletta","Andria","Trani",
+    "alternatives": ["Barletta","Andria","Trani",
       "Barleta"],
-    "lat": 41.3214976,
-    "lon": 16.2868696,
-    "einwohner": 94814,
-    "waehlbar": "true"
+    "latitude": 41.3214976,
+    "longitude": 16.2868696,
+    "population": 94814,
+    "selectable": "true"
   },
   {
     "name": "Bologna",
-    "alternativen": [
+    "alternatives": [
       "Boloňa",
       "بولونيا",
-      "Bolonya",
+      "Bolongitudeya",
       "Балонья",
       "বলোনা",
       "Bolun",
-      "Bolonya",
+      "Bolongitudeya",
       "Boloň",
       "Bologna",
       "Bulåggna",
       "Μπολόνια",
       "Bologna",
-      "Bolonjo",
-      "Bolonia",
-      "Bolonia",
+      "Bolongitudejo",
+      "Bolongitudeia",
+      "Bolongitudeia",
       "بولونیا",
       "Bologne",
-      "Bolongna",
+      "Bolongitudegna",
       "ボローニャ",
       "볼로냐",
       "Bononia",
       "ബൊലോഗ്ന",
-      "Bolonia",
-      "Bolonha",
+      "Bolongitudeia",
+      "Bolongitudeha",
       "Bologna",
       "Болонья",
       "Bologna",
-      "Bolonja",
+      "Bolongitudeja",
       "Болоња",
       "Болонья",
       "博洛尼亚"
     ],
-    "lat": 44.4938203,
-    "lon": 11.3426327,
-    "einwohner": 386663,
-    "waehlbar": "true"
+    "latitude": 44.4938203,
+    "longitude": 11.3426327,
+    "population": 386663,
+    "selectable": "true"
   },
   {
     "name": "Foggia",
-    "alternativen": [
+    "alternatives": [
       "فوجا",
       "Φότζα",
       "Foggia",
@@ -2980,14 +2980,14 @@
       "Фоджа",
       "福賈"
     ],
-    "lat": 41.4620482,
-    "lon": 15.5432595,
-    "einwohner": 151991,
-    "waehlbar": "true"
+    "latitude": 41.4620482,
+    "longitude": 15.5432595,
+    "population": 151991,
+    "selectable": "true"
   },
   {
     "name": "Pisa",
-    "alternativen": [
+    "alternatives": [
       "Pisa",
       "Piza",
       "Піза",
@@ -3013,14 +3013,14 @@
       "比萨",
       "比薩"
     ],
-    "lat": 43.7159395,
-    "lon": 10.4018624,
-    "einwohner": 97888,
-    "waehlbar": "true"
+    "latitude": 43.7159395,
+    "longitude": 10.4018624,
+    "population": 97888,
+    "selectable": "true"
   },
   {
     "name": "Livorno",
-    "alternativen": [
+    "alternatives": [
       "Ліворна",
       "Λιβόρνο",
       "Livorno",
@@ -3035,14 +3035,14 @@
       "利佛諾",
       "Leghorn"
     ],
-    "lat": 43.5507317,
-    "lon": 10.3091256,
-    "einwohner": 159219,
-    "waehlbar": "true"
+    "latitude": 43.5507317,
+    "longitude": 10.3091256,
+    "population": 159219,
+    "selectable": "true"
   },
   {
     "name": "Pescara",
-    "alternativen": [
+    "alternatives": [
       "Πεσκάρα",
       "Pescara",
       "Peskaro",
@@ -3052,14 +3052,14 @@
       "佩斯卡拉",
       "佩斯卡拉"
     ],
-    "lat": 42.469613,
-    "lon": 14.2059269,
-    "einwohner": 116286,
-    "waehlbar": "true"
+    "latitude": 42.469613,
+    "longitude": 14.2059269,
+    "population": 116286,
+    "selectable": "true"
   },
   {
     "name": "Lucca",
-    "alternativen": [
+    "alternatives": [
       "Λούκκα",
       "Lucca",
       "Lucques",
@@ -3070,14 +3070,14 @@
       "Лукка",
       "卢卡"
     ],
-    "lat": 43.8428381,
-    "lon": 10.502876,
-    "einwohner": 89046,
-    "waehlbar": "true"
+    "latitude": 43.8428381,
+    "longitude": 10.502876,
+    "population": 89046,
+    "selectable": "true"
   },
   {
     "name": "Siracusa",
-    "alternativen": [
+    "alternatives": [
       "سيراقوسة;سيراكوز",
       "سرقوسة",
       "Syrakusy",
@@ -3100,14 +3100,14 @@
       "叙拉古",
       "锡拉库萨"
     ],
-    "lat": 37.0646139,
-    "lon": 15.2907196,
-    "einwohner": 115923,
-    "waehlbar": "true"
+    "latitude": 37.0646139,
+    "longitude": 15.2907196,
+    "population": 115923,
+    "selectable": "true"
   },
   {
     "name": "Piacenza",
-    "alternativen": [
+    "alternatives": [
       "Piasëinsa",
       "Πιατσέντζα",
       "Piacenza",
@@ -3124,14 +3124,14 @@
       "皮亚琴察",
       "Placentia"
     ],
-    "lat": 45.0534751,
-    "lon": 9.6947461,
-    "einwohner": 102191,
-    "waehlbar": "true"
+    "latitude": 45.0534751,
+    "longitude": 9.6947461,
+    "population": 102191,
+    "selectable": "true"
   },
   {
     "name": "Bergamo",
-    "alternativen": [
+    "alternatives": [
       "بيرغامو",
       "Berqamo",
       "Бергамо",
@@ -3180,24 +3180,24 @@
       "貝爾加莫",
       "Welsch-Bergen"
     ],
-    "lat": 45.6944947,
-    "lon": 9.6698727,
-    "einwohner": 120569,
-    "waehlbar": "true"
+    "latitude": 45.6944947,
+    "longitude": 9.6698727,
+    "population": 120569,
+    "selectable": "true"
   },
   {
     "name": "Lanusei-Tortolì",
-    "alternativen": [
+    "alternatives": [
       "Lanusei","Ogliastra","Tortoli"
     ],
-    "lat": 39.90934,
-    "lon": 9.60419387,
-    "einwohner": 56512,
-    "waehlbar": "true"
+    "latitude": 39.90934,
+    "longitude": 9.60419387,
+    "population": 56512,
+    "selectable": "true"
   },
   {
     "name": "Oristano",
-    "alternativen": [
+    "alternatives": [
       "Oristany",
       "Οριστάνο",
       "Oristán",
@@ -3208,14 +3208,14 @@
       "Aristanis",
       "奥里斯塔诺"
     ],
-    "lat": 39.9059497,
-    "lon": 8.5916112,
-    "einwohner": 32156,
-    "waehlbar": "true"
+    "latitude": 39.9059497,
+    "longitude": 8.5916112,
+    "population": 32156,
+    "selectable": "true"
   },
   {
     "name": "Sassari",
-    "alternativen": [
+    "alternatives": [
       "Tàttari",
       "ساساري",
       "Сасары",
@@ -3236,27 +3236,27 @@
       "薩薩里",
       "萨萨里"
     ],
-    "lat": 40.7234746,
-    "lon": 8.5612674,
-    "einwohner": 126576,
-    "waehlbar": "true"
+    "latitude": 40.7234746,
+    "longitude": 8.5612674,
+    "population": 126576,
+    "selectable": "true"
   },
   {
     "name": "Enna",
-    "alternativen": [
+    "alternatives": [
       "Enna",
       "Энна",
       "Castrugiuvanni",
       "恩纳"
     ],
-    "lat": 37.5667573,
-    "lon": 14.2807473,
-    "einwohner": 25328,
-    "waehlbar": "true"
+    "latitude": 37.5667573,
+    "longitude": 14.2807473,
+    "population": 25328,
+    "selectable": "true"
   },
   {
     "name": "Como",
-    "alternativen": [
+    "alternatives": [
       "Комо",
       "Κόμο",
       "Como",
@@ -3272,22 +3272,22 @@
       "科莫",
       "Chum"
     ],
-    "lat": 45.8115623,
-    "lon": 9.0830353,
-    "einwohner": 83422,
-    "waehlbar": "true"
+    "latitude": 45.8115623,
+    "longitude": 9.0830353,
+    "population": 83422,
+    "selectable": "true"
   },
   {
     "name": "Verbania",
-    "alternativen": [],
-    "lat": 45.9344082,
-    "lon": 8.5580062,
-    "einwohner": 0,
-    "waehlbar": "true"
+    "alternatives": [],
+    "latitude": 45.9344082,
+    "longitude": 8.5580062,
+    "population": 0,
+    "selectable": "true"
   },
   {
     "name": "Matera",
-    "alternativen": [
+    "alternatives": [
       "ماتيرا",
       "Ματέρα",
       "ماترا",
@@ -3297,17 +3297,17 @@
       "ماتیرا",
       "马泰拉"
     ],
-    "lat": 40.667029,
-    "lon": 16.6063265,
-    "einwohner": 59607,
-    "waehlbar": "true"
+    "latitude": 40.667029,
+    "longitude": 16.6063265,
+    "population": 59607,
+    "selectable": "true"
   },
   {
     "name": "Vibo Valentia",
-    "alternativen": [],
-    "lat": 38.6748544,
-    "lon": 16.0985276,
-    "einwohner": 33941,
-    "waehlbar": "true"
+    "alternatives": [],
+    "latitude": 38.6748544,
+    "longitude": 16.0985276,
+    "population": 33941,
+    "selectable": "true"
   }
 ]

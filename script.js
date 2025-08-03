@@ -1,52 +1,49 @@
-let orteAlle = [];
-let orte = [];
-let ziel, ref1, ref2;
+let allPlaces = [];
+let places = [];
+let target, ref1, ref2;
 
 let seedFromURL;
 let dayFromURL;
 let today;
 
-let gerateneOrte = [];
-let spielVorbei = false;
+let guessedPlaces = [];
+let gameOver = false;
 
-const distanzKm = (a, b) => {
+// Calculates the distance between two points using the Haversine formula
+const calcDistanceInKm = (a, b) => {
 	if (a === b) return 0;
     const toRad = deg => deg * Math.PI / 180;
-    const R = 6371;
-    const dLat = toRad(b.lat - a.lat);
-    const dLon = toRad(b.lon - a.lon);
-    const lat1 = toRad(a.lat);
-    const lat2 = toRad(b.lat);
-    const aVal = Math.sin(dLat/2)**2 + Math.cos(lat1)*Math.cos(lat2)*Math.sin(dLon/2)**2;
-    return 2 * R * Math.asin(Math.sqrt(aVal));
+    const earthRadius = 6371;
+    const dLat = toRad(b.latitude - a.latitude);
+    const dLon = toRad(b.longitude - a.longitude);
+    const latA = toRad(a.latitude);
+    const latB = toRad(b.latitude);
+    const aVal = Math.sin(dLat/2)**2 + Math.cos(latA)*Math.cos(latB)*Math.sin(dLon/2)**2;
+    return 2 * earthRadius * Math.asin(Math.sqrt(aVal));
   };
-  
-const distString = (dist, nachkomma) => {
-	if (dist < 1) return `${Math.round(dist * 1000)} m`;
-    faktor = Math.pow(10,nachkomma)
-    return `${Math.round((dist + Number.EPSILON) * faktor) / faktor} km`;
+
+const formatDistance = (distance, decimalPlaces) => {
+	if (distance < 1) return `${Math.round(distance * 1000)} m`;
+    faktor = Math.pow(10, decimalPlaces)
+    return `${Math.round((distance + Number.EPSILON) * faktor) / faktor} km`;
 };
-  
-function winkelZwischenDreiPunkten(a, x, b) {
-  function toRad(deg) {
-    return deg * Math.PI / 180;
-  }
 
-  // Umrechnung in kartesische Koordinaten (angenähert)
-  const ax = [a.lon - x.lon, a.lat - x.lat];
-  const bx = [b.lon - x.lon, b.lat - x.lat];
+function calcAngleBetweenThreePoints(a, x, b) {
+  // Convert to Cartesian coordinates (approximate)
+  const ax = [a.longitude - x.longitude, a.latitude - x.latitude];
+  const bx = [b.longitude - x.longitude, b.latitude - x.latitude];
 
-  // Skalarprodukt und Längen
+  // Dot product and magnitudes
   const dot = ax[0] * bx[0] + ax[1] * bx[1];
   const magA = Math.hypot(ax[0], ax[1]);
   const magB = Math.hypot(bx[0], bx[1]);
 
-  if (magA === 0 || magB === 0) return 0; // kein definierter Winkel
+  if (magA === 0 || magB === 0) return 0; // No defined angle
 
   const cosAngle = dot / (magA * magB);
-  let angle = Math.acos(Math.max(-1, Math.min(1, cosAngle))); // in Bogenmaß
+  let angle = Math.acos(Math.max(-1, Math.min(1, cosAngle))); // In radians
 
-  return angle * 180 / Math.PI; // in Grad
+  return angle * 180 / Math.PI; // In degrees
 }
 
 function seededRandom(seed) {
@@ -73,9 +70,9 @@ function getDayFromURL() {
   return (day && !isNaN(date)) ? day : null;
 }
 
-function nextRandWaehlbar(rand) {
-	var ret = orteAlle[Math.floor(rand() * orteAlle.length)];
-	while (ret.waehlbar == false) ret = orteAlle[Math.floor(rand() * orteAlle.length)];
+function getNextRandSelectable(rand) {
+	var ret = allPlaces[Math.floor(rand() * allPlaces.length)];
+	while (ret.selectable == false) ret = allPlaces[Math.floor(rand() * allPlaces.length)];
 	return ret;
 }
 
@@ -86,32 +83,32 @@ function startGame() {
   seedFromURL = getSeedFromURL();
   dayFromURL = getDayFromURL();
   today = new Date().toLocaleDateString("sv-SE").split("T")[0];
-  
-  // if params are invalid use Tagesrätsel as fallback and remove URL params
+
+  // If params are invalid use Tagesrätsel as fallback and remove URL params
   if (dayFromURL == null && seedFromURL == null && window.location.search.length > 0)
   	window.location.href = window.location.pathname
-  
+
   if (dayFromURL !== null && dayFromURL >= today) {
     dayFromURL = null;
   }
 
   let seed;
-  
-  // Zufallsrätsel
+
+  // Random puzzle
   if (seedFromURL !== null) {
     seed = seedFromURL;
     subheading.textContent = `Zufallsrätsel (Nr: ${seed})`;
-  
-  // Tag-basiertes Rätsel
+
+  // Daily puzzle
   } else {
     const d = dayFromURL ? new Date(dayFromURL) : new Date();
     const dateStr = d.toLocaleDateString("de-DE");
     seed = getSeedFromDate();
-    seed = Math.floor(seededRandom(seed) * 10000);    
+    seed = Math.floor(seededRandom(seed) * 10000);
     subheading.textContent = `Tagesrätsel vom ${dateStr}`;
   }
 
-  // Archivdatum ins Dropdown setzen falls vorhanden
+  // Select archive date in dropdown if available
   const archiveDropdown = document.getElementById("archive-date");
   if (dayFromURL && [...archiveDropdown.options].some(opt => opt.value === dayFromURL)) {
     archiveDropdown.value = dayFromURL;
@@ -126,77 +123,86 @@ function startGame() {
     };
   })();
 
-  ziel = nextRandWaehlbar(rand);
-  ref1 = nextRandWaehlbar(rand);
-  ref2 = nextRandWaehlbar(rand);
-  
-  var retryCounter = 0; // zur sicherheit, falls keine passenden orte zu den bedingungen gefunden
-  while (ref1 === ziel || ref2 === ziel || ref1 === ref2 || 
-  		 (retryCounter <= 300 && 
-  		  (distanzKm(ref1, ziel) <= 10 || distanzKm(ref2, ziel) <= 10 || winkelZwischenDreiPunkten(ref1,ziel,ref2) <= 20))) {
-	  ref1 = nextRandWaehlbar(rand);
-	  ref2 = nextRandWaehlbar(rand);
-	  retryCounter++;
+  target = getNextRandSelectable(rand);
+  ref1 = getNextRandSelectable(rand);
+  ref2 = getNextRandSelectable(rand);
+
+  var retryCounter = 0; // To be safe, if no suitable places can be found under the given conditions
+  while (
+    ref1 === target ||
+    ref2 === target ||
+    ref1 === ref2 ||
+    (retryCounter <= 300 &&
+      (
+        calcDistanceInKm(ref1, target) <= 10 ||
+        calcDistanceInKm(ref2, target) <= 10 ||
+        calcAngleBetweenThreePoints(ref1, target, ref2) <= 20
+      )
+    )
+  ) {
+    ref1 = getNextRandSelectable(rand);
+    ref2 = getNextRandSelectable(rand);
+    retryCounter++;
   }
 
-  gerateneOrte = [];
-  spielVorbei = false;
+  guessedPlaces = [];
+  gameOver = false;
   document.getElementById("guess").style.display = "inline";
   document.getElementById("guess-button").style.display = "inline";
   document.getElementById("feedback").textContent = "";
-  zeichne();
+  drawMap();
 }
 
-function zeichne() {
+function drawMap() {
   const canvas = document.getElementById("map");
   const ctx = canvas.getContext("2d");
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   const canvasCenter = [250, 250];
 
-  const alleOrteZeichnen = [ref1, ref2, ...gerateneOrte];
-  if (spielVorbei) alleOrteZeichnen.push(ziel); // Zielort zeigen, wenn vorbei
+  const placesToBeDrawn = [ref1, ref2, ...guessedPlaces];
+  if (gameOver) placesToBeDrawn.push(target); // Show target when the game is over
 
-  const verschiebungen = alleOrteZeichnen.map(o => ({
-    ort: o,
-    dx: (o.lon - ziel.lon) * 85,
-    dy: (o.lat - ziel.lat) * 111,
-    dist: distanzKm(ziel, o)
+  const offsetsFromTarget = placesToBeDrawn.map(p => ({
+    place: p,
+    dx: (p.longitude - target.longitude) * 85,
+    dy: (p.latitude - target.latitude) * 111,
+    dist: calcDistanceInKm(target, p)
   }));
 
-  const maxDist = Math.max(...verschiebungen.map(v => Math.hypot(v.dx, v.dy)));
+  const maxDist = Math.max(...offsetsFromTarget.map(v => Math.hypot(v.dx, v.dy)));
   const scale = 200 / (maxDist || 1);
 
-  verschiebungen.forEach((v, i) => {
+  offsetsFromTarget.forEach((v, i) => {
     const x = canvasCenter[0] + v.dx * scale;
     const y = canvasCenter[1] - v.dy * scale;
 
-    let farbe = "orange";
-    if (v.ort.name === ref1.name) farbe = "blue";
-    else if (v.ort.name === ref2.name) farbe = "green";
-    else if (v.ort.name === ziel.name && spielVorbei) farbe = "red";
+    let color = "orange";
+    if (v.place.name === ref1.name) color = "blue";
+    else if (v.place.name === ref2.name) color = "green";
+    else if (v.place.name === target.name && gameOver) color = "red";
 
     ctx.beginPath();
     ctx.arc(x, y, 6, 0, 2 * Math.PI);
-    ctx.fillStyle = farbe;
+    ctx.fillStyle = color;
     ctx.fill();
 
-	if (v.ort.name !== ziel.name) {
-      // Verbindungslinie
+	if (v.place.name !== target.name) {
+      // Connecting line
       ctx.beginPath();
       ctx.moveTo(...canvasCenter);
       ctx.lineTo(x, y);
-      ctx.strokeStyle = farbe;
+      ctx.strokeStyle = color;
       ctx.stroke();
 
-  	  // Distanz anzeigen
+  	  // Show distance
       const mx = (x + canvasCenter[0]) / 2;
       const my = (y + canvasCenter[1]) / 2;
       ctx.fillStyle = "black";
       ctx.font = "12px sans-serif";
-      ctx.fillText(`${distString(v.dist,1)}`, mx + 5, my - 5);
+      ctx.fillText(`${formatDistance(v.dist,1)}`, mx + 5, my - 5);
     }
 
-    const lines = v.ort.name.split("/");
+    const lines = v.place.name.split("/");
     const maxl = Math.max(...lines.map(s => s.length));
     const xtext = x + 7*maxl>=canvas.width ? canvas.width - 6 * maxl : x - 8;
     const ytext = v.dy >= 0 ? y - 23 : y + 19;
@@ -205,92 +211,92 @@ function zeichne() {
     });
   });
 
-  // Hinweis nach 2 Versuchen
-  if (gerateneOrte.length >= 2 && !spielVorbei) {
+  // Hint after 2 tries
+  if (guessedPlaces.length >= 2 && !gameOver) {
     ctx.fillStyle = "black";
     ctx.font = "14px sans-serif";
     if ('SUGG2_STR' in window && window.SUGG2_STR !== null)
-    	ctx.fillText(window.SUGG2_STR.replace("{}",ziel.einwohner.toLocaleString()), 10, 20);
+    	ctx.fillText(window.SUGG2_STR.replace("{}", target.population.toLocaleString()), 10, 20);
   }
 
-  // Spielende anzeigen
-  if (spielVorbei) {
-    const gewonnen = ziel.name === gerateneOrte[gerateneOrte.length - 1].name;
-    ctx.fillStyle = gewonnen ? "green" : "red";
+  // Show game over
+  if (gameOver) {
+    const hasWon = target.name === guessedPlaces[guessedPlaces.length - 1].name;
+    ctx.fillStyle = hasWon ? "green" : "red";
     ctx.font = "bold 24px sans-serif";
-    const text1 = gewonnen
-      ? `🎉 Richtig in ${gerateneOrte.length} Versuch${gerateneOrte.length === 1 ? '' : 'en'}!`
+    const text1 = hasWon
+      ? `🎉 Richtig in ${guessedPlaces.length} Versuch${guessedPlaces.length === 1 ? '' : 'en'}!`
       : `❌ Game Over! Gesucht war:`;
-    const text2 = gewonnen ? "" : `${ziel.name}`;
-  
+    const text2 = hasWon ? "" : `${target.name}`;
+
     ctx.fillText(text1, 40, 40);
     ctx.fillText(text2, 40, 70);
-    
+
     document.getElementById("guess").style.display = "none";
     document.getElementById("guess-button").style.display = "none";
     document.getElementById("share-button").style.display = "inline";
   }
 }
 
-function raten() {
-  if (spielVorbei) return;
+function guess() {
+  if (gameOver) return;
 
-  const eingabe = document.getElementById("guess").value.trim().toLowerCase();
+  const userInput = document.getElementById("guess").value.trim().toLowerCase();
   document.getElementById("guess").value = "";
 
-  if (!eingabe) return;
+  if (!userInput) return;
 
-  // Ort suchen
-  const ort = orte.find(o =>
-    o.name.toLowerCase() === eingabe ||
-    o.alternativen.some(alt => alt.toLowerCase() === eingabe)
+  // Search place
+  const guessedPlace = places.find(p =>
+    p.name.toLowerCase() === userInput ||
+    p.alternatives.some(alt => alt.toLowerCase() === userInput)
   );
 
-  if (!ort) {
-  	if ('NOTFOUND_STR' in window && window.NOTFOUND_STR !== null) 
+  if (!guessedPlace) {
+  	if ('NOTFOUND_STR' in window && window.NOTFOUND_STR !== null)
   		document.getElementById("feedback").textContent = window.NOTFOUND_STR;
   	else
-		document.getElementById("feedback").textContent = "Ort nicht gefunden.";
+		  document.getElementById("feedback").textContent = "Ort nicht gefunden.";
     return;
   }
 
-  // Schon geraten?
-  if (gerateneOrte.some(o => o.name === ort.name)) {
-  	if ('ALREADYGUESSED_STR' in window && window.ALREADYGUESSED_STR !== null) 
+  // Already guessed?
+  if (guessedPlaces.some(o => o.name === guessedPlace.name)) {
+  	if ('ALREADYGUESSED_STR' in window && window.ALREADYGUESSED_STR !== null)
   		document.getElementById("feedback").textContent = window.ALREADYGUESSED_STR;
   	else
     	document.getElementById("feedback").textContent = "Diesen Ort hast du schon geraten.";
     return;
   }
 
-  gerateneOrte.push(ort);
-  
-  // Richtig geraten?
-  if (ort.name === ziel.name) {
-    document.getElementById("feedback").textContent = `🎉 Richtig! Der Ort war ${ziel.name}.`;
-    spielVorbei = true;
-    zeichne();
+  guessedPlaces.push(guessedPlace);
+
+  // Guessed correctly?
+  if (guessedPlace.name === target.name) {
+    document.getElementById("feedback").textContent = `🎉 Richtig! Der Ort war ${target.name}.`;
+    gameOver = true;
+    drawMap();
     return;
   }
-  
-  document.getElementById("feedback").textContent = `${ort.name} ist falsch (${distString(distanzKm(ort,ziel),1)}).`;
-  if (gerateneOrte.length >= 6) {
-    spielVorbei = true;
+
+  document.getElementById("feedback").textContent = `${guessedPlace.name} ist falsch (${formatDistance(calcDistanceInKm(guessedPlace,target),1)}).`;
+  if (guessedPlaces.length >= 6) {
+    gameOver = true;
   }
-  
-  zeichne();
+
+  drawMap();
 }
 
 document.getElementById("guess").addEventListener("keydown", function (e) {
   const autosuggestList = document.getElementById("autosuggest-list");
   if (e.key === "Enter" && autosuggestList.children.length <= 1) {
-    // Nur raten, wenn keine oder 1 Vorschläge angezeigt werden
-    raten();
+    // Only guess if 0 or 1 suggestions are displayed
+    guess();
   }
 });
 
 document.getElementById("daily-mode").addEventListener("click", () => {
-  // here we make the site refresh, to make sure everyone has the latest database version
+  // Here we make the site refresh, to make sure everyone has the latest database version
   window.location.href = `${window.location.pathname}`;
 });
 
@@ -324,14 +330,13 @@ document.getElementById("share-button").addEventListener("click", () => {
     return;
   }
 
-  const versuche = gerateneOrte.length;
-  const zeilen = gerateneOrte.map((ort, i) => {
-    const d = distanzKm(ziel, ort);
+  const rows = guessedPlaces.map((p, i) => {
+    const d = calcDistanceInKm(target, p);
     let dist;
     if (d==0) {
       dist = "📍";
     } else {
-      dist = distString(d,0);
+      dist = formatDistance(d,0);
     }
     return `Versuch ${i + 1}: ${dist}`;
   });
@@ -350,8 +355,8 @@ document.getElementById("share-button").addEventListener("click", () => {
 fetch(window.DATA_FILE)
   .then(res => res.json())
   .then(data => {
-    orteAlle = data;
-    orte = orteAlle.filter(o => !('versteckt' in o) || o.versteckt === false);
+    allPlaces = data;
+    places = allPlaces.filter(o => !('hidden' in o) || o.hidden === false);
     const select = document.getElementById("archive-date");
 	var startDate = new Date();
     startDate.setDate(startDate.getDate() - 7);

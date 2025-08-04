@@ -346,7 +346,7 @@ document.getElementById("share-button").addEventListener("click", () => {
   const game_name = 'SHARE_NAME_STR' in window && window.SHARE_NAME_STR !== null ? `${window.SHARE_NAME_STR}-` : "";
   const identifier = seedFromURL !== null ? `Nr. ${seedFromURL}` : `vom ${dateStr}`;
   const url = window.location.href;
-  const text = `🌍 ${game_name}Raten ${identifier}\n` + zeilen.join("\n") + `\n-\n${url}`;
+  const text = `🌍 ${game_name}Raten ${identifier}\n` + rows.join("\n") + `\n-\n${url}`;
   navigator.share({
     text: text
   });

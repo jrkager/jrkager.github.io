@@ -1,25 +1,5 @@
 [
   {
-    "name": "Annecy",
-    "alternatives": [
-      "Anci'",
-      "آنسي",
-      "Ανεσύ",
-      "Anecio",
-      "Ènneci",
-      "안시",
-      "ആൻസി",
-      "Анси",
-      "阿讷西",
-      "阿訥西",
-      "Anneci"
-    ],
-    "latitude": 45.8992348,
-    "longitude": 6.1288847,
-    "population": 131715,
-    "selectable": "true"
-  },
-  {
     "name": "Firenze",
     "alternatives": [
       "Florenza",

@@ -464,10 +464,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudetenspitze/Punta delle Laste",
+    "name": "Plattenspitze/Punta delle Laste",
     "alternatives": [
-      "Platitudetenspitze",
-      "Platitudetenspitze / Punta delle Laste",
+      "Plattenspitze",
+      "Plattenspitze / Punta delle Laste",
       "Punta delle Laste"
     ],
     "latitude": 46.5214043,
@@ -1212,7 +1212,7 @@
     "alternatives": [
       "ÖK50",
       "Rabenspitz",
-      "Hahlplatitudetenspitze",
+      "Hahlplattenspitze",
       "Großer Raffein",
       "Großer Raffein-Rabenspitz"
     ],
@@ -1425,10 +1425,10 @@
     "selectable": false
   },
   {
-    "name": "Eisseespitze/Punta del Lago Gelatitudeo",
+    "name": "Eisseespitze/Punta del Lago Gelato",
     "alternatives": [
       "Eisseespitze",
-      "Punta del Lago Gelatitudeo"
+      "Punta del Lago Gelato"
     ],
     "latitude": 46.4800848,
     "longitude": 10.60904,
@@ -1722,7 +1722,7 @@
       "Langkofel",
       "Saslench",
       "Sassolungo",
-      "Saslongitudech"
+      "Saslonch"
     ],
     "latitude": 46.5249417,
     "longitude": 11.7353107,
@@ -2610,9 +2610,9 @@
     "selectable": false
   },
   {
-    "name": "Langkofeleck/Spallongitudee del Sassolungo",
+    "name": "Langkofeleck/Spallone del Sassolungo",
     "alternatives": [
-      "Spallongitudee del Sassolungo",
+      "Spallone del Sassolungo",
       "Langkofeleck"
     ],
     "latitude": 46.5179653,
@@ -3426,10 +3426,10 @@
     "selectable": false
   },
   {
-    "name": "Eisseespitze/Piz Lago Gelatitudeo",
+    "name": "Eisseespitze/Piz Lago Gelato",
     "alternatives": [
       "Piz Léch Dlacè",
-      "Piz Lago Gelatitudeo",
+      "Piz Lago Gelato",
       "Eisseespitze"
     ],
     "latitude": 46.5142596,
@@ -4011,10 +4011,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudetkofel/Sasso Piatto",
+    "name": "Plattkofel/Sasso Piatto",
     "alternatives": [
-      "Sasplatitude",
-      "Platitudetkofel",
+      "Sasplat",
+      "Plattkofel",
       "Sasso Piatto"
     ],
     "latitude": 46.5141348,
@@ -4044,9 +4044,9 @@
     "selectable": false
   },
   {
-    "name": "Schusterplatitudete/Lastron dei Scarperi",
+    "name": "Schusterplatte/Lastron dei Scarperi",
     "alternatives": [
-      "Schusterplatitudete",
+      "Schusterplatte",
       "Lastron dei Scarperi"
     ],
     "latitude": 46.6571141,
@@ -4824,9 +4824,9 @@
     "selectable": false
   },
   {
-    "name": "Cime del Vallongitude",
+    "name": "Cime del Vallon",
     "alternatives": [
-      "Cime del Vallongitude",
+      "Cime del Vallon",
       "Pizes dl Valun"
     ],
     "latitude": 46.5171889,
@@ -4959,9 +4959,9 @@
     "selectable": false
   },
   {
-    "name": "Schusterplatitudetenturm/Torre del Lastron dei Scarperi",
+    "name": "Schusterplattenturm/Torre del Lastron dei Scarperi",
     "alternatives": [
-      "Schusterplatitudetenturm",
+      "Schusterplattenturm",
       "Torre del Lastron dei Scarperi"
     ],
     "latitude": 46.6552726,
@@ -5937,9 +5937,9 @@
     "selectable": false
   },
   {
-    "name": "Oblatitudeschspitz/Alberaccio",
+    "name": "Oblatschspitz/Alberaccio",
     "alternatives": [
-      "Oblatitudeschspitz",
+      "Oblatschspitz",
       "Alberaccio"
     ],
     "latitude": 46.7402288,
@@ -6373,10 +6373,10 @@
     "selectable": false
   },
   {
-    "name": "Östliche latitudeemarspitze/Schenòn del latitudeemar",
+    "name": "Östliche Latemarspitze/Schenòn del Latemar",
     "alternatives": [
-      "Schenòn del latitudeemar",
-      "Östliche latitudeemarspitze"
+      "Schenòn del Latemar",
+      "Östliche Latemarspitze"
     ],
     "latitude": 46.3825989,
     "longitude": 11.5839568,
@@ -6397,9 +6397,9 @@
     "selectable": false
   },
   {
-    "name": "Äußere Grüne Platitudete/Monte Corno di Fuori",
+    "name": "Äußere Grüne Platte/Monte Corno di Fuori",
     "alternatives": [
-      "Äußere Grüne Platitudete",
+      "Äußere Grüne Platte",
       "Monte Corno di Fuori"
     ],
     "latitude": 46.9847608,
@@ -6435,7 +6435,7 @@
     "name": "Schwanglwand",
     "alternatives": [
       "Schwanglwand",
-      "Flatitudeschberg"
+      "Flatschberg"
     ],
     "latitude": 46.53169,
     "longitude": 10.8558015,
@@ -6443,9 +6443,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudeschwerdakopf",
+    "name": "Platschwerdakopf",
     "alternatives": [
-      "Platitudeschwerdakopf"
+      "Platschwerdakopf"
     ],
     "latitude": 46.7692844,
     "longitude": 10.4880307,
@@ -6528,9 +6528,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudetenspitz",
+    "name": "Plattenspitz",
     "alternatives": [
-      "Platitudetenspitz"
+      "Plattenspitz"
     ],
     "latitude": 46.7168573,
     "longitude": 11.0476264,
@@ -7123,10 +7123,10 @@
     "selectable": false
   },
   {
-    "name": "Piz Chavalatitudesch/Monte Cavallaccio",
+    "name": "Piz Chavalatsch/Monte Cavallaccio",
     "alternatives": [
       "Monte Cavallaccio",
-      "Piz Chavalatitudesch"
+      "Piz Chavalatsch"
     ],
     "latitude": 46.6151164,
     "longitude": 10.4922941,
@@ -7222,9 +7222,9 @@
     "selectable": false
   },
   {
-    "name": "Stilongitudespitz",
+    "name": "Stilonspitz",
     "alternatives": [
-      "Stilongitudespitz"
+      "Stilonspitz"
     ],
     "latitude": 46.9045797,
     "longitude": 11.6360365,
@@ -7361,9 +7361,9 @@
     "selectable": false
   },
   {
-    "name": "Erzlahnspitze/Cima del Forcellongitudee",
+    "name": "Erzlahnspitze/Cima del Forcellone",
     "alternatives": [
-      "Cima del Forcellongitudee",
+      "Cima del Forcellone",
       "Erzlahnspitze"
     ],
     "latitude": 46.3787665,
@@ -7372,9 +7372,9 @@
     "selectable": false
   },
   {
-    "name": "Altensteinplatitudete/Lastron di Sassovecchio",
+    "name": "Altensteinplatte/Lastron di Sassovecchio",
     "alternatives": [
-      "Altensteinplatitudete",
+      "Altensteinplatte",
       "Lastron di Sassovecchio"
     ],
     "latitude": 46.6547295,
@@ -7420,7 +7420,7 @@
     "name": "Col dala Piëres",
     "alternatives": [
       "Col dala Piëres",
-      "Gerhard Plongitudeer de Gufidaun",
+      "Gerhard Ploner de Gufidaun",
       "Col dala Piëra"
     ],
     "latitude": 46.5843985,
@@ -8521,10 +8521,10 @@
     "selectable": false
   },
   {
-    "name": "3. Sellatitudeurm/III° Torre del Sella",
+    "name": "3. Sellaturm/III° Torre del Sella",
     "alternatives": [
       "3. Ciampanil dl Sela",
-      "3. Sellatitudeurm",
+      "3. Sellaturm",
       "III° Torre del Sella"
     ],
     "latitude": 46.5110867,
@@ -8628,11 +8628,11 @@
     "selectable": false
   },
   {
-    "name": "Platitudetkofeltürme/Torri del Sassopiatto",
+    "name": "Plattkofeltürme/Torri del Sassopiatto",
     "alternatives": [
       "Torri del Sassopiatto",
-      "Platitudetkofeltürme",
-      "Ciampantl de Sassplatitude"
+      "Plattkofeltürme",
+      "Ciampantl de Sassplat"
     ],
     "latitude": 46.5182515,
     "longitude": 11.7185306,
@@ -8757,9 +8757,9 @@
     "selectable": false
   },
   {
-    "name": "Vorderer Verdinser Platitudetenspitz/Laste di Verdins (di fuori)",
+    "name": "Vorderer Verdinser Plattenspitz/Laste di Verdins (di fuori)",
     "alternatives": [
-      "Vorderer Verdinser Platitudetenspitz",
+      "Vorderer Verdinser Plattenspitz",
       "Laste di Verdins (di fuori)"
     ],
     "latitude": 46.7017954,
@@ -8878,9 +8878,9 @@
     "selectable": false
   },
   {
-    "name": "Kanzel Platitudetingerspitze/Il Pulpito",
+    "name": "Kanzel Plattingerspitze/Il Pulpito",
     "alternatives": [
-      "Kanzel Platitudetingerspitze",
+      "Kanzel Plattingerspitze",
       "Il Pulpito"
     ],
     "latitude": 46.7089969,
@@ -8889,9 +8889,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudetspitz/Cima Piatta",
+    "name": "Plattspitz/Cima Piatta",
     "alternatives": [
-      "Platitudetspitz",
+      "Plattspitz",
       "Cima Piatta"
     ],
     "latitude": 46.8675746,
@@ -8900,10 +8900,10 @@
     "selectable": false
   },
   {
-    "name": "Hohe Ferse/Monte Tallongitudee Grande",
+    "name": "Hohe Ferse/Monte Tallone Grande",
     "alternatives": [
       "Hohe Ferse",
-      "Monte Tallongitudee Grande"
+      "Monte Tallone Grande"
     ],
     "latitude": 46.883026,
     "longitude": 11.2597629,
@@ -9135,11 +9135,11 @@
     "selectable": false
   },
   {
-    "name": "Hinterer Verdinser Platitudetenspitz/Laste di Verdins Posteriore",
+    "name": "Hinterer Verdinser Plattenspitz/Laste di Verdins Posteriore",
     "alternatives": [
       "Verdins Posteriore",
       "Laste di Verdins Posteriore",
-      "Hinterer Verdinser Platitudetenspitz"
+      "Hinterer Verdinser Plattenspitz"
     ],
     "latitude": 46.7040192,
     "longitude": 11.2750615,
@@ -9491,11 +9491,11 @@
     "selectable": false
   },
   {
-    "name": "Vajolongitudeköpfl/Testone del Vaiolongitude",
+    "name": "Vajolonköpfl/Testone del Vaiolon",
     "alternatives": [
-      "Testone del Vaiolongitude",
-      "Teston dal Vajolongitude",
-      "Vajolongitudeköpfl"
+      "Testone del Vaiolon",
+      "Teston dal Vajolon",
+      "Vajolonköpfl"
     ],
     "latitude": 46.4287464,
     "longitude": 11.6171162,
@@ -10133,9 +10133,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudetinger/Punta delle Laste",
+    "name": "Plattinger/Punta delle Laste",
     "alternatives": [
-      "Platitudetinger",
+      "Plattinger",
       "Punta delle Laste"
     ],
     "latitude": 46.6984952,
@@ -10190,9 +10190,9 @@
     "selectable": false
   },
   {
-    "name": "Videgger Platitudetenspitz",
+    "name": "Videgger Plattenspitz",
     "alternatives": [
-      "Videgger Platitudetenspitz"
+      "Videgger Plattenspitz"
     ],
     "latitude": 46.7134137,
     "longitude": 11.2746759,
@@ -10212,10 +10212,10 @@
     "selectable": false
   },
   {
-    "name": "4. Sellatitudeurm/IV° Torre del Sella",
+    "name": "4. Sellaturm/IV° Torre del Sella",
     "alternatives": [
       "IV° Torre del Sella",
-      "4. Sellatitudeurm",
+      "4. Sellaturm",
       "4. Ciampanil dl Sela"
     ],
     "latitude": 46.5129972,
@@ -10356,10 +10356,10 @@
     "selectable": false
   },
   {
-    "name": "Hörndle/Cima Gelatitudea",
+    "name": "Hörndle/Cima Gelata",
     "alternatives": [
       "Hörndle",
-      "Cima Gelatitudea"
+      "Cima Gelata"
     ],
     "latitude": 46.9047933,
     "longitude": 11.7420176,
@@ -10440,11 +10440,11 @@
     "selectable": false
   },
   {
-    "name": "2. Sellatitudeurm/II° Torre del Sella",
+    "name": "2. Sellaturm/II° Torre del Sella",
     "alternatives": [
       "II° Torre del Sella",
       "2. Ciampanil dl Sela",
-      "2. Sellatitudeurm"
+      "2. Sellaturm"
     ],
     "latitude": 46.5099028,
     "longitude": 11.7759014,
@@ -10718,10 +10718,10 @@
     "selectable": false
   },
   {
-    "name": "Innere Grüne Platitudete/Monte Corno di dentro",
+    "name": "Innere Grüne Platte/Monte Corno di dentro",
     "alternatives": [
       "Monte Corno di dentro",
-      "Innere Grüne Platitudete"
+      "Innere Grüne Platte"
     ],
     "latitude": 46.9898191,
     "longitude": 11.8414717,
@@ -11191,10 +11191,10 @@
     "selectable": false
   },
   {
-    "name": "Flatitudeschspitz/Cima Vallaccia",
+    "name": "Flatschspitz/Cima Vallaccia",
     "alternatives": [
       "Cima Vallaccia",
-      "Flatitudeschspitz"
+      "Flatschspitz"
     ],
     "latitude": 46.9725337,
     "longitude": 11.5243122,
@@ -11530,9 +11530,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudeten",
+    "name": "Platten",
     "alternatives": [
-      "Platitudeten"
+      "Platten"
     ],
     "latitude": 47.0455518,
     "longitude": 12.0020561,
@@ -11604,9 +11604,9 @@
     "selectable": false
   },
   {
-    "name": "Hochplatitudetspitz/Lasta Alta",
+    "name": "Hochplattspitz/Lasta Alta",
     "alternatives": [
-      "Hochplatitudetspitz",
+      "Hochplattspitz",
       "Lasta Alta"
     ],
     "latitude": 46.8282618,
@@ -11904,10 +11904,10 @@
     "selectable": false
   },
   {
-    "name": "1. Sellatitudeurm/I° Torre del Sella",
+    "name": "1. Sellaturm/I° Torre del Sella",
     "alternatives": [
       "I° Torre del Sella",
-      "1. Sellatitudeurm",
+      "1. Sellaturm",
       "1. Ciampanil dl Sela"
     ],
     "latitude": 46.5093828,
@@ -12172,9 +12172,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudetnerspitz/Punta delle Laste",
+    "name": "Plattnerspitz/Punta delle Laste",
     "alternatives": [
-      "Platitudetnerspitz",
+      "Plattnerspitz",
       "Punta delle Laste"
     ],
     "latitude": 46.8618561,
@@ -12208,7 +12208,7 @@
     "alternatives": [
       "Monte Castello",
       "Burgstall",
-      "Ciastelatitude"
+      "Ciastelat"
     ],
     "latitude": 46.5195386,
     "longitude": 11.5743866,
@@ -12644,10 +12644,10 @@
     "selectable": true
   },
   {
-    "name": "Kleine Ferse/Monte Tallongitudee Piccolo",
+    "name": "Kleine Ferse/Monte Tallone Piccolo",
     "alternatives": [
       "Kleine Ferse",
-      "Monte Tallongitudee Piccolo"
+      "Monte Tallone Piccolo"
     ],
     "latitude": 46.881055,
     "longitude": 11.2659858,
@@ -13012,9 +13012,9 @@
     "selectable": false
   },
   {
-    "name": "Unterer Flatitudeschpitz",
+    "name": "Unterer Flatschpitz",
     "alternatives": [
-      "Unterer Flatitudeschpitz"
+      "Unterer Flatschpitz"
     ],
     "latitude": 46.9748039,
     "longitude": 11.5182479,
@@ -13546,9 +13546,9 @@
     "selectable": true
   },
   {
-    "name": "Platitudetner Spitze",
+    "name": "Plattner Spitze",
     "alternatives": [
-      "Platitudetner Spitze"
+      "Plattner Spitze"
     ],
     "latitude": 46.8650306,
     "longitude": 11.8901398,
@@ -14072,9 +14072,9 @@
     "selectable": false
   },
   {
-    "name": "Flatitudeschkofel",
+    "name": "Flatschkofel",
     "alternatives": [
-      "Flatitudeschkofel",
+      "Flatschkofel",
       "Col Valacia"
     ],
     "latitude": 46.7125016,
@@ -14192,9 +14192,9 @@
     "selectable": false
   },
   {
-    "name": "Köpflplatitudete/La Lasta",
+    "name": "Köpflplatte/La Lasta",
     "alternatives": [
-      "Köpflplatitudete",
+      "Köpflplatte",
       "La Lasta"
     ],
     "latitude": 46.6598893,
@@ -15213,9 +15213,9 @@
     "selectable": false
   },
   {
-    "name": "Hochplatitudezen",
+    "name": "Hochplatzen",
     "alternatives": [
-      "Hochplatitudezen"
+      "Hochplatzen"
     ],
     "latitude": 46.7984533,
     "longitude": 11.4801766,
@@ -15233,9 +15233,9 @@
     "selectable": false
   },
   {
-    "name": "Palatitudesch/La Palaccia",
+    "name": "Palatsch/La Palaccia",
     "alternatives": [
-      "Palatitudesch",
+      "Palatsch",
       "Palacia",
       "La Palaccia"
     ],
@@ -15296,9 +15296,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudetenspitze/Punta delle Laste",
+    "name": "Plattenspitze/Punta delle Laste",
     "alternatives": [
-      "Platitudetenspitze",
+      "Plattenspitze",
       "Punta delle Laste"
     ],
     "latitude": 46.7905286,
@@ -15522,9 +15522,9 @@
     "selectable": false
   },
   {
-    "name": "Gissplatitudete/Monte Lasta",
+    "name": "Gissplatte/Monte Lasta",
     "alternatives": [
-      "Gissplatitudete",
+      "Gissplatte",
       "Monte Lasta"
     ],
     "latitude": 46.7195391,
@@ -16104,9 +16104,9 @@
     "selectable": false
   },
   {
-    "name": "Kronplatitudez/Plan de Corones",
+    "name": "Kronplatz/Plan de Corones",
     "alternatives": [
-      "Kronplatitudez",
+      "Kronplatz",
       "Plan de Corones"
     ],
     "latitude": 46.7387791,
@@ -16559,7 +16559,7 @@
   {
     "name": "Strizon",
     "alternatives": [
-      "Platitudeter Berg",
+      "Platter Berg",
       "Strizon"
     ],
     "latitude": 46.8009921,
@@ -16745,9 +16745,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudetakopf",
+    "name": "Plattakopf",
     "alternatives": [
-      "Platitudetakopf"
+      "Plattakopf"
     ],
     "latitude": 47.0583561,
     "longitude": 12.0951564,
@@ -17108,11 +17108,11 @@
     "selectable": false
   },
   {
-    "name": "Puflatitudeschspitz/Monte Bullaccia",
+    "name": "Puflatschspitz/Monte Bullaccia",
     "alternatives": [
       "Monte Bullaccia",
       "Piza de Bulacia",
-      "Puflatitudeschspitz"
+      "Puflatschspitz"
     ],
     "latitude": 46.5641717,
     "longitude": 11.6165239,
@@ -17171,10 +17171,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudete/Monte Platitude",
+    "name": "Platte/Monte Plat",
     "alternatives": [
-      "Monte Platitude",
-      "Platitudete"
+      "Monte Plat",
+      "Platte"
     ],
     "latitude": 46.8427023,
     "longitude": 11.8937417,
@@ -17677,9 +17677,9 @@
     "selectable": false
   },
   {
-    "name": "Col de Ciaulongitudech",
+    "name": "Col de Ciaulonch",
     "alternatives": [
-      "Col de Ciaulongitudech"
+      "Col de Ciaulonch"
     ],
     "latitude": 46.533343,
     "longitude": 11.7225876,
@@ -17708,9 +17708,9 @@
     "selectable": false
   },
   {
-    "name": "Pralongitudegiá",
+    "name": "Pralongiá",
     "alternatives": [
-      "Pralongitudegiá"
+      "Pralongiá"
     ],
     "latitude": 46.5330311,
     "longitude": 11.9156364,
@@ -17858,9 +17858,9 @@
     "selectable": false
   },
   {
-    "name": "Jochplatitudete",
+    "name": "Jochplatte",
     "alternatives": [
-      "Jochplatitudete"
+      "Jochplatte"
     ],
     "latitude": 46.9860741,
     "longitude": 11.6573065,
@@ -18088,9 +18088,9 @@
     "selectable": false
   },
   {
-    "name": "Seenock/Cima Gelatitudea",
+    "name": "Seenock/Cima Gelata",
     "alternatives": [
-      "Cima Gelatitudea",
+      "Cima Gelata",
       "Seenock"
     ],
     "latitude": 46.7234472,
@@ -19486,10 +19486,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudetleiden/Monte Platitude",
+    "name": "Plattleiden/Monte Plat",
     "alternatives": [
-      "Monte Platitude",
-      "Platitudetleiden"
+      "Monte Plat",
+      "Plattleiden"
     ],
     "latitude": 46.5163281,
     "longitude": 11.119136,
@@ -19584,10 +19584,10 @@
     "selectable": false
   },
   {
-    "name": "Piz Culac/Gulatitudeschegge",
+    "name": "Piz Culac/Gulatschegge",
     "alternatives": [
       "Piz Culac",
-      "Gulatitudeschegge"
+      "Gulatschegge"
     ],
     "latitude": 46.5649801,
     "longitude": 11.6512083,
@@ -19605,10 +19605,10 @@
     "selectable": false
   },
   {
-    "name": "Battaillongitudeskopf/Cima Battaglione",
+    "name": "Battaillonskopf/Cima Battaglione",
     "alternatives": [
       "Cima Battaglione",
-      "Battaillongitudeskopf"
+      "Battaillonskopf"
     ],
     "latitude": 46.3172042,
     "longitude": 11.1859469,
@@ -20304,9 +20304,9 @@
     "selectable": false
   },
   {
-    "name": "Platitudeten Böden/Col di Laste",
+    "name": "Platten Böden/Col di Laste",
     "alternatives": [
-      "Platitudeten Böden",
+      "Platten Böden",
       "Col di Laste"
     ],
     "latitude": 46.4243892,

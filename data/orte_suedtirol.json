@@ -262,9 +262,9 @@
     "selectable": true
   },
   {
-    "name": "latitudesch/Laces",
+    "name": "Latsch/Laces",
     "alternatives": [
-      "latitudesch",
+      "Latsch",
       "Laces"
     ],
     "latitude": 46.6173435,
@@ -578,18 +578,18 @@
     "selectable": true
   },
   {
-      "name": "Enneberg Pfarre/Pieve di Marebbe",
-      "alternatives": [
-          "Pieve di Marebbe",
-          "La Plì de Mareo",
-          "Enneberg",
-          "La Pli de Mareo",
-          "Enneberg Pfarre"
-      ],
-      "latitude": 46.718844,
-      "longitude": 11.919484,
-      "population": 700,
-      "selectable": false
+    "name": "Enneberg Pfarre/Pieve di Marebbe",
+    "alternatives": [
+      "Pieve di Marebbe",
+      "La Plì de Mareo",
+      "Enneberg",
+      "La Pli de Mareo",
+      "Enneberg Pfarre"
+    ],
+    "latitude": 46.718844,
+    "longitude": 11.919484,
+    "population": 3081,
+    "selectable": true
   },
   {
     "name": "Völs am Schlern/Fiè allo Sciliar",
@@ -1317,9 +1317,8 @@
     ],
     "latitude": 46.5417498,
     "longitude": 11.541481,
-    "population": 0,
-    "selectable": false,
-    "hidden": true
+    "population": 1446,
+    "selectable": true
   },
   {
     "name": "Burgstall/Postal",
@@ -2391,10 +2390,10 @@
     "selectable": false
   },
   {
-    "name": "Kreuzplongitude/Plan",
+    "name": "Kreuzplon/Plan",
     "alternatives": [
       "Plan",
-      "Kreuzplongitude"
+      "Kreuzplon"
     ],
     "latitude": 46.7567056,
     "longitude": 11.7210789,
@@ -2662,10 +2661,10 @@
     "selectable": false
   },
   {
-    "name": "Schlaneid/Salongitudeetto",
+    "name": "Schlaneid/Salonetto",
     "alternatives": [
       "Schlaneid",
-      "Salongitudeetto"
+      "Salonetto"
     ],
     "latitude": 46.5755875,
     "longitude": 11.2375283,
@@ -2706,15 +2705,15 @@
     "selectable": false
   },
   {
-    "name": "St. Veit (Prags)/San Vito di Braies",
+    "name": "St. Veit/San Vito",
     "alternatives": [
-      "S. Vito","Prags","Braies",
+      "S. Vito",
       "San Vito",
       "St. Veit"
     ],
     "latitude": 46.4837748,
     "longitude": 11.4053818,
-    "population": 70,
+    "population": 270,
     "selectable": false
   },
   {
@@ -2842,10 +2841,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudet/Platitudea",
+    "name": "Platt/Plata",
     "alternatives": [
-      "Platitudet",
-      "Platitudea"
+      "Platt",
+      "Plata"
     ],
     "latitude": 46.8225727,
     "longitude": 11.177731,
@@ -2853,10 +2852,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudeten/Platitudea",
+    "name": "Platten/Plata",
     "alternatives": [
-      "Platitudeten",
-      "Platitudea"
+      "Platten",
+      "Plata"
     ],
     "latitude": 46.8013249,
     "longitude": 12.0032202,
@@ -2864,10 +2863,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudeten/Platitudea",
+    "name": "Platten/Plata",
     "alternatives": [
-      "Platitudeten",
-      "Platitudea"
+      "Platten",
+      "Plata"
     ],
     "latitude": 46.8295561,
     "longitude": 11.8749438,
@@ -3008,9 +3007,9 @@
     "selectable": false
   },
   {
-    "name": "Lengstein/longitudegostagno",
+    "name": "Lengstein/Longostagno",
     "alternatives": [
-      "longitudegostagno",
+      "Longostagno",
       "Lengstein"
     ],
     "latitude": 46.555045,
@@ -3279,9 +3278,9 @@
     "selectable": false
   },
   {
-    "name": "Lengmoos/longitudegomoso",
+    "name": "Lengmoos/Longomoso",
     "alternatives": [
-      "longitudegomoso",
+      "Longomoso",
       "Lengmoos"
     ],
     "latitude": 46.5428445,
@@ -3807,10 +3806,10 @@
     "selectable": false
   },
   {
-    "name": "latitudeschinig/Lacinigo",
+    "name": "Latschinig/Lacinigo",
     "alternatives": [
       "Lacinigo",
-      "latitudeschinig"
+      "Latschinig"
     ],
     "latitude": 46.6192933,
     "longitude": 10.9031501,
@@ -4445,9 +4444,9 @@
     "selectable": false
   },
   {
-    "name": "Spiluck/Spelongitudeca",
+    "name": "Spiluck/Spelonca",
     "alternatives": [
-      "Spelongitudeca",
+      "Spelonca",
       "Spiluck"
     ],
     "latitude": 46.7551528,
@@ -4686,10 +4685,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudez/Piazza",
+    "name": "Platz/Piazza",
     "alternatives": [
       "Piazza",
-      "Platitudez"
+      "Platz"
     ],
     "latitude": 46.965162,
     "longitude": 11.5819181,
@@ -4941,10 +4940,10 @@
     "selectable": false
   },
   {
-    "name": "Walchhorn/Cornolatitudeino",
+    "name": "Walchhorn/Cornolatino",
     "alternatives": [
       "Walchhorn",
-      "Cornolatitudeino"
+      "Cornolatino"
     ],
     "latitude": 46.7760381,
     "longitude": 11.967949,
@@ -5322,10 +5321,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudeten/Laste",
+    "name": "Platten/Laste",
     "alternatives": [
       "Laste",
-      "Platitudeten"
+      "Platten"
     ],
     "latitude": 46.4182369,
     "longitude": 11.4611576,
@@ -5478,11 +5477,11 @@
     "selectable": false
   },
   {
-    "name": "Campill/longitudegiarù",
+    "name": "Campill/Longiarù",
     "alternatives": [
       "Lungiarü",
       "Campill",
-      "longitudegiarù"
+      "Longiarù"
     ],
     "latitude": 46.6410195,
     "longitude": 11.8621539,
@@ -6168,9 +6167,9 @@
     "selectable": false
   },
   {
-    "name": "latitudezfons/Lazfons",
+    "name": "Latzfons/Lazfons",
     "alternatives": [
-      "latitudezfons",
+      "Latzfons",
       "Flotzbis",
       "Flotzbiss",
       "Flotzpis",
@@ -6634,11 +6633,11 @@
     "selectable": false
   },
   {
-    "name": "Zwischenwasser/longitudegega di sopra",
+    "name": "Zwischenwasser/Longega di sopra",
     "alternatives": [
       "Zwischenwasser",
-      "longitudegega",
-      "longitudegega di sopra"
+      "Longega",
+      "Longega di sopra"
     ],
     "latitude": 46.7218968,
     "longitude": 11.8916995,
@@ -7256,10 +7255,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudez/Plaz",
+    "name": "Platz/Plaz",
     "alternatives": [
       "Plaz",
-      "Platitudez"
+      "Platz"
     ],
     "latitude": 46.8840034,
     "longitude": 11.3575948,
@@ -7342,10 +7341,10 @@
     "selectable": false
   },
   {
-    "name": "Schlatitudetach/Slatitudeago",
+    "name": "Schlattach/Slatago",
     "alternatives": [
-      "Slatitudeago",
-      "Schlatitudetach"
+      "Slatago",
+      "Schlattach"
     ],
     "latitude": 46.8264362,
     "longitude": 11.2277494,
@@ -8090,11 +8089,11 @@
     "selectable": false
   },
   {
-    "name": "Unterplatitudeten/Laste Basse",
+    "name": "Unterplatten/Laste Basse",
     "alternatives": [
-      "Unterplatitudeten",
+      "Unterplatten",
       "Laste Basse",
-      "ad Platitudete"
+      "ad Platte"
     ],
     "latitude": 46.4979989,
     "longitude": 11.4195675,
@@ -8157,10 +8156,10 @@
     "selectable": false
   },
   {
-    "name": "Platitudezers/Plazzoles",
+    "name": "Platzers/Plazzoles",
     "alternatives": [
       "Plazzoles",
-      "Platitudezers"
+      "Platzers"
     ],
     "latitude": 46.5566209,
     "longitude": 11.1205646,
@@ -8710,10 +8709,10 @@
     "selectable": false
   },
   {
-    "name": "Piglongitude/Piccolongitudego",
+    "name": "Piglon/Piccolongo",
     "alternatives": [
-      "Piglongitude",
-      "Piccolongitudego"
+      "Piglon",
+      "Piccolongo"
     ],
     "latitude": 46.3612934,
     "longitude": 11.287904,
@@ -8767,10 +8766,10 @@
     "selectable": false
   },
   {
-    "name": "Mellatitudeen/Mellatitudee",
+    "name": "Mellaten/Mellate",
     "alternatives": [
-      "Mellatitudeen",
-      "Mellatitudee"
+      "Mellaten",
+      "Mellate"
     ],
     "latitude": 46.7489857,
     "longitude": 12.196337,
@@ -9056,10 +9055,10 @@
     "selectable": false
   },
   {
-    "name": "Untertesselberg/Montassilongitudee di sotto",
+    "name": "Untertesselberg/Montassilone di sotto",
     "alternatives": [
       "Untertesselberg",
-      "Montassilongitudee di sotto",
+      "Montassilone di sotto",
       "Tesselberg"
     ],
     "latitude": 46.8289811,
@@ -9112,10 +9111,10 @@
     "selectable": false
   },
   {
-    "name": "latitudescher Alm/Malga di Laces",
+    "name": "Latscher Alm/Malga di Laces",
     "alternatives": [
       "Malga di Laces",
-      "latitudescher Alm"
+      "Latscher Alm"
     ],
     "latitude": 46.5780912,
     "longitude": 10.87633,
@@ -9201,10 +9200,10 @@
     "selectable": false
   },
   {
-    "name": "St. Vigil Platitudez/Piazza S. Vigilio",
+    "name": "St. Vigil Platz/Piazza S. Vigilio",
     "alternatives": [
       "Piazza S. Vigilio",
-      "St. Vigil Platitudez"
+      "St. Vigil Platz"
     ],
     "latitude": 46.6549957,
     "longitude": 11.1669864,
@@ -9524,9 +9523,9 @@
     "selectable": false
   },
   {
-    "name": "Oberplatitudeten/Laste Alte",
+    "name": "Oberplatten/Laste Alte",
     "alternatives": [
-      "Oberplatitudeten",
+      "Oberplatten",
       "Laste Alte"
     ],
     "latitude": 46.5029174,

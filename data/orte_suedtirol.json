@@ -1583,7 +1583,7 @@
     ],
     "latitude": 46.8068628,
     "longitude": 11.5736581,
-    "population": 1000,
+    "population": 200,
     "selectable": true
   },
   {
@@ -1621,7 +1621,7 @@
     "latitude": 46.645612,
     "longitude": 10.464153,
     "population": 949,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Uttenheim/Villa Ottone",
@@ -1643,7 +1643,7 @@
     "latitude": 46.4858946,
     "longitude": 11.4552752,
     "population": 923,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Ehrenburg/Casteldarne",
@@ -1688,7 +1688,7 @@
     "latitude": 46.5817533,
     "longitude": 11.8970259,
     "population": 904,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Glurns/Glorenza",
@@ -1700,7 +1700,7 @@
     "latitude": 46.6714924,
     "longitude": 10.5539127,
     "population": 896,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Vöran/Verano",
@@ -1711,7 +1711,7 @@
     "latitude": 46.6053657,
     "longitude": 11.2262711,
     "population": 880,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Martell/Martello",
@@ -1733,7 +1733,7 @@
     "latitude": 46.56667,
     "longitude": 10.78333,
     "population": 841,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Burgeis/Burgusio",
@@ -1745,7 +1745,7 @@
     "latitude": 46.7102136,
     "longitude": 10.5283722,
     "population": 831,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Luttach/Lutago",
@@ -1789,7 +1789,7 @@
     "latitude": 46.5533079,
     "longitude": 11.1794119,
     "population": 800,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Unsere Liebe Frau im Walde/Senale",
@@ -1890,7 +1890,7 @@
     "latitude": 46.8296374,
     "longitude": 10.5183101,
     "population": 677,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Mareit/Mareta",
@@ -1949,7 +1949,7 @@
     "latitude": 46.5587172,
     "longitude": 11.2238114,
     "population": 651,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Siebeneich/Settequerce",
@@ -1960,7 +1960,7 @@
     "latitude": 46.5110373,
     "longitude": 11.2745028,
     "population": 640,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Oberrasen/Rasun di Sopra",
@@ -1993,7 +1993,7 @@
     "latitude": 47.0407407,
     "longitude": 12.1058909,
     "population": 633,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "St. Valentin auf der Haide/San Valentino alla Muta",
@@ -2097,7 +2097,7 @@
     "latitude": 46.5889585,
     "longitude": 11.1471266,
     "population": 552,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Antholz Mittertal/Anterselva di Mezzo",
@@ -2287,7 +2287,7 @@
     "latitude": 46.8549759,
     "longitude": 11.523736,
     "population": 441,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "St. Kassian/San Cassiano",
@@ -2524,7 +2524,7 @@
     "latitude": 46.4097792,
     "longitude": 11.5045876,
     "population": 319,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Winnebach/Prato alla Drava",
@@ -2636,7 +2636,7 @@
     "latitude": 46.5908179,
     "longitude": 11.5247161,
     "population": 288,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Aufhofen/Villa Santa Caterina",
@@ -2773,10 +2773,11 @@
     "latitude": 46.4108208,
     "longitude": 11.2333566,
     "population": 259,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
-    "name": "St. Anton/Sant'Antonio",
+    "name": "St. Anton (Völs)/Sant'Antonio",
     "alternatives": [
       "Sant'Antonio",
       "St. Anton"
@@ -2853,7 +2854,7 @@
     "selectable": false
   },
   {
-    "name": "Platten/Plata",
+    "name": "Platten (Percha)/Plata",
     "alternatives": [
       "Platten",
       "Plata"
@@ -2864,7 +2865,7 @@
     "selectable": false
   },
   {
-    "name": "Platten/Plata",
+    "name": "Platten (Pfalzen)/Plata",
     "alternatives": [
       "Platten",
       "Plata"
@@ -2894,7 +2895,7 @@
     "latitude": 46.6887325,
     "longitude": 11.416713,
     "population": 234,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Oberinn/Auna di Sopra",

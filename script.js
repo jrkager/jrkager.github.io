@@ -147,9 +147,28 @@ function startGame() {
 
   guessedPlaces = [];
   gameOver = false;
-  document.getElementById("guess").style.display = "inline";
-  document.getElementById("guess-button").style.display = "inline";
-  document.getElementById("feedback").textContent = "";
+
+  // Check for today's cookie if playing today's game
+  if (seedFromURL == null && dayFromURL == null) {
+    const cookie = getCookie("geoguesser_" + today + "_" + window.DATA_FILE.split('/').pop());
+    if (cookie) {
+      try {
+        const obj = JSON.parse(cookie);
+        if (obj && obj.date === today && Array.isArray(obj.guessedPlaces)) {
+          guessedPlaces = obj.guessedPlaces.map(name =>
+            places.find(p => p.name === name && p.hidden !== true)
+          ).filter(Boolean);
+          gameOver = true;
+        }
+      } catch(e) {}
+    }
+  }
+
+  if (!gameOver) {
+    document.getElementById("guess").style.display = "inline";
+    document.getElementById("guess-button").style.display = "inline";
+    document.getElementById("feedback").textContent = "";
+  }
   drawMap();
 }
 
@@ -253,19 +272,19 @@ function guess() {
   );
 
   if (!guessedPlace) {
-  	if ('NOTFOUND_STR' in window && window.NOTFOUND_STR !== null)
-  		document.getElementById("feedback").textContent = window.NOTFOUND_STR;
-  	else
-		  document.getElementById("feedback").textContent = "Ort nicht gefunden.";
+      if ('NOTFOUND_STR' in window && window.NOTFOUND_STR !== null)
+          document.getElementById("feedback").textContent = window.NOTFOUND_STR;
+      else
+          document.getElementById("feedback").textContent = "Ort nicht gefunden.";
     return;
   }
 
   // Already guessed?
   if (guessedPlaces.some(o => o.name === guessedPlace.name)) {
-  	if ('ALREADYGUESSED_STR' in window && window.ALREADYGUESSED_STR !== null)
-  		document.getElementById("feedback").textContent = window.ALREADYGUESSED_STR;
-  	else
-    	document.getElementById("feedback").textContent = "Diesen Ort hast du schon geraten.";
+      if ('ALREADYGUESSED_STR' in window && window.ALREADYGUESSED_STR !== null)
+          document.getElementById("feedback").textContent = window.ALREADYGUESSED_STR;
+      else
+        document.getElementById("feedback").textContent = "Diesen Ort hast du schon geraten.";
     return;
   }
 
@@ -275,6 +294,13 @@ function guess() {
   if (guessedPlace.name === target.name) {
     document.getElementById("feedback").textContent = `🎉 Richtig! Der Ort war ${target.name}.`;
     gameOver = true;
+    // Set cookie for today's game
+    if (seedFromURL == null && dayFromURL == null) {
+      setCookie("geoguesser_" + today + "_" + window.DATA_FILE.split('/').pop(), JSON.stringify({
+        date: today,
+        guessedPlaces: guessedPlaces.map(p => p.name)
+      }), 2);
+    }
     drawMap();
     return;
   }
@@ -282,6 +308,13 @@ function guess() {
   document.getElementById("feedback").textContent = `${guessedPlace.name} ist falsch (${formatDistance(calcDistanceInKm(guessedPlace,target),1)}).`;
   if (guessedPlaces.length >= 6) {
     gameOver = true;
+    // Set cookie for today's game
+    if (seedFromURL == null && dayFromURL == null) {
+      setCookie("geoguesser_" + today + "_" + window.DATA_FILE.split('/').pop(), JSON.stringify({
+        date: today,
+        guessedPlaces: guessedPlaces.map(p => p.name)
+      }), 2);
+    }
   }
 
   drawMap();
@@ -351,6 +384,21 @@ document.getElementById("share-button").addEventListener("click", () => {
     text: text
   });
 });
+
+function setCookie(name, value, days) {
+  const expires = new Date(Date.now() + days*24*60*60*1000).toUTCString();
+  document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}`;
+}
+
+function getCookie(name) {
+  const cookies = document.cookie.split(';').map(c => c.trim());
+  for (const c of cookies) {
+    if (c.startsWith(name + '=')) {
+      return decodeURIComponent(c.substring(name.length + 1));
+    }
+  }
+  return null;
+}
 
 fetch(window.DATA_FILE)
   .then(res => res.json())

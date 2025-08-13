@@ -2006,7 +2006,7 @@
     "latitude": 46.7659675,
     "longitude": 10.531858,
     "population": 625,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "St. Peter (Villnöß)/San Pietro (Funes)",
@@ -2467,8 +2467,9 @@
     ],
     "latitude": 46.9013041,
     "longitude": 11.9568946,
-    "population": 342,
-    "selectable": false
+    "population": 0,
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Schleis/Clusio",
@@ -2749,10 +2750,11 @@
     "latitude": 46.4188173,
     "longitude": 11.2337824,
     "population": 264,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
-    "name": "St. Nikolaus/San Nicolò",
+    "name": "St. Nikolaus (Ulten)/San Nicolò",
     "alternatives": [
       "St. Nikolaus",
       "San Nicolò",
@@ -3072,7 +3074,8 @@
     "latitude": 46.5543062,
     "longitude": 10.7801979,
     "population": 183,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Waidbruck/Ponte Gardena",
@@ -3116,7 +3119,8 @@
     "latitude": 46.8650341,
     "longitude": 11.3121729,
     "population": 174,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Coll/Colle",
@@ -3138,7 +3142,8 @@
     "latitude": 46.8739989,
     "longitude": 11.1495688,
     "population": 174,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Flains/Flaines",
@@ -3172,7 +3177,8 @@
     "latitude": 46.5455767,
     "longitude": 11.4450753,
     "population": 166,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Lappach/Lappago",
@@ -3750,7 +3756,8 @@
     "latitude": 46.7458496,
     "longitude": 11.7737759,
     "population": 90,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Rungg/Ronco",
@@ -3991,7 +3998,8 @@
     "latitude": 46.6613733,
     "longitude": 11.1836862,
     "population": 67,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Obereggen/San Floriano d'Ega",
@@ -4376,8 +4384,9 @@
     ],
     "latitude": 46.6373939,
     "longitude": 11.6503699,
-    "population": 37,
-    "selectable": false
+    "population": 0,
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Faslarhöfe/Fossalara",
@@ -4518,7 +4527,8 @@
     "latitude": 46.6743429,
     "longitude": 11.9097967,
     "population": 33,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Costa/Costa",
@@ -4528,7 +4538,8 @@
     "latitude": 46.7103994,
     "longitude": 11.9310923,
     "population": 33,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Gostner/Costa",
@@ -4905,8 +4916,8 @@
     ],
     "latitude": 46.8158479,
     "longitude": 11.9336853,
-    "population": 26,
-    "selectable": false
+    "population": 2270,
+    "selectable": true
   },
   {
     "name": "Kurzras/Maso Corto",
@@ -4928,7 +4939,8 @@
     "latitude": 46.6837365,
     "longitude": 11.1979332,
     "population": 26,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Nafen/Nave",
@@ -4961,7 +4973,8 @@
     "latitude": 46.5179399,
     "longitude": 11.3433391,
     "population": 26,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Gschnon/Casignano",
@@ -9332,7 +9345,8 @@
     "latitude": 46.5531112,
     "longitude": 11.5714436,
     "population": 0,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Dreikirchen/Tre Chiese",
@@ -9721,7 +9735,8 @@
     "latitude": 46.6394782,
     "longitude": 11.5539083,
     "population": 0,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Vorra/Fora",

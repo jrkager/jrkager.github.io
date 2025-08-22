@@ -47,7 +47,7 @@
     "latitude": 43.7697955,
     "longitude": 11.2556404,
     "population": 382808,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Arezzo",
@@ -63,7 +63,7 @@
     "latitude": 43.4628957,
     "longitude": 11.8781675,
     "population": 99543,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Grosseto",
@@ -79,7 +79,7 @@
     "latitude": 42.7597261,
     "longitude": 11.1137389,
     "population": 82087,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Massa",
@@ -95,7 +95,7 @@
     "latitude": 44.0359323,
     "longitude": 10.1395519,
     "population": 65801,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Pistoia",
@@ -111,7 +111,7 @@
     "latitude": 43.9336213,
     "longitude": 10.9174238,
     "population": 90315,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Prato",
@@ -127,7 +127,7 @@
     "latitude": 43.880598,
     "longitude": 11.0969262,
     "population": 191150,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Siena",
@@ -176,7 +176,7 @@
     "latitude": 43.3185536,
     "longitude": 11.3316533,
     "population": 53903,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Carrara",
@@ -192,8 +192,8 @@
     "latitude": 44.0771026,
     "longitude": 10.096726,
     "population": 63133,
-    "selectable": "false",
-    "hidden": "true"
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Milano",
@@ -304,7 +304,7 @@
     "latitude": 45.4641943,
     "longitude": 9.1896346,
     "population": 1350000,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Brescia",
@@ -324,7 +324,7 @@
     "latitude": 45.5398022,
     "longitude": 10.2200214,
     "population": 187567,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Cremona",
@@ -344,7 +344,7 @@
     "latitude": 45.1334796,
     "longitude": 10.0248716,
     "population": 59561,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Lecco",
@@ -366,7 +366,7 @@
     "latitude": 45.8553764,
     "longitude": 9.389605,
     "population": 45501,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Lodi",
@@ -381,7 +381,7 @@
     "latitude": 45.3138959,
     "longitude": 9.503263,
     "population": 40805,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Mantova",
@@ -411,7 +411,7 @@
     "latitude": 45.1566683,
     "longitude": 10.7917191,
     "population": 47790,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Pavia",
@@ -435,7 +435,7 @@
     "latitude": 45.1860043,
     "longitude": 9.1546375,
     "population": 71214,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sondrio",
@@ -456,7 +456,7 @@
     "latitude": 46.1713553,
     "longitude": 9.8734274,
     "population": 19208,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Varese",
@@ -477,7 +477,7 @@
     "latitude": 45.817549,
     "longitude": 8.8263532,
     "population": 80629,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Monza",
@@ -497,7 +497,7 @@
     "latitude": 45.5834418,
     "longitude": 9.2735257,
     "population": 120204,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Torino",
@@ -594,7 +594,7 @@
     "latitude": 45.0677551,
     "longitude": 7.6824892,
     "population": 856745,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Alessandria",
@@ -639,7 +639,7 @@
     "latitude": 44.9130438,
     "longitude": 8.6154872,
     "population": 90987,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Asti",
@@ -660,7 +660,7 @@
     "latitude": 44.900542,
     "longitude": 8.2068876,
     "population": 71276,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Biella",
@@ -678,7 +678,7 @@
     "latitude": 45.5664109,
     "longitude": 8.0542758,
     "population": 45740,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Cuneo",
@@ -703,7 +703,7 @@
     "latitude": 44.389633,
     "longitude": 7.5479007,
     "population": 55939,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Novara",
@@ -723,7 +723,7 @@
     "latitude": 45.4464036,
     "longitude": 8.619655,
     "population": 100910,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Vercelli",
@@ -742,7 +742,7 @@
     "latitude": 45.3251557,
     "longitude": 8.4227666,
     "population": 45132,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Trento",
@@ -772,7 +772,7 @@
     "latitude": 46.0664228,
     "longitude": 11.1257601,
     "population": 117317,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Bolzano/Bozen",
@@ -818,7 +818,7 @@
     "latitude": 46.4984781,
     "longitude": 11.3547399,
     "population": 105713,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Venezia",
@@ -939,7 +939,7 @@
     "latitude": 45.4371908,
     "longitude": 12.3345898,
     "population": 43879,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Belluno",
@@ -955,7 +955,7 @@
     "latitude": 46.1375185,
     "longitude": 12.2181711,
     "population": 35870,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Rovigo",
@@ -973,7 +973,7 @@
     "latitude": 45.0698166,
     "longitude": 11.78882,
     "population": 51867,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Treviso",
@@ -997,7 +997,7 @@
     "latitude": 45.6658505,
     "longitude": 12.2455414,
     "population": 83731,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Verona",
@@ -1052,7 +1052,7 @@
     "latitude": 45.4384958,
     "longitude": 10.9924122,
     "population": 259966,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Vicenza",
@@ -1074,7 +1074,7 @@
     "latitude": 45.5488306,
     "longitude": 11.5478825,
     "population": 112953,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Trieste",
@@ -1138,7 +1138,7 @@
     "latitude": 45.6496485,
     "longitude": 13.7772781,
     "population": 184033,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Gorizia",
@@ -1158,7 +1158,7 @@
     "latitude": 45.9441278,
     "longitude": 13.6252288,
     "population": 34844,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Pordenone / Pordenon",
@@ -1178,7 +1178,7 @@
     "latitude": 45.9562503,
     "longitude": 12.6597197,
     "population": 51229,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Udine / Udin",
@@ -1229,7 +1229,7 @@
     "latitude": 46.0634632,
     "longitude": 13.2358377,
     "population": 99169,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Genova",
@@ -1322,7 +1322,7 @@
     "latitude": 44.40726,
     "longitude": 8.9338624,
     "population": 586655,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Imperia",
@@ -1338,7 +1338,7 @@
     "latitude": 43.8862958,
     "longitude": 8.0267106,
     "population": 42369,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "La Spezia",
@@ -1356,7 +1356,7 @@
     "latitude": 44.1033871,
     "longitude": 9.8217022,
     "population": 92711,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Savona",
@@ -1376,7 +1376,7 @@
     "latitude": 44.3080251,
     "longitude": 8.4810315,
     "population": 61345,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Palermo",
@@ -1444,7 +1444,7 @@
     "latitude": 38.1112268,
     "longitude": 13.3524434,
     "population": 628165,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Agrigento",
@@ -1473,7 +1473,7 @@
     "latitude": 37.3122991,
     "longitude": 13.57465,
     "population": 55286,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Caltanissetta",
@@ -1493,7 +1493,7 @@
     "latitude": 37.4902628,
     "longitude": 14.063284,
     "population": 58283,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Catania",
@@ -1523,7 +1523,7 @@
     "latitude": 37.5023612,
     "longitude": 15.0873718,
     "population": 298037,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Messina",
@@ -1556,7 +1556,7 @@
     "latitude": 38.1937571,
     "longitude": 15.5542082,
     "population": 216918,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Ragusa",
@@ -1579,7 +1579,7 @@
     "latitude": 36.9256833,
     "longitude": 14.7307456,
     "population": 73735,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Trapani",
@@ -1609,7 +1609,7 @@
     "latitude": 38.0173961,
     "longitude": 12.5160225,
     "population": 55219,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Reggio Calabria",
@@ -1636,7 +1636,7 @@
     "latitude": 38.1035389,
     "longitude": 15.6397556,
     "population": 183035,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Catanzaro",
@@ -1659,7 +1659,7 @@
     "latitude": 38.9076353,
     "longitude": 16.5960465,
     "population": 90610,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Cosenza",
@@ -1679,7 +1679,7 @@
     "latitude": 39.3099931,
     "longitude": 16.2501929,
     "population": 63693,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Crotone",
@@ -1703,7 +1703,7 @@
     "latitude": 39.0806223,
     "longitude": 17.127196,
     "population": 62178,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Potenza",
@@ -1719,7 +1719,7 @@
     "latitude": 40.6384046,
     "longitude": 15.8022077,
     "population": 67122,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Campobasso",
@@ -1738,7 +1738,7 @@
     "latitude": 41.5597935,
     "longitude": 14.6602725,
     "population": 49431,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Isernia",
@@ -1753,7 +1753,7 @@
     "latitude": 41.600175,
     "longitude": 14.2383017,
     "population": 20000,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Perugia",
@@ -1779,7 +1779,7 @@
     "latitude": 43.1119613,
     "longitude": 12.3890104,
     "population": 68946,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Terni",
@@ -1793,7 +1793,7 @@
     "latitude": 42.5641417,
     "longitude": 12.6405466,
     "population": 95640,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Bari",
@@ -1846,7 +1846,7 @@
     "latitude": 41.1257843,
     "longitude": 16.8620293,
     "population": 326344,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Brindisi",
@@ -1870,7 +1870,7 @@
     "latitude": 40.6375408,
     "longitude": 17.9454957,
     "population": 88302,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Lecce",
@@ -1890,7 +1890,7 @@
     "latitude": 40.3570373,
     "longitude": 18.1718482,
     "population": 94773,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Taranto",
@@ -1923,7 +1923,7 @@
     "latitude": 40.4712427,
     "longitude": 17.2432278,
     "population": 201100,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sanluri-Villacidro",
@@ -1935,7 +1935,7 @@
     "latitude": 39.6173,
     "longitude": 8.6833,
     "population": 90440,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Trani",
@@ -1952,8 +1952,8 @@
     "latitude": 41.275088,
     "longitude": 16.4162585,
     "population": 56217,
-    "selectable": "false",
-    "hidden":"true"
+    "selectable": false,
+    "hidden":true
   },
   {
     "name": "Avellino",
@@ -1967,7 +1967,7 @@
     "latitude": 40.9141958,
     "longitude": 14.7888764,
     "population": 54847,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Benevento",
@@ -1990,7 +1990,7 @@
     "latitude": 41.1295587,
     "longitude": 14.7824639,
     "population": 60091,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Caserta",
@@ -2009,7 +2009,7 @@
     "latitude": 41.0820827,
     "longitude": 14.334708,
     "population": 76330,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Salerno",
@@ -2031,7 +2031,7 @@
     "latitude": 40.6803601,
     "longitude": 14.7594542,
     "population": 150188,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Forlì-Cesena",
@@ -2047,7 +2047,7 @@
     "latitude": 44.2227278,
     "longitude": 12.041273,
     "population": 214671,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Modena",
@@ -2072,7 +2072,7 @@
     "latitude": 44.6458885,
     "longitude": 10.9255707,
     "population": 184973,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Parma",
@@ -2097,7 +2097,7 @@
     "latitude": 44.80153,
     "longitude": 10.3279843,
     "population": 202111,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Ravenna",
@@ -2122,7 +2122,7 @@
     "latitude": 44.4161414,
     "longitude": 12.2017617,
     "population": 159116,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Reggio Emilia",
@@ -2145,7 +2145,7 @@
     "latitude": 44.6978389,
     "longitude": 10.6304971,
     "population": 133296,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Rimini",
@@ -2174,7 +2174,7 @@
     "latitude": 44.0593886,
     "longitude": 12.5684371,
     "population": 147750,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Cesena",
@@ -2188,8 +2188,8 @@
     "latitude": 44.136352,
     "longitude": 12.2422442,
     "population": 96758,
-    "selectable": "false",
-    "hidden": "true"
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Ancona",
@@ -2223,7 +2223,7 @@
     "latitude": 43.6170137,
     "longitude": 13.5170982,
     "population": 99469,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Ascoli Piceno",
@@ -2237,7 +2237,7 @@
     "latitude": 42.8546185,
     "longitude": 13.5755038,
     "population": 45457,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Macerata",
@@ -2249,7 +2249,7 @@
     "latitude": 43.3007275,
     "longitude": 13.4535897,
     "population": 42473,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Urbino",
@@ -2263,8 +2263,8 @@
     "latitude": 43.7262608,
     "longitude": 12.6363135,
     "population": 15019,
-    "selectable": "false",
-    "hidden": "true"
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Fermo",
@@ -2275,7 +2275,7 @@
     "latitude": 43.1604184,
     "longitude": 13.7161408,
     "population": 37655,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "L'Aquila",
@@ -2294,7 +2294,7 @@
     "latitude": 42.3489203,
     "longitude": 13.3979672,
     "population": 69753,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Chieti",
@@ -2308,7 +2308,7 @@
     "latitude": 42.3446529,
     "longitude": 14.1659738,
     "population": 51815,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Teramo",
@@ -2323,7 +2323,7 @@
     "latitude": 42.6612893,
     "longitude": 13.6983524,
     "population": 54892,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Roma",
@@ -2548,7 +2548,7 @@
     "latitude": 41.8933203,
     "longitude": 12.4829321,
     "population": 2864731,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Frosinone",
@@ -2559,7 +2559,7 @@
     "latitude": 41.6419807,
     "longitude": 13.3469287,
     "population": 46323,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Latina",
@@ -2575,7 +2575,7 @@
     "latitude": 41.467299,
     "longitude": 12.9037518,
     "population": 127395,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Rieti",
@@ -2587,7 +2587,7 @@
     "latitude": 42.4026569,
     "longitude": 12.860813,
     "population": 47751,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Viterbo",
@@ -2611,7 +2611,7 @@
     "latitude": 42.4168441,
     "longitude": 12.1051148,
     "population": 67173,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Cagliari",
@@ -2639,7 +2639,7 @@
     "latitude": 39.2171994,
     "longitude": 9.113311,
     "population": 154478,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Nuoro",
@@ -2659,7 +2659,7 @@
     "latitude": 40.3210601,
     "longitude": 9.3297339,
     "population": 200678,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Carbonia-Iglesias",
@@ -2674,7 +2674,7 @@
     "latitude": 39.165332,
     "longitude": 8.527834,
     "population": 130447,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Olbia-Tempio Pausania/Gallura Nord-Est Sardegna",
@@ -2689,7 +2689,7 @@
     "latitude": 40.897,
     "longitude": 9.278,
     "population": 80992,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Ferrara",
@@ -2711,7 +2711,7 @@
     "latitude": 44.8372737,
     "longitude": 11.6186451,
     "population": 133155,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Pesaro-Urbino",
@@ -2727,7 +2727,7 @@
     "latitude": 43.9098114,
     "longitude": 12.9131228,
     "population": 111604,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Padova",
@@ -2797,7 +2797,7 @@
     "latitude": 45.4077172,
     "longitude": 11.8734455,
     "population": 210401,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Napoli",
@@ -2896,7 +2896,7 @@
     "latitude": 40.8358846,
     "longitude": 14.2487679,
     "population": 972212,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Barletta-Andria-Trani",
@@ -2905,7 +2905,7 @@
     "latitude": 41.3214976,
     "longitude": 16.2868696,
     "population": 94814,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Bologna",
@@ -2945,7 +2945,7 @@
     "latitude": 44.4938203,
     "longitude": 11.3426327,
     "population": 386663,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Foggia",
@@ -2963,7 +2963,7 @@
     "latitude": 41.4620482,
     "longitude": 15.5432595,
     "population": 151991,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Pisa",
@@ -2996,7 +2996,7 @@
     "latitude": 43.7159395,
     "longitude": 10.4018624,
     "population": 97888,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Livorno",
@@ -3018,7 +3018,7 @@
     "latitude": 43.5507317,
     "longitude": 10.3091256,
     "population": 159219,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Pescara",
@@ -3035,7 +3035,7 @@
     "latitude": 42.469613,
     "longitude": 14.2059269,
     "population": 116286,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Lucca",
@@ -3053,7 +3053,7 @@
     "latitude": 43.8428381,
     "longitude": 10.502876,
     "population": 89046,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Siracusa",
@@ -3083,7 +3083,7 @@
     "latitude": 37.0646139,
     "longitude": 15.2907196,
     "population": 115923,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Piacenza",
@@ -3107,7 +3107,7 @@
     "latitude": 45.0534751,
     "longitude": 9.6947461,
     "population": 102191,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Bergamo",
@@ -3163,7 +3163,7 @@
     "latitude": 45.6944947,
     "longitude": 9.6698727,
     "population": 120569,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Lanusei-Tortolì",
@@ -3173,7 +3173,7 @@
     "latitude": 39.90934,
     "longitude": 9.60419387,
     "population": 56512,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Oristano",
@@ -3191,7 +3191,7 @@
     "latitude": 39.9059497,
     "longitude": 8.5916112,
     "population": 32156,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sassari",
@@ -3219,7 +3219,7 @@
     "latitude": 40.7234746,
     "longitude": 8.5612674,
     "population": 126576,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Enna",
@@ -3232,7 +3232,7 @@
     "latitude": 37.5667573,
     "longitude": 14.2807473,
     "population": 25328,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Como",
@@ -3255,7 +3255,7 @@
     "latitude": 45.8115623,
     "longitude": 9.0830353,
     "population": 83422,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Verbania",
@@ -3263,7 +3263,7 @@
     "latitude": 45.9344082,
     "longitude": 8.5580062,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Matera",
@@ -3280,7 +3280,7 @@
     "latitude": 40.667029,
     "longitude": 16.6063265,
     "population": 59607,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Vibo Valentia",
@@ -3288,6 +3288,6 @@
     "latitude": 38.6748544,
     "longitude": 16.0985276,
     "population": 33941,
-    "selectable": "true"
+    "selectable": true
   }
 ]

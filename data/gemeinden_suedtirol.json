@@ -8,7 +8,7 @@
     "latitude": 46.25081712228052,
     "longitude": 11.241668194578551,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Margreid an der Weinstraße/Magrè sulla Strada del Vino",
@@ -19,7 +19,7 @@
     "latitude": 46.27378032603237,
     "longitude": 11.199899253872006,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Kurtinig an der Weinstraße/Cortina sulla Strada del Vino",
@@ -30,7 +30,7 @@
     "latitude": 46.26647118378259,
     "longitude": 11.222959331450257,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Anterivo/Altrei",
@@ -41,7 +41,7 @@
     "latitude": 46.279556411929676,
     "longitude": 11.36796651717233,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Neumarkt/Egna",
@@ -52,7 +52,7 @@
     "latitude": 46.29550422633867,
     "longitude": 11.26872142386776,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Montan an der Weinstraße/Montagna sulla Strada del Vino",
@@ -63,7 +63,7 @@
     "latitude": 46.322083608102766,
     "longitude": 11.31634017170896,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Kurtatsch an der Weinstraße/Cortaccia sulla Strada del Vino",
@@ -74,7 +74,7 @@
     "latitude": 46.305952052817055,
     "longitude": 11.20137747023234,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Truden im Naturpark/Trodena nel Parco Naturale",
@@ -85,7 +85,7 @@
     "latitude": 46.31504074599484,
     "longitude": 11.356602512239457,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Tramin an der Weinstraße/Termeno sulla Strada del Vino",
@@ -96,7 +96,7 @@
     "latitude": 46.34340780426588,
     "longitude": 11.235753588207062,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Kaltern an der Weinstraße/Caldaro sulla Strada del Vino",
@@ -110,7 +110,7 @@
     "latitude": 46.39337401645094,
     "longitude": 11.245453739166418,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Aldein/Aldino",
@@ -121,7 +121,7 @@
     "latitude": 46.35952671964171,
     "longitude": 11.392232960601207,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Auer/Ora",
@@ -132,7 +132,7 @@
     "latitude": 46.363107612268706,
     "longitude": 11.304740416439625,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Vadena/Pfatten",
@@ -143,7 +143,7 @@
     "latitude": 46.393714627732315,
     "longitude": 11.294110149086977,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Deutschnofen/Nova Ponente",
@@ -154,7 +154,7 @@
     "latitude": 46.403668625588146,
     "longitude": 11.456984495108964,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Welschnofen/Nova Levante",
@@ -165,7 +165,7 @@
     "latitude": 46.42422761399276,
     "longitude": 11.563808804840459,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Bronzolo/Branzoll",
@@ -176,7 +176,7 @@
     "latitude": 46.39832911986659,
     "longitude": 11.319262682914063,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Laives/Leifers",
@@ -187,7 +187,7 @@
     "latitude": 46.438459317776726,
     "longitude": 11.345114128817753,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Eppan an der Weinstraße/Appiano sulla Strada del Vino",
@@ -204,7 +204,7 @@
     "latitude": 46.46737409727871,
     "longitude": 11.25600502090669,
     "population": 14932,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Laurein/Lauregno",
@@ -215,7 +215,7 @@
     "latitude": 46.47477365321478,
     "longitude": 11.051392045929866,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Bolzano/Bozen",
@@ -226,7 +226,7 @@
     "latitude": 46.48575975770878,
     "longitude": 11.348652114650358,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Proveis/Proves",
@@ -237,7 +237,7 @@
     "latitude": 46.48829336357291,
     "longitude": 11.016534592003836,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Karneid/Cornedo all'Isarco",
@@ -248,7 +248,7 @@
     "latitude": 46.46627325161626,
     "longitude": 11.462168509164519,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Ulten/Ultimo",
@@ -259,7 +259,7 @@
     "latitude": 46.510558300693305,
     "longitude": 10.906258415228763,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Martell/Martello",
@@ -270,7 +270,7 @@
     "latitude": 46.51425066817366,
     "longitude": 10.72071076240322,
     "population": 884,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Tiers/Tires",
@@ -281,7 +281,7 @@
     "latitude": 46.47471862893224,
     "longitude": 11.581294513666894,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Stilfs/Stelvio",
@@ -293,7 +293,7 @@
     "latitude": 46.538331952700055,
     "longitude": 10.546785554691732,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Völs am Schlern/Fiè allo Sciliar",
@@ -304,7 +304,7 @@
     "latitude": 46.50801390848407,
     "longitude": 11.520216984922783,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Ritten/Renon",
@@ -315,7 +315,7 @@
     "latitude": 46.553874678462904,
     "longitude": 11.436146033087411,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Kastelruth/Castelrotto",
@@ -327,7 +327,7 @@
     "latitude": 46.54645920602415,
     "longitude": 11.613013997284831,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Terlan/Terlano",
@@ -338,7 +338,7 @@
     "latitude": 46.53279542023222,
     "longitude": 11.250224557009467,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Unsere Liebe Frau im Walde-St. Felix/Senale-San Felice",
@@ -349,7 +349,7 @@
     "latitude": 46.50945601400456,
     "longitude": 11.130988882244129,
     "population": 787,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sëlva/Wolkenstein/Selva di Val Gardena",
@@ -361,7 +361,7 @@
     "latitude": 46.55322288304121,
     "longitude": 11.777977191960876,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Santa Cristina Gherdëina/St. Christina in Gröden/Santa Cristina Valgardena",
@@ -374,7 +374,7 @@
     "latitude": 46.566497302157586,
     "longitude": 11.735409973770789,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Nals/Nalles",
@@ -385,7 +385,7 @@
     "latitude": 46.533802534575074,
     "longitude": 11.20216605032448,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sankt Pankraz/San Pancrazio",
@@ -396,7 +396,7 @@
     "latitude": 46.57388277110579,
     "longitude": 11.06664315387952,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Andrian/Andriano",
@@ -407,7 +407,7 @@
     "latitude": 46.518321663493516,
     "longitude": 11.231217031717206,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Jenesien/San Genesio Atesino",
@@ -418,7 +418,7 @@
     "latitude": 46.56174662818211,
     "longitude": 11.32177075166261,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Corvara in Badia/Corvara",
@@ -430,7 +430,7 @@
     "latitude": 46.54760856942326,
     "longitude": 11.854969024571334,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Tisens/Tesimo",
@@ -441,7 +441,7 @@
     "latitude": 46.55101037550583,
     "longitude": 11.149956504650364,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Badia/Abtei",
@@ -453,7 +453,7 @@
     "latitude": 46.58245377412843,
     "longitude": 11.920295170203795,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Laas/Lasa",
@@ -464,7 +464,7 @@
     "latitude": 46.60612530444658,
     "longitude": 10.669110730226404,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Gargazon/Gargazzone",
@@ -475,7 +475,7 @@
     "latitude": 46.57737683782431,
     "longitude": 11.202819318386467,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Latsch/Laces",
@@ -486,7 +486,7 @@
     "latitude": 46.60120430930075,
     "longitude": 10.85739541178873,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Mölten/Meltina",
@@ -497,7 +497,7 @@
     "latitude": 46.586431473135974,
     "longitude": 11.263132666960782,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Urtijëi/St. Ulrich in Gröden/Ortisei",
@@ -509,7 +509,7 @@
     "latitude": 46.59072901260263,
     "longitude": 11.688098615205954,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Barbian/Barbiano",
@@ -520,7 +520,7 @@
     "latitude": 46.60665647148099,
     "longitude": 11.492362602809628,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Lana",
@@ -531,7 +531,7 @@
     "latitude": 46.603466747759484,
     "longitude": 11.144030927705755,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Kastelbell-Tschars/Castelbello-Ciardes",
@@ -542,7 +542,7 @@
     "latitude": 46.625677619531,
     "longitude": 10.92941003479555,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Schlanders/Silandro",
@@ -553,7 +553,7 @@
     "latitude": 46.649310401872455,
     "longitude": 10.763266740440661,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Naturns/Naturno",
@@ -564,7 +564,7 @@
     "latitude": 46.641477452879535,
     "longitude": 11.002088356476248,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Burgstall/Postal",
@@ -575,7 +575,7 @@
     "latitude": 46.60488650990948,
     "longitude": 11.196547008901236,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Waidbruck/Ponte Gardena",
@@ -587,7 +587,7 @@
     "latitude": 46.592161710788254,
     "longitude": 11.537990650368465,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Lajen/Laion",
@@ -598,7 +598,7 @@
     "latitude": 46.612065492040436,
     "longitude": 11.597064712901775,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "San Martin de Tor/San Martino in Badia/St. Martin in Thurn",
@@ -610,7 +610,7 @@
     "latitude": 46.654720977636764,
     "longitude": 11.844425930094483,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Villnöß/Funes",
@@ -621,7 +621,7 @@
     "latitude": 46.639515696803606,
     "longitude": 11.713110392459544,
     "population": 2612,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Marèo/Enneberg/Marebbe",
@@ -633,7 +633,7 @@
     "latitude": 46.66516340153583,
     "longitude": 11.97424380371789,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Taufers im Münstertal/Tubre",
@@ -648,7 +648,7 @@
     "latitude": 46.65808955823349,
     "longitude": 10.443928926224327,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Prad am Stilfserjoch/Prato allo Stelvio",
@@ -659,7 +659,7 @@
     "latitude": 46.60598006329965,
     "longitude": 10.57333330537367,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Vöran/Verano",
@@ -670,7 +670,7 @@
     "latitude": 46.62114586530825,
     "longitude": 11.24661559862418,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sarntal/Sarentino",
@@ -681,7 +681,7 @@
     "latitude": 46.711872748779385,
     "longitude": 11.386637044436355,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Meran/Merano",
@@ -692,7 +692,7 @@
     "latitude": 46.656212349712135,
     "longitude": 11.182814143722007,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Algund/Lagundo",
@@ -703,7 +703,7 @@
     "latitude": 46.67770344474837,
     "longitude": 11.09902630638063,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Toblach/Dobbiaco",
@@ -714,7 +714,7 @@
     "latitude": 46.6974065469738,
     "longitude": 12.237183243777103,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sexten/Sesto",
@@ -725,7 +725,7 @@
     "latitude": 46.673097855672125,
     "longitude": 12.374127438444685,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Villanders/Villandro",
@@ -736,7 +736,7 @@
     "latitude": 46.64477706006417,
     "longitude": 11.484926270236516,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Tscherms/Cermes",
@@ -747,7 +747,7 @@
     "latitude": 46.63392605689686,
     "longitude": 11.13525321649818,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "La Val/Wengen/La Valle",
@@ -759,7 +759,7 @@
     "latitude": 46.649152745843836,
     "longitude": 11.939028929103396,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Glurns/Glorenza",
@@ -770,7 +770,7 @@
     "latitude": 46.656150581338544,
     "longitude": 10.545720242345666,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Marling/Marlengo",
@@ -781,7 +781,7 @@
     "latitude": 46.652836359594694,
     "longitude": 11.129387428559815,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Klausen/Chiusa",
@@ -792,7 +792,7 @@
     "latitude": 46.671174820705836,
     "longitude": 11.539951820166722,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Schluderns/Sluderno",
@@ -803,7 +803,7 @@
     "latitude": 46.65799128036746,
     "longitude": 10.605350846428156,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Hafling/Avelengo",
@@ -814,7 +814,7 @@
     "latitude": 46.658546433220266,
     "longitude": 11.249861080813023,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Plaus",
@@ -825,7 +825,7 @@
     "latitude": 46.643684319499066,
     "longitude": 11.051789926051296,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Partschins/Parcines",
@@ -836,7 +836,7 @@
     "latitude": 46.698138733161215,
     "longitude": 11.044892967953844,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Feldthurns/Velturno",
@@ -847,7 +847,7 @@
     "latitude": 46.68506040161226,
     "longitude": 11.585276785383085,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Schnals/Senales",
@@ -858,7 +858,7 @@
     "latitude": 46.72989299318765,
     "longitude": 10.872719988567203,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Brixen/Bressanone",
@@ -870,7 +870,7 @@
     "latitude": 46.69960481051252,
     "longitude": 11.684353957137514,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Prags/Braies",
@@ -881,7 +881,7 @@
     "latitude": 46.687588811491935,
     "longitude": 12.122098635060217,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Mals/Malles Venosta",
@@ -892,7 +892,7 @@
     "latitude": 46.72293787309468,
     "longitude": 10.585545274041245,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Schenna/Scena",
@@ -903,7 +903,7 @@
     "latitude": 46.70978487407689,
     "longitude": 11.234089293368497,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Tirol/Tirolo",
@@ -915,7 +915,7 @@
     "latitude": 46.7137985201665,
     "longitude": 11.128955454323094,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Kuens/Caines",
@@ -926,7 +926,7 @@
     "latitude": 46.70158714784289,
     "longitude": 11.169234584490408,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Lüsen/Luson",
@@ -937,7 +937,7 @@
     "latitude": 46.733235551621775,
     "longitude": 11.771078610904423,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Vahrn/Varna",
@@ -948,7 +948,7 @@
     "latitude": 46.74583758172972,
     "longitude": 11.57056197272816,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Riffian/Rifiano",
@@ -959,7 +959,7 @@
     "latitude": 46.747173639773884,
     "longitude": 11.1485615211782,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Innichen/San Candido",
@@ -970,7 +970,7 @@
     "latitude": 46.713881675225686,
     "longitude": 12.307326838618401,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "St. Leonhard in Passeier/San Leonardo in Passiria",
@@ -981,7 +981,7 @@
     "latitude": 46.79782818805691,
     "longitude": 11.275118409283145,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Olang/Valdaora",
@@ -992,7 +992,7 @@
     "latitude": 46.74052658625684,
     "longitude": 12.023475908280528,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Welsberg-Taisten/Monguelfo-Tesido",
@@ -1003,7 +1003,7 @@
     "latitude": 46.77658624547813,
     "longitude": 12.11767756679496,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Niederdorf/Villabassa",
@@ -1014,7 +1014,7 @@
     "latitude": 46.735695315137384,
     "longitude": 12.165754316051864,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Natz-Schabs/Naz-Sciaves",
@@ -1025,7 +1025,7 @@
     "latitude": 46.76476206735999,
     "longitude": 11.666570756071106,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Moos in Passeier/Moso in Passiria",
@@ -1036,7 +1036,7 @@
     "latitude": 46.83561079911424,
     "longitude": 11.128189379553197,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "St. Lorenzen/San Lorenzo di Sebato",
@@ -1047,7 +1047,7 @@
     "latitude": 46.765610468600734,
     "longitude": 11.871800836126289,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Bruneck/Brunico",
@@ -1059,7 +1059,7 @@
     "latitude": 46.790710458643126,
     "longitude": 11.949038720176269,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Gsies/Valle di Casies",
@@ -1070,7 +1070,7 @@
     "latitude": 46.82132314793065,
     "longitude": 12.225249464617141,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "St. Martin in Passeier/San Martino in Passiria",
@@ -1081,7 +1081,7 @@
     "latitude": 46.77831943611814,
     "longitude": 11.200558895560816,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Rasen-Antholz/Rasun-Anterselva",
@@ -1092,7 +1092,7 @@
     "latitude": 46.845109865113706,
     "longitude": 12.110274033965407,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Rodeneck/Rodengo",
@@ -1103,7 +1103,7 @@
     "latitude": 46.78720944342213,
     "longitude": 11.724378741750783,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Franzensfeste/Fortezza",
@@ -1114,7 +1114,7 @@
     "latitude": 46.79877671536354,
     "longitude": 11.558490092903526,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Mühlbach/Rio di Pusteria",
@@ -1125,7 +1125,7 @@
     "latitude": 46.852769142811916,
     "longitude": 11.634302902469237,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Kiens/Chienes",
@@ -1136,7 +1136,7 @@
     "latitude": 46.81444391999393,
     "longitude": 11.823359151078492,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Graun/Curon Venosta",
@@ -1147,7 +1147,7 @@
     "latitude": 46.80881718373665,
     "longitude": 10.579520161427006,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Pfalzen/Falzes",
@@ -1158,7 +1158,7 @@
     "latitude": 46.830586551722085,
     "longitude": 11.879385060731256,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Vintl/Vandoies",
@@ -1169,7 +1169,7 @@
     "latitude": 46.88659678536731,
     "longitude": 11.70253092559839,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Percha/Perca",
@@ -1180,7 +1180,7 @@
     "latitude": 46.82473939208299,
     "longitude": 12.024299219407908,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Ratschings/Racines",
@@ -1191,7 +1191,7 @@
     "latitude": 46.887068835125994,
     "longitude": 11.303916813166378,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Freienfeld/Campo di Trens",
@@ -1202,7 +1202,7 @@
     "latitude": 46.858601660915326,
     "longitude": 11.510246907583731,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Gais",
@@ -1213,7 +1213,7 @@
     "latitude": 46.85697362330446,
     "longitude": 11.978861490629583,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Mühlwald/Selva dei Molini",
@@ -1224,7 +1224,7 @@
     "latitude": 46.91691567549542,
     "longitude": 11.815463106478555,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Terenten/Terento",
@@ -1235,7 +1235,7 @@
     "latitude": 46.84720630265192,
     "longitude": 11.782436416160518,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sterzing/Vipiteno",
@@ -1246,7 +1246,7 @@
     "latitude": 46.91423145609369,
     "longitude": 11.423201337472504,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Sand in Taufers/Campo Tures",
@@ -1257,7 +1257,7 @@
     "latitude": 46.93060289558728,
     "longitude": 12.037579239566165,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Pfitsch/Val di Vizze",
@@ -1268,7 +1268,7 @@
     "latitude": 46.9508059732185,
     "longitude": 11.58547044880275,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Brenner/Brennero",
@@ -1279,7 +1279,7 @@
     "latitude": 46.962688616036495,
     "longitude": 11.398571008588286,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Ahrntal/Valle Aurina",
@@ -1290,7 +1290,7 @@
     "latitude": 46.988090087174946,
     "longitude": 11.943151064173447,
     "population": 5517,
-    "selectable": "true"
+    "selectable": true
   },
   {
     "name": "Prettau/Predoi",
@@ -1301,6 +1301,6 @@
     "latitude": 47.046782461558195,
     "longitude": 12.14033782347669,
     "population": 0,
-    "selectable": "true"
+    "selectable": true
   }
 ]

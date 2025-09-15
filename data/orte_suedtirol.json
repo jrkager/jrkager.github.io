@@ -886,31 +886,16 @@
     "latitude": 46.6282398,
     "longitude": 10.9017612,
     "population": 2328,
-    "selectable": true
+    "selectable": false,
+    "hidden": true
   },
   {
-    "name": "Kastelbell-Tschars/Castelbello-Ciardes",
+    "name": "Kastelbell/Castelbello",
     "alternatives": [
       "Comune di Castelbello-Ciardes",
       "Kastelbell-Tschars",
-      "卡斯泰尔贝洛-恰尔德斯",
-      "Кастельбелло-Чардес",
-      "Kastel'bello-Chiardes",
-      "Кастелбело-Чардес",
-      "Кастельбелло-Чиардес",
-      "021018",
-      "Castelbello-Ciardes - Kastelbell-Tschars",
-      "kasuteruberro=charudesu",
-      "Кастельбелло-Чіардес",
-      "Castrum Bellum-Sardis",
-      "Castelbello-Ciardes",
-      "Kastehl'bela-Chyjardehs",
-      "Կաստելբելո Չարդես",
-      "カステルベッロ＝チャルデス",
-      "Кастэльбела-Чыярдэс",
-      "Kastel'bello-Chardes",
-      "ka si tai er bei luo-qia er de si",
-      "Kastelbelo-Chardes"
+      "Castelbello",
+      "Kastelbell"
     ],
     "latitude": 46.62832,
     "longitude": 10.90666,

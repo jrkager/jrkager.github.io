@@ -5621,17 +5621,6 @@
     "selectable": false
   },
   {
-    "name": "Kaltenbrunn/Fontanefredde",
-    "alternatives": [
-      "Kaltenbrunn",
-      "Fontanefredde"
-    ],
-    "latitude": 46.3301234,
-    "longitude": 11.3748859,
-    "population": 0,
-    "selectable": false
-  },
-  {
     "name": "Oberradein/Redagno di Sopra",
     "alternatives": [
       "Oberradein",
@@ -7419,13 +7408,13 @@
     "selectable": false
   },
   {
-    "name": "Kaltenbrunn/Fontanafredda",
+    "name": "Kaltenbrunn/Fontanefredde",
     "alternatives": [
       "Kaltenbrunn",
-      "Fontanafredda"
+      "Fontanefredde"
     ],
-    "latitude": 46.8482098,
-    "longitude": 11.3858785,
+    "latitude": 46.33066126378588,
+    "longitude": 11.37345601919177,
     "population": 0,
     "selectable": false
   },

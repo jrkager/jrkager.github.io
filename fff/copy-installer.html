@@ -14,20 +14,14 @@
   </style>
 </head>
 <body>
-  <button id="copyBtn">Kopiere Widget-Code</button>
+  <button id="copyBtn" disabled>Lade…</button>
   <div id="toast" role="status" aria-live="polite">Kopiert ✅</div>
 
   <script>
     const WIDGET_URL = "https://raw.githubusercontent.com/jrkager/fff-gaisberg-widget/refs/heads/main/widget.js";
-    let cache = null;
 
-    async function getWidgetCode() {
-      if (cache) return cache;
-      const res = await fetch(WIDGET_URL, { cache: "no-store" });
-      if (!res.ok) throw new Error("widget.js konnte nicht geladen werden");
-      cache = await res.text();
-      return cache;
-    }
+    let codeText = "";
+    let ready = false;
 
     function showToast(msg) {
       const t = document.getElementById("toast");
@@ -36,17 +30,67 @@
       setTimeout(() => t.classList.remove("show"), 1200);
     }
 
-    async function copyWidgetCode() {
+    // Prefetch on load to keep the user gesture intact at click time
+    (async function prefetch() {
       try {
-        const text = await getWidgetCode();
-        await navigator.clipboard.writeText(text);
+        const res = await fetch(WIDGET_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("widget.js konnte nicht geladen werden");
+        codeText = await res.text();
+        ready = true;
+        const btn = document.getElementById("copyBtn");
+        btn.textContent = "Kopiere Widget-Code";
+        btn.disabled = false;
+      } catch (e) {
+        const btn = document.getElementById("copyBtn");
+        btn.textContent = "Erneut laden";
+        btn.disabled = false;
+        showToast("Fehler beim Laden: " + e.message);
+      }
+    })();
+
+    async function copyNow() {
+      const btn = document.getElementById("copyBtn");
+      if (!ready || !codeText) {
+        // Retry fetch if first load failed
+        btn.disabled = true;
+        btn.textContent = "Lade…";
+        try {
+          const res = await fetch(WIDGET_URL, { cache: "no-store" });
+          if (!res.ok) throw new Error("widget.js konnte nicht geladen werden");
+          codeText = await res.text();
+          ready = true;
+        } catch (e) {
+          showToast("Fehler beim Laden: " + e.message);
+        } finally {
+          btn.textContent = "Kopiere Widget-Code";
+          btn.disabled = false;
+        }
+        if (!ready) return;
+      }
+
+      // Try modern clipboard first (requires HTTPS + user gesture)
+      try {
+        await navigator.clipboard.writeText(codeText);
         showToast("Kopiert ✅");
-      } catch (err) {
-        showToast("Fehler: " + err.message);
+        return;
+      } catch (_) {
+        // Fallback for iOS/Safari quirks
+        const ta = document.createElement("textarea");
+        ta.value = codeText;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
+        const ok = document.execCommand("copy");
+        document.body.removeChild(ta);
+        showToast(ok ? "Kopiert ✅" : "Kopieren fehlgeschlagen");
       }
     }
 
-    document.getElementById("copyBtn").addEventListener("click", copyWidgetCode);
+    document.getElementById("copyBtn").addEventListener("click", copyNow);
   </script>
 </body>
 </html>

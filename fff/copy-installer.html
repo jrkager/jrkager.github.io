@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kopiere Widget-Code</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; padding: 2rem; text-align:center; }
+    button { font-size: 18px; padding: 12px 20px; border-radius: 12px; border: 1px solid #ccc; }
+    #toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%);
+             padding: 10px 14px; border-radius: 10px; background: #333; color:#fff;
+             opacity: 0; transition: opacity .25s; }
+    #toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+  <button id="copyBtn">Kopiere Widget-Code</button>
+  <div id="toast" role="status" aria-live="polite">Kopiert ✅</div>
+
+  <script>
+    const WIDGET_URL = "https://raw.githubusercontent.com/jrkager/fff-gaisberg-widget/refs/heads/main/widget.js";
+    let cache = null;
+
+    async function getWidgetCode() {
+      if (cache) return cache;
+      const res = await fetch(WIDGET_URL, { cache: "no-store" });
+      if (!res.ok) throw new Error("widget.js konnte nicht geladen werden");
+      cache = await res.text();
+      return cache;
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), 1200);
+    }
+
+    async function copyWidgetCode() {
+      try {
+        const text = await getWidgetCode();
+        await navigator.clipboard.writeText(text);
+        showToast("Kopiert ✅");
+      } catch (err) {
+        showToast("Fehler: " + err.message);
+      }
+    }
+
+    document.getElementById("copyBtn").addEventListener("click", copyWidgetCode);
+  </script>
+</body>
+</html>

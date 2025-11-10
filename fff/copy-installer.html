@@ -3,10 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Kopiere Widget-Code</title>
+  <title>Gaisberg Widget</title>
   <style>
     body { font-family: -apple-system, system-ui, sans-serif; padding: 2rem; text-align:center; }
+    h1 { margin-top: 0; margin-bottom: 1rem; font-size: 1.6rem; }
     button { font-size: 18px; padding: 12px 20px; border-radius: 12px; border: 1px solid #ccc; }
+    #version { margin-top: .75rem; color: #555; }
     #toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%);
              padding: 10px 14px; border-radius: 10px; background: #333; color:#fff;
              opacity: 0; transition: opacity .25s; }
@@ -14,7 +16,11 @@
   </style>
 </head>
 <body>
+  <h1>Gaisberg Widget</h1>
+
   <button id="copyBtn" disabled>Lade…</button>
+  <p id="version">Version wird geladen…</p>
+
   <div id="toast" role="status" aria-live="polite">Kopiert ✅</div>
 
   <script>
@@ -28,12 +34,26 @@
       setTimeout(() => t.classList.remove("show"), 1200);
     }
 
+    function setVersionFromCode(text) {
+      // Expect a line like: // Version: 1.0 (2025-11-10)
+      const el = document.getElementById("version");
+      const m = text.match(/^\s*\/\/\s*Version:\s*([^\(]+?)\s*\(([^)]+)\)\s*$/m);
+      if (m) {
+        const version = m[1].trim();
+        const date = m[2].trim();
+        el.textContent = `Version ${version} (${date})`;
+      } else {
+        el.textContent = "Version unbekannt";
+      }
+    }
+
     // Prefetch on load (outside user gesture)
     (async () => {
       try {
         const res = await fetch(WIDGET_URL, { cache: "no-store" });
         if (!res.ok) throw new Error("widget.js konnte nicht geladen werden");
         codeText = await res.text();
+        setVersionFromCode(codeText);
         const btn = document.getElementById("copyBtn");
         btn.textContent = "Kopiere Widget-Code";
         btn.disabled = false;
@@ -41,6 +61,7 @@
         const btn = document.getElementById("copyBtn");
         btn.textContent = "Erneut laden";
         btn.disabled = false;
+        document.getElementById("version").textContent = "Version laden fehlgeschlagen";
         showToast("Fehler beim Laden: " + e.message);
       }
     })();
@@ -63,15 +84,14 @@
     }
 
     function onCopyTap(e) {
-      // No async here — keeps iOS Safari in the user-gesture path
-      if (!codeText) { showToast("Noch nicht geladen – bitte kurz warten."); return; }
+      // Synchronous path for iOS Safari
+      if (!codeText) { showToast("Noch nicht geladen – bitte kurz warten."); e.preventDefault(); return; }
       const ok = copyUsingTextArea(codeText);
       showToast(ok ? "Kopiert ✅" : "Kopieren fehlgeschlagen");
       e.preventDefault();
     }
 
     const btn = document.getElementById("copyBtn");
-    // Bind both events for iOS; guard against double-fire with passive=false + preventDefault
     btn.addEventListener("touchend", onCopyTap, { passive: false });
     btn.addEventListener("click", onCopyTap, { passive: false });
   </script>

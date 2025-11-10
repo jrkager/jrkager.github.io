@@ -19,9 +19,7 @@
 
   <script>
     const WIDGET_URL = "https://raw.githubusercontent.com/jrkager/fff-gaisberg-widget/refs/heads/main/widget.js";
-
     let codeText = "";
-    let ready = false;
 
     function showToast(msg) {
       const t = document.getElementById("toast");
@@ -30,13 +28,12 @@
       setTimeout(() => t.classList.remove("show"), 1200);
     }
 
-    // Prefetch on load to keep the user gesture intact at click time
-    (async function prefetch() {
+    // Prefetch on load (outside user gesture)
+    (async () => {
       try {
         const res = await fetch(WIDGET_URL, { cache: "no-store" });
         if (!res.ok) throw new Error("widget.js konnte nicht geladen werden");
         codeText = await res.text();
-        ready = true;
         const btn = document.getElementById("copyBtn");
         btn.textContent = "Kopiere Widget-Code";
         btn.disabled = false;
@@ -48,49 +45,35 @@
       }
     })();
 
-    async function copyNow() {
-      const btn = document.getElementById("copyBtn");
-      if (!ready || !codeText) {
-        // Retry fetch if first load failed
-        btn.disabled = true;
-        btn.textContent = "Lade…";
-        try {
-          const res = await fetch(WIDGET_URL, { cache: "no-store" });
-          if (!res.ok) throw new Error("widget.js konnte nicht geladen werden");
-          codeText = await res.text();
-          ready = true;
-        } catch (e) {
-          showToast("Fehler beim Laden: " + e.message);
-        } finally {
-          btn.textContent = "Kopiere Widget-Code";
-          btn.disabled = false;
-        }
-        if (!ready) return;
-      }
-
-      // Try modern clipboard first (requires HTTPS + user gesture)
-      try {
-        await navigator.clipboard.writeText(codeText);
-        showToast("Kopiert ✅");
-        return;
-      } catch (_) {
-        // Fallback for iOS/Safari quirks
-        const ta = document.createElement("textarea");
-        ta.value = codeText;
-        ta.setAttribute("readonly", "");
-        ta.style.position = "fixed";
-        ta.style.opacity = "0";
-        document.body.appendChild(ta);
-        ta.focus();
-        ta.select();
-        ta.setSelectionRange(0, ta.value.length);
-        const ok = document.execCommand("copy");
-        document.body.removeChild(ta);
-        showToast(ok ? "Kopiert ✅" : "Kopieren fehlgeschlagen");
-      }
+    function copyUsingTextArea(text) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.top = "0";
+      ta.style.left = "0";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      ta.setSelectionRange(0, ta.value.length); // iOS
+      const ok = document.execCommand("copy");
+      document.body.removeChild(ta);
+      return ok;
     }
 
-    document.getElementById("copyBtn").addEventListener("click", copyNow);
+    function onCopyTap(e) {
+      // No async here — keeps iOS Safari in the user-gesture path
+      if (!codeText) { showToast("Noch nicht geladen – bitte kurz warten."); return; }
+      const ok = copyUsingTextArea(codeText);
+      showToast(ok ? "Kopiert ✅" : "Kopieren fehlgeschlagen");
+      e.preventDefault();
+    }
+
+    const btn = document.getElementById("copyBtn");
+    // Bind both events for iOS; guard against double-fire with passive=false + preventDefault
+    btn.addEventListener("touchend", onCopyTap, { passive: false });
+    btn.addEventListener("click", onCopyTap, { passive: false });
   </script>
 </body>
 </html>

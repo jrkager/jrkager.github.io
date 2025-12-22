@@ -384,8 +384,8 @@
     ],
     "latitude": 46.6109301,
     "longitude": 11.900335,
-    "population": 3558,
-    "selectable": true
+    "population": 0,
+    "selectable": false
   },
   {
     "name": "St. Lorenzen/San Lorenzo di Sebato",

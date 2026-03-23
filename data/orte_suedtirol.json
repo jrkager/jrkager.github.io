@@ -384,8 +384,9 @@
     ],
     "latitude": 46.6109301,
     "longitude": 11.900335,
-    "population": 3558,
-    "selectable": true
+    "population": 0,
+    "selectable": false,
+    "hidden": false
   },
   {
     "name": "St. Lorenzen/San Lorenzo di Sebato",
@@ -1042,7 +1043,8 @@
     "latitude": 46.5726126,
     "longitude": 11.5482608,
     "population": 0,
-    "selectable": false
+    "selectable": false,
+    "hidden": true
   },
   {
     "name": "Sexten/Sesto",
@@ -1923,7 +1925,7 @@
     "latitude": 46.71667,
     "longitude": 12.11667,
     "population": 655,
-    "selectable": false
+    "selectable": true
   },
   {
     "name": "Vilpian/Vilpiano",
